@@ -46,7 +46,7 @@ FLW: flow reactor speciation.
         data-escape="false"
         data-search-on-enter-key="false"
         data-show-filter-control-switch="true"
-        data-url="../../assets/data/test_table.json">
+        data-url="test_table.json">
         <thead>
             <tr>
             <th data-field="Type" data-halign="center" data-align="center" data-filter-control="select">Type</th>
