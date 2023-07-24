@@ -1,0 +1,14 @@
+---
+layout: test
+parent: TestPages
+nav_exclude: true
+title: ign_IC4H10_28
+temp: 1444--1703
+pres: 1.40--1.59
+phi: 1.0
+shortname: ODH2004
+datatype: Shock tube ignition delay measurement
+definition: onset CH*
+test_plot: ../../../assets/data/test/ign_IC4H10_28.png
+reference: ODH2004
+---
