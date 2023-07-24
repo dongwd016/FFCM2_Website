@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" href="/assets/css/just-the-docs-default.css">
+    <script src="/assets/js/vendor/lunr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@9.1.6/dist/mermaid.min.js"></script>
+  <script src="/assets/js/just-the-docs.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+<title>Reactions &amp; Rate Constants | FFCM-2</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Reactions &amp; Rate Constants" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A website for Foundational Fuel Chemistry Model Version 2" />
+<meta property="og:description" content="A website for Foundational Fuel Chemistry Model Version 2" />
+<link rel="canonical" href="http://localhost:4000/docs/TrialModel/Reactions/" />
+<meta property="og:url" content="http://localhost:4000/docs/TrialModel/Reactions/" />
+<meta property="og:site_name" content="FFCM-2" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Reactions &amp; Rate Constants" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"A website for Foundational Fuel Chemistry Model Version 2","headline":"Reactions &amp; Rate Constants","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/SU-SRI-logo.png"}},"url":"http://localhost:4000/docs/TrialModel/Reactions/"}</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css"
+    integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"
+    integrity="sha384-Qsn9KnoKISj6dI8g7p1HBlNpVx0I8p1SvlwOldgi3IorMle61nQy4zEahWYtljaz" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        // customised options
+        // • auto-render specific keys, e.g.:
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '\\[', right: '\\]', display: true }
+        ],
+        // • rendering keys, e.g.:
+        throwOnError: false
+      });
+    });
+  </script>
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+ <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+   <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+ <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+   <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+ <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+   <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+ <title id="svg-external-link-title">(external link)</title>
+ <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+ <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+   <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+ <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+<symbol id="svg-copy" viewBox="0 0 16 16">
+ <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+   <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+ <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+   <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+  </svg>
+</symbol>
+</svg>
+ <div class="side-bar">
+ <div class="site-header">
+    <a href="/" class="site-title lh-tight">
+ <div class="site-logo"></div>
+</a>
+    <a href="#" id="menu-button" class="site-button">
+      <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+    </a>
+ </div>
+ <nav aria-label="Main" id="site-nav" class="site-nav">
+     <ul class="nav-list"><li class="nav-list-item"><a href="/" class="nav-list-link">Home</a><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Introduction category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/Introduction/" class="nav-list-link">Introduction</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/Introduction/FoundationalFuels/" class="nav-list-link">Foundational Fuels</a><li class="nav-list-item "><a href="/docs/Introduction/FoundationalFuelsHistory/" class="nav-list-link">A Brief History</a></ul><li class="nav-list-item"><a href="/docs/Approach/" class="nav-list-link">Approach Overview</a><li class="nav-list-item active"><a href="#" class="nav-list-expander" aria-label="toggle links in Trial Model category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/TrialModel/" class="nav-list-link">Trial Model</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/TrialModel/Species/" class="nav-list-link">Species</a><li class="nav-list-item  active"><a href="/docs/TrialModel/Reactions/" class="nav-list-link active">Reactions & Rate Constants</a><li class="nav-list-item "><a href="/docs/TrialModel/Thermochemistry/" class="nav-list-link">Thermochemical Data</a><li class="nav-list-item "><a href="/docs/TrialModel/Transport/" class="nav-list-link">Transport Data</a><li class="nav-list-item "><a href="/docs/TrialModel/PreliminaryTest/" class="nav-list-link">Preliminary Test</a></ul><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Experimental Data category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/ExperimentalData/" class="nav-list-link">Experimental Data</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/ExperimentalData/DataUncertainty/" class="nav-list-link">Uncertainty Evaluation</a><li class="nav-list-item "><a href="/docs/ExperimentalData/DataHistory/" class="nav-list-link">A Brief History</a><li class="nav-list-item "><a href="/docs/ExperimentalData/SFCPD/" class="nav-list-link">Stanford Fundamental Combustion Property Database</a></ul><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Response Surface category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/ResponseSurface/" class="nav-list-link">Response Surface</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/ResponseSurface/ActiveParameters/" class="nav-list-link">Optimization Parameters</a><li class="nav-list-item "><a href="/docs/ResponseSurface/MonteCarlo/" class="nav-list-link">Monte Carlo Simulation</a><li class="nav-list-item "><a href="/docs/ResponseSurface/NeuralNetworks/" class="nav-list-link">Neural Networks</a></ul><li class="nav-list-item"><a href="/docs/Optimization/" class="nav-list-link">Optimization and Uncertainty Minimization</a><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Results category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/Results/" class="nav-list-link">Results</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/Results/Summary/" class="nav-list-link">Summary Results</a><li class="nav-list-item "><a href="/docs/Results/Validation/" class="nav-list-link">Model Validation</a><li class="nav-list-item "><a href="/docs/Results/Test/" class="nav-list-link">Additional Model Tests</a><li class="nav-list-item "><a href="/docs/Results/ActiveParameters/" class="nav-list-link">Active Parameters</a><li class="nav-list-item "><a href="/docs/Results/InconsistentTargets/" class="nav-list-link">Inconsistent Targets</a><li class="nav-list-item "><a href="/docs/Results/CovarianceMatrix/" class="nav-list-link">Covariance Matrix</a></ul><li class="nav-list-item"><a href="/docs/Download/" class="nav-list-link">Download</a><li class="nav-list-item"><a href="/docs/Application/" class="nav-list-link">Application</a></ul>
+ </nav>
+   <footer class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+   </footer>
+</div>
+ <div class="main" id="top">
+   <div id="main-header" class="main-header">
+<div class="search">
+ <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search FFCM-2" aria-label="Search FFCM-2" autocomplete="off">
+    <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+ </div>
+ <div id="search-results" class="search-results"></div>
+</div>
+   <nav aria-label="Auxiliary" class="aux-nav">
+ <ul class="aux-nav-list">
+     <li class="aux-nav-list-item">
+        <a href="/" class="site-button"
+        >
+          Foundational Fuel Chemistry Model Version 2 (FFCM-2)
+        </a>
+ </ul>
+</nav>
+</div>
+   <div id="main-content-wrap" class="main-content-wrap">
+   <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+     <ol class="breadcrumb-nav-list">
+         <li class="breadcrumb-nav-list-item"><a href="/docs/TrialModel/">Trial Model</a>
+       <li class="breadcrumb-nav-list-item"><span>Reactions & Rate Constants</span>
+     </ol>
+   </nav>
+     <div id="main-content" class="main-content" role="main">
+         <h1 class="no_toc" id="reactions-in-ffcm-2">
+    <a href="#reactions-in-ffcm-2" class="anchor-heading" aria-labelledby="reactions-in-ffcm-2"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Reactions in FFCM-2
+</h1>
+<p class="fs-6 fw-300">Overview of reaction pathways and rate coefficients in FFCM-2, and their uncertainty factors.</p>
+<ol id="markdown-toc">
+ <li><a href="#trial-model-as-a-searchable-table" id="markdown-toc-trial-model-as-a-searchable-table">Trial model as a searchable table</a>
+ <li><a href="#review-of-key-reaction-pathways" id="markdown-toc-review-of-key-reaction-pathways">Review of key reaction pathways</a>   <ol>
+     <li><a href="#c0-2-chemistry" id="markdown-toc-c0-2-chemistry">C<sub>0-2</sub> chemistry</a>
+     <li><a href="#c3-4-chemistry" id="markdown-toc-c3-4-chemistry">C<sub>3-4</sub> chemistry</a>
+   </ol>
+ <li><a href="#uncertainty-evaluation" id="markdown-toc-uncertainty-evaluation">Uncertainty evaluation</a>
+ <li><a href="#references" id="markdown-toc-references">References</a>
+</ol>
+<h2 id="trial-model-as-a-searchable-table">
+    <a href="#trial-model-as-a-searchable-table" class="anchor-heading" aria-labelledby="trial-model-as-a-searchable-table"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Trial model as a searchable table
+</h2>
+<p>Click <a href="/assets/data/trialmodel/table.html">here</a> for a searchable table that documents the trial model rate coefficients and sources and comments for each individual reaction is available. In the table, one can select reaction for a particular species using the filter option in the Species column.</p>
+<ul>
+ <li>No.: index of the reaction in FFCM-2, ranging from 1 to 1054.
+ <li>Reaction type: the type of a reaction, one of elementary reaction, three-body reaction, falloff reaction and PLOG reaction.
+ <li>Parameter type: the type of rate parameters, e.g., Arrhenius rate coefficient (A-factor), three-body Chaperon efficiency, falloff parameters (high pressure limit, low pressure limit and Troe centering parameter), and PLOG rate coefficient for one given pressure.
+ <li>Rate constant
+   <ul>
+     <li>A: pre-exponential factor (A-factor), unit given by cm$^3$, mol and s;
+     <li>n: temperature dependency, unitless;
+     <li>Ea: activation energy, unit cal $\cdot$ mol$^{-1}$.
+     <li>Enhancement factor: three-body Chaperon efficiency enhancement factor (relative to N<sub>2</sub> or Ar).
+   </ul>
+ <li>Uncertainty factor: the uncertainty factor of the rate coefficient assigned for the trial model.
+ <li>Source: references considered in deriving the trial rate coefficients and uncertainty factor. Click the abbreviated reference names for details.
+ <li>Comment: details of the evaluation of trial rate coefficient and uncertainty factor
+</ul>
+<p>In what follows, we provide an overview of the trial rate coefficients evaluation and uncertainty factor estimation.</p>
+<h2 id="review-of-key-reaction-pathways">
+    <a href="#review-of-key-reaction-pathways" class="anchor-heading" aria-labelledby="review-of-key-reaction-pathways"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Review of key reaction pathways
+</h2>
+<p>When evaluating the trial model and its rate coefficients, direct experimental rate constant measurements are preferred for rate assignment. Theoretical calculations of potential surfaces and rate constants play a large role also in evaluating rate expressions, as this is often necessary to give proper extrapolation outside of limited measurement conditions. Reliance on theoretical values for product branching ratios is often needed. In some cases, only theoretical values or estimates made from similar reactions are available. In trial model compilation, several functionally equivalent expressions are often available. We have relied on previous evaluations when available, notably the recent H<sub>2</sub> models by Li et al.<sup id="fnref:LZK2004" role="doc-noteref"><a href="#fn:LZK2004" class="footnote" rel="footnote">1</a></sup> and Hong et al.<sup id="fnref:HDH2011" role="doc-noteref"><a href="#fn:HDH2011" class="footnote" rel="footnote">2</a></sup>, and the IUPAC combustion kinetics evaluations of Baulch et al.<sup id="fnref:BBC2005" role="doc-noteref"><a href="#fn:BBC2005" class="footnote" rel="footnote">3</a></sup>. The reviews by Baulch et al.<sup id="fnref:BBC2005:1" role="doc-noteref"><a href="#fn:BBC2005" class="footnote" rel="footnote">3</a></sup> is also an important source for the rate uncertainty.</p>
+<p>For the model to be valid and consistent over wide temperature and pressure ranges, a proper parameterization of recombination, decomposition, and chemical activation rate constants is vital. We select available Master Equation calculations<sup id="fnref:B2001" role="doc-noteref"><a href="#fn:B2001" class="footnote" rel="footnote">4</a></sup> with appropriate pressure falloff parameterization that best match experimental data. Rate coefficients of multichannel chemical activation reactions often have negative pressure dependency, due to collisional stabilization of the bound intermediate at high pressures. Many such reactions need to be considered for C<sub>3-4</sub> species. FFCM-2 treats the pressure dependency of chemically activated reactions using the ChemKin PLOG format. Note that some error is introduced by this choice because the temperature and pressure dependencies can be functionally more complex than PLOG can describe. We have tried to obtain the best precision at relevant temperatures, so errors may be larger at extremes. Relative efficiencies for different collider gases are often unavailable for many systems. We used collision efficiency values when they are available and consistent, and otherwise employ generic relative values from GRI Mech. When different collider efficiencies or low-pressure limit rate constants are separately optimized, we have placed appropriate bounds on the ranges of relative efficiencies.</p>
+<p>For most rate coefficients, we take values directly from the source without ad hoc tuning, because the model is subject to optimization and the exact best selections are not required. Note that deviations from the trial rate values are considered in the optimization, so there is a penalty for large perturbations on the rate values.</p>
+<h3 id="c0-2-chemistry">
+    <a href="#c0-2-chemistry" class="anchor-heading" aria-labelledby="c0-2-chemistry"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> C<sub>0-2</sub> chemistry
+</h3>
+<p>For the C<sub>0-2</sub> chemistry, a comprehensive list of species and reactions were assembled, with a focus on high-temperature (above 1000 K) combustion. Some highly oxygenated or weakly bound species are omitted. The current model does not include C<sub>2</sub> fuels such as DME and methyl acetate, which could be added and separately optimized. The GRI Mech species HCCOH is assumed to isomerize to CH<sub>2</sub>CO. The decomposition of HOCO and C<sub>2</sub>H<sub>5</sub>O are assumed.</p>
+<p>The species and reactions for the C<sub>0-2</sub> chemistry were largely adapted from the earlier FFCM-1 trial model, with necessary addition and update. Kinetics for ethanol oxidation are added. We also added methyl and ethyl peroxide chemistry, which are important at modest temperature and high oxygen concentration. The new species are CH<sub>3</sub>O<sub>2</sub>, CH<sub>3</sub>OOH, C<sub>2</sub>H<sub>5</sub>O<sub>2</sub>, C<sub>2</sub>H<sub>5</sub>OOH, C<sub>2</sub>H<sub>2</sub>OH, C<sub>2</sub>H<sub>3</sub>OH, C<sub>2</sub>H<sub>4</sub>O (ethylene oxide), C<sub>2</sub>H<sub>5</sub>OH, C<sub>2</sub>H<sub>4</sub>OH and CH<sub>3</sub>CHOH. Selected rate coefficients and three-body Chaperon efficiencies were revised upon considering new literature, and sensitive or problem areas identified in the FFCM-1 study. This includes the decomposition of ethylene, methane and carbon dioxide, re-evaluations for the C<sub>2</sub>H<sub>3</sub> + OH and C<sub>2</sub>H<sub>3</sub> + O<sub>2</sub> reactions, and the addition of prompt dissociation channel OH + HCO $\rightleftharpoons$ H + CO + OH. A new, theory-based reaction of CH<sub>3</sub>O<sub>2</sub> + O<sub>2</sub> was added, which is relevant to methane ignition under low temperature and high oxygen conditions.</p>
+<h3 id="c3-4-chemistry">
+    <a href="#c3-4-chemistry" class="anchor-heading" aria-labelledby="c3-4-chemistry"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> C<sub>3-4</sub> chemistry
+</h3>
+<p>The addition of C<sub>3-4</sub> chemistry to expand and complete FFCM-2 requires the inclusion of many more species and reactions, with fewer available studies to evaluate. The current mechanism is limited in size to the C<sub>3-4</sub> hydrocarbon species and aldehyde-ketone oxidation intermediates. We did not find it necessary to include additional peroxyde or alcohol kinetics. Excluding these kinetics favors manageable model size over comprehensiveness of the model. If one wishes to model the combustion of larger oxygenated bio-fuels, additional species and reactions could be added to the currently optimized model, and the additional reactions could be optimized via a sequential optimization approach.</p>
+<p>To begin the evaluation, we relied on the several existing C<sub>3-4</sub> models such as USC Mech II <sup id="fnref:WYJ2007" role="doc-noteref"><a href="#fn:WYJ2007" class="footnote" rel="footnote">5</a></sup>, Aramco Mech 2.0 <sup id="fnref:ZLO2016" role="doc-noteref"><a href="#fn:ZLO2016" class="footnote" rel="footnote">6</a></sup> and LLNL. <sup id="fnref:MWC1998" role="doc-noteref"><a href="#fn:MWC1998" class="footnote" rel="footnote">7</a></sup> Also, Tsang has provided some reviews, evaluations or estimates. Often theoretical work on these complex systems forms the best (if uncertain) basis for rate choices. Typically there is wider range for optimization of these kinetics to better predict limited target sets. A new path for butene isomerization via methylcyclopropane intermediate based on its decomposition kinetics was added. Some large allylic type radicals are particularly stable and could recombine with other radicals such as methyl to form larger compounds under rich, high pressure, low temperature conditions. This chemistry is not currently included for the current model.</p>
+<h2 id="uncertainty-evaluation">
+    <a href="#uncertainty-evaluation" class="anchor-heading" aria-labelledby="uncertainty-evaluation"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Uncertainty evaluation
+</h2>
+<p>A key element of the rate evaluation is an assessment of the uncertainty factor of the reaction rate constants. These limits are used later in the selection and allowed ranges of the optimization parameters. These values are necessarily subjective estimates. When multiple reliable determinations of a rate constant are available, an uncertainty limit encompassing their range is typically selected (excluding outliers). We generally avoided the sometimes over-optimistic values given for individual measurements. For reactions covered by the Baulch et al.<sup id="fnref:BBC2005:2" role="doc-noteref"><a href="#fn:BBC2005" class="footnote" rel="footnote">3</a></sup> reviews, we have typically chosen to use their uncertainties. In cases where we adopted values based on the compilations of Tsang <sup id="fnref:T1990" role="doc-noteref"><a href="#fn:T1990" class="footnote" rel="footnote">8</a></sup>$^{,}$<sup id="fnref:T1991" role="doc-noteref"><a href="#fn:T1991" class="footnote" rel="footnote">9</a></sup>, often estimates, his estimated uncertainties were used. Our ranges are intended to allow what we consider all possibly reasonable values to the optimization. Bear in mind that the objective function of the optimization includes terms for rate constant deviations from the evaluated values, so choices near these estimated uncertainty limits are disfavored.</p>
+<h2 id="references">
+    <a href="#references" class="anchor-heading" aria-labelledby="references"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> References
+</h2>
+<div class="footnotes" role="doc-endnotes">
+ <ol>
+   <li id="fn:LZK2004" role="doc-endnote">
+     <p>Li J, Zhao Z, Kazakov A, Dryer FL. An updated comprehensive kinetic model of hydrogen combustion. Int J Chem Kinet. 2004;36:566-75. <a href="#fnref:LZK2004" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:HDH2011" role="doc-endnote">
+     <p>Hong, Z., Davidson, D. F., &amp; Hanson, R. K. (2011). An improved H2/O2 mechanism based on recent shock tube/laser absorption measurements. Combustion and Flame, 158(4), 633-644. <a href="#fnref:HDH2011" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:BBC2005" role="doc-endnote">
+     <p>Baulch, D.L., Bowman, C.T., Cobos, C.J., Cox, R.A., Just, T., Kerr, J.A., Pilling, M.J., Stocker, D., Troe, J., Tsang, W. and Walker, R.W., 2005. Evaluated kinetic data for combustion modeling: supplement II. Journal of physical and chemical reference data, 34(3), pp.757-1397. <a href="#fnref:BBC2005" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:BBC2005:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:BBC2005:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a></p>
+   <li id="fn:B2001" role="doc-endnote">
+     <p>Barker, J. R. (2001). Multiple‐Well, multiple‐path unimolecular reaction systems. I. MultiWell computer program suite. International Journal of Chemical Kinetics, 33(4), 232-245. <a href="#fnref:B2001" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:WYJ2007" role="doc-endnote">
+     <p>Wang, H., You, X., Joshi, A. V., Davis, S. G., Laskin, A., Egolfopoulos, F., &amp; Law, C. K. (2007). USC Mech Version II. High-temperature combustion reaction model of H2/CO/C1-C4 compounds. URL: http://ignis.usc.edu/USC_Mech_II.htm. <a href="#fnref:WYJ2007" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:ZLO2016" role="doc-endnote">
+     <p>Zhou, C. W., Li, Y., O’connor, E., Somers, K. P., Thion, S., Keesee, C., … &amp; Curran, H. J. (2016). A comprehensive experimental and modeling study of isobutene oxidation. Combustion and Flame, 167, 353-379. <a href="#fnref:ZLO2016" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:MWC1998" role="doc-endnote">
+     <p>Marinov, N. M., W. J. Pitz, C. K. Westbrook, A. M. Vincitore, M. J. Castaldi, S. M. Senkan (1998). Aromatic and polycyclic aromatic hydrocarbon formation in a laminar premixed n-Butane flame, Combustion and Flame, 114, 192-213. <a href="#fnref:MWC1998" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:T1990" role="doc-endnote">
+     <p>Tsang, W. (1990). Chemical kinetic data base for combustion chemistry Part 4. Isobutane. Journal of physical and chemical reference data, 19(1), 1-68. <a href="#fnref:T1990" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:T1991" role="doc-endnote">
+     <p>Tsang, W. (1991). Chemical kinetic data base for combustion chemistry Part 5. Propene. Journal of Physical and Chemical Reference Data, 20(2), 221-273. <a href="#fnref:T1991" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+ </ol>
+</div>
+ <hr>
+ <footer>
+     <p><a href="#top" id="back-to-top">Back to top</a></p>
+   <p class="text-small text-grey-dk-100 mb-0">Copyright &copy; 2023 Stanford Foundational Fuel Chemistry Model Initiative</p>
+     <div class="d-flex mt-2">
+     </div>
+ </footer>
+     </div>
+   </div>
+<div class="search-overlay"></div>
+ </div>
+    <script>
+  var config = {}
+;
+  mermaid.initialize(config);
+  window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
+  

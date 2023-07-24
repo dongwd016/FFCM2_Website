@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" href="/assets/css/just-the-docs-default.css">
+    <script src="/assets/js/vendor/lunr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@9.1.6/dist/mermaid.min.js"></script>
+  <script src="/assets/js/just-the-docs.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+<title>Neural Networks | FFCM-2</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Neural Networks" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A website for Foundational Fuel Chemistry Model Version 2" />
+<meta property="og:description" content="A website for Foundational Fuel Chemistry Model Version 2" />
+<link rel="canonical" href="http://localhost:4000/docs/ResponseSurface/NeuralNetworks/" />
+<meta property="og:url" content="http://localhost:4000/docs/ResponseSurface/NeuralNetworks/" />
+<meta property="og:site_name" content="FFCM-2" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Neural Networks" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"A website for Foundational Fuel Chemistry Model Version 2","headline":"Neural Networks","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/SU-SRI-logo.png"}},"url":"http://localhost:4000/docs/ResponseSurface/NeuralNetworks/"}</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css"
+    integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"
+    integrity="sha384-Qsn9KnoKISj6dI8g7p1HBlNpVx0I8p1SvlwOldgi3IorMle61nQy4zEahWYtljaz" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        // customised options
+        // • auto-render specific keys, e.g.:
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '\\[', right: '\\]', display: true }
+        ],
+        // • rendering keys, e.g.:
+        throwOnError: false
+      });
+    });
+  </script>
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+ <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+   <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+ <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+   <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+ <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+   <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+ <title id="svg-external-link-title">(external link)</title>
+ <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+ <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+   <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+ <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+<symbol id="svg-copy" viewBox="0 0 16 16">
+ <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+   <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+ <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+   <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+  </svg>
+</symbol>
+</svg>
+ <div class="side-bar">
+ <div class="site-header">
+    <a href="/" class="site-title lh-tight">
+ <div class="site-logo"></div>
+</a>
+    <a href="#" id="menu-button" class="site-button">
+      <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+    </a>
+ </div>
+ <nav aria-label="Main" id="site-nav" class="site-nav">
+     <ul class="nav-list"><li class="nav-list-item"><a href="/" class="nav-list-link">Home</a><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Introduction category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/Introduction/" class="nav-list-link">Introduction</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/Introduction/FoundationalFuels/" class="nav-list-link">Foundational Fuels</a><li class="nav-list-item "><a href="/docs/Introduction/FoundationalFuelsHistory/" class="nav-list-link">A Brief History</a></ul><li class="nav-list-item"><a href="/docs/Approach/" class="nav-list-link">Approach Overview</a><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Trial Model category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/TrialModel/" class="nav-list-link">Trial Model</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/TrialModel/Species/" class="nav-list-link">Species</a><li class="nav-list-item "><a href="/docs/TrialModel/Reactions/" class="nav-list-link">Reactions & Rate Constants</a><li class="nav-list-item "><a href="/docs/TrialModel/Thermochemistry/" class="nav-list-link">Thermochemical Data</a><li class="nav-list-item "><a href="/docs/TrialModel/Transport/" class="nav-list-link">Transport Data</a><li class="nav-list-item "><a href="/docs/TrialModel/PreliminaryTest/" class="nav-list-link">Preliminary Test</a></ul><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Experimental Data category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/ExperimentalData/" class="nav-list-link">Experimental Data</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/ExperimentalData/DataUncertainty/" class="nav-list-link">Uncertainty Evaluation</a><li class="nav-list-item "><a href="/docs/ExperimentalData/DataHistory/" class="nav-list-link">A Brief History</a><li class="nav-list-item "><a href="/docs/ExperimentalData/SFCPD/" class="nav-list-link">Stanford Fundamental Combustion Property Database</a></ul><li class="nav-list-item active"><a href="#" class="nav-list-expander" aria-label="toggle links in Response Surface category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/ResponseSurface/" class="nav-list-link">Response Surface</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/ResponseSurface/ActiveParameters/" class="nav-list-link">Optimization Parameters</a><li class="nav-list-item "><a href="/docs/ResponseSurface/MonteCarlo/" class="nav-list-link">Monte Carlo Simulation</a><li class="nav-list-item  active"><a href="/docs/ResponseSurface/NeuralNetworks/" class="nav-list-link active">Neural Networks</a></ul><li class="nav-list-item"><a href="/docs/Optimization/" class="nav-list-link">Optimization and Uncertainty Minimization</a><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Results category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/Results/" class="nav-list-link">Results</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/Results/Summary/" class="nav-list-link">Summary Results</a><li class="nav-list-item "><a href="/docs/Results/Validation/" class="nav-list-link">Model Validation</a><li class="nav-list-item "><a href="/docs/Results/Test/" class="nav-list-link">Additional Model Tests</a><li class="nav-list-item "><a href="/docs/Results/ActiveParameters/" class="nav-list-link">Active Parameters</a><li class="nav-list-item "><a href="/docs/Results/InconsistentTargets/" class="nav-list-link">Inconsistent Targets</a><li class="nav-list-item "><a href="/docs/Results/CovarianceMatrix/" class="nav-list-link">Covariance Matrix</a></ul><li class="nav-list-item"><a href="/docs/Download/" class="nav-list-link">Download</a><li class="nav-list-item"><a href="/docs/Application/" class="nav-list-link">Application</a></ul>
+ </nav>
+   <footer class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+   </footer>
+</div>
+ <div class="main" id="top">
+   <div id="main-header" class="main-header">
+<div class="search">
+ <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search FFCM-2" aria-label="Search FFCM-2" autocomplete="off">
+    <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+ </div>
+ <div id="search-results" class="search-results"></div>
+</div>
+   <nav aria-label="Auxiliary" class="aux-nav">
+ <ul class="aux-nav-list">
+     <li class="aux-nav-list-item">
+        <a href="/" class="site-button"
+        >
+          Foundational Fuel Chemistry Model Version 2 (FFCM-2)
+        </a>
+ </ul>
+</nav>
+</div>
+   <div id="main-content-wrap" class="main-content-wrap">
+   <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+     <ol class="breadcrumb-nav-list">
+         <li class="breadcrumb-nav-list-item"><a href="/docs/ResponseSurface/">Response Surface</a>
+       <li class="breadcrumb-nav-list-item"><span>Neural Networks</span>
+     </ol>
+   </nav>
+     <div id="main-content" class="main-content" role="main">
+         <h1 class="no_toc" id="neural-networks">
+    <a href="#neural-networks" class="anchor-heading" aria-labelledby="neural-networks"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Neural Networks
+</h1>
+<p class="fs-6 fw-300">Neural network response surfaces</p>
+<h2 class="no_toc text-delta" id="table-of-contents">
+    <a href="#table-of-contents" class="anchor-heading" aria-labelledby="table-of-contents"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Table of contents
+</h2>
+<ol id="markdown-toc">
+ <li><a href="#neural-network-architecture" id="markdown-toc-neural-network-architecture">Neural network architecture</a>   <ol>
+     <li><a href="#simple-nn-rs" id="markdown-toc-simple-nn-rs">Simple NN-RS</a>
+     <li><a href="#generalized-nn-rs" id="markdown-toc-generalized-nn-rs">Generalized NN-RS</a>
+   </ol>
+ <li><a href="#nn-training-and-hyper-parameter-tuning" id="markdown-toc-nn-training-and-hyper-parameter-tuning">NN training and hyper-parameter tuning</a>
+ <li><a href="#evaluation-metrics" id="markdown-toc-evaluation-metrics">Evaluation metrics</a>
+ <li><a href="#adaptive-nn-training" id="markdown-toc-adaptive-nn-training">Adaptive NN training</a>   <ol>
+     <li><a href="#case-i-adapt-to-related-thermodynamic-conditions" id="markdown-toc-case-i-adapt-to-related-thermodynamic-conditions">Case I: Adapt to related thermodynamic conditions</a>
+     <li><a href="#case-ii-adapt-to-augmented-input-parameters" id="markdown-toc-case-ii-adapt-to-augmented-input-parameters">Case II: Adapt to augmented input parameters</a>
+     <li><a href="#case-iii-adapt-to-updates-of-the-trial-rate-parameters" id="markdown-toc-case-iii-adapt-to-updates-of-the-trial-rate-parameters">Case III: Adapt to updates of the trial rate parameters</a>
+   </ol>
+ <li><a href="#generalized-nn-with-thermodynamic-conditions-as-input" id="markdown-toc-generalized-nn-with-thermodynamic-conditions-as-input">Generalized NN with thermodynamic conditions as input</a>
+ <li><a href="#references" id="markdown-toc-references">References</a>
+</ol>
+<p>FFCM-2 is a substantially high-dimensional optimization problem. The conventional approach of using polynomials as reponse surfaces with 20-30 truncated rate parameters leads to significant truncation errors. Also, training each target from scratch is computationally expensive and thus limits the scalability of polynomials to large size targets. To address these issues, we used neural networks as response surfaces for FFCM-2 development<sup id="fnref:ZDV2023a" role="doc-noteref"><a href="#fn:ZDV2023a" class="footnote" rel="footnote">1</a></sup>.</p>
+<h2 id="neural-network-architecture">
+    <a href="#neural-network-architecture" class="anchor-heading" aria-labelledby="neural-network-architecture"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Neural network architecture
+</h2>
+<h3 id="simple-nn-rs">
+    <a href="#simple-nn-rs" class="anchor-heading" aria-labelledby="simple-nn-rs"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Simple NN-RS
+</h3>
+<p>Figure 1 shows the architecture of a simple, single-condition neural network response surface. Given the thermodynamic conditions of a certain combustion fundamental property, the normalized rate parameters are mapped to the computed data.</p>
+<p align="center">
+<img src="/assets/images/NNRS/SimpleNNRS.png" alt="SimpleNNRS_architecture" width="500" height="500" />
+<br />
+<i>Figure 1 The archictecture of the simple, single-condition neural network response surface. The left most (blue) layer is the input layer of $K$ input variables (normalized rate parameters); the right most (green) layer is the single-node output layer; the layers in between (red) are the hidden layers numbered as $1,2,...,H$, with $m_1,m_2,...,m_H$ hidden nodes, respectively, for each layer.</i>
+</p>
+<p>Listed below are the mathematical equations for a one-hidden layer NN-RS, where $\mathbf{x} \in \mathbb{R}^{K}$ is the input normalized reaction rate parameters, $K$ is the number of active parameters. $m_1$ defines the number of hidden nodes in the first hidden layer, and it is a hyper-parameter to be determined during the neural network training. $\mathbf{W_1, W_2, b_1}, b_2$ are the fitting coefficients to be determined. Note that this simple NN-RS is designed for training response surface of one target. For the targets considerd in current work, $m_1 = 16$ is found to be sufficient, which aligns with the fact that most targets are sensitive to around 20 rate parameters.</p>
+\[\begin{align}
+    y &amp;= \mathbf{W_2} \mathbf{a} + b_2, \mathbf{W_2} \in \mathbb{R}^{1 \times m_1}, b_2 \in \mathbb{R} \\
+    \mathbf{a} &amp;= \phi(\mathbf{z})\\
+    \mathbf{z} &amp;= \mathbf{W_1} \mathbf{x} + \mathbf{b_1}, \mathbf{W_1} \in \mathbb{R}^{m_1 \times n}, \mathbf{b_1} \in \mathbb{R}^{m_1}\\
+\end{align}\]
+<h3 id="generalized-nn-rs">
+    <a href="#generalized-nn-rs" class="anchor-heading" aria-labelledby="generalized-nn-rs"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Generalized NN-RS
+</h3>
+<p>In large-scale optimziation, many targets have thermodynamic conditions that are heavily correlated. To this end, we proposed a generalized NN-RS that takes as input the thermodynamic conditions of an array of targets. It is deeper, with more training parameters and needs more training samples. The benefits is obvious: the total amounts of training samples are significantly reduced for all targets.</p>
+<p align="center">
+<img src="/assets/images/NNRS/GeneralizedNNRS.png" alt="GeneralizedNNRS_architecture" width="700" height="700" />
+<br />
+<i>Figure 2 A generalized NN-RS architecture that incorporates the thermodynamic conditions as input. For the bottom layer, the normalized reaction rate parameters $\mathbf{x}$ (in blue) and thermodynamic conditions (eg., temperature $T$, pressure $p$ and mixture composition $\mathbf{X}$) (in green) are processed as two separate sets of coefficients. In the second layer, the two processed vectors (red) are concatenated (orange) and passed through the third layer (purple) to predict the combustion responses.</i>
+</p>
+<h2 id="nn-training-and-hyper-parameter-tuning">
+    <a href="#nn-training-and-hyper-parameter-tuning" class="anchor-heading" aria-labelledby="nn-training-and-hyper-parameter-tuning"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> NN training and hyper-parameter tuning
+</h2>
+<p>For all NN training, we used 1024 as the training batch size to train 5000 epochs, using as the loss function the mean squared error loss (MSELoss) implemented in the PyTorch library. After every 10 epochs, we evaluate performance against the validation set and keep track of the best-performing NN-RS. After 5000 epochs, the best performer was chosen as the final NN-RS.</p>
+<p>The hyper-parameters describe the neural network structures (e.g., number of hidden nodes and hidden layers) or determine the neural network optimization (e.g., learning rates). The performance of NN-RS depends heavily on the choice of the hyper-parameters during training<sup id="fnref:S2018" role="doc-noteref"><a href="#fn:S2018" class="footnote" rel="footnote">2</a></sup>. The most important hyper-parameters for the neural network optimization are the learning rate and the weight decay parameter.  An appropriate learning rate is crucial because too high of a learning rate leads to instability and difficulties in finding optimal solution, and too low of a learning rate becomes computationally expensive. Obtaining an optimal learning rate requires experimentation. We adopted an initial learning rate from the learning rate finder<sup id="fnref:S2017" role="doc-noteref"><a href="#fn:S2017" class="footnote" rel="footnote">3</a></sup> and then during training, successively reduced this rate to achieve convergence.</p>
+<p>We found an initial learning rate of 0.03 to be roughly optimal. We used the ReduceOnPlateau learning rate scheduler to reduce the rate by a factor of two when the performance improvement on the test and validation data becomes stagnant after every 200 training epochs.</p>
+<p>The weight decay is an important parameter that controls underfitting and overfitting of the neural network. When the training loss plateaus at a value much lower than the validation loss, we increase the weight decay value to reduce the potential of overfitting; when training loss and validation loss plateaus together at higher values, we reduce the weight decay parameter to allow for more flexibility. We used the Adam optimizer and found $10^{-4}-10^{-3}$ to be the optimal weight decay.</p>
+<h2 id="evaluation-metrics">
+    <a href="#evaluation-metrics" class="anchor-heading" aria-labelledby="evaluation-metrics"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Evaluation metrics
+</h2>
+<p>The selected final NN-RS during training is subject to additional performance test before being used in optimization. To this end, we calculated the relative errors on the test data. Specifically, for the $m^{th}$ data point in the test set, we calculate</p>
+\[\begin{equation}
+    e_m = \frac{|y_{m,nn} - y_{m,calc}|}{y_{m,calc}}
+\end{equation}\]
+<p>where $y_{m, nn}$ and $y_{m, calc}$ are predicted by an NN-RS and calculated from computer experiment, respectively. Note that although we fit the NN-RS using logarithm of the response values of the ignition delay times and species concentrations, the performance is evaluated based on the original calculated value. This provides a more stringent requirement on the performance of NN-RS.</p>
+<p>The overall performance of NN-RS is evaluated by the mean relative error ($\varepsilon_{\rm{mean}}$) and 95-percentile relative error ($\varepsilon_{95\%}$) as the key evaluation metrics, as listed in the table below, because they are more indicative of the relevant parameter space away from sample outliers than the maximum relative error ($\varepsilon_{\rm{max}}$). The requirements are most stringent near the center of the parameter space (i.e., Set 1 with $\sigma = 0.1$), and are more relaxed farther from the center (i.e., Set 2 with $\sigma = 0.3$ and Set 3 with $\sigma = 0.5$).</p>
+<div class="table-wrapper"><table>
+<thead>
+   <tr>
+     <th style="text-align: center">Test set
+     <th style="text-align: center">Mean error ($\varepsilon_{\rm{mean}}$)
+     <th style="text-align: center">95-percentile error ($\varepsilon_{95\%}$)
+ <tbody>
+   <tr>
+     <td style="text-align: center">Set 1 ($\sigma = 0.1$)
+     <td style="text-align: center">1%
+     <td style="text-align: center">2%
+   <tr>
+     <td style="text-align: center">Set 2 ($\sigma = 0.3$)
+     <td style="text-align: center">2%
+     <td style="text-align: center">5%
+   <tr>
+     <td style="text-align: center">Set 3 ($\sigma = 0.5$)
+     <td style="text-align: center">3%
+     <td style="text-align: center">10%
+</table></div>
+<h2 id="adaptive-nn-training">
+    <a href="#adaptive-nn-training" class="anchor-heading" aria-labelledby="adaptive-nn-training"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Adaptive NN training
+</h2>
+<p>One key advantage that neural network brings is the adaptiveness of the trained NN-RS, which can effectively reduce the training samples needed for large size optimization. Three case studies are discussed to illustrate the point.</p>
+<h3 id="case-i-adapt-to-related-thermodynamic-conditions">
+    <a href="#case-i-adapt-to-related-thermodynamic-conditions" class="anchor-heading" aria-labelledby="case-i-adapt-to-related-thermodynamic-conditions"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Case I: Adapt to related thermodynamic conditions
+</h3>
+<p>Targets with related thermodynamic conditions have similar reaction kinetics, and thus a neural network trained can be adapted to related conditions with significantly reduced training samples. Consider a trained NN-RS for the ignition delay of a stoichiometric CH<sub>4</sub>-O<sub>2</sub>-77.5% CO<sub>2</sub> mixture at the nominal $p_5 = 32.8$ atm and $T_5=1421$ K condition (center star). To adapt to related conditions that vary $T_5$ and $p_5$ as illustrated in Fig. 3, we initialize the new NN-RS with the trained NN-RS (center star). Figure 4 shows that adaptively trained NN-RS can reduce the additional training samples to as much as 1% of the original sample size (case $A$).</p>
+<p align="center">
+<img src="/assets/images/NNRS/AdaptiveNNRS_CaseI_cond.png" alt="GeneralizedNNRS_fls" width="500" height="500" />
+<br />
+<i>Figure 3 Selected thermodynamic conditions for adaptive training using the NN already trained for the ignition delay of a stoichiometric CH<sub>4</sub>-O<sub>2</sub>-77.5% CO<sub>2</sub> mixture at the nominal p<sub>5</sub> and T<sub>5</sub> condition marked by the center star. Three sets of new conditions are tested with each set containing the variations of both p<sub>5</sub> and T<sub>5</sub> . The set closest to the nominal condition is denoted as set A; the intermediate set is B; the furthest set is C, which extends p<sub>5</sub> from 12.3 atm to 87.4 atm, and of T<sub>5</sub> from 1,218 K to 1,705 K.</i>
+</p>
+<p align="center">
+<img src="/assets/images/NNRS/AdaptiveNNRS_CaseI.png" alt="GeneralizedNNRS_fls" width="800" height="800" />
+<br />
+<i>Figure 4 Comparison of mean (open symbols) and 95-percentile (filled symbols) errors as a function of the number of samples used for NN training, comparing adaptive training (solid lines) and without adaptive training (dashed lines) for the three sets of conditions $(A_i$: top panels, $B_i$: middle panels, and $C_i$: bottom panels, for $i=1,...,4)$ shown in Fig. 3. The horizontal dashed-dotted-dashed lines indicate the mean and 90-percentile error tolerance levels. Tests use Set 2 of the data sample with 2,000 sample points. Lines are drawn to guide the eyes.</i>
+</p>
+<h3 id="case-ii-adapt-to-augmented-input-parameters">
+    <a href="#case-ii-adapt-to-augmented-input-parameters" class="anchor-heading" aria-labelledby="case-ii-adapt-to-augmented-input-parameters"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Case II: Adapt to augmented input parameters
+</h3>
+<p>Reaction model optimization may often need to add missing reactions or splits one or more rate parameters to augment the input dimension. The NN-RS, in this case, can adapt to learn the coefficients for the new weights, while keeping the knowledge of the remaining physics. In our recent work<sup id="fnref:ZDV2023a:1" role="doc-noteref"><a href="#fn:ZDV2023a" class="footnote" rel="footnote">1</a></sup>, we studied the response surface for ignition delay time of stoichiometric C<sub>2</sub>H<sub>6</sub>/O<sub>2</sub> mixtures diluted in 91% argon with T<sub>5</sub> = 1434 K and p<sub>5</sub> = 7.56 atm. In the base case, the reaction</p>
+\[\begin{equation}
+    \text{C}_2\text{H}_4 + \text{H (+M)} \rightleftharpoons \text{C}_2\text{H}_5 \text{ (+M)}
+\end{equation}\]
+<p>was treated using only one independent input parameter. Suppose that the Chaperon efficiencies of Ar, N2 and H2O must be treated separately in optimization against the ignition delay (in argon) and laminar flame speed (in N2, where M = H2O exerts a notable impact on the flame speed). Splitting M into M = Ar, M = H2O, M = N2 and all other species forms an extended NN, which needed only 4,000 samples or 10% of those in the base case for its training, as shown in a recent work<sup id="fnref:ZDV2023a:2" role="doc-noteref"><a href="#fn:ZDV2023a" class="footnote" rel="footnote">1</a></sup>.</p>
+<h3 id="case-iii-adapt-to-updates-of-the-trial-rate-parameters">
+    <a href="#case-iii-adapt-to-updates-of-the-trial-rate-parameters" class="anchor-heading" aria-labelledby="case-iii-adapt-to-updates-of-the-trial-rate-parameters"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Case III: Adapt to updates of the trial rate parameters
+</h3>
+<p>The trial rate parameters need to be updated when new reaction rate theories or experimental measurements are available. In this case, we consider reaction model updates focusing on the iso-butene sub-model. A total of 13 iso-butene related reactions were updated from an earlier FFCM-2 trial model, including the H-abstraction by O2 of iso-butene by considering recent theoretical calculation<sup id="fnref:ZSS2017" role="doc-noteref"><a href="#fn:ZSS2017" class="footnote" rel="footnote">4</a></sup> and low-temperature rate measurements<sup id="fnref:IWW1994" role="doc-noteref"><a href="#fn:IWW1994" class="footnote" rel="footnote">5</a></sup>.</p>
+\[\begin{equation}
+    i\text{-C}_4\text{H}_8 + \text{O}_2 \rightleftharpoons i\text{-C}_4\text{H}_7 + \text{HO}_2
+\end{equation}\]
+<p>We used the ignition delay time of 2% iso-butene - 12% O2 diluted in Ar at $T_5 = 1556$ K and $p_5=1.7$ atm as the test case. Adaptive NN training required 12000 training samples (about 30% of the original training data) to achieve the same accuracy of the base case NN. Although the iso-butene sub-model has been changed significantly, the reduced number of training samples indicate useful knowledge transfer from the base-case NN to the adapted NN, which comes from key reactions beyond the iso-butene submodel, e.g.,</p>
+\[\begin{align}
+    \text{H + O}_2 &amp;\rightleftharpoons \text{O + OH}\\
+    \text{CH}_3\text{ + HO}_2 &amp;\rightleftharpoons \text{CH}_3\text{O + OH}
+\end{align}\]
+<h2 id="generalized-nn-with-thermodynamic-conditions-as-input">
+    <a href="#generalized-nn-with-thermodynamic-conditions-as-input" class="anchor-heading" aria-labelledby="generalized-nn-with-thermodynamic-conditions-as-input"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Generalized NN with thermodynamic conditions as input
+</h2>
+<p>We provide an example of the generalized NN-RS trained for laminar flame speeds of CH<sub>3</sub>OH/air mixtures. Figure 5 shows that response surfaces over a wide range of initial temperature, pressure and equivalence ratios are covered by one generalized neural network using 60,000 training samples. It also shows the projection of the generalized NN-RS on a low-dimensional space.</p>
+<p align="center">
+<img src="/assets/images/NNRS/3DNNRS_fls_rs3x3.png" alt="GeneralizedNNRS_fls" width="1000" height="1000" />
+<br />
+<i>Figure 5 Generalized NN-RS for laminar flame speeds of CH<sub>3</sub>OH/air mixtures at temperature 298 - 450 K, pressure 0.5 - 10 bar and equivalence ratio 0.6 - 1.8, with active parameters K = 1052, expressed as $y_{S_u^o} (\mathbf{x}, T_0, p, \phi)$. The figure above shows the projection of the generalized NN-RS.</i>
+</p>
+<h2 id="references">
+    <a href="#references" class="anchor-heading" aria-labelledby="references"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> References
+</h2>
+<div class="footnotes" role="doc-endnotes">
+ <ol>
+   <li id="fn:ZDV2023a" role="doc-endnote">
+     <p>Zhang, Y., Dong, W., Vandewalle, L. A., Xu, R., Smith, G. P., &amp; Wang, H. (2023). Neural network approach to response surface development for reaction model optimization and uncertainty minimization. Combustion and Flame, 251, 112679. <a href="#fnref:ZDV2023a" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:ZDV2023a:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:ZDV2023a:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a></p>
+   <li id="fn:S2018" role="doc-endnote">
+     <p>Smith, L. N. (2018). A disciplined approach to neural network hyper-parameters: Part 1–learning rate, batch size, momentum, and weight decay. arXiv preprint arXiv:1803.09820. <a href="#fnref:S2018" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:S2017" role="doc-endnote">
+     <p>Smith, L. N. (2017). Cyclical learning rates for training neural networks. In 2017 IEEE winter conference on applications of computer vision (WACV) (pp. 464-472). IEEE. <a href="#fnref:S2017" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:ZSS2017" role="doc-endnote">
+     <p>C. W. Zhou, J. M. Simmie, K. P. Somers, C. F. Goldsmith, H. J. Curran, Chemical kinetics of hydrogen atom abstraction from allylic sites by $^3$O$_2$; implications for combustion modeling and simulation, J. Phys. Chem. A 121 (2017) 1890–1899 <a href="#fnref:ZSS2017" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:IWW1994" role="doc-endnote">
+     <p>T. Ingham, R. Walker, R. Woolford, Kinetic parameters for the initiation reaction RH + O$_2$ = R + HO$_2$, Symp. (Int.) Combust. 25 (1994) 767–774 <a href="#fnref:IWW1994" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+ </ol>
+</div>
+ <hr>
+ <footer>
+     <p><a href="#top" id="back-to-top">Back to top</a></p>
+   <p class="text-small text-grey-dk-100 mb-0">Copyright &copy; 2023 Stanford Foundational Fuel Chemistry Model Initiative</p>
+     <div class="d-flex mt-2">
+     </div>
+ </footer>
+     </div>
+   </div>
+<div class="search-overlay"></div>
+ </div>
+    <script>
+  var config = {}
+;
+  mermaid.initialize(config);
+  window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
+  

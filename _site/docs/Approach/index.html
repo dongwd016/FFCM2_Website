@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" href="/assets/css/just-the-docs-default.css">
+    <script src="/assets/js/vendor/lunr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@9.1.6/dist/mermaid.min.js"></script>
+  <script src="/assets/js/just-the-docs.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+<title>Approach Overview | FFCM-2</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Approach Overview" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A website for Foundational Fuel Chemistry Model Version 2" />
+<meta property="og:description" content="A website for Foundational Fuel Chemistry Model Version 2" />
+<link rel="canonical" href="http://localhost:4000/docs/Approach/" />
+<meta property="og:url" content="http://localhost:4000/docs/Approach/" />
+<meta property="og:site_name" content="FFCM-2" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Approach Overview" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"A website for Foundational Fuel Chemistry Model Version 2","headline":"Approach Overview","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/SU-SRI-logo.png"}},"url":"http://localhost:4000/docs/Approach/"}</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css"
+    integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"
+    integrity="sha384-Qsn9KnoKISj6dI8g7p1HBlNpVx0I8p1SvlwOldgi3IorMle61nQy4zEahWYtljaz" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        // customised options
+        // • auto-render specific keys, e.g.:
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '\\[', right: '\\]', display: true }
+        ],
+        // • rendering keys, e.g.:
+        throwOnError: false
+      });
+    });
+  </script>
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+ <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+   <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+ <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+   <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+ <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+   <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+ <title id="svg-external-link-title">(external link)</title>
+ <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+ <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+   <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+ <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+<symbol id="svg-copy" viewBox="0 0 16 16">
+ <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+   <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+ <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+   <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+  </svg>
+</symbol>
+</svg>
+ <div class="side-bar">
+ <div class="site-header">
+    <a href="/" class="site-title lh-tight">
+ <div class="site-logo"></div>
+</a>
+    <a href="#" id="menu-button" class="site-button">
+      <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+    </a>
+ </div>
+ <nav aria-label="Main" id="site-nav" class="site-nav">
+     <ul class="nav-list"><li class="nav-list-item"><a href="/" class="nav-list-link">Home</a><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Introduction category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/Introduction/" class="nav-list-link">Introduction</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/Introduction/FoundationalFuels/" class="nav-list-link">Foundational Fuels</a><li class="nav-list-item "><a href="/docs/Introduction/FoundationalFuelsHistory/" class="nav-list-link">A Brief History</a></ul><li class="nav-list-item active"><a href="/docs/Approach/" class="nav-list-link active">Approach Overview</a><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Trial Model category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/TrialModel/" class="nav-list-link">Trial Model</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/TrialModel/Species/" class="nav-list-link">Species</a><li class="nav-list-item "><a href="/docs/TrialModel/Reactions/" class="nav-list-link">Reactions & Rate Constants</a><li class="nav-list-item "><a href="/docs/TrialModel/Thermochemistry/" class="nav-list-link">Thermochemical Data</a><li class="nav-list-item "><a href="/docs/TrialModel/Transport/" class="nav-list-link">Transport Data</a><li class="nav-list-item "><a href="/docs/TrialModel/PreliminaryTest/" class="nav-list-link">Preliminary Test</a></ul><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Experimental Data category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/ExperimentalData/" class="nav-list-link">Experimental Data</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/ExperimentalData/DataUncertainty/" class="nav-list-link">Uncertainty Evaluation</a><li class="nav-list-item "><a href="/docs/ExperimentalData/DataHistory/" class="nav-list-link">A Brief History</a><li class="nav-list-item "><a href="/docs/ExperimentalData/SFCPD/" class="nav-list-link">Stanford Fundamental Combustion Property Database</a></ul><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Response Surface category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/ResponseSurface/" class="nav-list-link">Response Surface</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/ResponseSurface/ActiveParameters/" class="nav-list-link">Optimization Parameters</a><li class="nav-list-item "><a href="/docs/ResponseSurface/MonteCarlo/" class="nav-list-link">Monte Carlo Simulation</a><li class="nav-list-item "><a href="/docs/ResponseSurface/NeuralNetworks/" class="nav-list-link">Neural Networks</a></ul><li class="nav-list-item"><a href="/docs/Optimization/" class="nav-list-link">Optimization and Uncertainty Minimization</a><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Results category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/Results/" class="nav-list-link">Results</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/Results/Summary/" class="nav-list-link">Summary Results</a><li class="nav-list-item "><a href="/docs/Results/Validation/" class="nav-list-link">Model Validation</a><li class="nav-list-item "><a href="/docs/Results/Test/" class="nav-list-link">Additional Model Tests</a><li class="nav-list-item "><a href="/docs/Results/ActiveParameters/" class="nav-list-link">Active Parameters</a><li class="nav-list-item "><a href="/docs/Results/InconsistentTargets/" class="nav-list-link">Inconsistent Targets</a><li class="nav-list-item "><a href="/docs/Results/CovarianceMatrix/" class="nav-list-link">Covariance Matrix</a></ul><li class="nav-list-item"><a href="/docs/Download/" class="nav-list-link">Download</a><li class="nav-list-item"><a href="/docs/Application/" class="nav-list-link">Application</a></ul>
+ </nav>
+   <footer class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+   </footer>
+</div>
+ <div class="main" id="top">
+   <div id="main-header" class="main-header">
+<div class="search">
+ <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search FFCM-2" aria-label="Search FFCM-2" autocomplete="off">
+    <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+ </div>
+ <div id="search-results" class="search-results"></div>
+</div>
+   <nav aria-label="Auxiliary" class="aux-nav">
+ <ul class="aux-nav-list">
+     <li class="aux-nav-list-item">
+        <a href="/" class="site-button"
+        >
+          Foundational Fuel Chemistry Model Version 2 (FFCM-2)
+        </a>
+ </ul>
+</nav>
+</div>
+   <div id="main-content-wrap" class="main-content-wrap">
+     <div id="main-content" class="main-content" role="main">
+         <h1 class="no_toc" id="approach-overview">
+    <a href="#approach-overview" class="anchor-heading" aria-labelledby="approach-overview"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Approach Overview
+</h1>
+<p class="fs-6 fw-300">The workflow of FFCM-2 development is outlined in the diagram below, followed by discussion of each key element of the framework.</p>
+<h2 class="no_toc text-delta" id="table-of-contents">
+    <a href="#table-of-contents" class="anchor-heading" aria-labelledby="table-of-contents"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Table of contents
+</h2>
+<ol id="markdown-toc">
+ <li><a href="#trial-model-and-rate-constant-evaluation" id="markdown-toc-trial-model-and-rate-constant-evaluation">Trial Model and Rate Constant Evaluation</a>
+ <li><a href="#experimental-data-collection-and-evaluation" id="markdown-toc-experimental-data-collection-and-evaluation">Experimental data collection and evaluation</a>
+ <li><a href="#preliminary-test" id="markdown-toc-preliminary-test">Preliminary Test</a>
+ <li><a href="#optimization-and-uncertainty-minimization" id="markdown-toc-optimization-and-uncertainty-minimization">Optimization and Uncertainty Minimization</a>
+ <li><a href="#validation-and-test" id="markdown-toc-validation-and-test">Validation and Test</a>
+ <li><a href="#further-analysis" id="markdown-toc-further-analysis">Further Analysis</a>
+ <li><a href="#references" id="markdown-toc-references">References</a>
+</ol>
+<p align="center">
+<img src="/assets/images/FFCMApproach.png" alt="NN-MUM-PCE approach" width="1000" height="1000" />
+<br />
+<i>The overall workflow of FFCM-2 development</i>
+</p>
+<h3 id="trial-model-and-rate-constant-evaluation">
+    <a href="#trial-model-and-rate-constant-evaluation" class="anchor-heading" aria-labelledby="trial-model-and-rate-constant-evaluation"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Trial Model and Rate Constant Evaluation
+</h3>
+<p>A trial reaction model is compiled along with its associated thermochemical and transport data, fronm an extensive literature review of exisiting kinetic knowledge. The evaluation of reaction rate constants relies on experimental measurements, ab initio theoretical calculations, or estimation based on analogous reactions. In addition to the nominal rate constant expression, the uncertainty factor of each reaction is estimated.</p>
+<h3 id="experimental-data-collection-and-evaluation">
+    <a href="#experimental-data-collection-and-evaluation" class="anchor-heading" aria-labelledby="experimental-data-collection-and-evaluation"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Experimental data collection and evaluation
+</h3>
+<p>Extensive literature review was carried out to compile the <strong>Stanford Fundamental Combustion Property Database (SFCPD)</strong>. Currently <strong>SFCPD</strong> contains 1192 sets of legacy combustion data dating back to 1937. Relevant properties include the global combustion responses (laminar flame speeds and shock tube ignition delay measurements) and detailed time-history profiles of species in shock tubes. Selected flow reactor and low pressure burner flame measurements are also considered.</p>
+<p>Targets for model optimization and validation were selected from <strong>SFCPD</strong>. Uncertainty analysis is performed for each of these targets, taking into consideration the statistical consistency and the generic uncertainties (e.g., uncertainty in the temperature behind reflected shock $T_5$ and due to impurity). Specific target conditions and target values are chosen to best represent the thermodynamic condition range of each data set for a given target fuel/species.</p>
+<h3 id="preliminary-test">
+    <a href="#preliminary-test" class="anchor-heading" aria-labelledby="preliminary-test"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Preliminary Test
+</h3>
+<p>The trial model is subject to extensive, pre-optimization tests against selected targets. Sensitivity analyses were performed to identify certain problems in the trial model. For example, after an initial screening test, it was determined that the model uncertainty for the laminar flame speed of H<sub>2</sub>/air mixtures can be significantly reduced if the uncertainty in the rate coefficient of the reaction</p>
+\[\begin{equation}
+    \text{H}_2 + \text{OH} \rightleftharpoons \text{H}_{2}\text{O} + \text{H}
+\end{equation}\]
+<p>is reduced to the $\pm 20\%$ level. Prof. Han’s group at Stanford subsequently made the measurement to reduce the $2\sigma$ rate uncertainty to $\pm 17\%$ <sup id="fnref:LDH2013" role="doc-noteref"><a href="#fn:LDH2013" class="footnote" rel="footnote">1</a></sup>. The measurement suggests that the higher end values within the uncertainty band of the measured H<sub>2</sub>/air laminar flame speed are probably more accurate than the lower values. Preliminary tests also include forward uncertainty quantification (<strong>UQ</strong>). The quality of the current kinetic rate knowledge is accessed in its predictive precision against the selected target.</p>
+<h3 id="optimization-and-uncertainty-minimization">
+    <a href="#optimization-and-uncertainty-minimization" class="anchor-heading" aria-labelledby="optimization-and-uncertainty-minimization"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Optimization and Uncertainty Minimization
+</h3>
+<p>The Method of Uncertainty Minimization using Polynomial Chaos Expansion <sup id="fnref:SW2011" role="doc-noteref"><a href="#fn:SW2011" class="footnote" rel="footnote">2</a></sup>$^{,}$<sup id="fnref:WS2015" role="doc-noteref"><a href="#fn:WS2015" class="footnote" rel="footnote">3</a></sup> (<strong>MUM-PCE</strong>) was developed earlier for the optimization and uncertainty minimization of combustion chemistry reaction models. In the FFCM-2 effort, we extended the MUM-PCE framework to <strong>NN-MUM-PCE</strong> <sup id="fnref:ZDV2023a" role="doc-noteref"><a href="#fn:ZDV2023a" class="footnote" rel="footnote">4</a></sup>, using neural networks as response surfaces to overcome difficulties of high parameter dimensionality.</p>
+<p>The following steps are taken:</p>
+<ul>
+ <li>Develop neural network (NN) response surfaces for each optimization target.
+ <li>Solve a globally constrainted optimization problem against a collection of targets.
+ <li>Perform optimization iteratively and remove inconsistent targets in each iteration, until all remaining targets are consistent.
+ <li>Obtain the posterior mean and covariance matrix of the optimization variables, using the Bayesian theory with a Gaussian prior. The posterior covariance matrix describes the joint probability distribution function of the rate parameters. It reduces the parameter uncertainty space and minimizes the model prediction uncertainties.
+ <li>Identify rate parameters that do not contribute to improving the models. These unconstrained parameters are frozen using the conditional multivariate Gaussian formula to suppress noises and produce optimization results that are easier to interpret.
+</ul>
+<h3 id="validation-and-test">
+    <a href="#validation-and-test" class="anchor-heading" aria-labelledby="validation-and-test"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Validation and Test
+</h3>
+<p>We distinguish model validation from model test.<sup id="fnref:WS2015:1" role="doc-noteref"><a href="#fn:WS2015" class="footnote" rel="footnote">3</a></sup> Validation refers to tests against experimental data in which the model prediction uncertainty is also given; whereas a test involves only an “agree-disagree” comparison of a model prediction against its underlying data. A test serves the purpose of showing the model capture the essential physics and quantitatively, it shows that the model is not “wrong.”  A validation test is more stringent as it not only compares the nominal prediction against its underlying data, it also provides a quantitative assessment of the model uncertainty against the experimental data uncertainty. In our study, the posterior model is <strong>validated</strong> against the set of experimental data from which the optimization targets are selected. Tests are made for a wider range of combustion data not considered in the target set.</p>
+<h3 id="further-analysis">
+    <a href="#further-analysis" class="anchor-heading" aria-labelledby="further-analysis"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Further Analysis
+</h3>
+<p>Further analyses of the model and the target data are made to reveal key uncertainty in several aspects of the problems, including the rate coefficient and reaction pathways, and the combustion property data. Recommendations are made and documented on the basis of these analyses.</p>
+<h3 id="references">
+    <a href="#references" class="anchor-heading" aria-labelledby="references"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> References
+</h3>
+<div class="footnotes" role="doc-endnotes">
+ <ol>
+   <li id="fn:LDH2013" role="doc-endnote">
+     <p>Lam, K. Y., Davidson, D. F., &amp; Hanson, R. K. (2013). A shock tube study of H2+ OH -&gt; H2O+ H using OH laser absorption. International Journal of Chemical Kinetics, 45(6), 363-373. <a href="#fnref:LDH2013" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:SW2011" role="doc-endnote">
+     <p>Sheen, D. A., &amp; Wang, H. (2011). The method of uncertainty quantification and minimization using polynomial chaos expansions. Combustion and Flame, 158(12), 2358-2374. <a href="#fnref:SW2011" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:WS2015" role="doc-endnote">
+     <p>Wang, H., &amp; Sheen, D. A. (2015). Combustion kinetic model uncertainty quantification, propagation and minimization. Progress in Energy and Combustion Science, 47, 1-31. <a href="#fnref:WS2015" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:WS2015:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+   <li id="fn:ZDV2023a" role="doc-endnote">
+     <p>Zhang, Y., Dong, W., Vandewalle, L. A., Xu, R., Smith, G. P., &amp; Wang, H. (2023). Neural network approach to response surface development for reaction model optimization and uncertainty minimization. Combustion and Flame, 251, 112679. <a href="#fnref:ZDV2023a" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+ </ol>
+</div>
+ <hr>
+ <footer>
+     <p><a href="#top" id="back-to-top">Back to top</a></p>
+   <p class="text-small text-grey-dk-100 mb-0">Copyright &copy; 2023 Stanford Foundational Fuel Chemistry Model Initiative</p>
+     <div class="d-flex mt-2">
+     </div>
+ </footer>
+     </div>
+   </div>
+<div class="search-overlay"></div>
+ </div>
+    <script>
+  var config = {}
+;
+  mermaid.initialize(config);
+  window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
+  

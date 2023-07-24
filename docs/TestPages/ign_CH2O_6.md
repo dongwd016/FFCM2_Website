@@ -1,0 +1,14 @@
+---
+layout: test
+parent: TestPages
+nav_exclude: true
+title: ign_CH2O_6
+temp: 1340--1876
+pres: 0.90--2.28
+phi: 1.666666666666667
+shortname: EYG1998
+datatype: Shock tube ignition delay measurement
+definition: 0.5 max CO
+test_plot: /assets/data/test/ign_CH2O_6.png
+reference: EYG1998
+---

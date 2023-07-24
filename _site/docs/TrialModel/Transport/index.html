@@ -1,0 +1,1786 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" href="/assets/css/just-the-docs-default.css">
+    <script src="/assets/js/vendor/lunr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@9.1.6/dist/mermaid.min.js"></script>
+  <script src="/assets/js/just-the-docs.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+<title>Transport Data | FFCM-2</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Transport Data" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A website for Foundational Fuel Chemistry Model Version 2" />
+<meta property="og:description" content="A website for Foundational Fuel Chemistry Model Version 2" />
+<link rel="canonical" href="http://localhost:4000/docs/TrialModel/Transport/" />
+<meta property="og:url" content="http://localhost:4000/docs/TrialModel/Transport/" />
+<meta property="og:site_name" content="FFCM-2" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Transport Data" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"A website for Foundational Fuel Chemistry Model Version 2","headline":"Transport Data","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/SU-SRI-logo.png"}},"url":"http://localhost:4000/docs/TrialModel/Transport/"}</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css"
+    integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"
+    integrity="sha384-Qsn9KnoKISj6dI8g7p1HBlNpVx0I8p1SvlwOldgi3IorMle61nQy4zEahWYtljaz" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        // customised options
+        // • auto-render specific keys, e.g.:
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '\\[', right: '\\]', display: true }
+        ],
+        // • rendering keys, e.g.:
+        throwOnError: false
+      });
+    });
+  </script>
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+ <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+   <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+ <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+   <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+ <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+   <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+ <title id="svg-external-link-title">(external link)</title>
+ <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+ <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+   <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+ <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+<symbol id="svg-copy" viewBox="0 0 16 16">
+ <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+   <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+ <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+   <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+  </svg>
+</symbol>
+</svg>
+ <div class="side-bar">
+ <div class="site-header">
+    <a href="/" class="site-title lh-tight">
+ <div class="site-logo"></div>
+</a>
+    <a href="#" id="menu-button" class="site-button">
+      <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+    </a>
+ </div>
+ <nav aria-label="Main" id="site-nav" class="site-nav">
+     <ul class="nav-list"><li class="nav-list-item"><a href="/" class="nav-list-link">Home</a><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Introduction category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/Introduction/" class="nav-list-link">Introduction</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/Introduction/FoundationalFuels/" class="nav-list-link">Foundational Fuels</a><li class="nav-list-item "><a href="/docs/Introduction/FoundationalFuelsHistory/" class="nav-list-link">A Brief History</a></ul><li class="nav-list-item"><a href="/docs/Approach/" class="nav-list-link">Approach Overview</a><li class="nav-list-item active"><a href="#" class="nav-list-expander" aria-label="toggle links in Trial Model category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/TrialModel/" class="nav-list-link">Trial Model</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/TrialModel/Species/" class="nav-list-link">Species</a><li class="nav-list-item "><a href="/docs/TrialModel/Reactions/" class="nav-list-link">Reactions & Rate Constants</a><li class="nav-list-item "><a href="/docs/TrialModel/Thermochemistry/" class="nav-list-link">Thermochemical Data</a><li class="nav-list-item  active"><a href="/docs/TrialModel/Transport/" class="nav-list-link active">Transport Data</a><li class="nav-list-item "><a href="/docs/TrialModel/PreliminaryTest/" class="nav-list-link">Preliminary Test</a></ul><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Experimental Data category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/ExperimentalData/" class="nav-list-link">Experimental Data</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/ExperimentalData/DataUncertainty/" class="nav-list-link">Uncertainty Evaluation</a><li class="nav-list-item "><a href="/docs/ExperimentalData/DataHistory/" class="nav-list-link">A Brief History</a><li class="nav-list-item "><a href="/docs/ExperimentalData/SFCPD/" class="nav-list-link">Stanford Fundamental Combustion Property Database</a></ul><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Response Surface category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/ResponseSurface/" class="nav-list-link">Response Surface</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/ResponseSurface/ActiveParameters/" class="nav-list-link">Optimization Parameters</a><li class="nav-list-item "><a href="/docs/ResponseSurface/MonteCarlo/" class="nav-list-link">Monte Carlo Simulation</a><li class="nav-list-item "><a href="/docs/ResponseSurface/NeuralNetworks/" class="nav-list-link">Neural Networks</a></ul><li class="nav-list-item"><a href="/docs/Optimization/" class="nav-list-link">Optimization and Uncertainty Minimization</a><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Results category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/Results/" class="nav-list-link">Results</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/Results/Summary/" class="nav-list-link">Summary Results</a><li class="nav-list-item "><a href="/docs/Results/Validation/" class="nav-list-link">Model Validation</a><li class="nav-list-item "><a href="/docs/Results/Test/" class="nav-list-link">Additional Model Tests</a><li class="nav-list-item "><a href="/docs/Results/ActiveParameters/" class="nav-list-link">Active Parameters</a><li class="nav-list-item "><a href="/docs/Results/InconsistentTargets/" class="nav-list-link">Inconsistent Targets</a><li class="nav-list-item "><a href="/docs/Results/CovarianceMatrix/" class="nav-list-link">Covariance Matrix</a></ul><li class="nav-list-item"><a href="/docs/Download/" class="nav-list-link">Download</a><li class="nav-list-item"><a href="/docs/Application/" class="nav-list-link">Application</a></ul>
+ </nav>
+   <footer class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+   </footer>
+</div>
+ <div class="main" id="top">
+   <div id="main-header" class="main-header">
+<div class="search">
+ <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search FFCM-2" aria-label="Search FFCM-2" autocomplete="off">
+    <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+ </div>
+ <div id="search-results" class="search-results"></div>
+</div>
+   <nav aria-label="Auxiliary" class="aux-nav">
+ <ul class="aux-nav-list">
+     <li class="aux-nav-list-item">
+        <a href="/" class="site-button"
+        >
+          Foundational Fuel Chemistry Model Version 2 (FFCM-2)
+        </a>
+ </ul>
+</nav>
+</div>
+   <div id="main-content-wrap" class="main-content-wrap">
+   <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+     <ol class="breadcrumb-nav-list">
+         <li class="breadcrumb-nav-list-item"><a href="/docs/TrialModel/">Trial Model</a>
+       <li class="breadcrumb-nav-list-item"><span>Transport Data</span>
+     </ol>
+   </nav>
+     <div id="main-content" class="main-content" role="main">
+         <h1 class="no_toc" id="transport-database-in-ffcm-2">
+    <a href="#transport-database-in-ffcm-2" class="anchor-heading" aria-labelledby="transport-database-in-ffcm-2"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Transport database in FFCM-2
+</h1>
+<p class="fs-6 fw-300">The table below lists the transport properties for all 96 species in FFCM-2.</p>
+<h2 class="no_toc text-delta" id="table-of-contents">
+    <a href="#table-of-contents" class="anchor-heading" aria-labelledby="table-of-contents"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Table of Contents
+</h2>
+<ol id="markdown-toc">
+ <li><a href="#chemkin-transport-database" id="markdown-toc-chemkin-transport-database">Chemkin transport database</a>
+ <li><a href="#binary-transport-database" id="markdown-toc-binary-transport-database">Binary transport database</a>
+ <li><a href="#references" id="markdown-toc-references">References</a>
+</ol>
+<h3 id="chemkin-transport-database">
+    <a href="#chemkin-transport-database" class="anchor-heading" aria-labelledby="chemkin-transport-database"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Chemkin transport database
+</h3>
+<p>The FFCM transport database originates from the Sandia Transport subroutine library <sup id="fnref:KDW1986" role="doc-noteref"><a href="#fn:KDW1986" class="footnote" rel="footnote">1</a></sup>. The table below lists the parametrization of transport coeffcients used in FFCM-2.</p>
+<ul>
+ <li>Geometry: an index indicating the geometrical configuration of the molecule; 0: monatomic atom, 1: linear, 2: nonlinear.
+ <li>$\epsilon/k_B$: the Lennard-Jones potential well depth, unit in Kelvins.
+ <li>$\sigma$: the Lennard-Jones collision diameter, unit in Angstroms.
+ <li>$\mu$: the dipole moment, unit in Debye. A Debye is 10$^{-18}$ cm $^{3/2}$ erg$^{1/2}$.
+ <li>$\alpha$: the polarizability, unit in cubic Angstroms.
+ <li>$Z_{rot}$: the rotational relaxation collision number at 298K.
+</ul>
+<div class="table-wrapper"><table>
+<thead>
+   <tr>
+     <th style="text-align: center">Species
+     <th style="text-align: center">Geometry
+     <th style="text-align: center">$\epsilon/k_B$
+     <th style="text-align: center">$\sigma$
+     <th style="text-align: center">$\mu$
+     <th style="text-align: center">$\alpha$
+     <th style="text-align: center">$Z_{rot}$
+ <tbody>
+   <tr>
+     <td style="text-align: center">H
+     <td style="text-align: center">0
+     <td style="text-align: center">145
+     <td style="text-align: center">2.05
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+   <tr>
+     <td style="text-align: center">H2
+     <td style="text-align: center">1
+     <td style="text-align: center">38
+     <td style="text-align: center">2.92
+     <td style="text-align: center">0
+     <td style="text-align: center">0.79
+     <td style="text-align: center">280
+   <tr>
+     <td style="text-align: center">O
+     <td style="text-align: center">0
+     <td style="text-align: center">80
+     <td style="text-align: center">2.75
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+   <tr>
+     <td style="text-align: center">O2
+     <td style="text-align: center">1
+     <td style="text-align: center">107.4
+     <td style="text-align: center">3.458
+     <td style="text-align: center">0
+     <td style="text-align: center">1.6
+     <td style="text-align: center">3.8
+   <tr>
+     <td style="text-align: center">OH
+     <td style="text-align: center">1
+     <td style="text-align: center">80
+     <td style="text-align: center">2.75
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+   <tr>
+     <td style="text-align: center">H2O
+     <td style="text-align: center">2
+     <td style="text-align: center">572.4
+     <td style="text-align: center">2.605
+     <td style="text-align: center">1.844
+     <td style="text-align: center">0
+     <td style="text-align: center">4
+   <tr>
+     <td style="text-align: center">HO2
+     <td style="text-align: center">2
+     <td style="text-align: center">107.4
+     <td style="text-align: center">3.458
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">H2O2
+     <td style="text-align: center">2
+     <td style="text-align: center">107.4
+     <td style="text-align: center">3.458
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">3.8
+   <tr>
+     <td style="text-align: center">HE
+     <td style="text-align: center">0
+     <td style="text-align: center">10.2
+     <td style="text-align: center">2.576
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+   <tr>
+     <td style="text-align: center">AR
+     <td style="text-align: center">0
+     <td style="text-align: center">136.5
+     <td style="text-align: center">3.33
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+   <tr>
+     <td style="text-align: center">N2
+     <td style="text-align: center">1
+     <td style="text-align: center">97.53
+     <td style="text-align: center">3.621
+     <td style="text-align: center">0
+     <td style="text-align: center">1.76
+     <td style="text-align: center">4
+   <tr>
+     <td style="text-align: center">C
+     <td style="text-align: center">0
+     <td style="text-align: center">71.4
+     <td style="text-align: center">3.298
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+   <tr>
+     <td style="text-align: center">CH
+     <td style="text-align: center">1
+     <td style="text-align: center">80
+     <td style="text-align: center">2.75
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH2
+     <td style="text-align: center">2
+     <td style="text-align: center">144
+     <td style="text-align: center">3.8
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH2(S)
+     <td style="text-align: center">2
+     <td style="text-align: center">144
+     <td style="text-align: center">3.8
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH3
+     <td style="text-align: center">2
+     <td style="text-align: center">144
+     <td style="text-align: center">3.8
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH4
+     <td style="text-align: center">2
+     <td style="text-align: center">141.4
+     <td style="text-align: center">3.746
+     <td style="text-align: center">0
+     <td style="text-align: center">2.6
+     <td style="text-align: center">13
+   <tr>
+     <td style="text-align: center">CO
+     <td style="text-align: center">1
+     <td style="text-align: center">98.1
+     <td style="text-align: center">3.65
+     <td style="text-align: center">0
+     <td style="text-align: center">1.95
+     <td style="text-align: center">1.8
+   <tr>
+     <td style="text-align: center">CO2
+     <td style="text-align: center">1
+     <td style="text-align: center">244
+     <td style="text-align: center">3.763
+     <td style="text-align: center">0
+     <td style="text-align: center">2.65
+     <td style="text-align: center">2.1
+   <tr>
+     <td style="text-align: center">HCO
+     <td style="text-align: center">2
+     <td style="text-align: center">498
+     <td style="text-align: center">3.59
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">CH2O
+     <td style="text-align: center">2
+     <td style="text-align: center">498
+     <td style="text-align: center">3.59
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">CH2OH
+     <td style="text-align: center">2
+     <td style="text-align: center">417
+     <td style="text-align: center">3.69
+     <td style="text-align: center">1.7
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">CH3O
+     <td style="text-align: center">2
+     <td style="text-align: center">417
+     <td style="text-align: center">3.69
+     <td style="text-align: center">1.7
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">CH3OH
+     <td style="text-align: center">2
+     <td style="text-align: center">481.8
+     <td style="text-align: center">3.626
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C2H
+     <td style="text-align: center">1
+     <td style="text-align: center">209
+     <td style="text-align: center">4.1
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2.5
+   <tr>
+     <td style="text-align: center">C2H2
+     <td style="text-align: center">1
+     <td style="text-align: center">209
+     <td style="text-align: center">4.1
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2.5
+   <tr>
+     <td style="text-align: center">C2H3
+     <td style="text-align: center">2
+     <td style="text-align: center">209
+     <td style="text-align: center">4.1
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C2H4
+     <td style="text-align: center">2
+     <td style="text-align: center">280.8
+     <td style="text-align: center">3.971
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1.5
+   <tr>
+     <td style="text-align: center">C2H5
+     <td style="text-align: center">2
+     <td style="text-align: center">252.3
+     <td style="text-align: center">4.302
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1.5
+   <tr>
+     <td style="text-align: center">C2H6
+     <td style="text-align: center">2
+     <td style="text-align: center">252.3
+     <td style="text-align: center">4.302
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1.5
+   <tr>
+     <td style="text-align: center">HCCO
+     <td style="text-align: center">2
+     <td style="text-align: center">150
+     <td style="text-align: center">2.5
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH2CO
+     <td style="text-align: center">2
+     <td style="text-align: center">436
+     <td style="text-align: center">3.97
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">CH2CHO
+     <td style="text-align: center">2
+     <td style="text-align: center">436
+     <td style="text-align: center">3.97
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">CH3CHO
+     <td style="text-align: center">2
+     <td style="text-align: center">436
+     <td style="text-align: center">3.97
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">CH3CO
+     <td style="text-align: center">2
+     <td style="text-align: center">436
+     <td style="text-align: center">3.97
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">H2CC
+     <td style="text-align: center">2
+     <td style="text-align: center">209
+     <td style="text-align: center">4.1
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2.5
+   <tr>
+     <td style="text-align: center">CH3O2
+     <td style="text-align: center">2
+     <td style="text-align: center">481.8
+     <td style="text-align: center">3.626
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH3OOH
+     <td style="text-align: center">2
+     <td style="text-align: center">481.8
+     <td style="text-align: center">3.626
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C2H5O2
+     <td style="text-align: center">2
+     <td style="text-align: center">470.6
+     <td style="text-align: center">4.41
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1.5
+   <tr>
+     <td style="text-align: center">C2H5OOH
+     <td style="text-align: center">2
+     <td style="text-align: center">470.6
+     <td style="text-align: center">4.41
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1.5
+   <tr>
+     <td style="text-align: center">C2H2OH
+     <td style="text-align: center">2
+     <td style="text-align: center">224.7
+     <td style="text-align: center">4.162
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C2H3OH
+     <td style="text-align: center">2
+     <td style="text-align: center">436
+     <td style="text-align: center">3.97
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">C2H4O
+     <td style="text-align: center">2
+     <td style="text-align: center">436
+     <td style="text-align: center">3.97
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">C2H5OH
+     <td style="text-align: center">2
+     <td style="text-align: center">470.6
+     <td style="text-align: center">4.41
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1.5
+   <tr>
+     <td style="text-align: center">C2H4OH
+     <td style="text-align: center">2
+     <td style="text-align: center">470.6
+     <td style="text-align: center">4.41
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1.5
+   <tr>
+     <td style="text-align: center">CH3CHOH
+     <td style="text-align: center">2
+     <td style="text-align: center">470.6
+     <td style="text-align: center">4.41
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1.5
+   <tr>
+     <td style="text-align: center">C3H8
+     <td style="text-align: center">2
+     <td style="text-align: center">266.8
+     <td style="text-align: center">4.982
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">NC3H7
+     <td style="text-align: center">2
+     <td style="text-align: center">266.8
+     <td style="text-align: center">4.982
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC3H7
+     <td style="text-align: center">2
+     <td style="text-align: center">266.8
+     <td style="text-align: center">4.982
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C3H6
+     <td style="text-align: center">2
+     <td style="text-align: center">298.9
+     <td style="text-align: center">4.678
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C3H5
+     <td style="text-align: center">2
+     <td style="text-align: center">252
+     <td style="text-align: center">4.76
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH3CCH2
+     <td style="text-align: center">2
+     <td style="text-align: center">266.8
+     <td style="text-align: center">4.982
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">AC3H4
+     <td style="text-align: center">2
+     <td style="text-align: center">252
+     <td style="text-align: center">4.76
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">PC3H4
+     <td style="text-align: center">2
+     <td style="text-align: center">252
+     <td style="text-align: center">4.76
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C3H3
+     <td style="text-align: center">2
+     <td style="text-align: center">252
+     <td style="text-align: center">4.76
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C2H5CHO
+     <td style="text-align: center">2
+     <td style="text-align: center">435.2
+     <td style="text-align: center">4.662
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH3COCH3
+     <td style="text-align: center">2
+     <td style="text-align: center">435.5
+     <td style="text-align: center">4.86
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH3COCH2
+     <td style="text-align: center">2
+     <td style="text-align: center">435.5
+     <td style="text-align: center">4.86
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C2H3CHO
+     <td style="text-align: center">2
+     <td style="text-align: center">428.8
+     <td style="text-align: center">4.958
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C3H5OH
+     <td style="text-align: center">2
+     <td style="text-align: center">481.5
+     <td style="text-align: center">4.997
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">NC3H7O2
+     <td style="text-align: center">2
+     <td style="text-align: center">481.5
+     <td style="text-align: center">4.997
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">NC3H7OOH
+     <td style="text-align: center">2
+     <td style="text-align: center">481.5
+     <td style="text-align: center">4.997
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC3H7O2
+     <td style="text-align: center">2
+     <td style="text-align: center">481.5
+     <td style="text-align: center">4.997
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC3H7OOH
+     <td style="text-align: center">2
+     <td style="text-align: center">481.5
+     <td style="text-align: center">4.997
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H2
+     <td style="text-align: center">1
+     <td style="text-align: center">357
+     <td style="text-align: center">4.72
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">NC4H3
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC4H3
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H4
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">NC4H5
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC4H5
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H5-2
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H6
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">4.72
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H612
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H6-2
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H7
+     <td style="text-align: center">2
+     <td style="text-align: center">357.1
+     <td style="text-align: center">4.72
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC4H7
+     <td style="text-align: center">2
+     <td style="text-align: center">355
+     <td style="text-align: center">4.65
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC4H7-1
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.176
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H81
+     <td style="text-align: center">2
+     <td style="text-align: center">355
+     <td style="text-align: center">4.65
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H82
+     <td style="text-align: center">2
+     <td style="text-align: center">355
+     <td style="text-align: center">4.65
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC4H8
+     <td style="text-align: center">2
+     <td style="text-align: center">355
+     <td style="text-align: center">4.65
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">NC4H9
+     <td style="text-align: center">2
+     <td style="text-align: center">352
+     <td style="text-align: center">5.24
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">SC4H9
+     <td style="text-align: center">2
+     <td style="text-align: center">352
+     <td style="text-align: center">5.24
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC4H9
+     <td style="text-align: center">2
+     <td style="text-align: center">352
+     <td style="text-align: center">5.24
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">TC4H9
+     <td style="text-align: center">2
+     <td style="text-align: center">352
+     <td style="text-align: center">5.24
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H10
+     <td style="text-align: center">2
+     <td style="text-align: center">350.9
+     <td style="text-align: center">5.206
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC4H10
+     <td style="text-align: center">2
+     <td style="text-align: center">355.7
+     <td style="text-align: center">5.208
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">H2C4O
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH2CHCHCHO
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH3CHCHCO
+     <td style="text-align: center">1
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH3CHCHCHO
+     <td style="text-align: center">1
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C3H7CHO
+     <td style="text-align: center">2
+     <td style="text-align: center">464.2
+     <td style="text-align: center">5.009
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC3H7CHO
+     <td style="text-align: center">2
+     <td style="text-align: center">436.4
+     <td style="text-align: center">5.352
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C2H5COCH3
+     <td style="text-align: center">2
+     <td style="text-align: center">454
+     <td style="text-align: center">5.413
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C2H3COCH3
+     <td style="text-align: center">2
+     <td style="text-align: center">454
+     <td style="text-align: center">5.413
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">OH*
+     <td style="text-align: center">1
+     <td style="text-align: center">80
+     <td style="text-align: center">2.75
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+   <tr>
+     <td style="text-align: center">CH*
+     <td style="text-align: center">1
+     <td style="text-align: center">80
+     <td style="text-align: center">2.75
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+   <tr>
+     <td style="text-align: center">H
+     <td style="text-align: center">0
+     <td style="text-align: center">145
+     <td style="text-align: center">2.05
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+   <tr>
+     <td style="text-align: center">H2
+     <td style="text-align: center">1
+     <td style="text-align: center">38
+     <td style="text-align: center">2.92
+     <td style="text-align: center">0
+     <td style="text-align: center">0.79
+     <td style="text-align: center">280
+   <tr>
+     <td style="text-align: center">O
+     <td style="text-align: center">0
+     <td style="text-align: center">80
+     <td style="text-align: center">2.75
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+   <tr>
+     <td style="text-align: center">O2
+     <td style="text-align: center">1
+     <td style="text-align: center">107.4
+     <td style="text-align: center">3.458
+     <td style="text-align: center">0
+     <td style="text-align: center">1.6
+     <td style="text-align: center">3.8
+   <tr>
+     <td style="text-align: center">OH
+     <td style="text-align: center">1
+     <td style="text-align: center">80
+     <td style="text-align: center">2.75
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+   <tr>
+     <td style="text-align: center">H2O
+     <td style="text-align: center">2
+     <td style="text-align: center">572.4
+     <td style="text-align: center">2.605
+     <td style="text-align: center">1.844
+     <td style="text-align: center">0
+     <td style="text-align: center">4
+   <tr>
+     <td style="text-align: center">HO2
+     <td style="text-align: center">2
+     <td style="text-align: center">107.4
+     <td style="text-align: center">3.458
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">H2O2
+     <td style="text-align: center">2
+     <td style="text-align: center">107.4
+     <td style="text-align: center">3.458
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">3.8
+   <tr>
+     <td style="text-align: center">HE
+     <td style="text-align: center">0
+     <td style="text-align: center">10.2
+     <td style="text-align: center">2.576
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+   <tr>
+     <td style="text-align: center">AR
+     <td style="text-align: center">0
+     <td style="text-align: center">136.5
+     <td style="text-align: center">3.33
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+   <tr>
+     <td style="text-align: center">N2
+     <td style="text-align: center">1
+     <td style="text-align: center">97.53
+     <td style="text-align: center">3.621
+     <td style="text-align: center">0
+     <td style="text-align: center">1.76
+     <td style="text-align: center">4
+   <tr>
+     <td style="text-align: center">C
+     <td style="text-align: center">0
+     <td style="text-align: center">71.4
+     <td style="text-align: center">3.298
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+   <tr>
+     <td style="text-align: center">CH
+     <td style="text-align: center">1
+     <td style="text-align: center">80
+     <td style="text-align: center">2.75
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH2
+     <td style="text-align: center">2
+     <td style="text-align: center">144
+     <td style="text-align: center">3.8
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH2(S)
+     <td style="text-align: center">2
+     <td style="text-align: center">144
+     <td style="text-align: center">3.8
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH3
+     <td style="text-align: center">2
+     <td style="text-align: center">144
+     <td style="text-align: center">3.8
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH4
+     <td style="text-align: center">2
+     <td style="text-align: center">141.4
+     <td style="text-align: center">3.746
+     <td style="text-align: center">0
+     <td style="text-align: center">2.6
+     <td style="text-align: center">13
+   <tr>
+     <td style="text-align: center">CO
+     <td style="text-align: center">1
+     <td style="text-align: center">98.1
+     <td style="text-align: center">3.65
+     <td style="text-align: center">0
+     <td style="text-align: center">1.95
+     <td style="text-align: center">1.8
+   <tr>
+     <td style="text-align: center">CO2
+     <td style="text-align: center">1
+     <td style="text-align: center">244
+     <td style="text-align: center">3.763
+     <td style="text-align: center">0
+     <td style="text-align: center">2.65
+     <td style="text-align: center">2.1
+   <tr>
+     <td style="text-align: center">HCO
+     <td style="text-align: center">2
+     <td style="text-align: center">498
+     <td style="text-align: center">3.59
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">CH2O
+     <td style="text-align: center">2
+     <td style="text-align: center">498
+     <td style="text-align: center">3.59
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">CH2OH
+     <td style="text-align: center">2
+     <td style="text-align: center">417
+     <td style="text-align: center">3.69
+     <td style="text-align: center">1.7
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">CH3O
+     <td style="text-align: center">2
+     <td style="text-align: center">417
+     <td style="text-align: center">3.69
+     <td style="text-align: center">1.7
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">CH3OH
+     <td style="text-align: center">2
+     <td style="text-align: center">481.8
+     <td style="text-align: center">3.626
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C2H
+     <td style="text-align: center">1
+     <td style="text-align: center">209
+     <td style="text-align: center">4.1
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2.5
+   <tr>
+     <td style="text-align: center">C2H2
+     <td style="text-align: center">1
+     <td style="text-align: center">209
+     <td style="text-align: center">4.1
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2.5
+   <tr>
+     <td style="text-align: center">C2H3
+     <td style="text-align: center">2
+     <td style="text-align: center">209
+     <td style="text-align: center">4.1
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C2H4
+     <td style="text-align: center">2
+     <td style="text-align: center">280.8
+     <td style="text-align: center">3.971
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1.5
+   <tr>
+     <td style="text-align: center">C2H5
+     <td style="text-align: center">2
+     <td style="text-align: center">252.3
+     <td style="text-align: center">4.302
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1.5
+   <tr>
+     <td style="text-align: center">C2H6
+     <td style="text-align: center">2
+     <td style="text-align: center">252.3
+     <td style="text-align: center">4.302
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1.5
+   <tr>
+     <td style="text-align: center">HCCO
+     <td style="text-align: center">2
+     <td style="text-align: center">150
+     <td style="text-align: center">2.5
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH2CO
+     <td style="text-align: center">2
+     <td style="text-align: center">436
+     <td style="text-align: center">3.97
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">CH2CHO
+     <td style="text-align: center">2
+     <td style="text-align: center">436
+     <td style="text-align: center">3.97
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">CH3CHO
+     <td style="text-align: center">2
+     <td style="text-align: center">436
+     <td style="text-align: center">3.97
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">CH3CO
+     <td style="text-align: center">2
+     <td style="text-align: center">436
+     <td style="text-align: center">3.97
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">H2CC
+     <td style="text-align: center">2
+     <td style="text-align: center">209
+     <td style="text-align: center">4.1
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2.5
+   <tr>
+     <td style="text-align: center">CH3O2
+     <td style="text-align: center">2
+     <td style="text-align: center">481.8
+     <td style="text-align: center">3.626
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH3OOH
+     <td style="text-align: center">2
+     <td style="text-align: center">481.8
+     <td style="text-align: center">3.626
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C2H5O2
+     <td style="text-align: center">2
+     <td style="text-align: center">470.6
+     <td style="text-align: center">4.41
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1.5
+   <tr>
+     <td style="text-align: center">C2H5OOH
+     <td style="text-align: center">2
+     <td style="text-align: center">470.6
+     <td style="text-align: center">4.41
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1.5
+   <tr>
+     <td style="text-align: center">C2H2OH
+     <td style="text-align: center">2
+     <td style="text-align: center">224.7
+     <td style="text-align: center">4.162
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C2H3OH
+     <td style="text-align: center">2
+     <td style="text-align: center">436
+     <td style="text-align: center">3.97
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">C2H4O
+     <td style="text-align: center">2
+     <td style="text-align: center">436
+     <td style="text-align: center">3.97
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">2
+   <tr>
+     <td style="text-align: center">C2H5OH
+     <td style="text-align: center">2
+     <td style="text-align: center">470.6
+     <td style="text-align: center">4.41
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1.5
+   <tr>
+     <td style="text-align: center">C2H4OH
+     <td style="text-align: center">2
+     <td style="text-align: center">470.6
+     <td style="text-align: center">4.41
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1.5
+   <tr>
+     <td style="text-align: center">CH3CHOH
+     <td style="text-align: center">2
+     <td style="text-align: center">470.6
+     <td style="text-align: center">4.41
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1.5
+   <tr>
+     <td style="text-align: center">C3H8
+     <td style="text-align: center">2
+     <td style="text-align: center">266.8
+     <td style="text-align: center">4.982
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">NC3H7
+     <td style="text-align: center">2
+     <td style="text-align: center">266.8
+     <td style="text-align: center">4.982
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC3H7
+     <td style="text-align: center">2
+     <td style="text-align: center">266.8
+     <td style="text-align: center">4.982
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C3H6
+     <td style="text-align: center">2
+     <td style="text-align: center">298.9
+     <td style="text-align: center">4.678
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C3H5
+     <td style="text-align: center">2
+     <td style="text-align: center">252
+     <td style="text-align: center">4.76
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH3CCH2
+     <td style="text-align: center">2
+     <td style="text-align: center">266.8
+     <td style="text-align: center">4.982
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">AC3H4
+     <td style="text-align: center">2
+     <td style="text-align: center">252
+     <td style="text-align: center">4.76
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">PC3H4
+     <td style="text-align: center">2
+     <td style="text-align: center">252
+     <td style="text-align: center">4.76
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C3H3
+     <td style="text-align: center">2
+     <td style="text-align: center">252
+     <td style="text-align: center">4.76
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C2H5CHO
+     <td style="text-align: center">2
+     <td style="text-align: center">435.2
+     <td style="text-align: center">4.662
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH3COCH3
+     <td style="text-align: center">2
+     <td style="text-align: center">435.5
+     <td style="text-align: center">4.86
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH3COCH2
+     <td style="text-align: center">2
+     <td style="text-align: center">435.5
+     <td style="text-align: center">4.86
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C2H3CHO
+     <td style="text-align: center">2
+     <td style="text-align: center">428.8
+     <td style="text-align: center">4.958
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C3H5OH
+     <td style="text-align: center">2
+     <td style="text-align: center">481.5
+     <td style="text-align: center">4.997
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">NC3H7O2
+     <td style="text-align: center">2
+     <td style="text-align: center">481.5
+     <td style="text-align: center">4.997
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">NC3H7OOH
+     <td style="text-align: center">2
+     <td style="text-align: center">481.5
+     <td style="text-align: center">4.997
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC3H7O2
+     <td style="text-align: center">2
+     <td style="text-align: center">481.5
+     <td style="text-align: center">4.997
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC3H7OOH
+     <td style="text-align: center">2
+     <td style="text-align: center">481.5
+     <td style="text-align: center">4.997
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H2
+     <td style="text-align: center">1
+     <td style="text-align: center">357
+     <td style="text-align: center">4.72
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">NC4H3
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC4H3
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H4
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">NC4H5
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC4H5
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H5-2
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H6
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">4.72
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H612
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H6-2
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H7
+     <td style="text-align: center">2
+     <td style="text-align: center">357.1
+     <td style="text-align: center">4.72
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC4H7
+     <td style="text-align: center">2
+     <td style="text-align: center">355
+     <td style="text-align: center">4.65
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC4H7-1
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.176
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H81
+     <td style="text-align: center">2
+     <td style="text-align: center">355
+     <td style="text-align: center">4.65
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H82
+     <td style="text-align: center">2
+     <td style="text-align: center">355
+     <td style="text-align: center">4.65
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC4H8
+     <td style="text-align: center">2
+     <td style="text-align: center">355
+     <td style="text-align: center">4.65
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">NC4H9
+     <td style="text-align: center">2
+     <td style="text-align: center">352
+     <td style="text-align: center">5.24
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">SC4H9
+     <td style="text-align: center">2
+     <td style="text-align: center">352
+     <td style="text-align: center">5.24
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC4H9
+     <td style="text-align: center">2
+     <td style="text-align: center">352
+     <td style="text-align: center">5.24
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">TC4H9
+     <td style="text-align: center">2
+     <td style="text-align: center">352
+     <td style="text-align: center">5.24
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C4H10
+     <td style="text-align: center">2
+     <td style="text-align: center">350.9
+     <td style="text-align: center">5.206
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC4H10
+     <td style="text-align: center">2
+     <td style="text-align: center">355.7
+     <td style="text-align: center">5.208
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">H2C4O
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH2CHCHCHO
+     <td style="text-align: center">2
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH3CHCHCO
+     <td style="text-align: center">1
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">CH3CHCHCHO
+     <td style="text-align: center">1
+     <td style="text-align: center">357
+     <td style="text-align: center">5.18
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C3H7CHO
+     <td style="text-align: center">2
+     <td style="text-align: center">464.2
+     <td style="text-align: center">5.009
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">IC3H7CHO
+     <td style="text-align: center">2
+     <td style="text-align: center">436.4
+     <td style="text-align: center">5.352
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C2H5COCH3
+     <td style="text-align: center">2
+     <td style="text-align: center">454
+     <td style="text-align: center">5.413
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">C2H3COCH3
+     <td style="text-align: center">2
+     <td style="text-align: center">454
+     <td style="text-align: center">5.413
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">1
+   <tr>
+     <td style="text-align: center">OH*
+     <td style="text-align: center">1
+     <td style="text-align: center">80
+     <td style="text-align: center">2.75
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+   <tr>
+     <td style="text-align: center">CH*
+     <td style="text-align: center">1
+     <td style="text-align: center">80
+     <td style="text-align: center">2.75
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+     <td style="text-align: center">0
+</table></div>
+<h3 id="binary-transport-database">
+    <a href="#binary-transport-database" class="anchor-heading" aria-labelledby="binary-transport-database"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Binary transport database
+</h3>
+<p>In the current FFCM-2 release, the binary transport coefficients are not considered. In FFCM-1, however, the transport library is appended with selected pairs of diffusion coefficients from <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>$^{,}$<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>$^{,}$<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup>$^{,}$<sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup>$^{,}$<sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote" rel="footnote">6</a></sup>$^{,}$<sup id="fnref:7" role="doc-noteref"><a href="#fn:7" class="footnote" rel="footnote">7</a></sup>. These are mostly pairs involving light species (H and H<sub>2</sub>). For these species, the repulsive part of the Lennard-Jones (L-J) 12-6 potential function is known to be too stiff to accurately model diffusion coefficients at high temperatures <sup id="fnref:8" role="doc-noteref"><a href="#fn:8" class="footnote" rel="footnote">8</a></sup>. For this reason, the diffusion coefficients of relevant, key pairs should be directly modeled without resorting to the use of tabulated L-J 12-6 collision integrals, as discussed in <sup id="fnref:2:1" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>${,}$<sup id="fnref:3:1" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>. Selected pairs of diffusion coefficients in the form of polynomial coefficients are adopted. These coefficients are obtained from the potential functions directly calculated from high-level quantum chemistry and quantum scattering calculations. The temperature dependence of binary diffusion coefficients at 1 atm is parameterized as</p>
+\[\begin{equation}
+    \ln D_{ij}=d_0+d_1\ln T+d_2(\ln T)^2+d_3(\ln T)^3
+\end{equation}\]
+<p>where $d_k$ (k=0,1,2,3) is the polynomial coefficients. For the mixture-averaged transport formulation, the above polynomial is sufficient for simulations. The multi-component transport formulation as well as the computation of thermal diffusion ratio in both transport formulations, however, requires the input of the ratios of collision integrals<sup id="fnref:KDW1986:1" role="doc-noteref"><a href="#fn:KDW1986" class="footnote" rel="footnote">1</a></sup>:</p>
+\[\begin{align}
+    A_{ij}^* &amp;= \Omega_{ij}^{(2,2)}/(2\Omega_{ij}^{(1,1)}) \\
+    B_{ij}^* &amp;= (5\Omega_{ij}^{(1,2)}-\Omega_{ij}^{(1,3)})/(3\Omega_{ij}^{(1,1)}) \\
+    C_{ij}^* &amp;= \Omega_{ij}^{(1,2)}/(3\Omega_{ij}^{(1,1)})
+\end{align}\]
+<p>The above ratios are also parameterized as</p>
+\[\begin{align}
+    A_{ij}^* &amp;= a_0+a_1\ln T_{ij}^*+a_2(\ln T_{ij}^*)^2+a_3(\ln T_{ij}^*)^3 \\
+    B_{ij}^* &amp;= b_0+a_1\ln T_{ij}^*+b_2(\ln T_{ij}^*)^2+b_3(\ln T_{ij}^*)^3 \\
+    C_{ij}^* &amp;= c_0+c_1\ln T_{ij}^*+c_2(\ln T_{ij}^*)^2+c_3(\ln T_{ij}^*)^3
+\end{align}\]
+<p>where $a_k$, $b_k$, and $c_k$ (k=0, 3) are the polynomial coefficients whose values are found also in Table 1, $T_{ij}^{*}$ is the reduced temperature $T_{ij}^{*} =kT/\varepsilon_{ij}$ and $\varepsilon_{ij}$ is the well depth. When implementing non-L-J potentials for the key pairs, however, $T_{ij}^{*}$ is undefined. Therefore, the tabulated coefficients for $A_{ij}^{*}$, $B_{ij}^{*}$, and $C_{ij}^{*}$ were calculated for the actual temperature $T_{ij}$ instead, and special handling was added for these coefficients in the transport data interpreter code. These polynomials can be implemented to both Cantera codes and ChemKin PREMIX codes. For example, the <a href="https://cantera.org/documentation/dev/sphinx/html/cython/transport.html#cantera.Transport.set_binary_diff_coeffs_polynomial">set_binary_diff_coeffs_polynomial</a> and <a href="https://cantera.org/documentation/dev/sphinx/html/cython/transport.html#cantera.Transport.set_collision_integral_polynomial">set_collision_integral_polynomial</a> subroutines in the latest version of Cantera (version 2.6.0) are useful.</p>
+<h2 id="references">
+    <a href="#references" class="anchor-heading" aria-labelledby="references"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> References
+</h2>
+<div class="footnotes" role="doc-endnotes">
+ <ol>
+   <li id="fn:KDW1986" role="doc-endnote">
+     <p>Kee R, Dixon-Lewis G, Warnatz J, Coltrin M, Miller J. Sandia report SAND86-8246. Sandia National Laboratories, New Mexico. 1986. <a href="#fnref:KDW1986" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:KDW1986:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+   <li id="fn:2" role="doc-endnote">
+     <p>Middha P, Yang B, Wang H. A first-principle calculation of the binary diffusion coefficients pertinent to kinetic modeling of hydrogen/oxygen/helium flames. Proc Combust Inst. 2002;29:1361-9. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:2:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+   <li id="fn:3" role="doc-endnote">
+     <p>Middha P, Wang H. First-principle calculation for the high-temperature diffusion coefficients of small pairs: The H-Ar case. Combust Theor Model. 2005;9:353-63. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:3:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+   <li id="fn:4" role="doc-endnote">
+     <p>Stallcop JR, Partridge H, Levin E. Effective potential energies and transport cross sections for atom-molecule interactions of nitrogen and oxygen. Phys Rev A. 2001;64:042722. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:5" role="doc-endnote">
+     <p>Stallcop JR, Partridge H, Walch SP, Levin E. H–N2 interaction energies, transport cross sections, and collision integrals. J Chem Phys. 1992;97:3431-6. <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:6" role="doc-endnote">
+     <p>Stallcop JR, Partridge H, Levin E. Effective potential energies and transport cross sections for interactions of hydrogen and nitrogen. Phys Rev A. 2000;62:062709. <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:7" role="doc-endnote">
+     <p>Stallcop JR, Levin E, Partridge H. Transport properties of hydrogen. J Thermophys Heat Transfer. 1998;12:514-9. <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:8" role="doc-endnote">
+     <p>Paul P, Warnatz J. A re-evaluation of the means used to calculate transport properties of reacting flows. Symp (Int) Combust. 1998;27:495-504. <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+ </ol>
+</div>
+ <hr>
+ <footer>
+     <p><a href="#top" id="back-to-top">Back to top</a></p>
+   <p class="text-small text-grey-dk-100 mb-0">Copyright &copy; 2023 Stanford Foundational Fuel Chemistry Model Initiative</p>
+     <div class="d-flex mt-2">
+     </div>
+ </footer>
+     </div>
+   </div>
+<div class="search-overlay"></div>
+ </div>
+    <script>
+  var config = {}
+;
+  mermaid.initialize(config);
+  window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
+  

@@ -1,0 +1,18 @@
+// custom SCSS (or CSS) goes here
+// the current setup resolves the overlapping navigation bar and main content
+
+.site-nav, .site-header, .site-footer {
+  width: 100%;
+}
+
+.side-bar {
+  @include mq(lg) {
+    width: $nav-width;
+  }
+}
+
+.main {
+  @include mq(lg) {
+    margin-left: $nav-width;
+  }
+}

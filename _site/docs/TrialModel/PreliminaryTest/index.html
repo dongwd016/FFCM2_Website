@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" href="/assets/css/just-the-docs-default.css">
+    <script src="/assets/js/vendor/lunr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@9.1.6/dist/mermaid.min.js"></script>
+  <script src="/assets/js/just-the-docs.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+<title>Preliminary Test | FFCM-2</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Preliminary Test" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A website for Foundational Fuel Chemistry Model Version 2" />
+<meta property="og:description" content="A website for Foundational Fuel Chemistry Model Version 2" />
+<link rel="canonical" href="http://localhost:4000/docs/TrialModel/PreliminaryTest/" />
+<meta property="og:url" content="http://localhost:4000/docs/TrialModel/PreliminaryTest/" />
+<meta property="og:site_name" content="FFCM-2" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Preliminary Test" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"A website for Foundational Fuel Chemistry Model Version 2","headline":"Preliminary Test","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/SU-SRI-logo.png"}},"url":"http://localhost:4000/docs/TrialModel/PreliminaryTest/"}</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css"
+    integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"
+    integrity="sha384-Qsn9KnoKISj6dI8g7p1HBlNpVx0I8p1SvlwOldgi3IorMle61nQy4zEahWYtljaz" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        // customised options
+        // • auto-render specific keys, e.g.:
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '\\[', right: '\\]', display: true }
+        ],
+        // • rendering keys, e.g.:
+        throwOnError: false
+      });
+    });
+  </script>
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+ <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+   <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+ <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+   <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+ <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+   <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+ <title id="svg-external-link-title">(external link)</title>
+ <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+ <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+   <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+ <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+<symbol id="svg-copy" viewBox="0 0 16 16">
+ <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+   <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+ <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+   <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+  </svg>
+</symbol>
+</svg>
+ <div class="side-bar">
+ <div class="site-header">
+    <a href="/" class="site-title lh-tight">
+ <div class="site-logo"></div>
+</a>
+    <a href="#" id="menu-button" class="site-button">
+      <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+    </a>
+ </div>
+ <nav aria-label="Main" id="site-nav" class="site-nav">
+     <ul class="nav-list"><li class="nav-list-item"><a href="/" class="nav-list-link">Home</a><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Introduction category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/Introduction/" class="nav-list-link">Introduction</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/Introduction/FoundationalFuels/" class="nav-list-link">Foundational Fuels</a><li class="nav-list-item "><a href="/docs/Introduction/FoundationalFuelsHistory/" class="nav-list-link">A Brief History</a></ul><li class="nav-list-item"><a href="/docs/Approach/" class="nav-list-link">Approach Overview</a><li class="nav-list-item active"><a href="#" class="nav-list-expander" aria-label="toggle links in Trial Model category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/TrialModel/" class="nav-list-link">Trial Model</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/TrialModel/Species/" class="nav-list-link">Species</a><li class="nav-list-item "><a href="/docs/TrialModel/Reactions/" class="nav-list-link">Reactions & Rate Constants</a><li class="nav-list-item "><a href="/docs/TrialModel/Thermochemistry/" class="nav-list-link">Thermochemical Data</a><li class="nav-list-item "><a href="/docs/TrialModel/Transport/" class="nav-list-link">Transport Data</a><li class="nav-list-item  active"><a href="/docs/TrialModel/PreliminaryTest/" class="nav-list-link active">Preliminary Test</a></ul><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Experimental Data category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/ExperimentalData/" class="nav-list-link">Experimental Data</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/ExperimentalData/DataUncertainty/" class="nav-list-link">Uncertainty Evaluation</a><li class="nav-list-item "><a href="/docs/ExperimentalData/DataHistory/" class="nav-list-link">A Brief History</a><li class="nav-list-item "><a href="/docs/ExperimentalData/SFCPD/" class="nav-list-link">Stanford Fundamental Combustion Property Database</a></ul><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Response Surface category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/ResponseSurface/" class="nav-list-link">Response Surface</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/ResponseSurface/ActiveParameters/" class="nav-list-link">Optimization Parameters</a><li class="nav-list-item "><a href="/docs/ResponseSurface/MonteCarlo/" class="nav-list-link">Monte Carlo Simulation</a><li class="nav-list-item "><a href="/docs/ResponseSurface/NeuralNetworks/" class="nav-list-link">Neural Networks</a></ul><li class="nav-list-item"><a href="/docs/Optimization/" class="nav-list-link">Optimization and Uncertainty Minimization</a><li class="nav-list-item"><a href="#" class="nav-list-expander" aria-label="toggle links in Results category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/docs/Results/" class="nav-list-link">Results</a><ul class="nav-list"><li class="nav-list-item "><a href="/docs/Results/Summary/" class="nav-list-link">Summary Results</a><li class="nav-list-item "><a href="/docs/Results/Validation/" class="nav-list-link">Model Validation</a><li class="nav-list-item "><a href="/docs/Results/Test/" class="nav-list-link">Additional Model Tests</a><li class="nav-list-item "><a href="/docs/Results/ActiveParameters/" class="nav-list-link">Active Parameters</a><li class="nav-list-item "><a href="/docs/Results/InconsistentTargets/" class="nav-list-link">Inconsistent Targets</a><li class="nav-list-item "><a href="/docs/Results/CovarianceMatrix/" class="nav-list-link">Covariance Matrix</a></ul><li class="nav-list-item"><a href="/docs/Download/" class="nav-list-link">Download</a><li class="nav-list-item"><a href="/docs/Application/" class="nav-list-link">Application</a></ul>
+ </nav>
+   <footer class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+   </footer>
+</div>
+ <div class="main" id="top">
+   <div id="main-header" class="main-header">
+<div class="search">
+ <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search FFCM-2" aria-label="Search FFCM-2" autocomplete="off">
+    <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+ </div>
+ <div id="search-results" class="search-results"></div>
+</div>
+   <nav aria-label="Auxiliary" class="aux-nav">
+ <ul class="aux-nav-list">
+     <li class="aux-nav-list-item">
+        <a href="/" class="site-button"
+        >
+          Foundational Fuel Chemistry Model Version 2 (FFCM-2)
+        </a>
+ </ul>
+</nav>
+</div>
+   <div id="main-content-wrap" class="main-content-wrap">
+   <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+     <ol class="breadcrumb-nav-list">
+         <li class="breadcrumb-nav-list-item"><a href="/docs/TrialModel/">Trial Model</a>
+       <li class="breadcrumb-nav-list-item"><span>Preliminary Test</span>
+     </ol>
+   </nav>
+     <div id="main-content" class="main-content" role="main">
+         <h1 class="no_toc" id="preliminary-test-and-updates-to-the-earlier-trial-model">
+    <a href="#preliminary-test-and-updates-to-the-earlier-trial-model" class="anchor-heading" aria-labelledby="preliminary-test-and-updates-to-the-earlier-trial-model"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Preliminary Test and Updates to the Earlier Trial Model
+</h1>
+<h2 class="no_toc text-delta" id="table-of-contents">
+    <a href="#table-of-contents" class="anchor-heading" aria-labelledby="table-of-contents"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Table of contents
+</h2>
+<ol id="markdown-toc">
+ <li><a href="#hco-prompt-dissociation" id="markdown-toc-hco-prompt-dissociation">HCO prompt dissociation</a>
+ <li><a href="#high-pressure-methane-ignition" id="markdown-toc-high-pressure-methane-ignition">High pressure methane ignition</a>
+ <li><a href="#abstraction-reaction-by-oxygen-at-the-allylic-site" id="markdown-toc-abstraction-reaction-by-oxygen-at-the-allylic-site">Abstraction reaction by oxygen at the allylic site</a>
+ <li><a href="#high-temperature-ethylene-ignition" id="markdown-toc-high-temperature-ethylene-ignition">High temperature ethylene ignition</a>
+ <li><a href="#isomerization-of-butene-isomers" id="markdown-toc-isomerization-of-butene-isomers">Isomerization of butene isomers</a>
+ <li><a href="#references" id="markdown-toc-references">References</a>
+</ol>
+<p>The trial model is subject to extensive preliminary test against targets and addition test cases. The preliminary test helps to identify kinetic issues in the trial model, e.g., missing reaction pathway, inappropriate rate coefficient assignment. Selected kinetics issues studied are discussed in detail.</p>
+<h2 id="hco-prompt-dissociation">
+    <a href="#hco-prompt-dissociation" class="anchor-heading" aria-labelledby="hco-prompt-dissociation"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> HCO prompt dissociation
+</h2>
+<p>An earlier version of trial model underpredicts the laminar flame speeds of fuel-rich acetylene and oxygen-diluted trioxane, and the preliminary optimization was not able to reconcile the data within the experimental uncertainties by adjusting the rate parameters within the physical limits. The discrepancy is likely due to the missing reactions of prompt dissociation of formyl radicals (HCO), as discussed by Labbe et al.<sup id="fnref:LSG2016" role="doc-noteref"><a href="#fn:LSG2016" class="footnote" rel="footnote">1</a></sup> The prompt dissociation indicates the weekly bound radicals with low dissociation energy barrier can decompose into a stable molecule and a radical during the vibrational-rotational relaxation process, at temperatures relevant to combustion of hydrocarbons.</p>
+<p>For example, the HCO prompt dissociation expands reaction</p>
+\[\begin{align}
+    &amp; \text{CH}_2\text{O} + \text{R} \rightleftharpoons \text{HCO} + \text{RH}
+\end{align}\]
+<p>into two reactions</p>
+\[\begin{align}
+    \text{CH}_2\text{O} + \text{R} &amp;\rightleftharpoons \text{HCO} + \text{RH}, \\
+    \text{CH}_2\text{O} + \text{R} &amp;\rightarrow \text{H + CO} + \text{RH}, 
+\end{align}\]
+<p>The rate constant for prompt dissociation reaction (Reaction 3) is obtained by multiplying a dissociation probability with the original rate constant (Reaction 1), where the dissociation probability is calculated by Labbe et al.<sup id="fnref:LSG2016:1" role="doc-noteref"><a href="#fn:LSG2016" class="footnote" rel="footnote">1</a></sup>. The rate constant of Reaction 2 is updated by subtracting the rate of Reaction 3 from the original Reaction 1.</p>
+<p>In the current work, we found the HCO prompt dissociation of Reaction 1 where $\text{R} = \text{H}, \text{O}$ and $\text{OH}$ is sufficient. With the updated trial model, the calculated laminar flame speeds are increased by around 12%, and is consistent with the experimental data within uncertainties.</p>
+<h2 id="high-pressure-methane-ignition">
+    <a href="#high-pressure-methane-ignition" class="anchor-heading" aria-labelledby="high-pressure-methane-ignition"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> High pressure methane ignition
+</h2>
+<p>In recent years, the increasing interest in using methane/natural gas for high pressure turbine requires a reaction model that can accurately predict high-pressure methane combustion, especially under high oxygen concentration. Although FFCM-1 was validated and tested against a wide range of combustion property targets for methane, it could not predict methane combustion under high pressure, high oxygen concentration conditions, as methyl-proxy (CH<sub>3</sub>O<sub>2</sub>) chemistry was not included. Recently, Shao et al.<sup id="fnref:SCD2019" role="doc-noteref"><a href="#fn:SCD2019" class="footnote" rel="footnote">2</a></sup> and Karimi et al.<sup id="fnref:KOL2019" role="doc-noteref"><a href="#fn:KOL2019" class="footnote" rel="footnote">3</a></sup> measured ignition delay times of high-pressure methane in highly diluted CO<sub>2</sub> and Ar using shock tubes. They showed that adding CH<sub>3</sub>O<sub>2</sub> chemistry to FFCM-1 could reproduce experiments of highly diluted mixtures for pressures up to 150 atm. The modified FFCM-1 overpredicts the ignition delay for mixtures with high oxygen concentration and pressures higher than 150 atm. The preliminary FFCM-2 optimization could not reconcile the data and it was found that the reaction of CH<sub>3</sub>O<sub>2</sub> with O<sub>2</sub> is critical under such conditions.</p>
+<p>Lakshmanan et al.<sup id="fnref:LHS2021" role="doc-noteref"><a href="#fn:LHS2021" class="footnote" rel="footnote">4</a></sup> studied the reaction pathways of CH<sub>3</sub>O<sub>2</sub> and O<sub>2</sub> using quantum chemical calculations and dynamic simulations. They found the reaction proceeds via a concerted mechanism: the H-atom shifts to the peroxy radical site and at the same time, O<sub>2</sub> is added to the C-H radical site. Two reaction pathways were proposed with rate constant expressions computed using transition state theory and master equation calculation,</p>
+\[\begin{equation}
+    \text{CH}_3\text{O}_2 + \text{O}_2 \rightarrow \text{CH}_2\text{O} + \text{OH + O}_2
+\end{equation}\]
+<p>with rate constant expression $k = 4.2 \times 10^{13} \exp(-8676/T)$ cm$^3$ mol$^{-1}$s$^{-1}$, and</p>
+\[\begin{equation}
+    \text{CH}_3\text{O}_2 + \text{O}_2 \rightarrow \text{HO}_2 + \text{CO + H}_2\text{O}
+\end{equation}\]
+<p>with rate constant expression $k = 467 T^{2.9} \exp(-20870/T)$ cm$^3$ mol$^{-1}$s$^{-1}$.</p>
+<p>The dominating products were found to be CH<sub>2</sub>O + O<sub>2</sub> + OH. With the two additional pathways, the trial model underpredicts the ignition delay, but optimization was able to adjust the rate constant within uncertainty limit to reconcile the data.</p>
+<h2 id="abstraction-reaction-by-oxygen-at-the-allylic-site">
+    <a href="#abstraction-reaction-by-oxygen-at-the-allylic-site" class="anchor-heading" aria-labelledby="abstraction-reaction-by-oxygen-at-the-allylic-site"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Abstraction reaction by oxygen at the allylic site
+</h2>
+<p>The ignition delay times for C<sub>3</sub>H<sub>6</sub>/air or <em>i</em>-C<sub>4</sub>H<sub>8</sub>/air mixtures at elevated pressure and high oxygen concentrations are sensitive to the allylic-site hydrogen abstraction reaction by molecular oxygen. The earlier trial model under-predicts ignition delay times under such conditions, indicating the rates assigned for the following reactions were too slow.</p>
+\[\begin{align}
+    i\text{-C}_4\text{H}_8 + \text{O}_2 &amp;\rightleftharpoons i\text{-C}_4\text{H}_7 + \text{HO}_2 \\
+    \text{C}_3\text{H}_6 + \text{O}_2 &amp;\rightleftharpoons a\text{-}\text{C}_3\text{H}_5 + \text{HO}_2
+\end{align}\]
+<p>In an earlier trial model, the rate constant expressions were adapated from Stothard et al.<sup id="fnref:SW1991" role="doc-noteref"><a href="#fn:SW1991" class="footnote" rel="footnote">5</a></sup> and Ingham et al.<sup id="fnref:IWW1994" role="doc-noteref"><a href="#fn:IWW1994" class="footnote" rel="footnote">6</a></sup> for propene and iso-butene, respectively. In their work, the rate constants were fitted to the low-temperature measurements and extrapolated to high-temperature region using a linear Arrhenius expression (no $T^n$ factor). For the <em>i</em>-C<sub>4</sub>H<sub>8</sub> reaction, Yasunaga et al.<sup id="fnref:YKI2009" role="doc-noteref"><a href="#fn:YKI2009" class="footnote" rel="footnote">7</a></sup> conducted shock tube ignition delay and species time-history measurements and the extrapolated high-temperature rate constants were too slow. Zhou et al. <sup id="fnref:ZSS2017" role="doc-noteref"><a href="#fn:ZSS2017" class="footnote" rel="footnote">8</a></sup> and Chen et al.<sup id="fnref:CB2000" role="doc-noteref"><a href="#fn:CB2000" class="footnote" rel="footnote">9</a></sup> performed transition state theory analyses and the results are consistent with the fit by Yasunaga et al.<sup id="fnref:YKI2009:1" role="doc-noteref"><a href="#fn:YKI2009" class="footnote" rel="footnote">7</a></sup> at elevated temperatures. Recently, Lokachari et al.<sup id="fnref:LPK2020" role="doc-noteref"><a href="#fn:LPK2020" class="footnote" rel="footnote">10</a></sup> fitted a new expression, considering theories and fits at high temperatures and experiments at lower temperatures. Their rate parameter was adopted in the trial model for iso-butene. For propene, we considered a refit of high-temperature data fit by Burke et al.<sup id="fnref:BMH2014" role="doc-noteref"><a href="#fn:BMH2014" class="footnote" rel="footnote">11</a></sup> and low-temperature measurements by Stothard et al.<sup id="fnref:SW1991:1" role="doc-noteref"><a href="#fn:SW1991" class="footnote" rel="footnote">5</a></sup>.</p>
+<h2 id="high-temperature-ethylene-ignition">
+    <a href="#high-temperature-ethylene-ignition" class="anchor-heading" aria-labelledby="high-temperature-ethylene-ignition"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> High temperature ethylene ignition
+</h2>
+<p>The earlier version of trial model over-predicts the ignition delay times of C<sub>2</sub>H<sub>4</sub>/air mixtures at elevated temperatures, and the optimization cannot reconcile the data by adjusting the rate parameters within the physical limits. Sensitivity analysis shows that the kinetics of C<sub>2</sub>H<sub>4</sub> + O is important under these conditions. In the earlier trial model, the rate parameters of C<sub>2</sub>H<sub>4</sub> + O system was adapted from the recommendation by Baulch et al.<sup id="fnref:BBC2005" role="doc-noteref"><a href="#fn:BBC2005" class="footnote" rel="footnote">12</a></sup>. Based on a series of low-temperature measurements, Baulch et al. assigned the rate parameters with product branching ratios as 60% CH<sub>3</sub> + HCO, 35% CH<sub>2</sub>CHO + H, and 5% CH<sub>2</sub>CO + H<sub>2</sub> at temperature T = 298 K and pressure p &lt; 1 bar. At elevated temperatures, Baulch et al.’s rate constants also predict ~60% products as CH<sub>3</sub> + HCO, which inhibits C<sub>2</sub>H<sub>4</sub> ignition. Recently, Li et al.<sup id="fnref:LJZ2017" role="doc-noteref"><a href="#fn:LJZ2017" class="footnote" rel="footnote">13</a></sup> investigated the kinetics of C<sub>2</sub>H<sub>4</sub> + O system using an ab initio transition state theory based master equation (AITSTME) approach. They also included an a priori description of the intersystem crossing (ISC). At room temperature, their calculated branching ratios are consistent with those of Baulch et al. At high temperatures, however, Li et al.’s theory predicts CH<sub>2</sub>CHO + H and CH<sub>2</sub> + CH<sub>2</sub>O as the major products. Clearly, these channels provide H radicals and promotes the reactivity. Directly applying Li et al.<sup id="fnref:LJZ2017:1" role="doc-noteref"><a href="#fn:LJZ2017" class="footnote" rel="footnote">13</a></sup>’s rate constants could lead to underprediction of ignition delay times for certain mixtures that are highly diluted. The discrepancy is further addressed by optimization. Note that although the C<sub>2</sub>H<sub>4</sub> + O kinetics affect the ignition delay times of C<sub>2</sub>H<sub>4</sub>/air mixtures, it has no sensitivity in modeling the real fuel chemistry (e.g., Jet A fuel) using the HyChem approach. In the HyChem modeling, the O radicals react with other pyrolytic products (e.g., H<sub>2</sub>) before reacting with C<sub>2</sub>H<sub>4</sub>.</p>
+<h2 id="isomerization-of-butene-isomers">
+    <a href="#isomerization-of-butene-isomers" class="anchor-heading" aria-labelledby="isomerization-of-butene-isomers"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Isomerization of butene isomers
+</h2>
+<p>In high-temperature combustion, the major decomposition products of many bio-derived sustainable aviation fuels, including the alcohol-to-jet (ATJ) fuel, is iso-butene. This is attributed to the highly-branched molecular structure of the fuels. Thus, an accurate iso-butene reaction kinetic model is critical to modeling these fuels. Recently, the importance of butene isomerization reactions in modeling iso-butene pyrolysis is acknowledged. Nagaraja et al.<sup id="fnref:NKP2020" role="doc-noteref"><a href="#fn:NKP2020" class="footnote" rel="footnote">14</a></sup> measured the species distribution of <em>i</em>-C<sub>4</sub>H<sub>8</sub> pyrolysis in single-pulse shock tube at pressure 2 atm and temperature 1000-1800 K. They found that the reaction model was not able to reproduce the 1-C<sub>4</sub>H<sub>8</sub> and 2-C<sub>4</sub>H<sub>8</sub> yields in experiments due to missing isomerization reactions.</p>
+\[\begin{align}
+    &amp;i\text{-C}_4\text{H}_8 \rightleftharpoons 1\text{-C}_4\text{H}_8, \\
+    &amp;i\text{-C}_4\text{H}_8 \rightleftharpoons 2\text{-C}_4\text{H}_8, \\
+    &amp;1\text{-C}_4\text{H}_8 \rightleftharpoons 2\text{-C}_4\text{H}_8
+\end{align}\]
+<p>In the current work, the butene isomerization reactions were included in trial model and their rate constants were determined via an approach that combines reaction rate theories and a constrained optimization against experimental data. The assigned trial rate constants are accomplished through a methylcyclopropane (MCP) intermediate. This is based on the experimental observations of Kalra et al.<sup id="fnref:KCL1999" role="doc-noteref"><a href="#fn:KCL1999" class="footnote" rel="footnote">15</a></sup> for methylcyclopropane shock tube isomerization to the butene isomers. Quantum calculations on cyclopropane ring opening to propene<sup id="fnref:DL1998a" role="doc-noteref"><a href="#fn:DL1998a" class="footnote" rel="footnote">16</a></sup> provide guidance for transition state parameters to this concerted hydrogen shift – ring opening process. We conducted master equation calculations (temperature $T = 1000-2000$ K, pressure $p = 1-10$ atm) with the Multiwell code to produce approximate trial model rate parameters for the isomerization reactions, thought to be peripheral at the time, adjusting the transition state parameters and barriers to mimic the MCP experimental results. Note for brevity our model uses a thermal average of the <em>cis-</em> and <em>trans-</em>2-butene and omits cyclic isomers. Optimization will refine these rates, which merit further study.</p>
+<h2 id="references">
+    <a href="#references" class="anchor-heading" aria-labelledby="references"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> References
+</h2>
+<div class="footnotes" role="doc-endnotes">
+ <ol>
+   <li id="fn:LSG2016" role="doc-endnote">
+     <p>Labbe, N. J., Sivaramakrishnan, R., Goldsmith, C. F., Georgievskii, Y., Miller, J. A., &amp; Klippenstein, S. J. (2016). Weakly bound free radicals in combustion:“Prompt” dissociation of formyl radicals and its effect on laminar flame speeds. The journal of physical chemistry letters, 7(1), 85-89. <a href="#fnref:LSG2016" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:LSG2016:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+   <li id="fn:SCD2019" role="doc-endnote">
+     <p>Shao, J., Choudhary, R., Davidson, D. F., Hanson, R. K., Barak, S., &amp; Vasu, S. (2019). Ignition delay times of methane and hydrogen highly diluted in carbon dioxide at high pressures up to 300 atm. Proceedings of the combustion institute, 37(4), 4555-4562. <a href="#fnref:SCD2019" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:KOL2019" role="doc-endnote">
+     <p>Karimi, M., Ochs, B., Liu, Z., Ranjan, D., &amp; Sun, W. (2019). Measurement of methane autoignition delays in carbon dioxide and argon diluents at high pressure conditions. Combustion and Flame, 204, 304-319. <a href="#fnref:KOL2019" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:LHS2021" role="doc-endnote">
+     <p>Lakshmanan, S., Hase, W. L., &amp; Smith, G. P. (2021). Mechanism and kinetics for the reaction of methyl peroxy radical with O 2. Physical Chemistry Chemical Physics, 23(41), 23508-23516. <a href="#fnref:LHS2021" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:SW1991" role="doc-endnote">
+     <p>Stothard, N. D., &amp; Walker, R. W. (1991). Determination of the arrhenius parameters for the initiation reaction C3H6+O2=CH2CHCH2+HO2. Journal of the Chemical Society, Faraday Transactions, 87(2), 241-247. <a href="#fnref:SW1991" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:SW1991:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+   <li id="fn:IWW1994" role="doc-endnote">
+     <p>Ingham, T., Walker, R. W., &amp; Woolford, R. E. (1994, January). Kinetic parameters for the initiation reaction RH+ O2→ R+ HO2. In Symposium (International) on Combustion (Vol. 25, No. 1, pp. 767-774). Elsevier. <a href="#fnref:IWW1994" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:YKI2009" role="doc-endnote">
+     <p>Yasunaga, K., Kuraguchi, Y., Ikeuchi, R., Masaoka, H., Takahashi, O., Koike, T., &amp; Hidaka, Y. (2009). Shock tube and modeling study of isobutene pyrolysis and oxidation. Proceedings of the Combustion Institute, 32(1), 453-460. <a href="#fnref:YKI2009" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:YKI2009:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+   <li id="fn:ZSS2017" role="doc-endnote">
+     <p>Zhou, C. W., Simmie, J. M., Somers, K. P., Goldsmith, C. F., &amp; Curran, H. J. (2017). Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2; implications for combustion modeling and simulation. The Journal of Physical Chemistry A, 121(9), 1890-1899. <a href="#fnref:ZSS2017" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:CB2000" role="doc-endnote">
+     <p>Chen, C. J., &amp; Bozzelli, J. W. (2000). Thermochemical property, pathway and kinetic analysis on the reactions of allylic isobutenyl radical with O2: an elementary reaction mechanism for isobutene oxidation. The Journal of Physical Chemistry A, 104(43), 9715-9732. <a href="#fnref:CB2000" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:LPK2020" role="doc-endnote">
+     <p>Lokachari, N., Panigrahy, S., Kukkadapu, G., Kim, G., Vasu, S. S., Pitz, W. J., &amp; Curran, H. J. (2020). The influence of iso-butene kinetics on the reactivity of di-isobutylene and iso-octane. Combustion and Flame, 222, 186-195. <a href="#fnref:LPK2020" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:BMH2014" role="doc-endnote">
+     <p>Burke, S. M., Metcalfe, W., Herbinet, O., Battin-Leclerc, F., Haas, F. M., Santner, J., … &amp; Curran, H. J. (2014). An experimental and modeling study of propene oxidation. Part 1: Speciation measurements in jet-stirred and flow reactors. Combustion and Flame, 161(11), 2765-2784. <a href="#fnref:BMH2014" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:BBC2005" role="doc-endnote">
+     <p>Baulch, D. L., Bowman, C. T., Cobos, C. J., Cox, R. A., Just, T., Kerr, J. A., … &amp; Warnatz, J. (2005). Evaluated kinetic data for combustion modeling: supplement II. Journal of physical and chemical reference data, 34(3), 757-1397. <a href="#fnref:BBC2005" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:LJZ2017" role="doc-endnote">
+     <p>Li, X., Jasper, A. W., Zádor, J., Miller, J. A., &amp; Klippenstein, S. J. (2017). Theoretical kinetics of O+ C2H4. Proceedings of the Combustion Institute, 36(1), 219-227. <a href="#fnref:LJZ2017" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:LJZ2017:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+   <li id="fn:NKP2020" role="doc-endnote">
+     <p>Nagaraja, S. S., Kukkadapu, G., Panigrahy, S., Liang, J., Lu, H., Pitz, W. J., &amp; Curran, H. J. (2020). A pyrolysis study of allylic hydrocarbon fuels. International Journal of Chemical Kinetics, 52(12), 964-978. <a href="#fnref:NKP2020" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:KCL1999" role="doc-endnote">
+     <p>Kalra, B. L., Cho, J. Y., &amp; Lewis, D. K. (1999). Kinetics of the thermal isomerization of methylcyclopropane. The Journal of Physical Chemistry A, 103(3), 362-364. <a href="#fnref:KCL1999" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+   <li id="fn:DL1998a" role="doc-endnote">
+     <p>Dubnikova, F., &amp; Lifshitz, A. (1998). Structural and geometrical isomerizations of cyclopropane. quantum chemical and RRKM calculations. The Journal of Physical Chemistry A, 102(19), 3299-3306. <a href="#fnref:DL1998a" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+ </ol>
+</div>
+ <hr>
+ <footer>
+     <p><a href="#top" id="back-to-top">Back to top</a></p>
+   <p class="text-small text-grey-dk-100 mb-0">Copyright &copy; 2023 Stanford Foundational Fuel Chemistry Model Initiative</p>
+     <div class="d-flex mt-2">
+     </div>
+ </footer>
+     </div>
+   </div>
+<div class="search-overlay"></div>
+ </div>
+    <script>
+  var config = {}
+;
+  mermaid.initialize(config);
+  window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
+  
