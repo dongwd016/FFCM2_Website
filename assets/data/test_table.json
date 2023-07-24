@@ -16,7 +16,7 @@
         "Pres": 2.0,
         "Phi": "0.58--1.50",
         "Method": "OPF",
-        "url": "/docs/TestPages/fls_AC3H4_2",
+        "url": "../../TestPages/fls_AC3H4_2",
         "key": "fls_AC3H4_2"
     },
     {
@@ -26,7 +26,7 @@
         "Pres": 1.0,
         "Phi": "0.70--2.00",
         "Method": "OPF",
-        "url": "\/docs\/TestPages\/fls_C2H2_10",
+        "url": "../../TestPages/fls_C2H2_10",
         "key": "fls_C2H2_10"
     },
     {
