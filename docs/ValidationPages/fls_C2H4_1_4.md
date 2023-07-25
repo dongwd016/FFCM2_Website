@@ -1,0 +1,25 @@
+---
+layout: validation
+parent: ValidationPages
+nav_exclude: true
+title: fls_C2H4_1_4
+temp: 298.0
+pres: 1.0
+phi: 0.8
+composition: 5.31% C2H4-19.89% O2-74.80% N2
+shortname: GZA2015, RSM2015, PVE2013, LKL2010, KMS2008, JZZ2005, HSJ2002, HAK1998
+datatype: Laminar flame speed
+definition: CFF
+exp_nominal: 48.73
+exp_uq: 2.55
+trial_nominal: 51.59
+trial_uq: 1.81
+opt_nominal: 49.45
+opt_uq: 0.71
+unit: cm/s
+uq_operation: $\pm$
+validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_C2H4_1.png
+sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C2H4_1_4.png
+reference: GZA2015 - Gao, X., Zhang, Y., Adusumilli, S., Seitzman, J., Sun, W., Ombrello, T., & Carter, C. (2015). The effect of ozone addition on laminar flame speed. Combustion and Flame, 162, 3914–3924.<br>RSM2015 - Ravi, S., Sikes, T. G., Morones, A., Keesee, C. L., & Petersen, E. L. (2015). Comparative study on the laminar flame speed enhancement of methane with ethane and ethylene addition. Proceedings of the Combustion Institute, 35, 679–686.<br>PVE2013 - Park, O., Veloo, P. S., & Egolfopoulos, F. N. (2013). Flame studies of C2 hydrocarbons. Proceedings of the Combustion Institute, 34, 711–718.<br>LKL2010 - Liu, W., Kelley, A. P., & Law, C. K. (2010). Flame propagation and counterflow nonpremixed ignition of mixtures of methane and ethylene. Combustion and Flame, 157, 1027–1036.<br>KMS2008 - Kumar, Kamal, Mittal, G., Sung, C. J., & Law, C. K. (2008). An experimental investigation of ethylene/O2/diluent mixtures Laminar flame speeds with preheat and ignition delays at high pressures. Combustion and Flame, 153, 343–354.<br>JZZ2005 - Jomaas, G., Zheng, X. L., Zhu, D. L., & Law, C. K. (2005). Experimental determination of counterflow ignition temperatures and laminar flame speeds of C2--C3 hydrocarbons at atmospheric and elevated pressures. Proceedings of the Combustion Institute, 30, 193–200.<br>HSJ2002 - Hirasawa, T., Sung, C. J., Joshi, A., Yang, Z., Wang, H., & Law, C. K. (2002). Determination of laminar flame speeds using digital particle image velocimetry Binary Fuel blends of ethylene, n-Butane, and toluene. Proceedings of the Combustion Institute, 29, 1427–1434.<br>HAK1998 - Hassan, M. I., Aung, K. T., Kwon, O. C., & Faeth, G. M. (1998). Properties of laminar premixed hydrocarbon/air flames at various pressures. Journal of Propulsion and Power, 14, 479–488.
+uq_unit: cm/s
+---
