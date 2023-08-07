@@ -3,12 +3,15 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C4H6_12
-temp: 295
+temp: 295.0
 pres: 1.00--18.00
 phi: 1.4
 shortname: ZZR2019
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_C4H6_12.png
-reference: ZZR2019
+reference: H. Zhao, Z. Zhang, Y. Rezgui, N. Zhao, Y. Ju, Studies of high pressure
+  1,3-butadiene flame speeds and high temperature kinetics using hydrogen and
+  oxygen sensitization, Combust. Flame 200 (2019) 135--141.
+
 ---

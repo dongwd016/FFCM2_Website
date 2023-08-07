@@ -10,5 +10,6 @@ shortname: Q1998
 datatype: Shock tube ignition delay measurement
 definition: onset pres
 test_plot: ../../../assets/data/test/ign_C3H8_70.png
-reference: Q1998
+reference: Z. Qin, Reaction mechanism of propane oxidation, Ph.D. thesis (1998).
+
 ---

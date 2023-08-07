@@ -10,5 +10,8 @@ shortname: GW1994
 datatype: Shock tube ignition delay measurement
 definition: max CH*
 test_plot: ../../../assets/data/test/ign_C3H8_20.png
-reference: GW1994
+reference: J. A. Gray, C. K. Westbrook, High-temperature ignition of propane with {MTBE}
+  as an additive: {Shock} tube experiments and modeling, Int. J. Chem. Kinet.
+  26 (1994) 757--770.
+
 ---

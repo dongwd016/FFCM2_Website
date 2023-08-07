@@ -10,5 +10,8 @@ shortname: PST2009
 datatype: Shock tube ignition delay measurement
 definition: max grad pres
 test_plot: ../../../assets/data/test/ign_C2H4_98.png
-reference: PST2009
+reference: O. G. Penyazkov, K. L. Sevrouk, V. Tangirala, N. Joshi, High-pressure ethylene
+  oxidation behind reflected shock waves, Proc. Combust. Inst. 32 (2009)
+  2421--2428.
+
 ---

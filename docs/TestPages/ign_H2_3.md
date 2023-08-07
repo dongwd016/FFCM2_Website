@@ -10,5 +10,7 @@ shortname: C1966
 datatype: Shock tube ignition delay measurement
 definition: onset OH*
 test_plot: ../../../assets/data/test/ign_H2_3.png
-reference: C1966
+reference: R. R. Craig, A shock tube study of the ignition delay of hydrogen-air mixtures
+  near the second explosion limit, Tech. rep. (1966).
+
 ---

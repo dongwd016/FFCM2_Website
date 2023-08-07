@@ -3,12 +3,15 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: ign_CH4_92
-temp: 1425
+temp: 1425.0
 pres: 36.6
 phi: 2.0
 shortname: PRD1996
 datatype: Shock tube ignition delay measurement
 definition: max grad pres
 test_plot: ../../../assets/data/test/ign_CH4_92.png
-reference: PRD1996
+reference: E. L. Petersen, M. R{\"{o}}hrig, D. F. Davidson, R. K. Hanson, C. T. Bowman,
+  High-pressure methane oxidation behind reflected shock waves, Symposium
+  (International) on Combustion 26 (1996) 799--806.
+
 ---

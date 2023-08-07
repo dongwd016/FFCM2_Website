@@ -10,5 +10,7 @@ shortname: BS1972
 datatype: Shock tube ignition delay measurement
 definition: max CH*
 test_plot: ../../../assets/data/test/ign_C2H4_11.png
-reference: BS1972
+reference: J. A. Baker, G. B. Skinner, Shock-tube studies on the ignition of
+  ethylene-oxygen-argon mixtures, Combust. Flame 19 (1972) 347--350.
+
 ---

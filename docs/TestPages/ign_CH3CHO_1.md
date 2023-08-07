@@ -10,5 +10,8 @@ shortname: YKH2008
 datatype: Shock tube ignition delay measurement
 definition: onset CO2
 test_plot: ../../../assets/data/test/ign_CH3CHO_1.png
-reference: YKH2008
+reference: K. Yasunaga, S. Kubo, H. Hoshlkawa, T. Kamesawa, Y. Hidaka, Shock-tube and
+  modeling study of acetaldehyde pyrolysis and oxidation, Int. J. Chem. Kinet.
+  40 (2008) 73--102.
+
 ---

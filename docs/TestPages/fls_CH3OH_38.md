@@ -3,12 +3,15 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH3OH_38
-temp: 318
+temp: 318.0
 pres: 1.0
 phi: 0.70--1.50
 shortname: SAV2014
 datatype: Laminar flame speed
 definition: HF
 test_plot: ../../../assets/data/test/fls_CH3OH_38.png
-reference: SAV2014
+reference: L. Sileghem, V. A. Alekseev, J. Vancoillie, E. J. Nilsson, S. Verhelst, A. A.
+  Konnov, Laminar burning velocities of primary reference fuels and simple
+  alcohols, Fuel 115 (2014) 32--40.
+
 ---

@@ -3,12 +3,14 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: pro_C4H4_3
-temp: 1171--1691
-pres: 1.30--2.30
+temp: 1328--2101
+pres: 8.0
 phi: Infinity
-shortname: HMO1992
+shortname: C1988
 datatype: Shock tube speciation measurement
-definition: C4H4 C/C0 C4H4
+definition: C4H2
 test_plot: ../../../assets/data/test/pro_C4H4_3.png
-reference: HMO1992
+reference: M. B. Colket, The pyrolysis of acetylene and vinylacetylene in a single-pulse
+  shock tube, Symposium (International) on Combustion 21 (1988) 851--864.
+
 ---

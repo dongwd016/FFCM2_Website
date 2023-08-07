@@ -10,5 +10,7 @@ shortname: C1988
 datatype: Shock tube speciation measurement
 definition: C2H2
 test_plot: ../../../assets/data/test/pro_C4H4_1.png
-reference: C1988
+reference: M. B. Colket, The pyrolysis of acetylene and vinylacetylene in a single-pulse
+  shock tube, Symposium (International) on Combustion 21 (1988) 851--864.
+
 ---

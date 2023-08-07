@@ -10,5 +10,7 @@ shortname: CW1975
 datatype: Shock tube ignition delay measurement
 definition: max grad pres
 test_plot: ../../../assets/data/test/ign_C2H6_22.png
-reference: CW1975
+reference: D. Cooke, A. Williams, Shock tube studies of methane and ethane oxidation,
+  Combust. Flame 24 (1975) 245--256.
+
 ---

@@ -3,12 +3,15 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_H2_44
-temp: 303
+temp: 303.0
 pres: 0.30--1.70
 phi: 1.7
 shortname: DHD2014
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_H2_44.png
-reference: DHD2014
+reference: G. Dayma, F. Halter, P. Dagaut, New insights into the peculiar behavior of
+  laminar burning velocities of hydrogen--air flames according to pressure and
+  equivalence ratio, Combust. Flame 161 (2014) 2235--2241.
+
 ---
