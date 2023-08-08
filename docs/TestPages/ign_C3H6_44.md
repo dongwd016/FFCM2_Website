@@ -10,7 +10,7 @@ shortname: QYG2001
 datatype: Shock tube ignition delay measurement
 definition: onset pres
 test_plot: ../../../assets/data/test/ign_C3H6_44.png
-reference: Z. Qin, H. Yang, W. C. Gardiner, Measurement and modeling of shock-tube
+reference: QYG2001 - Z. Qin, H. Yang, W. C. Gardiner, Measurement and modeling of shock-tube
   ignition delay for propene, Combust. Flame 124 (2001) 246--254.
 
 ---

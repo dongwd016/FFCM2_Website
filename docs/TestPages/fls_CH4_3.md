@@ -10,7 +10,7 @@ shortname: ECL1989
 datatype: Laminar flame speed
 definition: CFF
 test_plot: ../../../assets/data/test/fls_CH4_3.png
-reference: F. N. Egolfopoulos, P. Cho, C. K. Law, Laminar flame speeds of methane-air
+reference: ECL1989 - F. N. Egolfopoulos, P. Cho, C. K. Law, Laminar flame speeds of methane-air
   mixtures under reduced and elevated pressures, Combust. Flame 76 (1989)
   375--391.
 

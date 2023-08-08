@@ -10,7 +10,7 @@ shortname: TIF1993
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_C3H8_48.png
-reference: L. K. Tseng, M. A. Ismail, G. M. Faeth, Laminar burning velocities and
+reference: TIF1993 - L. K. Tseng, M. A. Ismail, G. M. Faeth, Laminar burning velocities and
   {Markstein} numbers of hydrocarbonair flames, Combust. Flame 95 (1993)
   410--426.
 

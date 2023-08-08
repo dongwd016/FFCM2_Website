@@ -10,7 +10,7 @@ shortname: EZL1990
 datatype: Laminar flame speed
 definition: CFF
 test_plot: ../../../assets/data/test/fls_C2H4_1.png
-reference: F. N. Egolfopoulos, D. L. Zhu, C. K. Law, Experimental and numerical
+reference: EZL1990 - F. N. Egolfopoulos, D. L. Zhu, C. K. Law, Experimental and numerical
   determination of laminar flame speeds: {Mixtures} of {C2}-hydrocarbons with
   oxygen and nitrogen, Symposium (International) on Combustion 23 (1990)
   471--478.

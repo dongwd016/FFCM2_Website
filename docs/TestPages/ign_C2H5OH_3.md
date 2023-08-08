@@ -10,7 +10,7 @@ shortname: BDH2015
 datatype: Shock tube ignition delay measurement
 definition: max CH*
 test_plot: ../../../assets/data/test/ign_C2H5OH_3.png
-reference: M. Braun-Unkhoff, J. Dembowski, J. Herzler, J. Karle, C. Naumann, U. Riedel,
+reference: BDH2015 - M. Braun-Unkhoff, J. Dembowski, J. Herzler, J. Karle, C. Naumann, U. Riedel,
   Alternative fuels based on biomass: {An} experimental and modeling study of
   ethanol cofiring to natural gas, J. Eng. Gas Turbines Power 137 (Sep. 2015).
 

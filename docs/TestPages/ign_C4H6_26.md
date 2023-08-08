@@ -10,7 +10,7 @@ shortname: ZLB2018
 datatype: Shock tube ignition delay measurement
 definition: max grad pres
 test_plot: ../../../assets/data/test/ign_C4H6_26.png
-reference: C.-W. Zhou, Y. Li, U. Burke, C. Banyon, K. P. Somers, S. Ding, S. Khan, J. W.
+reference: ZLB2018 - C.-W. Zhou, Y. Li, U. Burke, C. Banyon, K. P. Somers, S. Ding, S. Khan, J. W.
   Hargis, T. Sikes, O. Mathieu, E. L. Petersen, M. AlAbbad, A. Farooq, Y. Pan,
   Y. Zhang, Z. Huang, J. Lopez, Z. Loparo, S. S. Vasu, H. J. Curran, An
   experimental and chemical kinetic modeling study of 1,3-butadiene combustion:

@@ -10,7 +10,7 @@ shortname: CS2001
 datatype: Shock tube ignition delay measurement
 definition: max grad pres
 test_plot: ../../../assets/data/test/ign_C2H4_17.png
-reference: M. B. Colket, L. J. Spadaccini, Scramjet {Fuels} {Autoignition} {Study}, J.
+reference: CS2001 - M. B. Colket, L. J. Spadaccini, Scramjet {Fuels} {Autoignition} {Study}, J.
   Propul. Power 17 (2001) 315--323.
 
 ---

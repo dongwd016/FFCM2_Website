@@ -10,7 +10,7 @@ shortname: LBR2019
 datatype: Shock tube ignition delay measurement
 definition: max grad pres
 test_plot: ../../../assets/data/test/ign_C2H2_27.png
-reference: N. Lokachari, U. Burke, A. Ramalingam, M. Turner, R. Hesse, K. P. Somers,
+reference: LBR2019 - N. Lokachari, U. Burke, A. Ramalingam, M. Turner, R. Hesse, K. P. Somers,
   J. Beeckmann, K. A. Heufer, E. L. Petersen, H. J. Curran, New experimental
   insights into acetylene oxidation through novel ignition delay times, laminar
   burning velocities and chemical kinetic modelling, Proc. Combust. Inst. 37

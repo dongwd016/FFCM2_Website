@@ -10,7 +10,7 @@ shortname: GBD2016
 datatype: Laminar flame speed
 definition: HF
 test_plot: ../../../assets/data/test/fls_C3H8_13.png
-reference: M. Goswami, R. J. Bastiaans, L. P. De Goey, A. A. Konnov, Experimental and
+reference: GBD2016 - M. Goswami, R. J. Bastiaans, L. P. De Goey, A. A. Konnov, Experimental and
   modelling study of the effect of elevated pressure on ethane and propane
   flames, Fuel 166 (2016) 410--418.
 

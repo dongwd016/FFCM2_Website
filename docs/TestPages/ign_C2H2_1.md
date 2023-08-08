@@ -10,7 +10,7 @@ shortname: EF2003
 datatype: Shock tube ignition delay measurement
 definition: max CO
 test_plot: ../../../assets/data/test/ign_C2H2_1.png
-reference: B. Eiteneer, M. Frenklach, Experimental and modeling study of shock-tube
+reference: EF2003 - B. Eiteneer, M. Frenklach, Experimental and modeling study of shock-tube
   oxidation of acetylene, Int. J. Chem. Kinet. 35 (2003) 391--414.
 
 ---

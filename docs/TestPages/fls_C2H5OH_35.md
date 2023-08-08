@@ -10,7 +10,7 @@ shortname: SAV2014
 datatype: Laminar flame speed
 definition: HF
 test_plot: ../../../assets/data/test/fls_C2H5OH_35.png
-reference: L. Sileghem, V. A. Alekseev, J. Vancoillie, E. J. Nilsson, S. Verhelst, A. A.
+reference: SAV2014 - L. Sileghem, V. A. Alekseev, J. Vancoillie, E. J. Nilsson, S. Verhelst, A. A.
   Konnov, Laminar burning velocities of primary reference fuels and simple
   alcohols, Fuel 115 (2014) 32--40.
 

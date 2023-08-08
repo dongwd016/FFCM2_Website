@@ -10,7 +10,7 @@ shortname: MK1980
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_C3H8_36.png
-reference: M. Metghalchi, J. C. Keck, Laminar burning velocity of propane-air mixtures at
+reference: MK1980 - M. Metghalchi, J. C. Keck, Laminar burning velocity of propane-air mixtures at
   high temperature and pressure, Combust. Flame 38 (1980) 143--154.
 
 ---

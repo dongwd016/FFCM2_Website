@@ -10,7 +10,7 @@ shortname: MM1956
 datatype: Laminar flame speed
 definition: BF
 test_plot: ../../../assets/data/test/fls_C2H2_12.png
-reference: {J. Manton}, {B.B. Milliken}, Study of pressure dependence of burning velocity
+reference: MM1956 - {J. Manton}, {B.B. Milliken}, Study of pressure dependence of burning velocity
   by the spherical vessel method, Proc. Gas Dynamics Symposium on
   Aerothermochemistry (1956) 161.
 

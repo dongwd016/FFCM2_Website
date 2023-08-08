@@ -10,7 +10,7 @@ shortname: G2014
 datatype: Shock tube ignition delay measurement
 definition: max grad CH*
 test_plot: ../../../assets/data/test/ign_C2H5OH_7.png
-reference: F. R. Gillespie, An experimental and modelling study of the combustion of
+reference: G2014 - F. R. Gillespie, An experimental and modelling study of the combustion of
   oxygenated hydrocarbons, Ph.D. thesis (2014).
 
 ---

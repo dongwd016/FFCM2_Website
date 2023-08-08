@@ -10,7 +10,7 @@ shortname: GHL2000
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_CH4_9.png
-reference: X. J. Gu, M. Z. Haq, M. Lawes, R. Woolley, Laminar burning velocity and
+reference: GHL2000 - X. J. Gu, M. Z. Haq, M. Lawes, R. Woolley, Laminar burning velocity and
   {Markstein} lengths of methane--air mixtures, Combust. Flame 121 (2000)
   41--58.
 

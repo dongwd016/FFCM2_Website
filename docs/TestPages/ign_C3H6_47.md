@@ -10,7 +10,7 @@ shortname: SZL2021
 datatype: Shock tube ignition delay measurement
 definition: onset OH*
 test_plot: ../../../assets/data/test/ign_C3H6_47.png
-reference: W. Sun, Y. Zhang, Y. Li, Z. Huang, Hierarchical {Auto}-{Ignition} and
+reference: SZL2021 - W. Sun, Y. Zhang, Y. Li, Z. Huang, Hierarchical {Auto}-{Ignition} and
   {Structure}-{Reactivity} {Trends} of {C2}--{C4} 1-{Alkenes}, Energies 14
   (2021) 5797.
 

@@ -10,7 +10,7 @@ shortname: VE2011
 datatype: Laminar flame speed
 definition: CFF
 test_plot: ../../../assets/data/test/fls_C3H8_51.png
-reference: P. S. Veloo, F. N. Egolfopoulos, Studies of n-propanol, iso-propanol, and
+reference: VE2011 - P. S. Veloo, F. N. Egolfopoulos, Studies of n-propanol, iso-propanol, and
   propane flames, Combust. Flame 158 (2011) 501--510.
 
 ---

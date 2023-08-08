@@ -10,7 +10,7 @@ shortname: DHS2007
 datatype: Shock tube ignition delay measurement
 definition: max grad pres
 test_plot: ../../../assets/data/test/ign_C2H6_28.png
-reference: J. Devries, J. Hall, S. Simmons, M. Rickard, D. Kalitan, E. Petersen, Ethane
+reference: DHS2007 - J. Devries, J. Hall, S. Simmons, M. Rickard, D. Kalitan, E. Petersen, Ethane
   ignition and oxidation behind reflected shock waves, Combust. Flame 150
   (2007) 137--150.
 

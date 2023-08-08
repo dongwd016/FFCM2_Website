@@ -10,7 +10,7 @@ shortname: BR1985
 datatype: Shock tube ignition delay measurement
 definition: max grad pres
 test_plot: ../../../assets/data/test/ign_C3H6_34.png
-reference: A. Burcat, K. Radhakrishnan, High temperature oxidation of propene, Combust.
+reference: BR1985 - A. Burcat, K. Radhakrishnan, High temperature oxidation of propene, Combust.
   Flame 60 (1985) 157--169.
 
 ---

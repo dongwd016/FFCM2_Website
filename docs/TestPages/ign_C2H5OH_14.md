@@ -10,7 +10,7 @@ shortname: KKA2015
 datatype: Shock tube ignition delay measurement
 definition: onset CH*
 test_plot: ../../../assets/data/test/ign_C2H5OH_14.png
-reference: I. N. Kosarev, S. V. Kindysheva, N. L. Aleksandrov, A. Y. Starikovskiy,
+reference: KKA2015 - I. N. Kosarev, S. V. Kindysheva, N. L. Aleksandrov, A. Y. Starikovskiy,
   Ignition of ethanol-containing mixtures excited by nanosecond discharge above
   self-ignition threshold, Combust. Flame 162 (2015) 50--59.
 

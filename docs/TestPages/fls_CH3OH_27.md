@@ -10,7 +10,7 @@ shortname: KAM2016
 datatype: Laminar flame speed
 definition: BF
 test_plot: ../../../assets/data/test/fls_CH3OH_27.png
-reference: A. Katoch, M. Asad, S. Minaev, S. Kumar, Measurement of laminar burning
+reference: KAM2016 - A. Katoch, M. Asad, S. Minaev, S. Kumar, Measurement of laminar burning
   velocities of methanol-air mixtures at elevated temperatures, Fuel 182 (2016)
   57--63.
 

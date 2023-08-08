@@ -10,7 +10,7 @@ shortname: NSN2015
 datatype: Laminar flame speed
 definition: BF
 test_plot: ../../../assets/data/test/fls_CH3OH_36.png
-reference: J. D. Naucler, L. Sileghem, E. J. K. Nilsson, S. Verhelst, A. A. Konnov,
+reference: NSN2015 - J. D. Naucler, L. Sileghem, E. J. K. Nilsson, S. Verhelst, A. A. Konnov,
   Performance of methanol kinetic mechanisms at oxy-fuel conditions, Combust.
   Flame 162 (2015) 1719--1728.
 

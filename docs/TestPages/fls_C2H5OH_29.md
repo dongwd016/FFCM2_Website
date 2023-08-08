@@ -10,7 +10,7 @@ shortname: LJH2007a
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_C2H5OH_29.png
-reference: S. Y. Liao, D. M. Jiang, Z. H. Huang, W. D. Shen, C. Yuan, Q. Cheng, Laminar
+reference: LJH2007a - S. Y. Liao, D. M. Jiang, Z. H. Huang, W. D. Shen, C. Yuan, Q. Cheng, Laminar
   burning velocities for mixtures of methanol and air at elevated temperatures,
   Energy Convers. Manage. 48 (2007) 857--863.
 

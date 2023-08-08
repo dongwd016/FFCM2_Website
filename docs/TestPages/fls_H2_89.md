@@ -10,7 +10,7 @@ shortname: KKB1993
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_H2_89.png
-reference: G. W. Koroll, R. K. Kumar, E. M. Bowles, Burning velocities of hydrogen-air
+reference: KKB1993 - G. W. Koroll, R. K. Kumar, E. M. Bowles, Burning velocities of hydrogen-air
   mixtures, Combust. Flame 94 (1993) 330--340.
 
 ---

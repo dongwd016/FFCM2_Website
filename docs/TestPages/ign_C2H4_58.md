@@ -10,7 +10,7 @@ shortname: J1977
 datatype: Shock tube ignition delay measurement
 definition: max CO times O
 test_plot: ../../../assets/data/test/ign_C2H4_58.png
-reference: C. J. Jachimowski, An experimental and analytical study of acetylene and
+reference: J1977 - C. J. Jachimowski, An experimental and analytical study of acetylene and
   ethylene oxidation behind shock waves, Combust. Flame 29 (1977) 55--66.
 
 ---

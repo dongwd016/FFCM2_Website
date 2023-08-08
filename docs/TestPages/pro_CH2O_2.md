@@ -10,7 +10,7 @@ shortname: DJS1980
 datatype: Shock tube speciation measurement
 definition: time CH2O C/C0 CH2O
 test_plot: ../../../assets/data/test/pro_CH2O_2.png
-reference: A. M. Dean, R. L. Johnson, D. C. Steiner, Shock-tube studies of formaldehyde
+reference: DJS1980 - A. M. Dean, R. L. Johnson, D. C. Steiner, Shock-tube studies of formaldehyde
   oxidation, Combust. Flame 37 (1980) 41--62.
 
 ---

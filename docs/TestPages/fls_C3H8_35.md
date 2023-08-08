@@ -10,7 +10,7 @@ shortname: MG1994
 datatype: Laminar flame speed
 definition: HF
 test_plot: ../../../assets/data/test/fls_C3H8_35.png
-reference: A. V. Maaren, d. Goey, Stretch and the adiabatic burning velocity of methane
+reference: MG1994 - A. V. Maaren, d. Goey, Stretch and the adiabatic burning velocity of methane
   and propane-air flames, Combust. Sci. Technol. 102 (1994) 309--314.
 
 ---

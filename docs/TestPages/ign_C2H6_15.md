@@ -10,7 +10,7 @@ shortname: BPM2020
 datatype: Shock tube ignition delay measurement
 definition: max grad pres
 test_plot: ../../../assets/data/test/ign_C2H6_15.png
-reference: M. Baigmohammadi, V. Patel, S. Martinez, S. Panigrahy, A. Ramalingam, U. Burke,
+reference: BPM2020 - M. Baigmohammadi, V. Patel, S. Martinez, S. Panigrahy, A. Ramalingam, U. Burke,
   K. P. Somers, K. A. Heufer, A. Pekalski, H. J. Curran, A {Comprehensive}
   {Experimental} and {Simulation} {Study} of {Ignition} {Delay} {Time}
   {Characteristics} of {Single} {Fuel} c1--c2 {Hydrocarbons} over a {Wide}

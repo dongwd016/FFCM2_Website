@@ -10,7 +10,7 @@ shortname: BLM2009
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_C2H5OH_7.png
-reference: D. Bradley, M. Lawes, M. S. Mansour, Explosion bomb measurements of
+reference: BLM2009 - D. Bradley, M. Lawes, M. S. Mansour, Explosion bomb measurements of
   ethanol--air laminar gaseous flame characteristics at pressures up to
   1.4{ }{MPa}, Combust. Flame 156 (2009) 1462--1470.
 

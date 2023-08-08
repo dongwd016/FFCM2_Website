@@ -10,7 +10,7 @@ shortname: BCP2014
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_CH3OH_1.png
-reference: J. Beeckmann, L. Cai, H. Pitsch, Experimental investigation of the laminar
+reference: BCP2014 - J. Beeckmann, L. Cai, H. Pitsch, Experimental investigation of the laminar
   burning velocities of methanol, ethanol, n-propanol, and n-butanol at high
   pressure, Fuel 117 (2014) 340--350.
 

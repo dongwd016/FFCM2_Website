@@ -10,7 +10,7 @@ shortname: BBM2015
 datatype: Shock tube ignition delay measurement
 definition: max grad pres
 test_plot: ../../../assets/data/test/ign_C3H6_27.png
-reference: S. M. Burke, U. Burke, R. Mc Donagh, O. Mathieu, I. Osorio, C. Keesee,
+reference: BBM2015 - S. M. Burke, U. Burke, R. Mc Donagh, O. Mathieu, I. Osorio, C. Keesee,
   A. Morones, E. L. Petersen, W. Wang, T. A. DeVerter, M. A. Oehlschlaeger,
   B. Rhodes, R. K. Hanson, D. F. Davidson, B. W. Weber, C. J. Sung, J. Santner,
   Y. Ju, F. M. Haas, F. L. Dryer, E. N. Volkov, E. J. Nilsson, A. A. Konnov,

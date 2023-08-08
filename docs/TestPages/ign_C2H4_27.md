@@ -10,7 +10,7 @@ shortname: DRH2012
 datatype: Shock tube ignition delay measurement
 definition: max grad pres
 test_plot: ../../../assets/data/test/ign_C2H4_27.png
-reference: D. F. Davidson, W. Ren, R. K. Hanson, Experimental database for development of
+reference: DRH2012 - D. F. Davidson, W. Ren, R. K. Hanson, Experimental database for development of
   a {HiFiRE} {JP}-7 surrogate fuel mechanism, 50\textsuperscript{th} AIAA
   Aerospace Sciences Meeting Including the New Horizons Forum and Aerospace
   Exposition (2012).

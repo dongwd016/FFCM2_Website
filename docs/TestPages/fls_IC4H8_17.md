@@ -10,7 +10,7 @@ shortname: ZLO2016
 datatype: Laminar flame speed
 definition: HF
 test_plot: ../../../assets/data/test/fls_IC4H8_17.png
-reference: C.-W. Zhou, Y. Li, E. O'Connor, K. P. Somers, S. Thion, C. Keesee, O. Mathieu,
+reference: ZLO2016 - C.-W. Zhou, Y. Li, E. O'Connor, K. P. Somers, S. Thion, C. Keesee, O. Mathieu,
   E. L. Petersen, T. A. DeVerter, M. A. Oehlschlaeger, G. Kukkadapu, C.-J.
   Sung, M. Alrefae, F. Khaled, A. Farooq, P. Dirrenberger, P.-A. Glaude,
   F. Battin-Leclerc, J. Santner, Y. Ju, T. Held, F. M. Haas, F. L. Dryer, H. J.

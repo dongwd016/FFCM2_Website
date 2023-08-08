@@ -10,7 +10,7 @@ shortname: BD2004
 datatype: Laminar flame speed
 definition: HF
 test_plot: ../../../assets/data/test/fls_IC4H10_1.png
-reference: K. J. Bosschaart, L. P. De Goey, The laminar burning velocity of flames
+reference: BD2004 - K. J. Bosschaart, L. P. De Goey, The laminar burning velocity of flames
   propagating in mixtures of hydrocarbons and air measured with the heat flux
   method, Combust. Flame 136 (2004) 261--269.
 

@@ -10,7 +10,7 @@ shortname: HTM2010
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_CH4_23.png
-reference: F. Halter, T. Tahtouh, C. Mouna{\"{i}}m-Rousselle, Nonlinear effects of stretch
+reference: HTM2010 - F. Halter, T. Tahtouh, C. Mouna{\"{i}}m-Rousselle, Nonlinear effects of stretch
   on the flame front propagation, Combust. Flame 157 (2010) 1825--1832.
 
 ---

@@ -10,6 +10,6 @@ shortname: E2022
 datatype: Laminar flame speed
 definition: CFF
 test_plot: ../../../assets/data/test/fls_C3H8_8.png
-reference: F. N. Egolfopoulos, Personal communication (2022).
+reference: E2022 - F. N. Egolfopoulos, Personal communication (2022).
 
 ---

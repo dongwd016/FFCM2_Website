@@ -10,7 +10,7 @@ shortname: KMH2013
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_H2_95.png
-reference: A. K{\'{e}}romn{\`{e}}s, W. K. Metcalfe, K. A. Heufer, N. Donohoe, A. K. Das,
+reference: KMH2013 - A. K{\'{e}}romn{\`{e}}s, W. K. Metcalfe, K. A. Heufer, N. Donohoe, A. K. Das,
   C.-J. Sung, J. Herzler, C. Naumann, P. Griebel, O. Mathieu, M. C. Krejci,
   E. L. Petersen, W. J. Pitz, H. J. Curran, An experimental and detailed
   chemical kinetic modeling study of hydrogen and syngas mixture oxidation at

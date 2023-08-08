@@ -10,7 +10,7 @@ shortname: LKL2010
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_C2H4_25.png
-reference: W. Liu, A. P. Kelley, C. K. Law, Flame propagation and counterflow nonpremixed
+reference: LKL2010 - W. Liu, A. P. Kelley, C. K. Law, Flame propagation and counterflow nonpremixed
   ignition of mixtures of methane and ethylene, Combust. Flame 157 (2010)
   1027--1036.
 
