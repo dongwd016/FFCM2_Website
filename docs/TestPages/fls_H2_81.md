@@ -10,7 +10,5 @@ shortname: KF2001
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_H2_81.png
-reference: KF2001 - O. C. Kwon, G. M. Faeth, Flame/stretch interactions of premixed hydrogen-fueled
-  flames: measurements and predictions, Combust. Flame 124 (2001) 590--610.
-
+reference: KF2001 - O. C. Kwon, G. M. Faeth, Flame/stretch interactions of premixed hydrogen-fueled flames: measurements and predictions, Combust. Flame 124 (2001) 590--610.
 ---

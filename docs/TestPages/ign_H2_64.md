@@ -10,8 +10,5 @@ shortname: S1977
 datatype: Shock tube ignition delay measurement
 definition: max grad OH*
 test_plot: ../../../assets/data/test/ign_H2_64.png
-reference: S1977 - M. W. Slack, Rate coefficient for {H} + {O2} + {M} = {HO2} + {M} evaluated from
-  shock tube measurements of induction times, Combust. Flame 28 (1977)
-  241--249.
-
+reference: S1977 - M. W. Slack, Rate coefficient for {H} + {O2} + {M} = {HO2} + {M} evaluated from shock tube measurements of induction times, Combust. Flame 28 (1977) 241--249.
 ---

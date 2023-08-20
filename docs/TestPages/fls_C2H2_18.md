@@ -11,5 +11,4 @@ datatype: Laminar flame speed
 definition: BF
 test_plot: ../../../assets/data/test/fls_C2H2_18.png
 reference: S1937 - F. A. Smith, Problems of {Stationary} {Flames}, Chem. Rev. 21 (1937) 389--412.
-
 ---

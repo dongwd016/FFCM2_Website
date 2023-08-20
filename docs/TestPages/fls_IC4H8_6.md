@@ -10,8 +10,5 @@ shortname: LPK2020
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_IC4H8_6.png
-reference: LPK2020 - N. Lokachari, S. Panigrahy, G. Kukkadapu, G. Kim, S. S. Vasu, W. J. Pitz, H. J.
-  Curran, The influence of iso-butene kinetics on the reactivity of
-  di-isobutylene and iso-octane, Combust. Flame 222 (2020) 186--195.
-
+reference: LPK2020 - N. Lokachari, S. Panigrahy, G. Kukkadapu, G. Kim, S. S. Vasu, W. J. Pitz, H. J. Curran, The influence of iso-butene kinetics on the reactivity of di-isobutylene and iso-octane, Combust. Flame 222 (2020) 186--195.
 ---

@@ -10,7 +10,5 @@ shortname: CDW1971
 datatype: Shock tube ignition delay measurement
 definition: onset CO2
 test_plot: ../../../assets/data/test/ign_CH3OH_18.png
-reference: CDW1971 - D. F. Cooke, M. G. Dodson, A. Williams, A shock-tube study of the ignition of
-  methanol and ethanol with oxygen, Combust. Flame 16 (1971) 233--236.
-
+reference: CDW1971 - D. F. Cooke, M. G. Dodson, A. Williams, A shock-tube study of the ignition of methanol and ethanol with oxygen, Combust. Flame 16 (1971) 233--236.
 ---

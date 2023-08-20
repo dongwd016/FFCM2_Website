@@ -10,8 +10,5 @@ shortname: BIN2013
 datatype: Laminar flame speed
 definition: BF
 test_plot: ../../../assets/data/test/fls_CH3OH_5.png
-reference: BIN2013 - M. E. Bardin, E. V. Ivanov, E. J. K. Nilsson, V. A. Vinokurov, A. A. Konnov,
-  Laminar burning velocities of dimethyl carbonate with air, Energy Fuels 27
-  (2013) 5513--5517.
-
+reference: BIN2013 - M. E. Bardin, E. V. Ivanov, E. J. K. Nilsson, V. A. Vinokurov, A. A. Konnov, Laminar burning velocities of dimethyl carbonate with air, Energy Fuels 27 (2013) 5513--5517.
 ---

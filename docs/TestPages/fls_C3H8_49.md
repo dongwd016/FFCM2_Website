@@ -10,8 +10,5 @@ shortname: TZH2010
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_C3H8_49.png
-reference: TZH2010 - C. Tang, J. Zheng, Z. Huang, J. Wang, Study on nitrogen diluted propane-air
-  premixed flames at elevated pressures and temperatures, Energy Convers.
-  Manage. 51 (2010) 288--295.
-
+reference: TZH2010 - C. Tang, J. Zheng, Z. Huang, J. Wang, Study on nitrogen diluted propane-air premixed flames at elevated pressures and temperatures, Energy Convers. Manage. 51 (2010) 288--295.
 ---

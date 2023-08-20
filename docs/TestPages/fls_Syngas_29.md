@@ -10,7 +10,5 @@ shortname: DKS2011
 datatype: Laminar flame speed
 definition: CFF
 test_plot: ../../../assets/data/test/fls_Syngas_29.png
-reference: DKS2011 - A. K. Das, K. Kumar, C. J. Sung, Laminar flame speeds of moist syngas mixtures,
-  Combust. Flame 158 (2011) 345--353.
-
+reference: DKS2011 - A. K. Das, K. Kumar, C. J. Sung, Laminar flame speeds of moist syngas mixtures, Combust. Flame 158 (2011) 345--353.
 ---

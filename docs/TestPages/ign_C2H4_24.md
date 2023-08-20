@@ -10,7 +10,5 @@ shortname: D1968
 datatype: Shock tube ignition delay measurement
 definition: max OH*
 test_plot: ../../../assets/data/test/ign_C2H4_24.png
-reference: D1968 - L. Drummond, Shock-initiated exothermic reactions. {V}. {The} oxidation of
-  ethylene, Aust. J. Chem. 21 (1968) 2641.
-
+reference: D1968 - L. Drummond, Shock-initiated exothermic reactions. {V}. {The} oxidation of ethylene, Aust. J. Chem. 21 (1968) 2641.
 ---

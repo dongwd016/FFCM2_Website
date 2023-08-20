@@ -10,8 +10,5 @@ shortname: BT1999
 datatype: Shock tube ignition delay measurement
 definition: max grad pres
 test_plot: ../../../assets/data/test/ign_C3H8_12.png
-reference: BT1999 - C. J. Brown, G. O. Thomas, Experimental studies of shock-induced ignition and
-  transition to detonation in ethylene and propane mixtures, Combust. Flame 117
-  (1999) 861--870.
-
+reference: BT1999 - C. J. Brown, G. O. Thomas, Experimental studies of shock-induced ignition and transition to detonation in ethylene and propane mixtures, Combust. Flame 117 (1999) 861--870.
 ---

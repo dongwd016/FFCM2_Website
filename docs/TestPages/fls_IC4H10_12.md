@@ -10,9 +10,5 @@ shortname: YSN2016
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_IC4H10_12.png
-reference: YSN2016 - A. A. Yousif, S. A. Sulaiman, M. S. Nasif, An {Experimental} {Measurement} on
-  {Laminar} {Burning} {Velocities} and {Markstein} {Length} of
-  {Iso}-{Butane}-{Air} {Mixtures} at {Ambient} {Conditions}, MATEC Web of
-  Conferences 38 (2016) 01010.
-
+reference: YSN2016 - A. A. Yousif, S. A. Sulaiman, M. S. Nasif, An {Experimental} {Measurement} on {Laminar} {Burning} {Velocities} and {Markstein} {Length} of {Iso}-{Butane}-{Air} {Mixtures} at {Ambient} {Conditions}, MATEC Web of Conferences 38 (2016) 01010.
 ---

@@ -10,8 +10,5 @@ shortname: VE1994
 datatype: Laminar flame speed
 definition: CFF
 test_plot: ../../../assets/data/test/fls_Syngas_154.png
-reference: VE1994 - C. M. Vagelopoulos, F. N. Egolfopoulos, Laminar flame speeds and extinction
-  strain rates of mixtures of carbon monoxide with hydrogen, methane, and air,
-  Symposium (International) on Combustion 25 (1994) 1317--1323.
-
+reference: VE1994 - C. M. Vagelopoulos, F. N. Egolfopoulos, Laminar flame speeds and extinction strain rates of mixtures of carbon monoxide with hydrogen, methane, and air, Symposium (International) on Combustion 25 (1994) 1317--1323.
 ---

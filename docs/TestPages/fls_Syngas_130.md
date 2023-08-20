@@ -10,8 +10,5 @@ shortname: SNT2012
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_Syngas_130.png
-reference: SNT2012 - D. Singh, T. Nishiie, S. Tanvir, L. Qiao, An experimental and kinetic study of
-  syngas/air combustion at elevated temperatures and the effect of water
-  addition, Fuel 94 (2012) 448--456.
-
+reference: SNT2012 - D. Singh, T. Nishiie, S. Tanvir, L. Qiao, An experimental and kinetic study of syngas/air combustion at elevated temperatures and the effect of water addition, Fuel 94 (2012) 448--456.
 ---

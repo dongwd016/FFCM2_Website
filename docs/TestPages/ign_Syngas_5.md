@@ -10,8 +10,5 @@ shortname: HN2008
 datatype: Shock tube ignition delay measurement
 definition: max OH*
 test_plot: ../../../assets/data/test/ign_Syngas_5.png
-reference: HN2008 - J. Herzler, C. Naumann, Shock {Tube} {Study} of the {Ignition} of {Lean}
-  {CO}/{H2} {Fuel} {Blends} at {Intermediate} {Temperatures} and {High}
-  {Pressure}, Combust. Sci. Technol. 180 (2008) 2015--2028.
-
+reference: HN2008 - J. Herzler, C. Naumann, Shock {Tube} {Study} of the {Ignition} of {Lean} {CO}/{H2} {Fuel} {Blends} at {Intermediate} {Temperatures} and {High} {Pressure}, Combust. Sci. Technol. 180 (2008) 2015--2028.
 ---

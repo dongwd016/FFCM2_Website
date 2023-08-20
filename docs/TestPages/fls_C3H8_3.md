@@ -10,7 +10,5 @@ shortname: DH1952
 datatype: Laminar flame speed
 definition: BF
 test_plot: ../../../assets/data/test/fls_C3H8_3.png
-reference: DH1952 - G. L. Dugger, S. Heimel, Flame speeds of methane-air, propane-air, and
-  ethylene-air mixtures at low initial temperatures, Tech. rep. (1952).
-
+reference: DH1952 - G. L. Dugger, S. Heimel, Flame speeds of methane-air, propane-air, and ethylene-air mixtures at low initial temperatures, Tech. rep. (1952).
 ---

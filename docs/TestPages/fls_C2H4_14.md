@@ -10,8 +10,5 @@ shortname: HSR2019
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_C2H4_14.png
-reference: HSR2019 - J. Huo, T. Shu, Z. Ren, C. K. Law, Extrapolation of {Laminar} {Ethylene}/{Air}
-  {Flame} {Speeds} at {Elevated} {Pressures} with {Flame} {Chemistry}
-  {Analysis}, J. Propul. Power 35 (2019) 424--431.
-
+reference: HSR2019 - J. Huo, T. Shu, Z. Ren, C. K. Law, Extrapolation of {Laminar} {Ethylene}/{Air} {Flame} {Speeds} at {Elevated} {Pressures} with {Flame} {Chemistry} {Analysis}, J. Propul. Power 35 (2019) 424--431.
 ---

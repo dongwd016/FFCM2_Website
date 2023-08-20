@@ -10,8 +10,5 @@ shortname: HEG1984
 datatype: Shock tube ignition delay measurement
 definition: max grad pres
 test_plot: ../../../assets/data/test/ign_C2H2_13.png
-reference: HEG1984 - Y. Hidaka, C. S. Eubank, W. C. Gardiner, S. M. Hwang, Shock {Tube} and
-  {Modeling} {Study} of {Acetylene} {Oxidation}, J. Phys. Chem 88 (1984)
-  1006--1012.
-
+reference: HEG1984 - Y. Hidaka, C. S. Eubank, W. C. Gardiner, S. M. Hwang, Shock {Tube} and {Modeling} {Study} of {Acetylene} {Oxidation}, J. Phys. Chem 88 (1984) 1006--1012.
 ---

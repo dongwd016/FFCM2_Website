@@ -10,7 +10,5 @@ shortname: HIK1983
 datatype: Shock tube ignition delay measurement
 definition: onset CH*
 test_plot: ../../../assets/data/test/ign_C3H8_22.png
-reference: HIK1983 - Y. Hidaka, A. Ikoma, H. Kawano, M. Suga, Mass spectrometric study of propane
-  oxidation, Int. J. Mass Spectrom. Ion Phys. 48 (1983) 71--74.
-
+reference: HIK1983 - Y. Hidaka, A. Ikoma, H. Kawano, M. Suga, Mass spectrometric study of propane oxidation, Int. J. Mass Spectrom. Ion Phys. 48 (1983) 71--74.
 ---
