@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: ign_CH4_17
-temp: 30--31
-pres: 1035.00--1184.00
+temp: 1035--1184
+pres: 30.50--31.40
 phi: 1.0
 shortname: HHB2004
 datatype: Shock tube ignition delay measurement

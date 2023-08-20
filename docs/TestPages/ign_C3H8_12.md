@@ -8,7 +8,7 @@ pres: 1.70--2.98
 phi: 1.0
 shortname: BT1999
 datatype: Shock tube ignition delay measurement
-definition: onset CH*
+definition: max grad pres
 test_plot: ../../../assets/data/test/ign_C3H8_12.png
 reference: BT1999 - C. J. Brown, G. O. Thomas, Experimental studies of shock-induced ignition and
   transition to detonation in ethylene and propane mixtures, Combust. Flame 117

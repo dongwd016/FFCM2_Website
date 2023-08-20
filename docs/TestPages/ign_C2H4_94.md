@@ -8,7 +8,7 @@ pres: 0.89--1.21
 phi: 2.0
 shortname: MGG2015
 datatype: Shock tube ignition delay measurement
-definition: onset OH*
+definition: max grad pres
 test_plot: ../../../assets/data/test/ign_C2H4_94.png
 reference: MGG2015 - O. Mathieu, J. Goulier, F. Gourmel, M. Mannan, N. Chaumeix, E. Petersen,
   Experimental study of the effect of {CF3I} addition on the ignition delay

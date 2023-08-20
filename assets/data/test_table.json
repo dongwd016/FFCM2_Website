@@ -2,7 +2,7 @@
     {
         "Type": "fls",
         "Fuel": "AC3H4",
-        "Temp": 373,
+        "Temp": 373.0,
         "Pres": 1.0,
         "Phi": "0.68--1.50",
         "Method": "OPF",
@@ -12,7 +12,7 @@
     {
         "Type": "fls",
         "Fuel": "AC3H4",
-        "Temp": 373,
+        "Temp": 373.0,
         "Pres": 2.0,
         "Phi": "0.58--1.50",
         "Method": "OPF",
@@ -22,7 +22,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--2.00",
         "Method": "OPF",
@@ -32,7 +32,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.90--1.78",
         "Method": "Bubble",
@@ -42,7 +42,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "1.00--1.54",
         "Method": "BF",
@@ -52,7 +52,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.70",
         "Method": "CFF",
@@ -62,7 +62,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.76--1.70",
         "Method": "OPF",
@@ -72,7 +72,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--2.00",
         "Method": "OPF",
@@ -82,7 +82,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--2.00",
         "Method": "OPF",
@@ -92,7 +92,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.70--2.00",
         "Method": "OPF",
@@ -102,7 +102,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.97--1.55",
         "Method": "BF",
@@ -112,7 +112,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.75--1.63",
         "Method": "BF",
@@ -122,7 +122,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.90--1.55",
         "Method": "BF",
@@ -132,7 +132,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--2.00",
         "Method": "OPF",
@@ -142,7 +142,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "2.50--19.91",
         "Phi": 1.6,
         "Method": "OPF",
@@ -152,7 +152,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "5.03--19.97",
         "Phi": 1.6,
         "Method": "OPF",
@@ -162,7 +162,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "0.99--19.87",
         "Phi": 0.8,
         "Method": "OPF",
@@ -172,7 +172,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "4.96--19.78",
         "Phi": 0.8,
         "Method": "OPF",
@@ -182,7 +182,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 400,
+        "Temp": 400.0,
         "Pres": "2.01--10.22",
         "Phi": 1.6,
         "Method": "OPF",
@@ -192,7 +192,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 400,
+        "Temp": 400.0,
         "Pres": "2.01--7.08",
         "Phi": 1.6,
         "Method": "OPF",
@@ -202,7 +202,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 400,
+        "Temp": 400.0,
         "Pres": "3.16--9.96",
         "Phi": 0.8,
         "Method": "OPF",
@@ -212,7 +212,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 400,
+        "Temp": 400.0,
         "Pres": "2.03--7.05",
         "Phi": 0.8,
         "Method": "OPF",
@@ -222,7 +222,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "0.50--6.00",
         "Phi": 0.8,
         "Method": "OPF",
@@ -232,7 +232,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.60--1.80",
         "Method": "CFF",
@@ -242,7 +242,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "0.50--6.00",
         "Phi": 1.3,
         "Method": "OPF",
@@ -252,7 +252,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.60--1.90",
         "Method": "CFF",
@@ -262,7 +262,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 0.5,
         "Phi": "0.60--1.80",
         "Method": "CFF",
@@ -272,7 +272,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.83--1.67",
         "Method": "Tube",
@@ -282,7 +282,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.95--1.75",
         "Method": "BF",
@@ -292,7 +292,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--1.40",
         "Method": "BF",
@@ -302,7 +302,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.70--2.00",
         "Method": "OPF",
@@ -312,7 +312,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H2",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 2.0,
         "Phi": "0.70--1.80",
         "Method": "OPF",
@@ -322,7 +322,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 2.0,
         "Phi": "0.80--1.60",
         "Method": "OPF",
@@ -332,7 +332,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 3.0,
         "Phi": "0.80--1.60",
         "Method": "OPF",
@@ -342,7 +342,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 4.0,
         "Phi": "0.80--1.60",
         "Method": "OPF",
@@ -352,7 +352,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.69",
         "Method": "CFF",
@@ -362,7 +362,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 0.75,
         "Phi": "0.70--1.80",
         "Method": "OPF",
@@ -372,7 +372,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 5.0,
         "Phi": "0.60--1.71",
         "Method": "OPF",
@@ -382,7 +382,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.60--1.80",
         "Method": "OPF",
@@ -392,7 +392,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 10.0,
         "Phi": "0.60--1.59",
         "Method": "OPF",
@@ -402,7 +402,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.60--1.40",
         "Method": "OPF",
@@ -412,7 +412,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 2.0,
         "Phi": "0.60--1.80",
         "Method": "OPF",
@@ -422,7 +422,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.51--1.90",
         "Method": "CFF",
@@ -432,7 +432,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 5.0,
         "Phi": "0.60--1.80",
         "Method": "OPF",
@@ -442,7 +442,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.50--1.40",
         "Method": "CFF",
@@ -452,7 +452,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 360,
+        "Temp": 360.0,
         "Pres": 1.0,
         "Phi": "0.50--1.40",
         "Method": "CFF",
@@ -462,7 +462,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 400,
+        "Temp": 400.0,
         "Pres": 1.0,
         "Phi": "0.50--1.39",
         "Method": "CFF",
@@ -472,7 +472,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 470,
+        "Temp": 470.0,
         "Pres": 1.0,
         "Phi": "0.50--1.40",
         "Method": "CFF",
@@ -482,7 +482,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -532,7 +532,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 0.5,
         "Phi": "0.70--2.00",
         "Method": "CFF",
@@ -562,7 +562,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.80",
         "Method": "CFF",
@@ -572,7 +572,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.80",
         "Method": "OPF",
@@ -582,7 +582,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--1.80",
         "Method": "OPF",
@@ -592,7 +592,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "0.50--6.00",
         "Phi": 0.8,
         "Method": "OPF",
@@ -602,7 +602,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "0.50--6.00",
         "Phi": 1.3,
         "Method": "OPF",
@@ -612,7 +612,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--2.00",
         "Method": "CFF",
@@ -622,7 +622,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.60--1.80",
         "Method": "CFF",
@@ -632,7 +632,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 450,
+        "Temp": 450.0,
         "Pres": 3.04,
         "Phi": "0.80--1.40",
         "Method": "OPF",
@@ -642,7 +642,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "BF",
@@ -652,7 +652,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.70--1.80",
         "Method": "BF",
@@ -662,7 +662,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 0.5,
         "Phi": "0.80--1.60",
         "Method": "OPF",
@@ -672,7 +672,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H4",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.80--1.60",
         "Method": "OPF",
@@ -682,7 +682,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 10.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -692,7 +692,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.65--1.20",
         "Method": "HF",
@@ -702,7 +702,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 398,
+        "Temp": 398.0,
         "Pres": 1.0,
         "Phi": "0.55--1.60",
         "Method": "HF",
@@ -712,7 +712,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 1.0,
         "Phi": "0.55--1.55",
         "Method": "HF",
@@ -722,7 +722,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 428,
+        "Temp": 428.0,
         "Pres": 1.0,
         "Phi": "0.57--1.82",
         "Method": "CFF",
@@ -732,7 +732,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 453,
+        "Temp": 453.0,
         "Pres": 1.0,
         "Phi": "0.60--1.80",
         "Method": "CFF",
@@ -742,7 +742,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -752,7 +752,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 2.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -762,7 +762,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 4.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -772,7 +772,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 5.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -782,7 +782,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 373,
+        "Temp": 373.0,
         "Pres": 5.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -792,7 +792,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 6.0,
         "Phi": "0.80--1.30",
         "Method": "OPF",
@@ -802,7 +802,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 8.0,
         "Phi": "0.80--1.30",
         "Method": "OPF",
@@ -812,7 +812,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 350,
+        "Temp": 350.0,
         "Pres": 1.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -822,7 +822,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.65--1.25",
         "Method": "HF",
@@ -832,7 +832,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 308,
+        "Temp": 308.0,
         "Pres": 1.0,
         "Phi": "0.80--1.20",
         "Method": "HF",
@@ -842,7 +842,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 318,
+        "Temp": 318.0,
         "Pres": 1.0,
         "Phi": "0.75--1.55",
         "Method": "HF",
@@ -852,7 +852,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 328,
+        "Temp": 328.0,
         "Pres": 1.0,
         "Phi": "0.80--1.20",
         "Method": "HF",
@@ -862,7 +862,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 338,
+        "Temp": 338.0,
         "Pres": 1.0,
         "Phi": "0.65--1.55",
         "Method": "HF",
@@ -872,7 +872,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 1.0,
         "Phi": "0.65--1.55",
         "Method": "HF",
@@ -882,7 +882,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -892,7 +892,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 423,
+        "Temp": 423.0,
         "Pres": 1.0,
         "Phi": "0.69--1.40",
         "Method": "OPF",
@@ -902,7 +902,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.20",
         "Method": "HF",
@@ -912,7 +912,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.20",
         "Method": "HF",
@@ -922,7 +922,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 318,
+        "Temp": 318.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "HF",
@@ -932,7 +932,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 328,
+        "Temp": 328.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "HF",
@@ -942,7 +942,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 338,
+        "Temp": 338.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "HF",
@@ -952,7 +952,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "HF",
@@ -962,7 +962,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 325,
+        "Temp": 325.0,
         "Pres": 1.0,
         "Phi": "0.80--1.50",
         "Method": "OPF",
@@ -972,7 +972,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "HF",
@@ -982,7 +982,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 423,
+        "Temp": 423.0,
         "Pres": 3.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -992,7 +992,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 423,
+        "Temp": 423.0,
         "Pres": 5.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -1002,7 +1002,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.70--1.20",
         "Method": "OPF",
@@ -1012,7 +1012,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "OPF",
@@ -1022,7 +1022,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 2.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -1032,7 +1032,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 5.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -1042,7 +1042,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H5OH",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 7.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -1052,7 +1052,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.80--1.30",
         "Method": "HF",
@@ -1062,7 +1062,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 3.0,
         "Phi": "0.80--1.30",
         "Method": "HF",
@@ -1072,7 +1072,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 4.0,
         "Phi": "0.80--1.00",
         "Method": "HF",
@@ -1082,17 +1082,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
-        "Pres": 5.0,
-        "Phi": 0.8,
-        "Method": "HF",
-        "url": "../../TestPages/fls_C2H6_13",
-        "key": "fls_C2H6_13"
-    },
-    {
-        "Type": "fls",
-        "Fuel": "C2H6",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 0.5,
         "Phi": "0.80--1.60",
         "Method": "OPF",
@@ -1102,7 +1092,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.80--1.60",
         "Method": "OPF",
@@ -1112,7 +1102,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 2.0,
         "Phi": "0.80--1.60",
         "Method": "OPF",
@@ -1122,7 +1112,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 3.0,
         "Phi": "0.80--1.60",
         "Method": "OPF",
@@ -1132,7 +1122,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 4.0,
         "Phi": "0.80--1.60",
         "Method": "OPF",
@@ -1142,7 +1132,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -1152,7 +1142,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--1.60",
         "Method": "OPF",
@@ -1162,7 +1152,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 2.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -1172,7 +1162,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 5.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -1182,7 +1172,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.50",
         "Method": "HF",
@@ -1192,7 +1182,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "HF",
@@ -1202,7 +1192,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.75--1.35",
         "Method": "HF",
@@ -1212,7 +1202,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.85--1.30",
         "Method": "HF",
@@ -1222,7 +1212,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.90--1.25",
         "Method": "HF",
@@ -1232,7 +1222,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.65--1.60",
         "Method": "HF",
@@ -1242,7 +1232,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.65--1.55",
         "Method": "HF",
@@ -1252,7 +1242,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 307,
+        "Temp": 307.0,
         "Pres": 1.0,
         "Phi": "0.70--1.30",
         "Method": "HF",
@@ -1262,7 +1252,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.50",
         "Method": "HF",
@@ -1272,7 +1262,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 325,
+        "Temp": 325.0,
         "Pres": 5.0,
         "Phi": "0.69--1.20",
         "Method": "BF",
@@ -1282,7 +1272,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -1292,7 +1282,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 5.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -1302,7 +1292,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 10.0,
         "Phi": "0.64--1.20",
         "Method": "OPF",
@@ -1372,7 +1362,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.50",
         "Method": "BF",
@@ -1382,7 +1372,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.59--1.37",
         "Method": "OPF",
@@ -1392,7 +1382,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 333,
+        "Temp": 333.0,
         "Pres": 1.0,
         "Phi": "0.59--1.37",
         "Method": "OPF",
@@ -1402,7 +1392,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 363,
+        "Temp": 363.0,
         "Pres": 1.0,
         "Phi": "0.59--1.36",
         "Method": "OPF",
@@ -1412,7 +1402,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 393,
+        "Temp": 393.0,
         "Pres": 1.0,
         "Phi": "0.59--1.36",
         "Method": "OPF",
@@ -1422,7 +1412,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 423,
+        "Temp": 423.0,
         "Pres": 1.0,
         "Phi": "0.59--1.36",
         "Method": "OPF",
@@ -1432,7 +1422,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.50",
         "Method": "CFF",
@@ -1442,7 +1432,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -1452,7 +1442,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.65--1.48",
         "Method": "CFF",
@@ -1462,7 +1452,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 343,
+        "Temp": 343.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "CFF",
@@ -1472,7 +1462,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "1.00--6.00",
         "Phi": 0.8,
         "Method": "OPF",
@@ -1482,7 +1472,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--2.10",
         "Method": "HF",
@@ -1492,7 +1482,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "1.00--6.00",
         "Phi": 1.3,
         "Method": "OPF",
@@ -1502,7 +1492,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 0.5,
         "Phi": "0.70--1.79",
         "Method": "CFF",
@@ -1512,7 +1502,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.55--2.00",
         "Method": "CFF",
@@ -1522,7 +1512,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.60--1.79",
         "Method": "CFF",
@@ -1532,7 +1522,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "1.00--1.40",
         "Method": "OPF",
@@ -1542,7 +1532,7 @@
     {
         "Type": "fls",
         "Fuel": "C2H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--1.30",
         "Method": "HF",
@@ -1552,7 +1542,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 1.0,
         "Phi": "0.55--2.00",
         "Method": "HF",
@@ -1562,7 +1552,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 398,
+        "Temp": 398.0,
         "Pres": 1.0,
         "Phi": "0.50--2.00",
         "Method": "HF",
@@ -1572,7 +1562,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.60",
         "Method": "HF",
@@ -1582,7 +1572,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.60",
         "Method": "HF",
@@ -1592,7 +1582,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.60",
         "Method": "HF",
@@ -1602,7 +1592,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.75--1.40",
         "Method": "CFF",
@@ -1612,7 +1602,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.90--1.20",
         "Method": "BF",
@@ -1622,7 +1612,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.90--1.30",
         "Method": "BF",
@@ -1632,7 +1622,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "1.00--1.35",
         "Method": "Tube",
@@ -1642,7 +1632,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -1652,7 +1642,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "HF",
@@ -1662,7 +1652,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 2.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -1672,7 +1662,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 5.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -1742,7 +1732,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "CFF",
@@ -1752,7 +1742,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "HF",
@@ -1762,7 +1752,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "HF",
@@ -1772,7 +1762,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.25",
         "Method": "HF",
@@ -1782,7 +1772,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.60",
         "Method": "OPF",
@@ -1792,7 +1782,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.60",
         "Method": "OPF",
@@ -1802,7 +1792,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "5.00--20.04",
         "Phi": 0.8,
         "Method": "OPF, mass burning rate",
@@ -1812,7 +1802,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "2.52--19.99",
         "Phi": 1.3,
         "Method": "OPF, mass burning rate",
@@ -1822,7 +1812,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--2.00",
         "Method": "HF",
@@ -1832,7 +1822,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 4.0,
         "Phi": "0.70--1.20",
         "Method": "CFF",
@@ -1862,7 +1852,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--1.30",
         "Method": "HF",
@@ -1872,7 +1862,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.80--1.30",
         "Method": "HF",
@@ -1882,7 +1872,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 3.0,
         "Phi": "0.80--1.30",
         "Method": "HF",
@@ -1892,7 +1882,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 4.0,
         "Phi": "0.80--1.10",
         "Method": "HF",
@@ -1902,7 +1892,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.75--1.30",
         "Method": "BF",
@@ -1912,7 +1902,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "1.00--1.05",
         "Method": "BF",
@@ -1922,7 +1912,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 0.5,
         "Phi": "0.80--1.60",
         "Method": "OPF",
@@ -1932,7 +1922,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.85--1.25",
         "Method": "BF",
@@ -1942,7 +1932,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.80--1.60",
         "Method": "OPF",
@@ -1952,7 +1942,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 2.0,
         "Phi": "0.80--1.40",
         "Method": "OPF",
@@ -1962,7 +1952,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 3.0,
         "Phi": "0.80--1.60",
         "Method": "OPF",
@@ -1972,7 +1962,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 4.0,
         "Phi": "0.80--1.60",
         "Method": "OPF",
@@ -1982,7 +1972,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 0.5,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -1992,7 +1982,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -2002,7 +1992,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -2012,7 +2002,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 3.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -2022,7 +2012,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 4.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -2032,7 +2022,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -2042,7 +2032,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.50",
         "Method": "HF",
@@ -2052,7 +2042,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 2.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -2062,7 +2052,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 5.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -2072,7 +2062,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -2082,7 +2072,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 5.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -2092,7 +2082,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.90--1.31",
         "Method": "OPF",
@@ -2102,7 +2092,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.30",
         "Method": "HF",
@@ -2112,7 +2102,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--1.30",
         "Method": "OPF",
@@ -2152,7 +2142,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.75--1.36",
         "Method": "BF",
@@ -2192,7 +2182,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "CFF",
@@ -2202,7 +2192,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.64--1.58",
         "Method": "OPF",
@@ -2212,7 +2202,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "1.05--1.35",
         "Method": "BF",
@@ -2222,7 +2212,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.85--1.35",
         "Method": "BF",
@@ -2242,7 +2232,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.60",
         "Method": "OPF",
@@ -2252,7 +2242,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.60",
         "Method": "OPF",
@@ -2262,7 +2252,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--2.00",
         "Method": "HF",
@@ -2272,7 +2262,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.69--1.40",
         "Method": "CFF",
@@ -2282,7 +2272,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 343,
+        "Temp": 343.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "CFF",
@@ -2292,7 +2282,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.10",
         "Method": "OPF",
@@ -2302,7 +2292,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.23",
         "Method": "Stag",
@@ -2312,7 +2302,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 0.5,
         "Phi": "0.60--1.50",
         "Method": "CFF",
@@ -2322,7 +2312,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.54--1.75",
         "Method": "CFF",
@@ -2332,7 +2322,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.60--1.50",
         "Method": "CFF",
@@ -2342,7 +2332,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "CFF",
@@ -2352,7 +2342,7 @@
     {
         "Type": "fls",
         "Fuel": "C3H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.71--1.30",
         "Method": "CFF",
@@ -2362,7 +2352,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 10.0,
         "Phi": "0.70--1.10",
         "Method": "OPF",
@@ -2372,7 +2362,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--1.70",
         "Method": "OPF",
@@ -2382,7 +2372,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.80--1.70",
         "Method": "OPF",
@@ -2392,7 +2382,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 5.0,
         "Phi": "0.70--1.70",
         "Method": "OPF",
@@ -2402,7 +2392,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 10.0,
         "Phi": "0.70--1.00",
         "Method": "OPF",
@@ -2462,7 +2452,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.65--1.40",
         "Method": "HF",
@@ -2482,7 +2472,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "CFF",
@@ -2492,7 +2482,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--1.40",
         "Method": "BF",
@@ -2502,7 +2492,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.85",
         "Method": "OPF",
@@ -2512,7 +2502,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.80",
         "Method": "OPF",
@@ -2522,7 +2512,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 343,
+        "Temp": 343.0,
         "Pres": 1.0,
         "Phi": "0.75--1.50",
         "Method": "CFF",
@@ -2532,7 +2522,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 403,
+        "Temp": 403.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "CFF",
@@ -2542,7 +2532,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.70--1.70",
         "Method": "OPF",
@@ -2552,7 +2542,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.68--1.71",
         "Method": "CFF",
@@ -2562,7 +2552,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--2.00",
         "Method": "HF",
@@ -2572,7 +2562,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.75--1.30",
         "Method": "BF",
@@ -2582,7 +2572,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "CFF",
@@ -2592,7 +2582,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.85",
         "Method": "OPF",
@@ -2602,7 +2592,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.70",
         "Method": "OPF",
@@ -2612,7 +2602,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.70--1.70",
         "Method": "OPF",
@@ -2622,7 +2612,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 5.0,
         "Phi": "0.70--1.20",
         "Method": "OPF",
@@ -2632,7 +2622,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H6",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": 1.0,
         "Phi": "0.80--1.40",
         "Method": "OPF",
@@ -2642,7 +2632,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H6",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": 5.0,
         "Phi": "0.70--1.10",
         "Method": "OPF",
@@ -2652,7 +2642,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H6",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--18.00",
         "Phi": 1.4,
         "Method": "OPF",
@@ -2662,7 +2652,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H6",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--18.00",
         "Phi": 0.8,
         "Method": "OPF",
@@ -2672,7 +2662,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.70",
         "Method": "CFF",
@@ -2682,7 +2672,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.90--1.40",
         "Method": "BF",
@@ -2692,7 +2682,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H6",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "CFF",
@@ -2702,7 +2692,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H6",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": 1.0,
         "Phi": "0.80--1.60",
         "Method": "OPF",
@@ -2712,7 +2702,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H6",
-        "Temp": 359,
+        "Temp": 359.0,
         "Pres": 1.0,
         "Phi": "0.60--1.60",
         "Method": "OPF",
@@ -2722,7 +2712,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H6",
-        "Temp": 399,
+        "Temp": 399.0,
         "Pres": 1.0,
         "Phi": "0.60--1.70",
         "Method": "OPF",
@@ -2732,7 +2722,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H6",
-        "Temp": 296,
+        "Temp": 296.0,
         "Pres": 5.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -2742,7 +2732,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H6",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 5.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -2752,7 +2742,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H6",
-        "Temp": 398,
+        "Temp": 398.0,
         "Pres": 5.0,
         "Phi": "0.60--1.40",
         "Method": "OPF",
@@ -2762,7 +2752,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H81",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 10.0,
         "Phi": "0.60--0.80",
         "Method": "OPF",
@@ -2832,7 +2822,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H81",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "CFF",
@@ -2842,7 +2832,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H81",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.80",
         "Method": "OPF",
@@ -2852,7 +2842,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H81",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -2862,7 +2852,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H81",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.71",
         "Method": "CFF",
@@ -2872,7 +2862,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H81",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 5.0,
         "Phi": "0.70--1.20",
         "Method": "OPF",
@@ -2882,7 +2872,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H81",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 10.0,
         "Phi": "0.70--1.00",
         "Method": "OPF",
@@ -2892,7 +2882,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H81",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -2902,7 +2892,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H81",
-        "Temp": 350,
+        "Temp": 350.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -2912,7 +2902,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H81",
-        "Temp": 400,
+        "Temp": 400.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -2922,7 +2912,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H81",
-        "Temp": 450,
+        "Temp": 450.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -2932,7 +2922,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H81",
-        "Temp": 450,
+        "Temp": 450.0,
         "Pres": 3.0,
         "Phi": "0.80--1.40",
         "Method": "OPF",
@@ -2942,7 +2932,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H81",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.60",
         "Method": "OPF",
@@ -2952,7 +2942,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H81",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -2962,7 +2952,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H81",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 5.0,
         "Phi": "0.70--1.10",
         "Method": "OPF",
@@ -2972,7 +2962,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H82",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 5.0,
         "Phi": "0.70--1.20",
         "Method": "OPF",
@@ -2982,7 +2972,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H82",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 10.0,
         "Phi": "0.70--0.80",
         "Method": "OPF",
@@ -2992,7 +2982,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H82",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--1.40",
         "Method": "OPF",
@@ -3002,7 +2992,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H82",
-        "Temp": 450,
+        "Temp": 450.0,
         "Pres": 3.0,
         "Phi": "0.80--1.40",
         "Method": "OPF",
@@ -3012,7 +3002,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H82",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.70",
         "Method": "OPF",
@@ -3022,7 +3012,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H82",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.70--1.70",
         "Method": "OPF",
@@ -3032,7 +3022,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H82",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 5.0,
         "Phi": "0.70--1.10",
         "Method": "OPF",
@@ -3042,7 +3032,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H82",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 10.0,
         "Phi": "0.70--0.80",
         "Method": "OPF",
@@ -3052,7 +3042,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H82",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "CFF",
@@ -3062,7 +3052,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H82",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.80",
         "Method": "OPF",
@@ -3072,7 +3062,7 @@
     {
         "Type": "fls",
         "Fuel": "C4H82",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.70--1.80",
         "Method": "OPF",
@@ -3082,7 +3072,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3CHO",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.80",
         "Method": "HF",
@@ -3092,7 +3082,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3CHO",
-        "Temp": 318,
+        "Temp": 318.0,
         "Pres": 1.0,
         "Phi": "0.60--1.80",
         "Method": "HF",
@@ -3102,7 +3092,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3CHO",
-        "Temp": 338,
+        "Temp": 338.0,
         "Pres": 1.0,
         "Phi": "0.60--1.70",
         "Method": "HF",
@@ -3112,7 +3102,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3CHO",
-        "Temp": 348,
+        "Temp": 348.0,
         "Pres": 1.0,
         "Phi": "0.60--1.70",
         "Method": "HF",
@@ -3122,7 +3112,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3CHO",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 1.0,
         "Phi": "0.60--1.50",
         "Method": "HF",
@@ -3132,7 +3122,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3CHO",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--1.30",
         "Method": "BF",
@@ -3142,7 +3132,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3COCH3",
-        "Temp": 473,
+        "Temp": 473.0,
         "Pres": "1.00--6.00",
         "Phi": 0.9,
         "Method": "BF",
@@ -3152,7 +3142,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3COCH3",
-        "Temp": 473,
+        "Temp": 473.0,
         "Pres": "1.00--4.00",
         "Phi": 1.0,
         "Method": "BF",
@@ -3162,7 +3152,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3COCH3",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.74--1.38",
         "Method": "Stag",
@@ -3172,7 +3162,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3COCH3",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--1.50",
         "Method": "OPF",
@@ -3182,7 +3172,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3COCH3",
-        "Temp": 373,
+        "Temp": 373.0,
         "Pres": 1.0,
         "Phi": "0.60--1.40",
         "Method": "BF",
@@ -3192,7 +3182,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3COCH3",
-        "Temp": 403,
+        "Temp": 403.0,
         "Pres": 1.0,
         "Phi": "0.63--1.27",
         "Method": "BF",
@@ -3202,7 +3192,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3COCH3",
-        "Temp": 443,
+        "Temp": 443.0,
         "Pres": 1.0,
         "Phi": "0.63--1.27",
         "Method": "BF",
@@ -3212,7 +3202,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3COCH3",
-        "Temp": 468,
+        "Temp": 468.0,
         "Pres": 1.0,
         "Phi": "0.60--1.20",
         "Method": "BF",
@@ -3222,7 +3212,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3COCH3",
-        "Temp": 523,
+        "Temp": 523.0,
         "Pres": 1.0,
         "Phi": "0.70--1.30",
         "Method": "BF",
@@ -3232,7 +3222,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3COCH3",
-        "Temp": 473,
+        "Temp": 473.0,
         "Pres": "1.00--6.00",
         "Phi": 0.7,
         "Method": "BF",
@@ -3242,7 +3232,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3COCH3",
-        "Temp": 473,
+        "Temp": 473.0,
         "Pres": "1.00--6.00",
         "Phi": 0.8,
         "Method": "BF",
@@ -3252,7 +3242,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 500,
+        "Temp": 500.0,
         "Pres": 1.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -3262,7 +3252,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 500,
+        "Temp": 500.0,
         "Pres": 4.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -3272,7 +3262,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 500,
+        "Temp": 500.0,
         "Pres": 6.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -3282,7 +3272,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 400,
+        "Temp": 400.0,
         "Pres": 1.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -3292,7 +3282,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 400,
+        "Temp": 400.0,
         "Pres": 4.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -3302,7 +3292,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 400,
+        "Temp": 400.0,
         "Pres": 6.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -3312,7 +3302,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 350,
+        "Temp": 350.0,
         "Pres": 1.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -3322,7 +3312,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 350,
+        "Temp": 350.0,
         "Pres": 2.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -3332,7 +3322,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 350,
+        "Temp": 350.0,
         "Pres": 4.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -3342,7 +3332,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 350,
+        "Temp": 350.0,
         "Pres": 5.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -3352,7 +3342,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 373,
+        "Temp": 373.0,
         "Pres": 10.0,
         "Phi": "0.71--1.33",
         "Method": "OPF",
@@ -3362,7 +3352,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 350,
+        "Temp": 350.0,
         "Pres": 6.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -3372,7 +3362,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 350,
+        "Temp": 350.0,
         "Pres": 8.0,
         "Phi": "0.80--1.30",
         "Method": "OPF",
@@ -3382,7 +3372,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 413,
+        "Temp": 413.0,
         "Pres": 1.0,
         "Phi": "0.53--2.23",
         "Method": "BF",
@@ -3392,7 +3382,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 413,
+        "Temp": 413.0,
         "Pres": 1.0,
         "Phi": "0.65--1.83",
         "Method": "BF",
@@ -3402,7 +3392,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 413,
+        "Temp": 413.0,
         "Pres": 1.0,
         "Phi": "0.76--1.98",
         "Method": "BF",
@@ -3412,7 +3402,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 413,
+        "Temp": 413.0,
         "Pres": 1.0,
         "Phi": "0.87--1.66",
         "Method": "BF",
@@ -3422,7 +3412,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 413,
+        "Temp": 413.0,
         "Pres": 1.0,
         "Phi": "0.80--1.48",
         "Method": "BF",
@@ -3432,7 +3422,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.70--1.30",
         "Method": "BF",
@@ -3442,7 +3432,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -3452,7 +3442,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 400,
+        "Temp": 400.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -3462,7 +3452,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 323,
+        "Temp": 323.0,
         "Pres": 0.089,
         "Phi": "0.71--1.22",
         "Method": "BF",
@@ -3472,7 +3462,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 480,
+        "Temp": 480.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -3482,7 +3472,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -3492,7 +3482,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 308,
+        "Temp": 308.0,
         "Pres": 1.0,
         "Phi": "0.90--1.50",
         "Method": "BF",
@@ -3502,7 +3492,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 318,
+        "Temp": 318.0,
         "Pres": 1.0,
         "Phi": "0.80--1.50",
         "Method": "BF",
@@ -3512,7 +3502,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 328,
+        "Temp": 328.0,
         "Pres": 1.0,
         "Phi": "0.90--1.40",
         "Method": "BF",
@@ -3522,7 +3512,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 338,
+        "Temp": 338.0,
         "Pres": 1.0,
         "Phi": "0.80--1.50",
         "Method": "BF",
@@ -3532,7 +3522,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 1.0,
         "Phi": "0.80--1.50",
         "Method": "BF",
@@ -3542,7 +3532,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "HF",
@@ -3552,7 +3542,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 318,
+        "Temp": 318.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "HF",
@@ -3562,7 +3552,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 328,
+        "Temp": 328.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "HF",
@@ -3572,7 +3562,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 323,
+        "Temp": 323.0,
         "Pres": 0.2,
         "Phi": "0.71--1.22",
         "Method": "BF",
@@ -3582,7 +3572,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 338,
+        "Temp": 338.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "HF",
@@ -3592,7 +3582,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "HF",
@@ -3602,7 +3592,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 0.5,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -3612,7 +3602,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -3622,7 +3612,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 3.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -3632,7 +3622,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 425,
+        "Temp": 425.0,
         "Pres": 0.5,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -3642,7 +3632,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 425,
+        "Temp": 425.0,
         "Pres": 1.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -3652,7 +3642,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 425,
+        "Temp": 425.0,
         "Pres": 3.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -3662,7 +3652,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "BF",
@@ -3672,7 +3662,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 343,
+        "Temp": 343.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "BF",
@@ -3682,7 +3672,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 323,
+        "Temp": 323.0,
         "Pres": 0.25,
         "Phi": "0.71--1.22",
         "Method": "BF",
@@ -3692,7 +3682,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 308,
+        "Temp": 308.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "BF",
@@ -3702,7 +3692,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 318,
+        "Temp": 318.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "BF",
@@ -3712,7 +3702,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 328,
+        "Temp": 328.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "BF",
@@ -3722,7 +3712,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 338,
+        "Temp": 338.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "BF",
@@ -3732,7 +3722,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 348,
+        "Temp": 348.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "BF",
@@ -3742,7 +3732,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "BF",
@@ -3752,7 +3742,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "BF",
@@ -3762,7 +3752,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 318,
+        "Temp": 318.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "BF",
@@ -3772,7 +3762,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 338,
+        "Temp": 338.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "BF",
@@ -3782,7 +3772,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "BF",
@@ -3792,7 +3782,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "BF",
@@ -3802,7 +3792,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.00",
         "Method": "HF",
@@ -3812,7 +3802,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 318,
+        "Temp": 318.0,
         "Pres": 1.0,
         "Phi": "0.70--1.00",
         "Method": "HF",
@@ -3822,7 +3812,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 343,
+        "Temp": 343.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "CFF",
@@ -3832,7 +3822,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 473,
+        "Temp": 473.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -3842,7 +3832,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 423,
+        "Temp": 423.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -3852,7 +3842,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 373,
+        "Temp": 373.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -3862,7 +3852,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 373,
+        "Temp": 373.0,
         "Pres": 2.5,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -3872,7 +3862,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 373,
+        "Temp": 373.0,
         "Pres": 5.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -3882,7 +3872,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 373,
+        "Temp": 373.0,
         "Pres": 1.0,
         "Phi": "0.80--1.40",
         "Method": "OPF",
@@ -3892,7 +3882,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 373,
+        "Temp": 373.0,
         "Pres": 1.0,
         "Phi": "0.80--1.40",
         "Method": "OPF",
@@ -3902,7 +3892,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.55--1.50",
         "Method": "CFF",
@@ -3912,7 +3902,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 373,
+        "Temp": 373.0,
         "Pres": 1.0,
         "Phi": "0.80--1.40",
         "Method": "OPF",
@@ -3922,7 +3912,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 318,
+        "Temp": 318.0,
         "Pres": 1.0,
         "Phi": "0.55--1.87",
         "Method": "CFF",
@@ -3932,7 +3922,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 340,
+        "Temp": 340.0,
         "Pres": 1.0,
         "Phi": "0.50--1.98",
         "Method": "CFF",
@@ -3942,7 +3932,7 @@
     {
         "Type": "fls",
         "Fuel": "CH3OH",
-        "Temp": 368,
+        "Temp": 368.0,
         "Pres": 1.0,
         "Phi": "0.55--1.90",
         "Method": "CFF",
@@ -3952,7 +3942,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.60--1.20",
         "Method": "OPF",
@@ -3962,7 +3952,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 5.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -3972,7 +3962,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 360,
+        "Temp": 360.0,
         "Pres": 1.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -3982,7 +3972,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 360,
+        "Temp": 360.0,
         "Pres": 5.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -3992,7 +3982,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 360,
+        "Temp": 360.0,
         "Pres": 10.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -4002,7 +3992,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 400,
+        "Temp": 400.0,
         "Pres": 1.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -4012,7 +4002,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 400,
+        "Temp": 400.0,
         "Pres": 5.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -4022,7 +4012,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 400,
+        "Temp": 400.0,
         "Pres": 10.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -4032,7 +4022,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 0.5,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -4042,7 +4032,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.30",
         "Method": "OPF",
@@ -4052,7 +4042,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.35",
         "Method": "OPF",
@@ -4062,7 +4052,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.60--1.34",
         "Method": "OPF",
@@ -4072,7 +4062,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 3.0,
         "Phi": "0.70--1.35",
         "Method": "OPF",
@@ -4082,7 +4072,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 4.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -4092,7 +4082,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -4102,7 +4092,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--1.30",
         "Method": "BF",
@@ -4112,7 +4102,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.30",
         "Method": "FFCM1FLS",
@@ -4162,7 +4152,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.60",
         "Method": "HF",
@@ -4192,7 +4182,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.65--1.26",
         "Method": "CFF",
@@ -4202,7 +4192,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.70--1.30",
         "Method": "CFF",
@@ -4212,7 +4202,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 4.0,
         "Phi": "0.65--1.20",
         "Method": "CFF",
@@ -4222,7 +4212,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.30",
         "Method": "OPF",
@@ -4232,7 +4222,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -4242,7 +4232,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 5.0,
         "Phi": "0.60--1.40",
         "Method": "OPF",
@@ -4252,7 +4242,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 10.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -4262,7 +4252,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 20.0,
         "Phi": "0.70--1.40",
         "Method": "OPF",
@@ -4272,7 +4262,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.55--1.50",
         "Method": "CFF",
@@ -4282,7 +4272,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 40.0,
         "Phi": "0.80--1.40",
         "Method": "OPF",
@@ -4292,7 +4282,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 60.0,
         "Phi": "0.85--1.30",
         "Method": "OPF",
@@ -4302,7 +4292,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 10.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -4312,7 +4302,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 20.0,
         "Phi": "0.80--1.40",
         "Method": "OPF",
@@ -4322,7 +4312,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "CFF",
@@ -4332,7 +4322,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.30",
         "Method": "HF",
@@ -4342,7 +4332,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 343,
+        "Temp": 343.0,
         "Pres": 1.0,
         "Phi": "0.70--1.40",
         "Method": "CFF",
@@ -4352,7 +4342,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.54--1.54",
         "Method": "OPF",
@@ -4362,7 +4352,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.53--1.49",
         "Method": "CFF",
@@ -4372,7 +4362,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.55--1.50",
         "Method": "CFF",
@@ -4382,7 +4372,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 0.25,
         "Phi": "0.70--1.40",
         "Method": "CFF",
@@ -4392,7 +4382,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.39--1.80",
         "Method": "CFF",
@@ -4402,7 +4392,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.92--1.15",
         "Method": "CFF",
@@ -4412,7 +4402,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 0.5,
         "Phi": "0.60--1.50",
         "Method": "CFF",
@@ -4422,7 +4412,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.55--1.50",
         "Method": "CFF",
@@ -4432,7 +4422,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 3.0,
         "Phi": "0.60--1.40",
         "Method": "CFF",
@@ -4452,7 +4442,7 @@
     {
         "Type": "fls",
         "Fuel": "CH4",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 10.0,
         "Phi": "0.80--1.20",
         "Method": "OPF",
@@ -4461,18 +4451,8 @@
     },
     {
         "Type": "fls",
-        "Fuel": "CO",
-        "Temp": 298,
-        "Pres": 1.0,
-        "Phi": "0.60--1.00",
-        "Method": "OPF",
-        "url": "../../TestPages/fls_CO_1",
-        "key": "fls_CO_1"
-    },
-    {
-        "Type": "fls",
         "Fuel": "H2",
-        "Temp": 443,
+        "Temp": 443.0,
         "Pres": 1.0,
         "Phi": "0.50--3.00",
         "Method": "OPF",
@@ -4482,7 +4462,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 373,
+        "Temp": 373.0,
         "Pres": 5.0,
         "Phi": "0.50--4.00",
         "Method": "OPF",
@@ -4492,7 +4472,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 443,
+        "Temp": 443.0,
         "Pres": 5.0,
         "Phi": "0.50--4.00",
         "Method": "OPF",
@@ -4502,7 +4482,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.26--3.57",
         "Method": "OPF",
@@ -4512,7 +4492,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.40--1.00",
         "Method": "OPF",
@@ -4522,7 +4502,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.00",
         "Method": "BF",
@@ -4532,7 +4512,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 353,
+        "Temp": 353.0,
         "Pres": "5.00--25.00",
         "Phi": 2.5,
         "Method": "OPF",
@@ -4542,7 +4522,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--3.00",
         "Method": "BF",
@@ -4552,7 +4532,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": 1.0,
         "Method": "OPF",
@@ -4562,7 +4542,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": 1.0,
         "Method": "OPF",
@@ -4572,7 +4552,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--4.00",
         "Method": "OPF",
@@ -4582,7 +4562,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": 1.0,
         "Method": "OPF",
@@ -4592,7 +4572,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": 1.0,
         "Method": "OPF",
@@ -4602,7 +4582,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": 1.8,
         "Method": "OPF",
@@ -4612,7 +4592,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": 1.8,
         "Method": "OPF",
@@ -4622,7 +4602,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": 1.8,
         "Method": "OPF",
@@ -4632,7 +4612,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 0.5,
         "Phi": 1.0,
         "Method": "OPF",
@@ -4642,7 +4622,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 0.5,
         "Phi": 1.0,
         "Method": "OPF",
@@ -4652,7 +4632,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--3.34",
         "Method": "BF",
@@ -4662,7 +4642,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "0.99--1.39",
         "Phi": 1.0,
         "Method": "BF",
@@ -4672,7 +4652,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "0.99--2.17",
         "Phi": 2.0,
         "Method": "BF",
@@ -4682,7 +4662,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--25.00",
         "Phi": 0.85,
         "Method": "OPF",
@@ -4692,7 +4672,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "0.99--3.44",
         "Phi": 3.0,
         "Method": "BF",
@@ -4702,7 +4682,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 393,
+        "Temp": 393.0,
         "Pres": "1.00--10.00",
         "Phi": 0.85,
         "Method": "OPF",
@@ -4712,7 +4692,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 393,
+        "Temp": 393.0,
         "Pres": "2.00--10.00",
         "Phi": 0.85,
         "Method": "OPF",
@@ -4722,7 +4702,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 393,
+        "Temp": 393.0,
         "Pres": "1.00--4.00",
         "Phi": 0.85,
         "Method": "OPF",
@@ -4732,7 +4712,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.41--5.07",
         "Method": "OPF",
@@ -4742,7 +4722,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.60",
         "Method": "OPF",
@@ -4752,7 +4732,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.93--4.38",
         "Method": "BF",
@@ -4762,7 +4742,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.45--4.00",
         "Method": "OPF",
@@ -4772,7 +4752,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--2.50",
         "Method": "OPF",
@@ -4782,7 +4762,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 15.0,
         "Phi": "0.85--2.00",
         "Method": "OPF",
@@ -4792,7 +4772,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--25.00",
         "Phi": 1.0,
         "Method": "OPF",
@@ -4802,7 +4782,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 3.0,
         "Phi": "0.60--3.50",
         "Method": "OPF",
@@ -4812,7 +4792,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 5.0,
         "Phi": "0.50--3.50",
         "Method": "OPF",
@@ -4822,7 +4802,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 10.0,
         "Phi": "0.85--2.00",
         "Method": "OPF",
@@ -4832,7 +4812,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 15.0,
         "Phi": "0.85--2.00",
         "Method": "OPF",
@@ -4842,7 +4822,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 20.0,
         "Phi": "0.85--2.00",
         "Method": "OPF",
@@ -4852,7 +4832,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 300,
+        "Temp": 300.0,
         "Pres": 1.0,
         "Phi": "0.45--0.65",
         "Method": "OPF",
@@ -4862,7 +4842,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.30--1.50",
         "Method": "CFF",
@@ -4872,7 +4852,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.30--1.00",
         "Method": "OPF",
@@ -4882,7 +4862,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 365,
+        "Temp": 365.0,
         "Pres": 1.0,
         "Phi": "0.30--1.00",
         "Method": "OPF",
@@ -4892,7 +4872,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 365,
+        "Temp": 365.0,
         "Pres": 5.0,
         "Phi": "0.30--1.00",
         "Method": "OPF",
@@ -4902,7 +4882,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--25.00",
         "Phi": 1.0,
         "Method": "OPF",
@@ -4912,7 +4892,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 365,
+        "Temp": 365.0,
         "Pres": 10.0,
         "Phi": "0.30--1.00",
         "Method": "OPF",
@@ -4922,7 +4902,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.96--3.97",
         "Method": "BF",
@@ -4932,7 +4912,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--5.84",
         "Method": "BF",
@@ -4942,7 +4922,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.59--1.49",
         "Method": "CFF",
@@ -4952,7 +4932,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "1.00--2.60",
         "Method": "OPF",
@@ -4962,7 +4942,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--20.00",
         "Phi": 1.0,
         "Method": "OPF",
@@ -4972,7 +4952,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--20.00",
         "Phi": 2.5,
         "Method": "OPF",
@@ -4982,7 +4962,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--25.00",
         "Phi": 2.5,
         "Method": "OPF",
@@ -4992,7 +4972,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--25.00",
         "Phi": 2.5,
         "Method": "OPF",
@@ -5002,7 +4982,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--25.00",
         "Phi": 2.5,
         "Method": "OPF",
@@ -5012,7 +4992,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--25.00",
         "Phi": 2.5,
         "Method": "OPF",
@@ -5022,7 +5002,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.30--5.00",
         "Method": "OPF",
@@ -5032,7 +5012,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--25.00",
         "Phi": 2.5,
         "Method": "OPF",
@@ -5042,7 +5022,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--25.00",
         "Phi": 2.5,
         "Method": "OPF",
@@ -5052,7 +5032,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--10.00",
         "Phi": 1.0,
         "Method": "OPF",
@@ -5062,7 +5042,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--5.00",
         "Phi": 2.5,
         "Method": "OPF",
@@ -5072,7 +5052,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--3.00",
         "Method": "OPF",
@@ -5082,7 +5062,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--10.00",
         "Phi": 0.3,
         "Method": "OPF",
@@ -5092,17 +5072,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
-        "Pres": 5.0,
-        "Phi": 0.3,
-        "Method": "OPF",
-        "url": "../../TestPages/fls_H2_26",
-        "key": "fls_H2_26"
-    },
-    {
-        "Type": "fls",
-        "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--10.00",
         "Phi": 0.5,
         "Method": "OPF",
@@ -5112,7 +5082,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--10.00",
         "Phi": 0.5,
         "Method": "OPF",
@@ -5122,7 +5092,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--10.00",
         "Phi": 0.7,
         "Method": "OPF",
@@ -5132,7 +5102,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 0.35,
         "Phi": "0.45--3.00",
         "Method": "OPF",
@@ -5142,7 +5112,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--25.00",
         "Phi": 0.7,
         "Method": "OPF",
@@ -5152,7 +5122,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--10.00",
         "Phi": 0.7,
         "Method": "OPF",
@@ -5162,7 +5132,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--5.00",
         "Phi": 0.85,
         "Method": "OPF",
@@ -5172,7 +5142,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 295,
+        "Temp": 295.0,
         "Pres": "1.00--10.00",
         "Phi": 1.0,
         "Method": "OPF",
@@ -5182,7 +5152,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.30--0.80",
         "Method": "OPF",
@@ -5192,7 +5162,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 365,
+        "Temp": 365.0,
         "Pres": 1.0,
         "Phi": "0.30--1.00",
         "Method": "OPF",
@@ -5202,7 +5172,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 365,
+        "Temp": 365.0,
         "Pres": 5.0,
         "Phi": "0.30--1.00",
         "Method": "OPF",
@@ -5212,7 +5182,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 365,
+        "Temp": 365.0,
         "Pres": 10.0,
         "Phi": "0.30--1.00",
         "Method": "OPF",
@@ -5222,7 +5192,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.50--2.00",
         "Method": "OPF",
@@ -5232,7 +5202,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 373,
+        "Temp": 373.0,
         "Pres": 1.0,
         "Phi": "0.80--2.00",
         "Method": "OPF",
@@ -5242,7 +5212,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 0.5,
         "Phi": "0.45--4.00",
         "Method": "OPF",
@@ -5252,7 +5222,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 423,
+        "Temp": 423.0,
         "Pres": 1.0,
         "Phi": "0.80--2.00",
         "Method": "OPF",
@@ -5262,7 +5232,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 303,
+        "Temp": 303.0,
         "Pres": 1.0,
         "Phi": "0.50--4.00",
         "Method": "OPF",
@@ -5272,7 +5242,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 303,
+        "Temp": 303.0,
         "Pres": "0.20--2.00",
         "Phi": 0.5,
         "Method": "OPF",
@@ -5282,7 +5252,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 303,
+        "Temp": 303.0,
         "Pres": "0.30--1.30",
         "Phi": 1.0,
         "Method": "OPF",
@@ -5292,7 +5262,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 303,
+        "Temp": 303.0,
         "Pres": "0.30--1.70",
         "Phi": 1.7,
         "Method": "OPF",
@@ -5302,7 +5272,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 303,
+        "Temp": 303.0,
         "Pres": "0.30--3.00",
         "Phi": 3.0,
         "Method": "OPF",
@@ -5312,7 +5282,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 296,
+        "Temp": 296.0,
         "Pres": 1.0,
         "Phi": "0.30--2.30",
         "Method": "OPF",
@@ -5322,7 +5292,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 293,
+        "Temp": 293.0,
         "Pres": 1.0,
         "Phi": "0.40--2.10",
         "Method": "BF",
@@ -5332,7 +5302,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.25--1.49",
         "Method": "CFF",
@@ -5342,7 +5312,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.15--0.60",
         "Method": "CFF",
@@ -5352,7 +5322,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.45--4.00",
         "Method": "OPF",
@@ -5362,7 +5332,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.51--1.25",
         "Method": "CFF",
@@ -5372,7 +5342,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--2.20",
         "Method": "CFF",
@@ -5382,7 +5352,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 296,
+        "Temp": 296.0,
         "Pres": 1.0,
         "Phi": "0.81--2.68",
         "Method": "OPF",
@@ -5392,7 +5362,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 363,
+        "Temp": 363.0,
         "Pres": 1.0,
         "Phi": "0.80--3.80",
         "Method": "OPF",
@@ -5402,7 +5372,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 413,
+        "Temp": 413.0,
         "Pres": 1.0,
         "Phi": "0.80--4.00",
         "Method": "OPF",
@@ -5412,7 +5382,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 296,
+        "Temp": 296.0,
         "Pres": 1.0,
         "Phi": "0.81--4.08",
         "Method": "OPF",
@@ -5422,7 +5392,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 363,
+        "Temp": 363.0,
         "Pres": 1.0,
         "Phi": "0.80--4.03",
         "Method": "OPF",
@@ -5432,7 +5402,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 413,
+        "Temp": 413.0,
         "Pres": 1.0,
         "Phi": "0.80--4.00",
         "Method": "OPF",
@@ -5442,7 +5412,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 296,
+        "Temp": 296.0,
         "Pres": 1.0,
         "Phi": "0.75--4.00",
         "Method": "OPF",
@@ -5452,7 +5422,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 363,
+        "Temp": 363.0,
         "Pres": 1.0,
         "Phi": "0.80--4.00",
         "Method": "OPF",
@@ -5462,7 +5432,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.45--4.00",
         "Method": "OPF",
@@ -5472,7 +5442,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 413,
+        "Temp": 413.0,
         "Pres": 1.0,
         "Phi": "0.79--4.00",
         "Method": "OPF",
@@ -5482,7 +5452,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 363,
+        "Temp": 363.0,
         "Pres": 1.0,
         "Phi": "0.80--2.81",
         "Method": "OPF",
@@ -5492,7 +5462,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 413,
+        "Temp": 413.0,
         "Pres": 1.0,
         "Phi": "0.81--3.00",
         "Method": "OPF",
@@ -5502,7 +5472,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 363,
+        "Temp": 363.0,
         "Pres": 1.0,
         "Phi": "0.80--3.40",
         "Method": "OPF",
@@ -5512,7 +5482,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 413,
+        "Temp": 413.0,
         "Pres": 1.0,
         "Phi": "0.80--4.00",
         "Method": "OPF",
@@ -5522,7 +5492,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 293,
+        "Temp": 293.0,
         "Pres": 1.0,
         "Phi": "0.39--5.54",
         "Method": "BF",
@@ -5572,7 +5542,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 3.0,
         "Phi": "0.45--4.00",
         "Method": "OPF",
@@ -5622,7 +5592,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--4.50",
         "Method": "OPF",
@@ -5632,7 +5602,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.75--3.10",
         "Method": "HF",
@@ -5642,7 +5612,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--0.95",
         "Method": "HF",
@@ -5652,7 +5622,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": 1.058,
         "Method": "HF",
@@ -5662,7 +5632,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.40",
         "Method": "OPF",
@@ -5672,7 +5642,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 291,
+        "Temp": 291.0,
         "Pres": 1.0,
         "Phi": "0.53--3.94",
         "Method": "OPF",
@@ -5682,7 +5652,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 4.0,
         "Phi": "0.45--4.00",
         "Method": "OPF",
@@ -5692,7 +5662,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--4.50",
         "Method": "OPF",
@@ -5702,7 +5672,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "0.50--3.00",
         "Phi": 0.6,
         "Method": "OPF",
@@ -5712,7 +5682,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.90--3.75",
         "Method": "OPF",
@@ -5722,7 +5692,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "1.00--3.00",
         "Phi": 4.5,
         "Method": "OPF",
@@ -5732,7 +5702,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "0.30--1.00",
         "Phi": 0.6,
         "Method": "OPF",
@@ -5742,7 +5712,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.90--3.75",
         "Method": "OPF",
@@ -5752,7 +5722,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": "0.50--3.00",
         "Phi": 4.5,
         "Method": "OPF",
@@ -5762,7 +5732,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": 4.5,
         "Method": "OPF",
@@ -5772,7 +5742,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": 0.6,
         "Method": "OPF",
@@ -5782,7 +5752,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.30--0.90",
         "Method": "OPF",
@@ -5792,7 +5762,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--3.00",
         "Method": "OPF",
@@ -5802,7 +5772,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.27--5.55",
         "Method": "OPF",
@@ -5812,7 +5782,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 0.5,
         "Phi": "0.26--4.42",
         "Method": "OPF",
@@ -5822,7 +5792,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 0.3,
         "Phi": "0.26--4.42",
         "Method": "OPF",
@@ -5832,7 +5802,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 0.75,
         "Phi": "0.26--4.40",
         "Method": "OPF",
@@ -5842,7 +5812,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 0.2,
         "Phi": "0.26--1.95",
         "Method": "OPF",
@@ -5852,7 +5822,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.40--5.00",
         "Method": "OPF",
@@ -5862,7 +5832,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.50--5.00",
         "Method": "OPF",
@@ -5872,7 +5842,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 5.0,
         "Phi": "0.50--4.00",
         "Method": "OPF",
@@ -5882,7 +5852,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 10.0,
         "Phi": "0.50--4.00",
         "Method": "OPF",
@@ -5892,7 +5862,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 373,
+        "Temp": 373.0,
         "Pres": 1.0,
         "Phi": "0.50--4.00",
         "Method": "OPF",
@@ -5902,7 +5872,7 @@
     {
         "Type": "fls",
         "Fuel": "H2",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.50--4.00",
         "Method": "OPF",
@@ -5912,7 +5882,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 10.0,
         "Phi": "0.70--1.00",
         "Method": "OPF",
@@ -5922,7 +5892,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "CFF",
@@ -5932,7 +5902,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H10",
-        "Temp": 303,
+        "Temp": 303.0,
         "Pres": 1.0,
         "Phi": "0.60--1.40",
         "Method": "OPF",
@@ -5942,7 +5912,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.65--1.50",
         "Method": "HF",
@@ -5952,7 +5922,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.70",
         "Method": "CFF",
@@ -5962,7 +5932,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.70",
         "Method": "OPF",
@@ -5972,7 +5942,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.70--1.70",
         "Method": "OPF",
@@ -5982,7 +5952,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 5.0,
         "Phi": "0.70--1.20",
         "Method": "OPF",
@@ -5992,7 +5962,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 10.0,
         "Phi": "0.70--1.00",
         "Method": "OPF",
@@ -6002,7 +5972,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--1.70",
         "Method": "OPF",
@@ -6012,7 +5982,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.80--1.60",
         "Method": "OPF",
@@ -6022,7 +5992,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H10",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 5.0,
         "Phi": "0.80--1.50",
         "Method": "OPF",
@@ -6062,7 +6032,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.50",
         "Method": "CFF",
@@ -6072,7 +6042,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.75--1.50",
         "Method": "OPF",
@@ -6082,7 +6052,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.74--1.47",
         "Method": "OPF",
@@ -6092,7 +6062,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.60--1.80",
         "Method": "HF",
@@ -6102,7 +6072,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H8",
-        "Temp": 358,
+        "Temp": 358.0,
         "Pres": 1.0,
         "Phi": "0.55--1.90",
         "Method": "HF",
@@ -6112,7 +6082,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H8",
-        "Temp": 398,
+        "Temp": 398.0,
         "Pres": 1.0,
         "Phi": "0.55--1.90",
         "Method": "HF",
@@ -6122,7 +6092,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.80",
         "Method": "OPF",
@@ -6132,7 +6102,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.70",
         "Method": "CFF",
@@ -6142,7 +6112,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.70--1.50",
         "Method": "OPF",
@@ -6152,7 +6122,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 5.0,
         "Phi": "0.70--1.20",
         "Method": "OPF",
@@ -6162,7 +6132,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 10.0,
         "Phi": "0.70--1.00",
         "Method": "OPF",
@@ -6172,7 +6142,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.80",
         "Method": "OPF",
@@ -6182,7 +6152,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 2.0,
         "Phi": "0.70--1.60",
         "Method": "OPF",
@@ -6192,7 +6162,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 5.0,
         "Phi": "0.70--1.30",
         "Method": "OPF",
@@ -6202,7 +6172,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H8",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 10.0,
         "Phi": "0.70--0.90",
         "Method": "OPF",
@@ -6212,7 +6182,7 @@
     {
         "Type": "fls",
         "Fuel": "IC4H8",
-        "Temp": 428,
+        "Temp": 428.0,
         "Pres": 1.0,
         "Phi": "1.00--1.47",
         "Method": "OPF",
@@ -6252,7 +6222,7 @@
     {
         "Type": "fls",
         "Fuel": "PC3H4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.70--1.70",
         "Method": "CFF",
@@ -6262,7 +6232,7 @@
     {
         "Type": "fls",
         "Fuel": "PC3H4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "0.80--1.30",
         "Method": "BF",
@@ -6272,7 +6242,7 @@
     {
         "Type": "fls",
         "Fuel": "PC3H4",
-        "Temp": 298,
+        "Temp": 298.0,
         "Pres": 1.0,
         "Phi": "1.05--1.30",
         "Method": "Tube",
@@ -6282,7 +6252,7 @@
     {
         "Type": "fls",
         "Fuel": "PC3H4",
-        "Temp": 373,
+        "Temp": 373.0,
         "Pres": 1.0,
         "Phi": "0.71--1.54",
         "Method": "OPF",
@@ -6292,132 +6262,12 @@
     {
         "Type": "fls",
         "Fuel": "PC3H4",
-        "Temp": 373,
+        "Temp": 373.0,
         "Pres": 2.0,
         "Phi": "0.72--1.49",
         "Method": "OPF",
         "url": "../../TestPages/fls_PC3H4_5",
         "key": "fls_PC3H4_5"
-    },
-    {
-        "Type": "flw",
-        "Fuel": "H2",
-        "Temp": "935--995",
-        "Pres": 3.02,
-        "Phi": 0.97,
-        "Method": "H2,O2,H2O",
-        "url": "../../TestPages/flw_H2_10",
-        "key": "flw_H2_10"
-    },
-    {
-        "Type": "flw",
-        "Fuel": "H2",
-        "Temp": 933,
-        "Pres": 3.44,
-        "Phi": 0.97,
-        "Method": "time H2,O2,H2O",
-        "url": "../../TestPages/flw_H2_11",
-        "key": "flw_H2_11"
-    },
-    {
-        "Type": "flw",
-        "Fuel": "H2",
-        "Temp": 935,
-        "Pres": 6.0,
-        "Phi": 0.97,
-        "Method": "time H2,O2,H2O",
-        "url": "../../TestPages/flw_H2_12",
-        "key": "flw_H2_12"
-    },
-    {
-        "Type": "flw",
-        "Fuel": "H2",
-        "Temp": "894--972",
-        "Pres": 6.5,
-        "Phi": 0.29,
-        "Method": "H2,O2,H2O",
-        "url": "../../TestPages/flw_H2_13",
-        "key": "flw_H2_13"
-    },
-    {
-        "Type": "flw",
-        "Fuel": "H2",
-        "Temp": "945--1017",
-        "Pres": 6.5,
-        "Phi": 0.3,
-        "Method": "H2,O2,H2O",
-        "url": "../../TestPages/flw_H2_14",
-        "key": "flw_H2_14"
-    },
-    {
-        "Type": "flw",
-        "Fuel": "H2",
-        "Temp": "936--993",
-        "Pres": 15.7,
-        "Phi": 0.27,
-        "Method": "H2,O2,H2O",
-        "url": "../../TestPages/flw_H2_15",
-        "key": "flw_H2_15"
-    },
-    {
-        "Type": "flw",
-        "Fuel": "H2",
-        "Temp": "920--985",
-        "Pres": 15.7,
-        "Phi": 0.97,
-        "Method": "H2,O2,H2O",
-        "url": "../../TestPages/flw_H2_4",
-        "key": "flw_H2_4"
-    },
-    {
-        "Type": "flw",
-        "Fuel": "H2",
-        "Temp": "920--995",
-        "Pres": 6.5,
-        "Phi": 0.3,
-        "Method": "H2,O2,H2O",
-        "url": "../../TestPages/flw_H2_5",
-        "key": "flw_H2_5"
-    },
-    {
-        "Type": "flw",
-        "Fuel": "H2",
-        "Temp": "896--928",
-        "Pres": 0.6,
-        "Phi": 0.33,
-        "Method": "H2,O2,H2O",
-        "url": "../../TestPages/flw_H2_6",
-        "key": "flw_H2_6"
-    },
-    {
-        "Type": "flw",
-        "Fuel": "H2",
-        "Temp": "882--910",
-        "Pres": 0.3,
-        "Phi": 0.5,
-        "Method": "H2,O2,H2O",
-        "url": "../../TestPages/flw_H2_7",
-        "key": "flw_H2_7"
-    },
-    {
-        "Type": "flw",
-        "Fuel": "H2",
-        "Temp": "897--927",
-        "Pres": 0.6,
-        "Phi": 0.735,
-        "Method": "H2,O2,H2O",
-        "url": "../../TestPages/flw_H2_8",
-        "key": "flw_H2_8"
-    },
-    {
-        "Type": "flw",
-        "Fuel": "H2",
-        "Temp": "943--1003",
-        "Pres": 2.5,
-        "Phi": 0.33,
-        "Method": "H2,O2,H2O",
-        "url": "../../TestPages/flw_H2_9",
-        "key": "flw_H2_9"
     },
     {
         "Type": "ign",
@@ -8055,7 +7905,7 @@
         "Temp": "1868--2311",
         "Pres": "1.30--1.68",
         "Phi": 1.5,
-        "Method": "max CO times O",
+        "Method": "max grad pres",
         "url": "../../TestPages/ign_C2H4_60",
         "key": "ign_C2H4_60"
     },
@@ -8425,7 +8275,7 @@
         "Temp": "1371--1720",
         "Pres": "0.89--1.21",
         "Phi": 2.0,
-        "Method": "onset OH*",
+        "Method": "max grad pres",
         "url": "../../TestPages/ign_C2H4_94",
         "key": "ign_C2H4_94"
     },
@@ -9965,7 +9815,7 @@
         "Temp": "1501--2169",
         "Pres": "1.70--2.98",
         "Phi": 1.0,
-        "Method": "onset CH*",
+        "Method": "max grad pres",
         "url": "../../TestPages/ign_C3H8_12",
         "key": "ign_C3H8_12"
     },
@@ -10515,7 +10365,7 @@
         "Temp": "1326--1594",
         "Pres": "1.02--1.07",
         "Phi": 0.5,
-        "Method": "onset OH*",
+        "Method": "max grad pres",
         "url": "../../TestPages/ign_C3H8_62",
         "key": "ign_C3H8_62"
     },
@@ -10535,7 +10385,7 @@
         "Temp": "1396--1643",
         "Pres": "0.97--1.02",
         "Phi": 1.0,
-        "Method": "onset OH*",
+        "Method": "max grad pres",
         "url": "../../TestPages/ign_C3H8_64",
         "key": "ign_C3H8_64"
     },
@@ -10545,7 +10395,7 @@
         "Temp": "1358--1621",
         "Pres": "1.75--1.83",
         "Phi": 1.0,
-        "Method": "onset OH*",
+        "Method": "max grad pres",
         "url": "../../TestPages/ign_C3H8_65",
         "key": "ign_C3H8_65"
     },
@@ -10555,7 +10405,7 @@
         "Temp": "1415--1699",
         "Pres": "0.99--1.07",
         "Phi": 2.0,
-        "Method": "onset OH*",
+        "Method": "max grad pres",
         "url": "../../TestPages/ign_C3H8_66",
         "key": "ign_C3H8_66"
     },
@@ -10565,7 +10415,7 @@
         "Temp": "1404--1677",
         "Pres": "1.75--1.91",
         "Phi": 2.0,
-        "Method": "onset OH*",
+        "Method": "max grad pres",
         "url": "../../TestPages/ign_C3H8_67",
         "key": "ign_C3H8_67"
     },
@@ -11048,66 +10898,6 @@
         "Method": "max grad pres",
         "url": "../../TestPages/ign_C4H10_9",
         "key": "ign_C4H10_9"
-    },
-    {
-        "Type": "ign",
-        "Fuel": "C4H2",
-        "Temp": "1268--1604",
-        "Pres": "1.38--1.94",
-        "Phi": 2.0,
-        "Method": "onset CO2",
-        "url": "../../TestPages/ign_C4H2_1",
-        "key": "ign_C4H2_1"
-    },
-    {
-        "Type": "ign",
-        "Fuel": "C4H2",
-        "Temp": "1254--1543",
-        "Pres": "1.36--1.84",
-        "Phi": 1.0,
-        "Method": "onset CO2",
-        "url": "../../TestPages/ign_C4H2_2",
-        "key": "ign_C4H2_2"
-    },
-    {
-        "Type": "ign",
-        "Fuel": "C4H2",
-        "Temp": "1208--1493",
-        "Pres": "1.28--1.76",
-        "Phi": 0.5,
-        "Method": "onset CO2",
-        "url": "../../TestPages/ign_C4H2_3",
-        "key": "ign_C4H2_3"
-    },
-    {
-        "Type": "ign",
-        "Fuel": "C4H2",
-        "Temp": "1508--1695",
-        "Pres": "1.78--2.09",
-        "Phi": 2.0,
-        "Method": "onset CO2",
-        "url": "../../TestPages/ign_C4H2_4",
-        "key": "ign_C4H2_4"
-    },
-    {
-        "Type": "ign",
-        "Fuel": "C4H2",
-        "Temp": "1434--1793",
-        "Pres": "1.66--2.26",
-        "Phi": 1.0,
-        "Method": "onset CO2",
-        "url": "../../TestPages/ign_C4H2_5",
-        "key": "ign_C4H2_5"
-    },
-    {
-        "Type": "ign",
-        "Fuel": "C4H2",
-        "Temp": "1321--1703",
-        "Pres": "1.47--2.11",
-        "Phi": 0.5000000000000001,
-        "Method": "onset CO2",
-        "url": "../../TestPages/ign_C4H2_6",
-        "key": "ign_C4H2_6"
     },
     {
         "Type": "ign",
@@ -11675,7 +11465,7 @@
         "Temp": "1442--1664",
         "Pres": "6.94--8.32",
         "Phi": 2.0,
-        "Method": "0.1 max OH*",
+        "Method": "max grad pres",
         "url": "../../TestPages/ign_C4H81_4",
         "key": "ign_C4H81_4"
     },
@@ -12612,8 +12402,8 @@
     {
         "Type": "ign",
         "Fuel": "CH4",
-        "Temp": "30--32",
-        "Pres": "1059.00--1286.00",
+        "Temp": "1059--1286",
+        "Pres": "30.40--32.30",
         "Phi": 0.7,
         "Method": "max grad pres",
         "url": "../../TestPages/ign_CH4_11",
@@ -12722,8 +12512,8 @@
     {
         "Type": "ign",
         "Fuel": "CH4",
-        "Temp": "15--17",
-        "Pres": "1143.00--1304.00",
+        "Temp": "1143--1304",
+        "Pres": "14.90--16.80",
         "Phi": 0.7,
         "Method": "max grad pres",
         "url": "../../TestPages/ign_CH4_12",
@@ -12792,8 +12582,8 @@
     {
         "Type": "ign",
         "Fuel": "CH4",
-        "Temp": "38--39",
-        "Pres": "1004.00--1370.00",
+        "Temp": "1004--1370",
+        "Pres": "37.60--39.10",
         "Phi": 0.7,
         "Method": "max grad pres",
         "url": "../../TestPages/ign_CH4_13",
@@ -12802,8 +12592,8 @@
     {
         "Type": "ign",
         "Fuel": "CH4",
-        "Temp": "36--42",
-        "Pres": "1024.00--1295.00",
+        "Temp": "1024--1295",
+        "Pres": "36.50--41.60",
         "Phi": 1.0,
         "Method": "max grad pres",
         "url": "../../TestPages/ign_CH4_14",
@@ -12812,8 +12602,8 @@
     {
         "Type": "ign",
         "Fuel": "CH4",
-        "Temp": "21--30",
-        "Pres": "1032.00--1309.00",
+        "Temp": "1032--1309",
+        "Pres": "20.90--29.80",
         "Phi": 1.0,
         "Method": "max grad pres",
         "url": "../../TestPages/ign_CH4_15",
@@ -12822,8 +12612,8 @@
     {
         "Type": "ign",
         "Fuel": "CH4",
-        "Temp": "14--18",
-        "Pres": "1038.00--1348.00",
+        "Temp": "1038--1348",
+        "Pres": "14.10--17.90",
         "Phi": 1.0,
         "Method": "max grad pres",
         "url": "../../TestPages/ign_CH4_16",
@@ -12832,8 +12622,8 @@
     {
         "Type": "ign",
         "Fuel": "CH4",
-        "Temp": "30--31",
-        "Pres": "1035.00--1184.00",
+        "Temp": "1035--1184",
+        "Pres": "30.50--31.40",
         "Phi": 1.0,
         "Method": "max grad pres",
         "url": "../../TestPages/ign_CH4_17",
@@ -12842,8 +12632,8 @@
     {
         "Type": "ign",
         "Fuel": "CH4",
-        "Temp": "36--39",
-        "Pres": "1068.00--1290.00",
+        "Temp": "1068--1290",
+        "Pres": "36.00--39.40",
         "Phi": 1.3,
         "Method": "max grad pres",
         "url": "../../TestPages/ign_CH4_18",
@@ -13602,16 +13392,6 @@
     {
         "Type": "ign",
         "Fuel": "CH4",
-        "Temp": 1730,
-        "Pres": 30.3,
-        "Phi": 0.5,
-        "Method": "max grad pres",
-        "url": "../../TestPages/ign_CH4_87",
-        "key": "ign_CH4_87"
-    },
-    {
-        "Type": "ign",
-        "Fuel": "CH4",
         "Temp": "1659--1665",
         "Pres": "80.90--81.20",
         "Phi": 0.5,
@@ -13658,16 +13438,6 @@
         "Method": "max grad pres",
         "url": "../../TestPages/ign_CH4_91",
         "key": "ign_CH4_91"
-    },
-    {
-        "Type": "ign",
-        "Fuel": "CH4",
-        "Temp": 1425,
-        "Pres": 36.6,
-        "Phi": 2.0,
-        "Method": "max grad pres",
-        "url": "../../TestPages/ign_CH4_92",
-        "key": "ign_CH4_92"
     },
     {
         "Type": "ign",
@@ -14238,16 +14008,6 @@
         "Method": "0.05 max OH*",
         "url": "../../TestPages/ign_H2_46",
         "key": "ign_H2_46"
-    },
-    {
-        "Type": "ign",
-        "Fuel": "H2",
-        "Temp": 2898,
-        "Pres": 1.98,
-        "Phi": 2.64,
-        "Method": "max grad OH",
-        "url": "../../TestPages/ign_H2_47",
-        "key": "ign_H2_47"
     },
     {
         "Type": "ign",
@@ -15015,7 +14775,7 @@
         "Temp": "1526--1864",
         "Pres": "1.33--1.60",
         "Phi": 1.0,
-        "Method": "onset CH*",
+        "Method": "0.1 delta pres",
         "url": "../../TestPages/ign_IC4H10_27",
         "key": "ign_IC4H10_27"
     },
@@ -15025,7 +14785,7 @@
         "Temp": "1444--1703",
         "Pres": "1.40--1.59",
         "Phi": 1.0,
-        "Method": "onset CH*",
+        "Method": "0.1 delta pres",
         "url": "../../TestPages/ign_IC4H10_28",
         "key": "ign_IC4H10_28"
     },
@@ -15035,7 +14795,7 @@
         "Temp": "1442--1765",
         "Pres": "2.00--2.78",
         "Phi": 1.0,
-        "Method": "onset CH*",
+        "Method": "0.1 delta pres",
         "url": "../../TestPages/ign_IC4H10_29",
         "key": "ign_IC4H10_29"
     },
@@ -15055,7 +14815,7 @@
         "Temp": "1406--1750",
         "Pres": "4.78--5.61",
         "Phi": 1.0,
-        "Method": "onset CH*",
+        "Method": "0.1 delta pres",
         "url": "../../TestPages/ign_IC4H10_30",
         "key": "ign_IC4H10_30"
     },
@@ -15065,7 +14825,7 @@
         "Temp": "1404--1684",
         "Pres": "9.94--12.58",
         "Phi": 1.0,
-        "Method": "onset CH*",
+        "Method": "0.1 delta pres",
         "url": "../../TestPages/ign_IC4H10_31",
         "key": "ign_IC4H10_31"
     },
@@ -15195,7 +14955,7 @@
         "Temp": "1453--1715",
         "Pres": 1.7,
         "Phi": 1.0,
-        "Method": "onset OH*",
+        "Method": "max grad pres",
         "url": "../../TestPages/ign_IC4H8_14",
         "key": "ign_IC4H8_14"
     },
@@ -15912,7 +15672,7 @@
     {
         "Type": "pro",
         "Fuel": "C2H6",
-        "Temp": 1794,
+        "Temp": 1794.0,
         "Pres": 1.17,
         "Phi": 0.9786729857819905,
         "Method": "time CH3",
@@ -15922,7 +15682,7 @@
     {
         "Type": "pro",
         "Fuel": "C2H6",
-        "Temp": 1817,
+        "Temp": 1817.0,
         "Pres": 1.2,
         "Phi": 0.9980988593155893,
         "Method": "time OH",
@@ -15932,7 +15692,7 @@
     {
         "Type": "pro",
         "Fuel": "C2H6",
-        "Temp": 2216,
+        "Temp": 2216.0,
         "Pres": 0.62,
         "Phi": 0.9971679410931745,
         "Method": "time CO2",
@@ -15951,16 +15711,6 @@
     },
     {
         "Type": "pro",
-        "Fuel": "C4H2",
-        "Temp": "1501--1925",
-        "Pres": "1.77--2.47",
-        "Phi": "Infinity",
-        "Method": "C4H2 C/C0 C4H2",
-        "url": "../../TestPages/pro_C4H2_1",
-        "key": "pro_C4H2_1"
-    },
-    {
-        "Type": "pro",
         "Fuel": "C4H4",
         "Temp": "1274--2104",
         "Pres": 8.0,
@@ -15972,12 +15722,52 @@
     {
         "Type": "pro",
         "Fuel": "C4H4",
-        "Temp": "1070--2307",
+        "Temp": "1277--2101",
+        "Pres": 8.0,
+        "Phi": "Infinity",
+        "Method": "C4H4",
+        "url": "../../TestPages/pro_C4H4_2",
+        "key": "pro_C4H4_2"
+    },
+    {
+        "Type": "pro",
+        "Fuel": "C4H4",
+        "Temp": "1328--2101",
+        "Pres": 8.0,
+        "Phi": "Infinity",
+        "Method": "C4H2",
+        "url": "../../TestPages/pro_C4H4_3",
+        "key": "pro_C4H4_3"
+    },
+    {
+        "Type": "pro",
+        "Fuel": "C4H4",
+        "Temp": "1153--2306",
         "Pres": 8.0,
         "Phi": "Infinity",
         "Method": "C2H2",
-        "url": "../../TestPages/pro_C4H4_2",
-        "key": "pro_C4H4_2"
+        "url": "../../TestPages/pro_C4H4_4",
+        "key": "pro_C4H4_4"
+    },
+    {
+        "Type": "pro",
+        "Fuel": "C4H4",
+        "Temp": "1070--2307",
+        "Pres": 8.0,
+        "Phi": "Infinity",
+        "Method": "C4H4",
+        "url": "../../TestPages/pro_C4H4_5",
+        "key": "pro_C4H4_5"
+    },
+    {
+        "Type": "pro",
+        "Fuel": "C4H4",
+        "Temp": "1153--2306",
+        "Pres": 8.0,
+        "Phi": "Infinity",
+        "Method": "C4H2",
+        "url": "../../TestPages/pro_C4H4_6",
+        "key": "pro_C4H4_6"
     },
     {
         "Type": "pro",
@@ -15986,8 +15776,28 @@
         "Pres": "1.30--2.30",
         "Phi": "Infinity",
         "Method": "C4H4 C/C0 C4H4",
-        "url": "../../TestPages/pro_C4H4_3",
-        "key": "pro_C4H4_3"
+        "url": "../../TestPages/pro_C4H4_7",
+        "key": "pro_C4H4_7"
+    },
+    {
+        "Type": "pro",
+        "Fuel": "C4H4",
+        "Temp": "1279--1592",
+        "Pres": "1.51--2.11",
+        "Phi": "Infinity",
+        "Method": "C4H4 C/C0 C2H2",
+        "url": "../../TestPages/pro_C4H4_8",
+        "key": "pro_C4H4_8"
+    },
+    {
+        "Type": "pro",
+        "Fuel": "C4H4",
+        "Temp": "1266--1682",
+        "Pres": "1.49--2.28",
+        "Phi": "Infinity",
+        "Method": "C4H4 C/C0 C4H2",
+        "url": "../../TestPages/pro_C4H4_9",
+        "key": "pro_C4H4_9"
     },
     {
         "Type": "pro",
@@ -16012,7 +15822,7 @@
     {
         "Type": "pro",
         "Fuel": "CH2O",
-        "Temp": 1907,
+        "Temp": 1907.0,
         "Pres": 2.64457,
         "Phi": "Infinity",
         "Method": "time CH2O C/C0 CH2O",
@@ -16022,7 +15832,7 @@
     {
         "Type": "pro",
         "Fuel": "CH2O",
-        "Temp": 2150,
+        "Temp": 2150.0,
         "Pres": 1.30553,
         "Phi": "Infinity",
         "Method": "time CH2O C/C0 CH2O",
@@ -16032,7 +15842,7 @@
     {
         "Type": "pro",
         "Fuel": "CH2O",
-        "Temp": 1935,
+        "Temp": 1935.0,
         "Pres": 1.07971,
         "Phi": 0.5681818181818182,
         "Method": "time CH2O C/C0 CH2O",
@@ -16042,7 +15852,7 @@
     {
         "Type": "pro",
         "Fuel": "CH2O",
-        "Temp": 1959,
+        "Temp": 1959.0,
         "Pres": 1.26993,
         "Phi": "Infinity",
         "Method": "time CO C/Cmax CO",
@@ -16052,7 +15862,7 @@
     {
         "Type": "pro",
         "Fuel": "CH2O",
-        "Temp": 1532,
+        "Temp": 1532.0,
         "Pres": 1.92339,
         "Phi": 1.0,
         "Method": "time CO C/Cmax CO",
@@ -16062,7 +15872,7 @@
     {
         "Type": "pro",
         "Fuel": "CH2O",
-        "Temp": 945,
+        "Temp": 945.0,
         "Pres": 1.0,
         "Phi": 1.560538116591928,
         "Method": "time CH2O",
@@ -16072,7 +15882,7 @@
     {
         "Type": "pro",
         "Fuel": "CH2O",
-        "Temp": 1256,
+        "Temp": 1256.0,
         "Pres": 1.55,
         "Phi": 4.0,
         "Method": "time CH2O C/C0 CH2O",
@@ -16082,7 +15892,7 @@
     {
         "Type": "pro",
         "Fuel": "CH2O",
-        "Temp": 1591,
+        "Temp": 1591.0,
         "Pres": 2.31,
         "Phi": 4.0,
         "Method": "time CH2O C/C0 CH2O",
@@ -16092,7 +15902,7 @@
     {
         "Type": "pro",
         "Fuel": "CH2O",
-        "Temp": 1419,
+        "Temp": 1419.0,
         "Pres": 1.81,
         "Phi": 2.0,
         "Method": "time CH2O C/C0 CH2O",
@@ -16102,7 +15912,7 @@
     {
         "Type": "pro",
         "Fuel": "CH2O",
-        "Temp": 1805,
+        "Temp": 1805.0,
         "Pres": 2.81416,
         "Phi": "Infinity",
         "Method": "time CH2O C/C0 CH2O",
@@ -16112,7 +15922,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 2800,
+        "Temp": 2800.0,
         "Pres": 1.8,
         "Phi": 4.042,
         "Method": "time CH3",
@@ -16122,7 +15932,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1865,
+        "Temp": 1865.0,
         "Pres": 2.45,
         "Phi": 1.333333333333333,
         "Method": "time Concentration CO",
@@ -16132,7 +15942,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1865,
+        "Temp": 1865.0,
         "Pres": 2.45,
         "Phi": 1.333333333333333,
         "Method": "time OH C/Cmax OH",
@@ -16142,7 +15952,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1821,
+        "Temp": 1821.0,
         "Pres": 1.55404,
         "Phi": 0.16,
         "Method": "time Concentration CO",
@@ -16152,7 +15962,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1821,
+        "Temp": 1821.0,
         "Pres": 1.55404,
         "Phi": 0.16,
         "Method": "time OH C/Cmax OH",
@@ -16162,7 +15972,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1941,
+        "Temp": 1941.0,
         "Pres": 2.51652,
         "Phi": 0.16,
         "Method": "time Concentration CO",
@@ -16172,7 +15982,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1941,
+        "Temp": 1941.0,
         "Pres": 2.51652,
         "Phi": 0.16,
         "Method": "time OH C/Cmax OH",
@@ -16182,7 +15992,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1711,
+        "Temp": 1711.0,
         "Pres": 1.46016,
         "Phi": 0.04,
         "Method": "time Concentration CO",
@@ -16192,7 +16002,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1711,
+        "Temp": 1711.0,
         "Pres": 1.46016,
         "Phi": 0.04,
         "Method": "time OH C/Cmax OH",
@@ -16202,7 +16012,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1944,
+        "Temp": 1944.0,
         "Pres": 1.70686,
         "Phi": 0.04,
         "Method": "time Concentration CO",
@@ -16222,7 +16032,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1944,
+        "Temp": 1944.0,
         "Pres": 1.70686,
         "Phi": 0.04,
         "Method": "time OH C/Cmax OH",
@@ -16232,7 +16042,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1752,
+        "Temp": 1752.0,
         "Pres": 1.50953,
         "Phi": 0.1,
         "Method": "time Concentration CO",
@@ -16242,7 +16052,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1752,
+        "Temp": 1752.0,
         "Pres": 1.50953,
         "Phi": 0.1,
         "Method": "time OH C/Cmax OH",
@@ -16252,7 +16062,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1843,
+        "Temp": 1843.0,
         "Pres": 1.60306,
         "Phi": 0.1,
         "Method": "time Concentration CO",
@@ -16262,7 +16072,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1843,
+        "Temp": 1843.0,
         "Pres": 1.60306,
         "Phi": 0.1,
         "Method": "time OH C/Cmax OH",
@@ -16272,7 +16082,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 2025,
+        "Temp": 2025.0,
         "Pres": 2.59219,
         "Phi": 1.333333333333333,
         "Method": "time Concentration CO",
@@ -16282,7 +16092,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 2025,
+        "Temp": 2025.0,
         "Pres": 2.59219,
         "Phi": 1.333333333333333,
         "Method": "time OH C/Cmax OH",
@@ -16292,7 +16102,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 2040,
+        "Temp": 2040.0,
         "Pres": 1.77441,
         "Phi": 1.0,
         "Method": "time Concentration CO",
@@ -16302,7 +16112,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 2040,
+        "Temp": 2040.0,
         "Pres": 1.77441,
         "Phi": 1.0,
         "Method": "time OH C/Cmax OH",
@@ -16312,7 +16122,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1800,
+        "Temp": 1800.0,
         "Pres": 2.31894,
         "Phi": 1.0,
         "Method": "time Concentration CO",
@@ -16322,7 +16132,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 2264,
+        "Temp": 2264.0,
         "Pres": 1.02,
         "Phi": 4.042,
         "Method": "time CH3",
@@ -16332,7 +16142,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1800,
+        "Temp": 1800.0,
         "Pres": 2.31894,
         "Phi": 1.0,
         "Method": "time OH C/Cmax OH",
@@ -16342,7 +16152,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1826,
+        "Temp": 1826.0,
         "Pres": 1.60325,
         "Phi": 0.6666666666666666,
         "Method": "time Concentration CO",
@@ -16352,7 +16162,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1826,
+        "Temp": 1826.0,
         "Pres": 1.60325,
         "Phi": 0.6666666666666666,
         "Method": "time OH C/Cmax OH",
@@ -16362,7 +16172,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1856,
+        "Temp": 1856.0,
         "Pres": 2.40632,
         "Phi": 0.6666666666666666,
         "Method": "time Concentration CO",
@@ -16372,7 +16182,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1856,
+        "Temp": 1856.0,
         "Pres": 2.40632,
         "Phi": 0.6666666666666666,
         "Method": "time OH C/Cmax OH",
@@ -16382,17 +16192,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": "Test",
-        "Pres": 1.0,
-        "Phi": 0.5,
-        "Method": "max CH3",
-        "url": "../../TestPages/pro_CH4_3",
-        "key": "pro_CH4_3"
-    },
-    {
-        "Type": "pro",
-        "Fuel": "CH4",
-        "Temp": "Test",
+        "Temp": "1951--2401",
         "Pres": 1.0,
         "Phi": 4.023999999999999,
         "Method": "max CH3",
@@ -16402,7 +16202,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 2210,
+        "Temp": 2210.0,
         "Pres": 1.0,
         "Phi": 0.495785820525533,
         "Method": "time CH3",
@@ -16412,7 +16212,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 2224,
+        "Temp": 2224.0,
         "Pres": 1.0,
         "Phi": 0.983671449777338,
         "Method": "time CH3",
@@ -16422,7 +16222,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 2166,
+        "Temp": 2166.0,
         "Pres": 1.1,
         "Phi": 1.002,
         "Method": "time OH",
@@ -16432,7 +16232,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 2238,
+        "Temp": 2238.0,
         "Pres": 0.54,
         "Phi": 0.9932287365813377,
         "Method": "time OH",
@@ -16442,7 +16242,7 @@
     {
         "Type": "pro",
         "Fuel": "CH4",
-        "Temp": 1778,
+        "Temp": 1778.0,
         "Pres": 79.1,
         "Phi": 0.9824561403508774,
         "Method": "time OH",
@@ -16452,7 +16252,7 @@
     {
         "Type": "pro",
         "Fuel": "H2O2",
-        "Temp": 1192,
+        "Temp": 1192.0,
         "Pres": 1.95,
         "Phi": "Infinity",
         "Method": "time H2O,OH",
@@ -16462,7 +16262,7 @@
     {
         "Type": "pro",
         "Fuel": "H2O2",
-        "Temp": 1398,
+        "Temp": 1398.0,
         "Pres": 1.91,
         "Phi": "Infinity",
         "Method": "time H2O,OH",
@@ -16472,7 +16272,7 @@
     {
         "Type": "pro",
         "Fuel": "H2",
-        "Temp": 1472,
+        "Temp": 1472.0,
         "Pres": 1.83,
         "Phi": 4.5,
         "Method": "time H2O",
@@ -16482,22 +16282,12 @@
     {
         "Type": "pro",
         "Fuel": "H2",
-        "Temp": 1100,
+        "Temp": 1100.0,
         "Pres": 1.95,
         "Phi": 14.5,
-        "Method": "time OH",
+        "Method": "time H2O",
         "url": "../../TestPages/pro_H2_2",
         "key": "pro_H2_2"
-    },
-    {
-        "Type": "pro",
-        "Fuel": "H2",
-        "Temp": 1880,
-        "Pres": 1.74,
-        "Phi": 0.6565656565656566,
-        "Method": "time H2O",
-        "url": "../../TestPages/pro_H2_3",
-        "key": "pro_H2_3"
     },
     {
         "Type": "pro",
@@ -16512,7 +16302,7 @@
     {
         "Type": "pro",
         "Fuel": "IC4H8",
-        "Temp": 1477,
+        "Temp": 1477.0,
         "Pres": 5.46,
         "Phi": "Infinity",
         "Method": "time IC4H8",
@@ -16522,7 +16312,7 @@
     {
         "Type": "pro",
         "Fuel": "IC4H8",
-        "Temp": 1409,
+        "Temp": 1409.0,
         "Pres": 5.38,
         "Phi": "Infinity",
         "Method": "time IC4H8",
@@ -16532,7 +16322,7 @@
     {
         "Type": "pro",
         "Fuel": "IC4H8",
-        "Temp": 1344,
+        "Temp": 1344.0,
         "Pres": 5.74,
         "Phi": "Infinity",
         "Method": "time IC4H8",
@@ -16542,7 +16332,7 @@
     {
         "Type": "pro",
         "Fuel": "IC4H8",
-        "Temp": 1279,
+        "Temp": 1279.0,
         "Pres": 5.89,
         "Phi": "Infinity",
         "Method": "time IC4H8",

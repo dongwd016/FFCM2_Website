@@ -8,7 +8,7 @@ pres: 1.7
 phi: 1.0
 shortname: ZLO2016
 datatype: Shock tube ignition delay measurement
-definition: onset OH*
+definition: max grad pres
 test_plot: ../../../assets/data/test/ign_IC4H8_14.png
 reference: ZLO2016 - C.-W. Zhou, Y. Li, E. O'Connor, K. P. Somers, S. Thion, C. Keesee, O. Mathieu,
   E. L. Petersen, T. A. DeVerter, M. A. Oehlschlaeger, G. Kukkadapu, C.-J.
