@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_AC3H4_2
-temp: 373.0
-pres: 2.0
+temp: 373
+pres: 2.00
 phi: 0.58--1.50
 shortname: PLG2021
 datatype: Laminar flame speed

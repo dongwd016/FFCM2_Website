@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_C3H8_27
 temp: 874--1372
-pres: 30.0
-phi: 0.5
+pres: 30.00
+phi: 0.50
 shortname: HJR2004
 datatype: Shock tube ignition delay measurement
 definition: onset CH*

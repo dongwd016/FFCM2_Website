@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_IC4H10_25
 temp: 1461--1681
 pres: 1.35--1.52
-phi: 2.0
+phi: 2.00
 shortname: ODH2004
 datatype: Shock tube ignition delay measurement
 definition: onset CH*

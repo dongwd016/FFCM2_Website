@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C4H6_29
 temp: 954--1240
 pres: 39.92--42.05
-phi: 1.0
+phi: 1.00
 shortname: ZLB2018
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

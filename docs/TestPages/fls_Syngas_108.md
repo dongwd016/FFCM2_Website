@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_108
-temp: 600.0
-pres: 1.0
+temp: 600
+pres: 1.00
 phi: 0.55--0.89
 shortname: NLS2007
 datatype: Laminar flame speed

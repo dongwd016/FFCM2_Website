@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_C2H4_6
 temp: 1118--1430
-pres: 3.0
-phi: 0.5
+pres: 3.00
+phi: 0.50
 shortname: BS1972
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

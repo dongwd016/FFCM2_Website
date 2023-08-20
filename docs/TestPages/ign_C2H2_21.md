@@ -4,7 +4,7 @@ parent: TestPages
 nav_exclude: true
 title: ign_C2H2_21
 temp: 1169--1710
-pres: 0.6
+pres: 0.60
 phi: 0.71
 shortname: HTK1981
 datatype: Shock tube ignition delay measurement

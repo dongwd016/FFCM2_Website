@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H6_61
 temp: 1133--1422
 pres: 5.30--5.50
-phi: 1.0
+phi: 1.00
 shortname: ZHZ2013
 datatype: Shock tube ignition delay measurement
 definition: onset CH*

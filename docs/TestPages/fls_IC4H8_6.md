@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_IC4H8_6
-temp: 428.0
-pres: 1.0
+temp: 428
+pres: 1.00
 phi: 1.00--1.47
 shortname: LPK2020
 datatype: Laminar flame speed

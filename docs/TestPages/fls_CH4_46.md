@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH4_46
-temp: 343.0
-pres: 1.0
+temp: 343
+pres: 1.00
 phi: 0.70--1.40
 shortname: VWE2010
 datatype: Laminar flame speed

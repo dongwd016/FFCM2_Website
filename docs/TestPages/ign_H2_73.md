@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_H2_73
 temp: 919--1033
-pres: 4.081632653061225
-phi: 0.5
+pres: 4.08
+phi: 0.50
 shortname: SRZ1965
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

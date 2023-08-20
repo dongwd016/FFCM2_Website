@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_H2_47
-temp: 293.0
-pres: 1.0
+temp: 293
+pres: 1.00
 phi: 0.40--2.10
 shortname: DZZ2009
 datatype: Laminar flame speed

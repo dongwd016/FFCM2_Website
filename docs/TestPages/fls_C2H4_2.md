@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C2H4_2
-temp: 298.0
-pres: 0.5
+temp: 298
+pres: 0.50
 phi: 0.70--2.00
 shortname: EZL1990
 datatype: Laminar flame speed

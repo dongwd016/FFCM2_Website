@@ -3,9 +3,9 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_H2_30
-temp: 295.0
+temp: 295
 pres: 1.00--25.00
-phi: 0.7
+phi: 0.70
 shortname: BDJ2011
 datatype: Laminar flame speed
 definition: OPF

@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C4H6_7
 temp: 1459--1684
 pres: 3.60--3.91
-phi: 1.0
+phi: 1.00
 shortname: LDH2004
 datatype: Shock tube ignition delay measurement
 definition: 0.5 max OH

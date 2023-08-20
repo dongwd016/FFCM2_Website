@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_Syngas_60
 temp: 943--1148
 pres: 16.50--32.70
-phi: 0.5
+phi: 0.50
 shortname: PKB2007
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

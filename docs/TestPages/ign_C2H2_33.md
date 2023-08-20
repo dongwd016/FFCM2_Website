@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H2_33
 temp: 1147--1921
 pres: 1.00--1.40
-phi: 1.0
+phi: 1.00
 shortname: RHP2005
 datatype: Shock tube ignition delay measurement
 definition: max CH*

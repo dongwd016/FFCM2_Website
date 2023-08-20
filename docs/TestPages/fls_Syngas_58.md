@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_58
-temp: 373.0
-pres: 1.0
+temp: 373
+pres: 1.00
 phi: 0.40--1.00
 shortname: HFP2012
 datatype: Laminar flame speed

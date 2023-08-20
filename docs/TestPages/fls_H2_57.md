@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_H2_57
-temp: 413.0
-pres: 1.0
+temp: 413
+pres: 1.00
 phi: 0.80--4.00
 shortname: GCB2019
 datatype: Laminar flame speed

@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C4H10+IC4H10_1
 temp: 1248--1354
 pres: 1.90--2.00
-phi: 0.3
+phi: 0.30
 shortname: DAP2010
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

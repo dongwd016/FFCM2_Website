@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H4_48
 temp: 1505--2225
 pres: 0.36--0.75
-phi: 0.5
+phi: 0.50
 shortname: HK1967
 datatype: Shock tube ignition delay measurement
 definition: 0.1 max CO2 plus CO

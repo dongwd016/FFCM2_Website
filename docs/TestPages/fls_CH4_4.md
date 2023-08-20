@@ -3,7 +3,7 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH4_4
-temp: 298.0
+temp: 298
 pres: 0.25
 phi: 0.70--1.40
 shortname: ECL1989

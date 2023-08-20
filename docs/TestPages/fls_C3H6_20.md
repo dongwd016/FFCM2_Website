@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C3H6_20
-temp: 300.0
-pres: 2.0
+temp: 300
+pres: 2.00
 phi: 0.70--1.40
 shortname: JZZ2005
 datatype: Laminar flame speed

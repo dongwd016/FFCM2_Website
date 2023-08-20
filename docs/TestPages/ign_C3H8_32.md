@@ -4,7 +4,7 @@ parent: TestPages
 nav_exclude: true
 title: ign_C3H8_32
 temp: 1277--1472
-pres: 1.021
+pres: 1.02
 phi: 1.67
 shortname: HN1966
 datatype: Shock tube ignition delay measurement

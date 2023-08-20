@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C4H6_8
-temp: 358.0
-pres: 5.0
+temp: 358
+pres: 5.00
 phi: 0.70--1.40
 shortname: ZLB2018
 datatype: Laminar flame speed

@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_C2H2_6
 temp: 1447--2052
-pres: 1.2
-phi: 1.1
+pres: 1.20
+phi: 1.10
 shortname: EF2003
 datatype: Shock tube ignition delay measurement
 definition: max CO

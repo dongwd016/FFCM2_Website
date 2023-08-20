@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_C2H2_38
 temp: 1054--1194
-pres: 6.5
-phi: 1.0
+pres: 6.50
+phi: 1.00
 shortname: TSS2009
 datatype: Shock tube ignition delay measurement
 definition: 0.1 delta pres

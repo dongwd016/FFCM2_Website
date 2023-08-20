@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH4_33
-temp: 298.0
-pres: 2.0
+temp: 298
+pres: 2.00
 phi: 0.70--1.30
 shortname: PVL2011
 datatype: Laminar flame speed

@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C2H4_13
-temp: 298.0
-pres: 1.0
+temp: 298
+pres: 1.00
 phi: 0.70--1.69
 shortname: HSJ2002
 datatype: Laminar flame speed

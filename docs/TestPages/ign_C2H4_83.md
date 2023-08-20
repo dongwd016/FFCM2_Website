@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_C2H4_83
 temp: 915--1370
-pres: 7.0
-phi: 0.5
+pres: 7.00
+phi: 0.50
 shortname: LHW2014
 datatype: Shock tube ignition delay measurement
 definition: onset OH*

@@ -3,9 +3,9 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_H2_14
-temp: 295.0
+temp: 295
 pres: 1.00--20.00
-phi: 1.0
+phi: 1.00
 shortname: BCD2010
 datatype: Laminar flame speed
 definition: OPF

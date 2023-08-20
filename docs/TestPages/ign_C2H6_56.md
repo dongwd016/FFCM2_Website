@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H6_56
 temp: 1364--1519
 pres: 6.99--11.84
-phi: 2.0
+phi: 2.00
 shortname: LPV2002
 datatype: Shock tube ignition delay measurement
 definition: 0.5 max OH*

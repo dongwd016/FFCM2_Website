@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_H2_79
-temp: 291.0
-pres: 1.0
+temp: 291
+pres: 1.00
 phi: 0.53--3.94
 shortname: IT1986
 datatype: Laminar flame speed

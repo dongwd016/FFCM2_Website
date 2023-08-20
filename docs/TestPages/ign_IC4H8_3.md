@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_IC4H8_3
 temp: 1626--1936
 pres: 9.45--11.19
-phi: 3.0
+phi: 3.00
 shortname: BBB1998
 datatype: Shock tube ignition delay measurement
 definition: 0.1 delta pres

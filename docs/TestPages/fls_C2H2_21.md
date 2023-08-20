@@ -3,9 +3,9 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C2H2_21
-temp: 298.0
+temp: 298
 pres: 2.50--19.91
-phi: 1.6
+phi: 1.60
 shortname: SYS2015
 datatype: Laminar flame speed
 definition: OPF

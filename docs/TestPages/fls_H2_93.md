@@ -3,7 +3,7 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_H2_93
-temp: 298.0
+temp: 298
 pres: 0.75
 phi: 0.26--4.40
 shortname: KKG2012

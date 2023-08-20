@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_CH2O_5
 temp: 1334--1808
 pres: 0.81--2.08
-phi: 0.1677852348993289
+phi: 0.17
 shortname: EYG1998
 datatype: Shock tube ignition delay measurement
 definition: 0.5 max CO

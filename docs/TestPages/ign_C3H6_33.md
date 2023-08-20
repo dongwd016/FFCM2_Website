@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_C3H6_33
 temp: 1520--1834
-pres: 6.2
-phi: 1.0
+pres: 6.20
+phi: 1.00
 shortname: BR1985
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

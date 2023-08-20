@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_47
-temp: 298.0
-pres: 1.0
+temp: 298
+pres: 1.00
 phi: 0.50--0.90
 shortname: GHR2019
 datatype: Laminar flame speed

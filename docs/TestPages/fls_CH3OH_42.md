@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH3OH_42
-temp: 298.0
-pres: 0.5
+temp: 298
+pres: 0.50
 phi: 0.70--1.40
 shortname: SS2004
 datatype: Laminar flame speed

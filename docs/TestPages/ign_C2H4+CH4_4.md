@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H4+CH4_4
 temp: 1147--1331
 pres: 15.35--16.22
-phi: 2.0
+phi: 2.00
 shortname: DRH2012
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

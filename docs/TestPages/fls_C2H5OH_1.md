@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C2H5OH_1
-temp: 373.0
-pres: 5.0
+temp: 373
+pres: 5.00
 phi: 0.70--1.30
 shortname: BCD2013
 datatype: Laminar flame speed

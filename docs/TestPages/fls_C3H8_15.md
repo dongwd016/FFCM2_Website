@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C3H8_15
-temp: 298.0
-pres: 3.0
+temp: 298
+pres: 3.00
 phi: 0.80--1.30
 shortname: GBD2016
 datatype: Laminar flame speed

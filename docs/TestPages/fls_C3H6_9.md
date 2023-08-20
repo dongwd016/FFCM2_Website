@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C3H6_9
-temp: 298.0
-pres: 1.0
+temp: 298
+pres: 1.00
 phi: 0.60--2.00
 shortname: BBM2015
 datatype: Laminar flame speed

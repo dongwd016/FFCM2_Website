@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_H2_89
 temp: 1010--1378
 pres: 9.86--11.84
-phi: 1.0
+phi: 1.00
 shortname: TMW2013
 datatype: Shock tube ignition delay measurement
 definition: onset OH*

@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_C2H5OH_34
 temp: 1310--1620
-pres: 2.0
-phi: 1.0
+pres: 2.00
+phi: 1.00
 shortname: NB1981
 datatype: Shock tube ignition delay measurement
 definition: onset CH*

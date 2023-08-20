@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_H2_89
-temp: 298.0
-pres: 1.0
+temp: 298
+pres: 1.00
 phi: 0.30--0.90
 shortname: KKB1993
 datatype: Laminar flame speed

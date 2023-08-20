@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C2H4_17
-temp: 300.0
-pres: 10.0
+temp: 300
+pres: 10.00
 phi: 0.60--1.59
 shortname: HSR2019
 datatype: Laminar flame speed

@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_PC3H4_5
-temp: 373.0
-pres: 2.0
+temp: 373
+pres: 2.00
 phi: 0.72--1.49
 shortname: PLN2021
 datatype: Laminar flame speed

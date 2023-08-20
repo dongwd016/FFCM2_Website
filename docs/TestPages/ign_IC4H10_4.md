@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_IC4H10_4
 temp: 1266--1417
 pres: 1.70--2.00
-phi: 0.5
+phi: 0.50
 shortname: HDA2010
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

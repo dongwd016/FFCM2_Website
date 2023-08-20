@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C4H82_2
 temp: 1002--1266
 pres: 29.60--30.50
-phi: 0.5
+phi: 0.50
 shortname: LZS2017
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_CH4_86
 temp: 1706--1821
 pres: 79.40--83.90
-phi: 1.0
+phi: 1.00
 shortname: PRD1996
 datatype: Shock tube ignition delay measurement
 definition: max OH

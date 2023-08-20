@@ -3,9 +3,9 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_158
-temp: 300.0
-pres: 1.0
-phi: 0.4
+temp: 300
+pres: 1.00
+phi: 0.40
 shortname: WHK2012
 datatype: Laminar flame speed
 definition: OPF

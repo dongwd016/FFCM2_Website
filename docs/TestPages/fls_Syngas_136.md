@@ -3,9 +3,9 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_136
-temp: 400.0
-pres: 1.0
-phi: 1.0
+temp: 400
+pres: 1.00
+phi: 1.00
 shortname: SNT2012
 datatype: Laminar flame speed
 definition: OPF

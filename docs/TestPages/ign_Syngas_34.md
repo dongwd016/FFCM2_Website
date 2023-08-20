@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_Syngas_34
 temp: 957--2374
 pres: 0.85--1.14
-phi: 1.0
+phi: 1.00
 shortname: KMH2013
 datatype: Shock tube ignition delay measurement
 definition: max OH*

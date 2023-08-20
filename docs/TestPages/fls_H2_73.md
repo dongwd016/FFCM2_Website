@@ -5,7 +5,7 @@ nav_exclude: true
 title: fls_H2_73
 temp: 426--500
 pres: 20.13--30.93
-phi: 0.7
+phi: 0.70
 shortname: E2022
 datatype: Laminar flame speed
 definition: OPF

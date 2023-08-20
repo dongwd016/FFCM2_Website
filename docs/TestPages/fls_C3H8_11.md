@@ -5,7 +5,7 @@ nav_exclude: true
 title: fls_C3H8_11
 temp: 391--556
 pres: 0.91--1.09
-phi: 1.0
+phi: 1.00
 shortname: FSD2019
 datatype: Laminar flame speed
 definition: STOPF

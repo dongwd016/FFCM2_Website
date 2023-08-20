@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_CH4_109
 temp: 1045--1100
 pres: 245.20--285.50
-phi: 1.0
+phi: 1.00
 shortname: SCD2019
 datatype: Shock tube ignition delay measurement
 definition: onset OH*

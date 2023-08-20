@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_H2_2
 temp: 875--986
 pres: 1.02
-phi: 1.0
+phi: 1.00
 shortname: C1966
 datatype: Shock tube ignition delay measurement
 definition: onset OH*

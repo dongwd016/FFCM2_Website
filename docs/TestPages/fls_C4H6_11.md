@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C4H6_11
-temp: 295.0
-pres: 5.0
+temp: 295
+pres: 5.00
 phi: 0.70--1.10
 shortname: ZZR2019
 datatype: Laminar flame speed

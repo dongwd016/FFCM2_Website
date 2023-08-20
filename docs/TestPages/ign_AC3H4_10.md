@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_AC3H4_10
 temp: 1259--1618
-pres: 5.0
-phi: 1.0
+pres: 5.00
+phi: 1.00
 shortname: CSD1996
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

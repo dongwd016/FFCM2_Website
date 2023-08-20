@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_90
-temp: 298.0
-pres: 3.0
+temp: 298
+pres: 3.00
 phi: 0.60--1.00
 shortname: LLS2014
 datatype: Laminar flame speed

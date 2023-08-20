@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_Syngas_19
 temp: 977--1304
 pres: 1.70--2.30
-phi: 0.5
+phi: 0.50
 shortname: KMC2007
 datatype: Shock tube ignition delay measurement
 definition: onset OH*

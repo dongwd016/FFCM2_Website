@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_29
-temp: 300.0
-pres: 1.0
+temp: 300
+pres: 1.00
 phi: 0.60--1.20
 shortname: DKS2011
 datatype: Laminar flame speed

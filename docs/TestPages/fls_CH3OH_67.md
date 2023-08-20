@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH3OH_67
-temp: 373.0
-pres: 5.0
+temp: 373
+pres: 5.00
 phi: 0.70--1.40
 shortname: ZHW2008
 datatype: Laminar flame speed

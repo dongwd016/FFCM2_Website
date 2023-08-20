@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: fls_C3H8_47
 temp: 296--1238
-pres: 1.0
-phi: 1.0
+pres: 1.00
+phi: 1.00
 shortname: SZH2022
 datatype: Laminar flame speed
 definition: STOPF

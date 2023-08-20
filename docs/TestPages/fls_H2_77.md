@@ -3,9 +3,9 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_H2_77
-temp: 298.0
-pres: 1.0
-phi: 1.058
+temp: 298
+pres: 1.00
+phi: 1.06
 shortname: HKB2007
 datatype: Laminar flame speed
 definition: HF

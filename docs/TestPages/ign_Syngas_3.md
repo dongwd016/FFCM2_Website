@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_Syngas_3
 temp: 1046--1132
 pres: 14.48--16.91
-phi: 0.5
+phi: 0.50
 shortname: HN2008
 datatype: Shock tube ignition delay measurement
 definition: max OH*

@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_H2_52
 temp: 1684--1855
-pres: 33.0
-phi: 1.0
+pres: 33.00
+phi: 1.00
 shortname: PDR1996
 datatype: Shock tube ignition delay measurement
 definition: max grad OH

@@ -4,7 +4,7 @@ parent: TestPages
 nav_exclude: true
 title: ign_H2_96
 temp: 1052--1272
-pres: 4.5
+pres: 4.50
 phi: 0.42
 shortname: WOG2003
 datatype: Shock tube ignition delay measurement

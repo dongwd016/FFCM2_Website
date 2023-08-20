@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H4_23
 temp: 1173--1626
 pres: 1.28--2.18
-phi: 1.5
+phi: 1.50
 shortname: D1968
 datatype: Shock tube ignition delay measurement
 definition: max OH*

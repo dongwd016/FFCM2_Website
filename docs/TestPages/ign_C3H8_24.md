@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C3H8_24
 temp: 1391--1716
 pres: 0.46
-phi: 1.0
+phi: 1.00
 shortname: HIK1983
 datatype: Shock tube ignition delay measurement
 definition: onset CH*

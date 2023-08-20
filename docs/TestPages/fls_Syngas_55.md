@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_55
-temp: 298.0
-pres: 2.0
+temp: 298
+pres: 2.00
 phi: 0.60--5.00
 shortname: HAF1997
 datatype: Laminar flame speed

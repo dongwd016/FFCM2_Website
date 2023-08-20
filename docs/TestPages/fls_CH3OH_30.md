@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH3OH_30
-temp: 480.0
-pres: 1.0
+temp: 480
+pres: 1.00
 phi: 0.70--1.40
 shortname: LJH2007
 datatype: Laminar flame speed

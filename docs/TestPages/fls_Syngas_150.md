@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_150
-temp: 300.0
-pres: 2.0
+temp: 300
+pres: 2.00
 phi: 0.60--4.50
 shortname: SYJ2007
 datatype: Laminar flame speed

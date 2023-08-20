@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C3H8_33
-temp: 298.0
-pres: 5.0
+temp: 298
+pres: 5.00
 phi: 0.70--1.30
 shortname: L2010
 datatype: Laminar flame speed

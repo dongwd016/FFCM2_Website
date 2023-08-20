@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C4H10+H2_9
 temp: 1062--1305
 pres: 16.90--20.50
-phi: 0.5
+phi: 0.50
 shortname: JPL2017
 datatype: Shock tube ignition delay measurement
 definition: onset OH*

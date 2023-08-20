@@ -4,7 +4,7 @@ parent: TestPages
 nav_exclude: true
 title: ign_Syngas_43
 temp: 1097--1388
-pres: 12.0
+pres: 12.00
 phi: 0.96
 shortname: KMV2013
 datatype: Shock tube ignition delay measurement

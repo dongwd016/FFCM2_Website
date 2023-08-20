@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_Syngas_59
 temp: 1158--1299
 pres: 29.40--35.10
-phi: 0.5
+phi: 0.50
 shortname: MKP2013
 datatype: Shock tube ignition delay measurement
 definition: onset OH*

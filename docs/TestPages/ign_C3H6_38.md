@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_C3H6_38
 temp: 1174--1351
-pres: 30.0
-phi: 1.0
+pres: 30.00
+phi: 1.00
 shortname: DZS2021
 datatype: Shock tube ignition delay measurement
 definition: max grad pres 

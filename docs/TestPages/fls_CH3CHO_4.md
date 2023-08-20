@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH3CHO_4
-temp: 348.0
-pres: 1.0
+temp: 348
+pres: 1.00
 phi: 0.60--1.70
 shortname: CAN2015
 datatype: Laminar flame speed

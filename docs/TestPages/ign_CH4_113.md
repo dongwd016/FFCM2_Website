@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_CH4_113
 temp: 1420--1752
 pres: 13.50--15.50
-phi: 1.0
+phi: 1.00
 shortname: SDH2018
 datatype: Shock tube ignition delay measurement
 definition: onset pres

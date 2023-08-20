@@ -4,7 +4,7 @@ parent: TestPages
 nav_exclude: true
 title: ign_CH4+H2_2
 temp: 1338--1772
-pres: 2.9
+pres: 2.90
 phi: nan--nan
 shortname: HSH1999
 datatype: Shock tube ignition delay measurement

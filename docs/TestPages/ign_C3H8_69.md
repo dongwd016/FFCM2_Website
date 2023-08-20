@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C3H8_69
 temp: 1413--1885
 pres: 3.29--4.39
-phi: 1.0
+phi: 1.00
 shortname: Q1998
 datatype: Shock tube ignition delay measurement
 definition: onset pres

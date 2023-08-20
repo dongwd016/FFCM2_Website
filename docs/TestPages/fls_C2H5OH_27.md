@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C2H5OH_27
-temp: 338.0
-pres: 1.0
+temp: 338
+pres: 1.00
 phi: 0.65--1.55
 shortname: KMD2011
 datatype: Laminar flame speed

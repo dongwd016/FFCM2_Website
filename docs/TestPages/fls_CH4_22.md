@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH4_22
-temp: 298.0
-pres: 4.0
+temp: 298
+pres: 4.00
 phi: 0.70--1.30
 shortname: HAF1998
 datatype: Laminar flame speed

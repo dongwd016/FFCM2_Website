@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_PC3H4_28
 temp: 1124--1732
-pres: 4.0
-phi: 1.0
+pres: 4.00
+phi: 1.00
 shortname: RB1987
 datatype: Shock tube ignition delay measurement
 definition: onset pres

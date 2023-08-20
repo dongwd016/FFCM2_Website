@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_IC4H8_4
-temp: 298.0
-pres: 5.0
+temp: 298
+pres: 5.00
 phi: 0.70--1.30
 shortname: K2011
 datatype: Laminar flame speed

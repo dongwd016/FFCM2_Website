@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C2H6_33
-temp: 298.0
-pres: 10.0
+temp: 298
+pres: 10.00
 phi: 0.64--1.20
 shortname: LDK2011
 datatype: Laminar flame speed

@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C3H6_14
 temp: 1388--1756
 pres: 2.04--2.41
-phi: 2.0
+phi: 2.00
 shortname: BBM2015
 datatype: Shock tube ignition delay measurement
 definition: onset OH*

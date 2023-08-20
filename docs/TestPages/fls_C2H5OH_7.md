@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C2H5OH_7
-temp: 358.0
-pres: 2.0
+temp: 358
+pres: 2.00
 phi: 0.70--1.40
 shortname: BLM2009
 datatype: Laminar flame speed

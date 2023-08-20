@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH3OH_6
-temp: 300.0
-pres: 1.0
+temp: 300
+pres: 1.00
 phi: 0.55--1.50
 shortname: EDL1992a
 datatype: Laminar flame speed

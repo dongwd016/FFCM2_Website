@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H4_36
 temp: 1500--1937
 pres: 0.21--0.41
-phi: 1.5
+phi: 1.50
 shortname: GGK1967
 datatype: Shock tube ignition delay measurement
 definition: onset CH*

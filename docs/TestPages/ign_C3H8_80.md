@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C3H8_80
 temp: 1166--1680
 pres: 5.15--5.47
-phi: 1.0
+phi: 1.00
 shortname: ZHZ2013
 datatype: Shock tube ignition delay measurement
 definition: onset CH*

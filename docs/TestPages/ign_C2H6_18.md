@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H6_18
 temp: 1757--2012
 pres: 1.21
-phi: 1.0
+phi: 1.00
 shortname: C1995
 datatype: Shock tube ignition delay measurement
 definition: 0.5 max OH

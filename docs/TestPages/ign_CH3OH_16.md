@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_CH3OH_16
 temp: 989--1214
 pres: 48.14--50.96
-phi: 1.0
+phi: 1.00
 shortname: BMB2016
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

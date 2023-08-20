@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH4_5
-temp: 298.0
-pres: 0.5
+temp: 298
+pres: 0.50
 phi: 0.60--1.50
 shortname: ECL1989
 datatype: Laminar flame speed

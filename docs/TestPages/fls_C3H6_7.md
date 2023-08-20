@@ -3,9 +3,9 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C3H6_7
-temp: 298.0
+temp: 298
 pres: 5.00--20.04
-phi: 0.8
+phi: 0.80
 shortname: BBM2015
 datatype: Laminar flame speed
 definition: OPF, mass burning rate

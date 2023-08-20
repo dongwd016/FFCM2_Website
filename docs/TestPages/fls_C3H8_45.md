@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C3H8_45
-temp: 298.0
-pres: 1.0
+temp: 298
+pres: 1.00
 phi: 1.05--1.35
 shortname: S1937
 datatype: Laminar flame speed

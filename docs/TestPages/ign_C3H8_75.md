@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C3H8_75
 temp: 1265--1452
 pres: 1.14--1.30
-phi: 0.5
+phi: 0.50
 shortname: TMW2013
 datatype: Shock tube ignition delay measurement
 definition: onset OH*

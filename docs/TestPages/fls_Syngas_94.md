@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_94
-temp: 300.0
-pres: 1.0
+temp: 300
+pres: 1.00
 phi: 0.62--4.42
 shortname: MST1994
 datatype: Laminar flame speed

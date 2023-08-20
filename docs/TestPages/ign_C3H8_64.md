@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C3H8_64
 temp: 1396--1643
 pres: 0.97--1.02
-phi: 1.0
+phi: 1.00
 shortname: MGG2015
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

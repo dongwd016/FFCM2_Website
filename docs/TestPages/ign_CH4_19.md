@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_CH4_19
 temp: 1493--1898
-pres: 1.0
-phi: 0.5
+pres: 1.00
+phi: 0.50
 shortname: HLM2015
 datatype: Shock tube ignition delay measurement
 definition: onset CH*

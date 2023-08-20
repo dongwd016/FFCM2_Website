@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H4_60
 temp: 1868--2311
 pres: 1.30--1.68
-phi: 1.5
+phi: 1.50
 shortname: J1977
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

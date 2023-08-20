@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_H2_1
 temp: 1038--1323
-pres: 2.5
-phi: 1.0
+pres: 2.50
+phi: 1.00
 shortname: BGJ1973
 datatype: Shock tube ignition delay measurement
 definition: onset pres

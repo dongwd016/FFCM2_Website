@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_CH4_30
 temp: 1326--1661
-pres: 10.0
-phi: 2.0
+pres: 10.00
+phi: 2.00
 shortname: HLM2015
 datatype: Shock tube ignition delay measurement
 definition: max grad CH*

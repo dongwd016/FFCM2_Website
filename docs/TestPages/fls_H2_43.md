@@ -3,9 +3,9 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_H2_43
-temp: 303.0
+temp: 303
 pres: 0.30--1.30
-phi: 1.0
+phi: 1.00
 shortname: DHD2014
 datatype: Laminar flame speed
 definition: OPF

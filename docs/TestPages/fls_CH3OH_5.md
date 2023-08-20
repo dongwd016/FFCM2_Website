@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH3OH_5
-temp: 300.0
-pres: 1.0
+temp: 300
+pres: 1.00
 phi: 0.70--1.50
 shortname: BIN2013
 datatype: Laminar flame speed

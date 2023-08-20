@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H4_77
 temp: 1115--1754
 pres: 1.01--1.38
-phi: 0.5
+phi: 0.50
 shortname: KHP2005
 datatype: Shock tube ignition delay measurement
 definition: onset OH*

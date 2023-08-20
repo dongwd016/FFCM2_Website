@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C3H8_14
 temp: 1235--1509
 pres: 3.34--4.98
-phi: 1.0
+phi: 1.00
 shortname: BT1999
 datatype: Shock tube ignition delay measurement
 definition: onset CH*

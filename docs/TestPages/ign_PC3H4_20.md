@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_PC3H4_20
 temp: 830--1326
-pres: 30.0
-phi: 2.0
+pres: 30.00
+phi: 2.00
 shortname: PLN2021
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_H2_37
-temp: 365.0
-pres: 10.0
+temp: 365
+pres: 10.00
 phi: 0.30--1.00
 shortname: BLL2007
 datatype: Laminar flame speed

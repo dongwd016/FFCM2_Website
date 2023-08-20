@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C3H6_20
 temp: 1138--1379
 pres: 9.31--11.55
-phi: 2.0
+phi: 2.00
 shortname: BBM2015
 datatype: Shock tube ignition delay measurement
 definition: max grad OH*

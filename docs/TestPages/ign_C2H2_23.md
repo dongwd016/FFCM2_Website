@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_C2H2_23
 temp: 1062--1523
-pres: 0.8
-phi: 1.0
+pres: 0.80
+phi: 1.00
 shortname: KPK2013
 datatype: Shock tube ignition delay measurement
 definition: onset CH*

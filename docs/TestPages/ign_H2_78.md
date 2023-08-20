@@ -4,7 +4,7 @@ parent: TestPages
 nav_exclude: true
 title: ign_H2_78
 temp: 880--1013
-pres: 4.081632653061225
+pres: 4.08
 phi: 0.75
 shortname: SRZ1965
 datatype: Shock tube ignition delay measurement

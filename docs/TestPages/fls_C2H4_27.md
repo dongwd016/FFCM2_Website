@@ -5,7 +5,7 @@ nav_exclude: true
 title: fls_C2H4_27
 temp: 416--525
 pres: 15.07--29.37
-phi: 0.8
+phi: 0.80
 shortname: MLE2020
 datatype: Laminar flame speed
 definition: OPF

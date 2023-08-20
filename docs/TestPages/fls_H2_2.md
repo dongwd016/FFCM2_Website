@@ -3,7 +3,7 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_H2_2
-temp: 298.0
+temp: 298
 pres: 0.35
 phi: 0.45--3.00
 shortname: AHF1998

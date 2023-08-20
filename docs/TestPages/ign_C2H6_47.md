@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H6_47
 temp: 1376--1842
 pres: 2.05
-phi: 1.0
+phi: 1.00
 shortname: HSH2000
 datatype: Shock tube ignition delay measurement
 definition: onset CO2

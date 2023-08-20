@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H4_90
 temp: 1200--1574
 pres: 1.10--1.25
-phi: 0.5
+phi: 0.50
 shortname: MGG2015
 datatype: Shock tube ignition delay measurement
 definition: onset OH*

@@ -3,7 +3,7 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C2H4_5
-temp: 450.0
+temp: 450
 pres: 3.04
 phi: 0.80--1.40
 shortname: FJA2004

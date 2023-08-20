@@ -4,7 +4,7 @@ parent: TestPages
 nav_exclude: true
 title: ign_C4H6_1
 temp: 1282--1523
-pres: 9.5
+pres: 9.50
 phi: 0.69
 shortname: FBB1999
 datatype: Shock tube ignition delay measurement

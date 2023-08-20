@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH3OH_38
-temp: 318.0
-pres: 1.0
+temp: 318
+pres: 1.00
 phi: 0.70--1.50
 shortname: SAV2014
 datatype: Laminar flame speed

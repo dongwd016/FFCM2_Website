@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_IC4H10_12
-temp: 303.0
-pres: 1.0
+temp: 303
+pres: 1.00
 phi: 0.60--1.40
 shortname: YSN2016
 datatype: Laminar flame speed

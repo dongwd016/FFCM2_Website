@@ -3,9 +3,9 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_153
-temp: 298.0
-pres: 1.0
-phi: 0.5
+temp: 298
+pres: 1.00
+phi: 0.50
 shortname: VE1994
 datatype: Laminar flame speed
 definition: CFF

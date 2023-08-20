@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_C3H8_61
 temp: 1089--1463
-pres: 1.0
-phi: 0.2
+pres: 1.00
+phi: 0.20
 shortname: MB1969
 datatype: Shock tube ignition delay measurement
 definition: max OH*

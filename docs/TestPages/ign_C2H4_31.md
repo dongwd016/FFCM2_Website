@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H4_31
 temp: 1087--1382
 pres: 0.89--1.11
-phi: 0.5
+phi: 0.50
 shortname: G2014
 datatype: Shock tube ignition delay measurement
 definition: onset CH*

@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_CH4_106
 temp: 1464--1602
 pres: 9.17--10.94
-phi: 1.0
+phi: 1.00
 shortname: SC1994
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

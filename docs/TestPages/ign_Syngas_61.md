@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_Syngas_61
 temp: 974--1160
 pres: 1.10--1.38
-phi: 0.5
+phi: 0.50
 shortname: VDH2011
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

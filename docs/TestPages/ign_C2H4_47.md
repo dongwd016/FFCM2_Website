@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H4_47
 temp: 1347--1498
 pres: 2.04--2.14
-phi: 1.0
+phi: 1.00
 shortname: H2001
 datatype: Shock tube ignition delay measurement
 definition: max CH*

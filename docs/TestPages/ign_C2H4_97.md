@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H4_97
 temp: 1149--1385
 pres: 13.42--15.50
-phi: 0.5
+phi: 0.50
 shortname: PST2009
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

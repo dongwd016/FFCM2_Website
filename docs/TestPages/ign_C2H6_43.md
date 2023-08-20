@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_C2H6_43
 temp: 1198--1547
-pres: 2.0
-phi: 1.0
+pres: 2.00
+phi: 1.00
 shortname: HCZ2015
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

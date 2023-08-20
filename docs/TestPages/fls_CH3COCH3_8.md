@@ -3,9 +3,9 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH3COCH3_8
-temp: 473.0
+temp: 473
 pres: 1.00--6.00
-phi: 0.7
+phi: 0.70
 shortname: WMR2016
 datatype: Laminar flame speed
 definition: BF

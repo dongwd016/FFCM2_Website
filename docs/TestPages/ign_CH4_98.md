@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_CH4_98
 temp: 1510--1735
 pres: 3.67--4.29
-phi: 5.0
+phi: 5.00
 shortname: SB1970
 datatype: Shock tube ignition delay measurement
 definition: max grad OH*

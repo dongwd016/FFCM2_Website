@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C2H5OH_14
-temp: 428.0
-pres: 1.0
+temp: 428
+pres: 1.00
 phi: 0.57--1.82
 shortname: EDL1992
 datatype: Laminar flame speed

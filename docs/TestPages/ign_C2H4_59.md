@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H4_59
 temp: 1815--2339
 pres: 1.22--1.65
-phi: 1.0
+phi: 1.00
 shortname: J1977
 datatype: Shock tube ignition delay measurement
 definition: max CO times O

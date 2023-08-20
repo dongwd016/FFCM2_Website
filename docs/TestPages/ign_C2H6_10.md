@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H6_10
 temp: 1298--1549
 pres: 7.58--9.41
-phi: 2.0
+phi: 2.00
 shortname: BCS1972
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

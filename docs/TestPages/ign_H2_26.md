@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_H2_26
 temp: 939--2109
 pres: 0.74--1.34
-phi: 0.1
+phi: 0.10
 shortname: KMH2013
 datatype: Shock tube ignition delay measurement
 definition: max OH*

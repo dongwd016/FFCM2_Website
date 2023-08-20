@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_CH4_51
 temp: 1608--1887
-pres: 9.0
-phi: 0.5
+pres: 9.00
+phi: 0.50
 shortname: LSB1971
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

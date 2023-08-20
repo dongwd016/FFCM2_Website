@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H6+H2_1
 temp: 1094--1545
 pres: 1.20--1.25
-phi: 1.0
+phi: 1.00
 shortname: PZZ2014
 datatype: Shock tube ignition delay measurement
 definition: max grad OH*

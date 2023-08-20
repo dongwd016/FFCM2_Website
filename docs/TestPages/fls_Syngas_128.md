@@ -3,7 +3,7 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_128
-temp: 393.0
+temp: 393
 pres: 1.00--6.00
 phi: 0.85
 shortname: SDJ2013

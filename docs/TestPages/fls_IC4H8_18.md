@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_IC4H8_18
-temp: 398.0
-pres: 1.0
+temp: 398
+pres: 1.00
 phi: 0.55--1.90
 shortname: ZLO2016
 datatype: Laminar flame speed

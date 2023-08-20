@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_133
-temp: 400.0
-pres: 1.0
+temp: 400
+pres: 1.00
 phi: 0.60--3.00
 shortname: SNT2012
 datatype: Laminar flame speed

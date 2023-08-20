@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C4H81_5
-temp: 450.0
-pres: 1.0
+temp: 450
+pres: 1.00
 phi: 0.70--1.40
 shortname: FDH2015
 datatype: Laminar flame speed

@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_H2_9
 temp: 918--1718
 pres: 0.87--1.13
-phi: 1.0
+phi: 1.00
 shortname: HN2009
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

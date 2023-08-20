@@ -3,9 +3,9 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_98
-temp: 300.0
-pres: 15.0
-phi: 0.8
+temp: 300
+pres: 15.00
+phi: 0.80
 shortname: NKL2009
 datatype: Laminar flame speed
 definition: BF

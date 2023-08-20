@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_IC4H8_22
-temp: 298.0
-pres: 10.0
+temp: 298
+pres: 10.00
 phi: 0.70--1.00
 shortname: ZYS2015
 datatype: Laminar flame speed

@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C2H4_24
-temp: 470.0
-pres: 1.0
+temp: 470
+pres: 1.00
 phi: 0.50--1.40
 shortname: KMS2008
 datatype: Laminar flame speed

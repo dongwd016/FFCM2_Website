@@ -3,7 +3,7 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C2H4_14
-temp: 300.0
+temp: 300
 pres: 0.75
 phi: 0.70--1.80
 shortname: HSR2019

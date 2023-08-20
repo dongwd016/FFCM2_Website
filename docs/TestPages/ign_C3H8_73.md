@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C3H8_73
 temp: 1154--1443
 pres: 13.63--16.02
-phi: 1.0
+phi: 1.00
 shortname: SK1955
 datatype: Shock tube ignition delay measurement
 definition: onset CH*

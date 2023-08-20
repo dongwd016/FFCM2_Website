@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_IC4H10_9
-temp: 298.0
-pres: 5.0
+temp: 298
+pres: 5.00
 phi: 0.80--1.50
 shortname: LWL2018
 datatype: Laminar flame speed

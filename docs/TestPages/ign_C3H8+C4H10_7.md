@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C3H8+C4H10_7
 temp: 1109--1246
 pres: 64.00--67.00
-phi: 0.5
+phi: 0.50
 shortname: ZSS2005
 datatype: Shock tube ignition delay measurement
 definition: onset pres

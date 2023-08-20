@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_NG_22
 temp: 1096--1430
 pres: 25.20--33.50
-phi: 0.5
+phi: 0.50
 shortname: HCS2008
 datatype: Shock tube ignition delay measurement
 definition: onset CH*

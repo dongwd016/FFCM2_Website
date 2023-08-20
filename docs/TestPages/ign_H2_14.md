@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_H2_14
 temp: 975--1252
-pres: 4.0
-phi: 0.5
+pres: 4.00
+phi: 0.50
 shortname: HPG2016
 datatype: Shock tube ignition delay measurement
 definition: onset OH*

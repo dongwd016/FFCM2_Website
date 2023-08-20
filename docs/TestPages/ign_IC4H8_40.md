@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_IC4H8_40
 temp: 991--1304
 pres: 50.88--54.42
-phi: 2.0
+phi: 2.00
 shortname: ZLO2016
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

@@ -3,12 +3,12 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: pro_CH4_24
-temp: 1843.0
-pres: 1.60306
-phi: 0.1
+temp: 1843
+pres: 1.60
+phi: 0.10
 shortname: YWF1995
 datatype: Shock tube speciation measurement
-definition: time OH C/Cmax OH
+definition: Shock Tube
 test_plot: ../../../assets/data/test/pro_CH4_24.png
 reference: YWF1995 - C.-L. Yu, C. Wang, M. Frenklach, Chemical {Kinetics} of {Methyl} {Oxidation} by {Molecular} {Oxygen}, The Journal of Physical Chemistry 99 (1995) 14377--14387.
 ---

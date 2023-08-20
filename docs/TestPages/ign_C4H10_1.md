@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_C4H10_1
 temp: 1232--1372
-pres: 9.5
-phi: 1.0
+pres: 9.50
+phi: 1.00
 shortname: BSL1971
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

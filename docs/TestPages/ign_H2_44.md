@@ -4,7 +4,7 @@ parent: TestPages
 nav_exclude: true
 title: ign_H2_44
 temp: 966--1623
-pres: 1.6
+pres: 1.60
 phi: 0.96
 shortname: KMV2013
 datatype: Shock tube ignition delay measurement

@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C3H8_53
-temp: 298.0
-pres: 1.0
+temp: 298
+pres: 1.00
 phi: 0.70--1.23
 shortname: ZKL2004
 datatype: Laminar flame speed

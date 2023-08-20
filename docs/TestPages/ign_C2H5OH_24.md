@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H5OH_24
 temp: 945--1082
 pres: 49.00--53.50
-phi: 1.0
+phi: 1.00
 shortname: MPA2019
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H6_29
 temp: 1347--1811
 pres: 0.57--0.71
-phi: 1.0
+phi: 1.00
 shortname: DHS2007
 datatype: Shock tube ignition delay measurement
 definition: max OH*

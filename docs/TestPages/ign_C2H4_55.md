@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H4_55
 temp: 1357--1698
 pres: 1.71--2.41
-phi: 2.0
+phi: 2.00
 shortname: HNS1999
 datatype: Shock tube ignition delay measurement
 definition: onset CO2

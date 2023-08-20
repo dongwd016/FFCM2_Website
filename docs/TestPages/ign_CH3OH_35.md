@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_CH3OH_35
 temp: 1076--1307
 pres: 1.49--1.68
-phi: 2.0
+phi: 2.00
 shortname: PMM2019
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

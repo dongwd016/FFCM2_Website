@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C2H5OH_21
-temp: 300.0
-pres: 8.0
+temp: 300
+pres: 8.00
 phi: 0.80--1.30
 shortname: G1982
 datatype: Laminar flame speed

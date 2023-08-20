@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C4H81_5
 temp: 1004--1289
 pres: 9.70--10.00
-phi: 0.5
+phi: 0.50
 shortname: LZC2017
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

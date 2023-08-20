@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_CH3COCH3_7
 temp: 1392--1823
 pres: 1.02
-phi: 1.5
+phi: 1.50
 shortname: PBC2009
 datatype: Shock tube ignition delay measurement
 definition: max grad CH*

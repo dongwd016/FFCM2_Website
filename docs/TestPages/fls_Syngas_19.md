@@ -3,7 +3,7 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_19
-temp: 303.0
+temp: 303
 pres: 0.95
 phi: 0.70--4.28
 shortname: BPA2011

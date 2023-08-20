@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_H2+IC4H8_1
 temp: 1380--1613
-pres: 1.5
-phi: 0.59999999988
+pres: 1.50
+phi: 0.60
 shortname: YKI2009
 datatype: Shock tube ignition delay measurement
 definition: onset OH

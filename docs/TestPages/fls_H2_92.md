@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_H2_92
-temp: 298.0
-pres: 0.3
+temp: 298
+pres: 0.30
 phi: 0.26--4.42
 shortname: KKG2012
 datatype: Laminar flame speed

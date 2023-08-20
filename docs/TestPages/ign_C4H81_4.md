@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C4H81_4
 temp: 1442--1664
 pres: 6.94--8.32
-phi: 2.0
+phi: 2.00
 shortname: HBC2002
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

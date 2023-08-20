@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_H2_98
-temp: 298.0
-pres: 10.0
+temp: 298
+pres: 10.00
 phi: 0.50--4.00
 shortname: KMV2013
 datatype: Laminar flame speed

@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_AC3H4_13
 temp: 1195--1531
-pres: 9.5
-phi: 1.0
+pres: 9.50
+phi: 1.00
 shortname: FBB1999
 datatype: Shock tube ignition delay measurement
 definition: 0.1 max OH*

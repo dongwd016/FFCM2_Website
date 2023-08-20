@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_75
-temp: 298.0
-pres: 5.0
+temp: 298
+pres: 5.00
 phi: 0.80--4.00
 shortname: KMV2013
 datatype: Laminar flame speed

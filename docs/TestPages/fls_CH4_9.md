@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH4_9
-temp: 300.0
-pres: 10.0
+temp: 300
+pres: 10.00
 phi: 0.80--1.20
 shortname: GHL2000
 datatype: Laminar flame speed

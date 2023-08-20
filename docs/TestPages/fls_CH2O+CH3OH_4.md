@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH2O+CH3OH_4
-temp: 338.0
-pres: 1.0
+temp: 338
+pres: 1.00
 phi: 0.80--1.50
 shortname: KNC2021
 datatype: Laminar flame speed

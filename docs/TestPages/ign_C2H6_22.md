@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H6_22
 temp: 1256--1534
 pres: 1.75--2.10
-phi: 1.0
+phi: 1.00
 shortname: CW1975
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

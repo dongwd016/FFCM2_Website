@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_IC4H8_7
 temp: 1388--1734
-pres: 1.5
-phi: 0.9999999998
+pres: 1.50
+phi: 1.00
 shortname: YKI2009
 datatype: Shock tube ignition delay measurement
 definition: onset CO2

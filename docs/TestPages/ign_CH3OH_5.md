@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_CH3OH_5
 temp: 1555--2030
 pres: 2.93--3.26
-phi: 0.375
+phi: 0.38
 shortname: B1975
 datatype: Shock tube ignition delay measurement
 definition: max CO times O

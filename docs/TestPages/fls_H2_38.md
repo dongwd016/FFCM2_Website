@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_H2_38
-temp: 298.0
-pres: 1.0
+temp: 298
+pres: 1.00
 phi: 0.50--2.00
 shortname: BP2017
 datatype: Laminar flame speed

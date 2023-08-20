@@ -5,7 +5,7 @@ nav_exclude: true
 title: fls_IC4H8_7
 temp: 410--499
 pres: 7.87--14.56
-phi: 0.8
+phi: 0.80
 shortname: MLE2020
 datatype: Laminar flame speed
 definition: OPF

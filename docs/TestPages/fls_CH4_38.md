@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH4_38
-temp: 298.0
-pres: 10.0
+temp: 298
+pres: 10.00
 phi: 0.70--1.40
 shortname: RZL2002
 datatype: Laminar flame speed

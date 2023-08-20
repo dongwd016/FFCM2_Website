@@ -4,7 +4,7 @@ parent: TestPages
 nav_exclude: true
 title: ign_C2H2_2
 temp: 1151--2076
-pres: 1.2
+pres: 1.20
 phi: 0.12
 shortname: EF2003
 datatype: Shock tube ignition delay measurement

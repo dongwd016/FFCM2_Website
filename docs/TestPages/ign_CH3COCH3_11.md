@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_CH3COCH3_11
 temp: 1382--1633
 pres: 1.89--2.47
-phi: 1.0
+phi: 1.00
 shortname: SH2000
 datatype: Shock tube ignition delay measurement
 definition: onset CO2

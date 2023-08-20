@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_H2_65
-temp: 293.0
-pres: 1.0
+temp: 293
+pres: 1.00
 phi: 0.39--5.54
 shortname: GJ1972
 datatype: Laminar flame speed

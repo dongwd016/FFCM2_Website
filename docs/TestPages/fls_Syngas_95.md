@@ -3,9 +3,9 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_95
-temp: 300.0
-pres: 1.0
-phi: 1.0
+temp: 300
+pres: 1.00
+phi: 1.00
 shortname: MST1994
 datatype: Laminar flame speed
 definition: OPF

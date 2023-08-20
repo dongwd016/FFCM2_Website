@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_C2H2_16
 temp: 1206--1627
-pres: 1.7
-phi: 1.0
+pres: 1.70
+phi: 1.00
 shortname: HHO1996
 datatype: Shock tube ignition delay measurement
 definition: onset CO2

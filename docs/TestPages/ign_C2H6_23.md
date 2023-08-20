@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H6_23
 temp: 1347--1811
 pres: 0.57--0.71
-phi: 1.0
+phi: 1.00
 shortname: CW1975
 datatype: Shock tube ignition delay measurement
 definition: max OH*

@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_CH4_8
 temp: 1933--2460
 pres: 0.91--1.10
-phi: 0.5
+phi: 0.50
 shortname: CDD1994
 datatype: Shock tube ignition delay measurement
 definition: max CH3

@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_CH4_34
 temp: 1923--2358
 pres: 2.94--3.85
-phi: 2.0
+phi: 2.00
 shortname: HSH1999
 datatype: Shock tube ignition delay measurement
 definition: onset CO2

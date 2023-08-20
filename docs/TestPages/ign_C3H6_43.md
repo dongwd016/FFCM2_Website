@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C3H6_43
 temp: 1270--1680
 pres: 3.74--4.14
-phi: 0.5
+phi: 0.50
 shortname: QYG2001
 datatype: Shock tube ignition delay measurement
 definition: onset pres

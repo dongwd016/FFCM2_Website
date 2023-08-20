@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH4_51
-temp: 298.0
-pres: 1.0
+temp: 298
+pres: 1.00
 phi: 0.92--1.15
 shortname: ZEL1989
 datatype: Laminar flame speed

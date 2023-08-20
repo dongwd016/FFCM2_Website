@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_C3H8_19
 temp: 911--1020
-pres: 40.0
-phi: 0.5
+pres: 40.00
+phi: 0.50
 shortname: CTB2000
 datatype: Shock tube ignition delay measurement
 definition: onset CH*

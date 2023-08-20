@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H4_51
 temp: 1596--1846
 pres: 4.21--5.00
-phi: 3.0
+phi: 3.00
 shortname: HKS1974
 datatype: Shock tube ignition delay measurement
 definition: onset CH*

@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_Syngas_51
 temp: 1196--1275
 pres: 88.30--101.40
-phi: 1.0
+phi: 1.00
 shortname: KOS2021
 datatype: Shock tube ignition delay measurement
 definition: onset OH*

@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C3H6_40
 temp: 1445--1650
 pres: 3.79--4.66
-phi: 1.0
+phi: 1.00
 shortname: QYG2001
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

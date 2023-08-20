@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C3H8_34
-temp: 298.0
-pres: 1.0
+temp: 298
+pres: 1.00
 phi: 0.90--1.31
 shortname: LK2004
 datatype: Laminar flame speed

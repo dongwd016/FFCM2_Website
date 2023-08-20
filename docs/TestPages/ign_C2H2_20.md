@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_C2H2_20
 temp: 1197--1859
-pres: 0.6
-phi: 1.0
+pres: 0.60
+phi: 1.00
 shortname: HTK1981
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

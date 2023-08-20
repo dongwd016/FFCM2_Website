@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_IC4H10_16
 temp: 1201--1504
 pres: 9.70--11.70
-phi: 0.5
+phi: 0.50
 shortname: JHZ2021
 datatype: Shock tube ignition delay measurement
 definition: max grad CH*

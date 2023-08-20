@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_CH3OH_35
-temp: 338.0
-pres: 1.0
+temp: 338
+pres: 1.00
 phi: 0.80--1.50
 shortname: NSN2015
 datatype: Laminar flame speed

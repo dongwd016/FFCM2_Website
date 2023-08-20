@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_C3H8_40
 temp: 1495--1787
-pres: 1.1
-phi: 2.0
+pres: 1.10
+phi: 2.00
 shortname: KS2001
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

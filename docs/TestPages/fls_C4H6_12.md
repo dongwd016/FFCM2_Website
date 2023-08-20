@@ -3,9 +3,9 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C4H6_12
-temp: 295.0
+temp: 295
 pres: 1.00--18.00
-phi: 1.4
+phi: 1.40
 shortname: ZZR2019
 datatype: Laminar flame speed
 definition: OPF

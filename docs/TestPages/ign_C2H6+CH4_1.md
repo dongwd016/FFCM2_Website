@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H6+CH4_1
 temp: 1291--1670
 pres: 0.90--1.18
-phi: 0.5
+phi: 0.50
 shortname: AMB2013
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

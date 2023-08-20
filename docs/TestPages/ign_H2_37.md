@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_H2_37
 temp: 1155--1227
 pres: 31.39--34.08
-phi: 0.3
+phi: 0.30
 shortname: KMH2013
 datatype: Shock tube ignition delay measurement
 definition: onset OH*

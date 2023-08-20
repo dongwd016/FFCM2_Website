@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_26
-temp: 300.0
-pres: 1.0
+temp: 300
+pres: 1.00
 phi: 0.60--4.00
 shortname: BQJ2007
 datatype: Laminar flame speed

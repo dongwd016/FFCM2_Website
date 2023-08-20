@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C3H8_12
 temp: 1501--2169
 pres: 1.70--2.98
-phi: 1.0
+phi: 1.00
 shortname: BT1999
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

@@ -4,7 +4,7 @@ parent: TestPages
 nav_exclude: true
 title: ign_CH4+H2_4
 temp: 1605--1739
-pres: 10.0
+pres: 10.00
 phi: nan--nan
 shortname: LSB1971
 datatype: Shock tube ignition delay measurement

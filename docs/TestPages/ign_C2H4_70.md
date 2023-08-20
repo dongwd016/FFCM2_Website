@@ -4,8 +4,8 @@ parent: TestPages
 nav_exclude: true
 title: ign_C2H4_70
 temp: 1125--1268
-pres: 1.1
-phi: 2.0
+pres: 1.10
+phi: 2.00
 shortname: KDP2014
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

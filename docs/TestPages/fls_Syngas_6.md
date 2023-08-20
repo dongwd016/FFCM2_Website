@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_6
-temp: 380.0
-pres: 1.0
+temp: 380
+pres: 1.00
 phi: 0.60--3.00
 shortname: AZC2014
 datatype: Laminar flame speed

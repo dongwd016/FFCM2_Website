@@ -3,9 +3,9 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C2H2_29
-temp: 298.0
+temp: 298
 pres: 0.50--6.00
-phi: 0.8
+phi: 0.80
 shortname: XYJ2016
 datatype: Laminar flame speed
 definition: OPF

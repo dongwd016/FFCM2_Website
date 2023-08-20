@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H5OH_8
 temp: 1285--1568
 pres: 1.93--2.39
-phi: 1.0
+phi: 1.00
 shortname: G2014
 datatype: Shock tube ignition delay measurement
 definition: max grad CH*

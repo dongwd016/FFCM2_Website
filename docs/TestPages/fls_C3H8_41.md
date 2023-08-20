@@ -5,7 +5,7 @@ nav_exclude: true
 title: fls_C3H8_41
 temp: 405--496
 pres: 7.74--14.72
-phi: 1.3
+phi: 1.30
 shortname: MLE2020
 datatype: Laminar flame speed
 definition: OPF

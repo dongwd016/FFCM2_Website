@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_C2H2_27
 temp: 824--1173
 pres: 18.80--21.00
-phi: 1.0
+phi: 1.00
 shortname: LBR2019
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

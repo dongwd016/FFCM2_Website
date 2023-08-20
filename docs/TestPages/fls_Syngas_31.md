@@ -3,9 +3,9 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_Syngas_31
-temp: 323.0
-pres: 1.0
-phi: 0.7
+temp: 323
+pres: 1.00
+phi: 0.70
 shortname: DKS2011
 datatype: Laminar flame speed
 definition: CFF

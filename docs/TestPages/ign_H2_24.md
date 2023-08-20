@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_H2_24
 temp: 895--1233
 pres: 1.41
-phi: 1.0
+phi: 1.00
 shortname: JS1968
 datatype: Shock tube ignition delay measurement
 definition: onset OH*

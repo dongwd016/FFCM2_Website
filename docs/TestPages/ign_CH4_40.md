@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_CH4_40
 temp: 1253--1379
 pres: 210.80--218.90
-phi: 1.0
+phi: 1.00
 shortname: KOL2019
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

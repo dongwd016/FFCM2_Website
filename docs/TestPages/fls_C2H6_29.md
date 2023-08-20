@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C2H6_29
-temp: 307.0
-pres: 1.0
+temp: 307
+pres: 1.00
 phi: 0.70--1.30
 shortname: KDR2008
 datatype: Laminar flame speed

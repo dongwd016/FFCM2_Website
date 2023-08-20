@@ -3,8 +3,8 @@ layout: test
 parent: TestPages
 nav_exclude: true
 title: fls_C3H8_20
-temp: 300.0
-pres: 1.0
+temp: 300
+pres: 1.00
 phi: 0.80--1.60
 shortname: HAK1998
 datatype: Laminar flame speed

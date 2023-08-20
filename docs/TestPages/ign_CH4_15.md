@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_CH4_15
 temp: 1032--1309
 pres: 20.90--29.80
-phi: 1.0
+phi: 1.00
 shortname: HHB2004
 datatype: Shock tube ignition delay measurement
 definition: max grad pres

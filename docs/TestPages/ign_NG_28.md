@@ -5,7 +5,7 @@ nav_exclude: true
 title: ign_NG_28
 temp: 1408--1516
 pres: 11.70--12.30
-phi: 1.0
+phi: 1.00
 shortname: SFC2020
 datatype: Shock tube ignition delay measurement
 definition: max grad pres
