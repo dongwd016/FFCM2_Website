@@ -10,5 +10,5 @@ shortname: B1950
 datatype: Laminar flame speed
 definition: BF
 test_plot: ../../../assets/data/test/fls_C2H2_1.png
-reference: B1950 - {Bartholome E.}, Die {Flammengeschwindigkeit} in sehr hei{\ss}en {Flammen}, Zeitschrift f{\"{u}}r Elektrochemie und angewandte physikalische Chemie 54 (1950) 169--173.
+reference: B1950 - {Bartholome E.}, Die {Flammengeschwindigkeit} in sehr heiben {Flammen}, Zeitschrift fur Elektrochemie und angewandte physikalische Chemie 54 (1950) 169--173.
 ---

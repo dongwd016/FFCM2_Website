@@ -10,5 +10,5 @@ shortname: G1982
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_CH3OH_10.png
-reference: G1982 - {\"O}. L. G{\"u}lder, Laminar burning velocities of methanol, ethanol and isooctane-air mixtures, Symposium (International) on Combustion 19 (1982) 275--281.
+reference: G1982 - O. L. Gulder, Laminar burning velocities of methanol, ethanol and isooctane-air mixtures, Symposium (International) on Combustion 19 (1982) 275--281.
 ---
