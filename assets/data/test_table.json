@@ -8773,7 +8773,7 @@
         "Type": "ign",
         "Fuel": "C2H2",
         "Temp": "1528--2173",
-        "Pres": "0.20--0.30",
+        "Pres": "0.30",
         "Phi": "1.00",
         "Method": "max grad pres",
         "url": "../../TestPages/ign_C2H2_13",
@@ -10165,7 +10165,7 @@
         "Temp": "1314--1525",
         "Pres": "1.00--1.30",
         "Phi": "0.53",
-        "Method": "onset OH*",
+        "Method": "max grad pres",
         "url": "../../TestPages/ign_C2H4_76",
         "key": "ign_C2H4_76"
     },
@@ -10175,7 +10175,7 @@
         "Temp": "1115--1754",
         "Pres": "1.01--1.38",
         "Phi": "0.50",
-        "Method": "onset OH*",
+        "Method": "max grad pres",
         "url": "../../TestPages/ign_C2H4_77",
         "key": "ign_C2H4_77"
     },
@@ -10185,7 +10185,7 @@
         "Temp": "1228--1746",
         "Pres": "2.61--3.26",
         "Phi": "1.00",
-        "Method": "onset OH*",
+        "Method": "max grad pres",
         "url": "../../TestPages/ign_C2H4_78",
         "key": "ign_C2H4_78"
     },
@@ -10195,7 +10195,7 @@
         "Temp": "1278--1597",
         "Pres": "2.60--3.02",
         "Phi": "1.00",
-        "Method": "onset OH*",
+        "Method": "max grad pres",
         "url": "../../TestPages/ign_C2H4_79",
         "key": "ign_C2H4_79"
     },
@@ -10205,7 +10205,7 @@
         "Temp": "1286--1683",
         "Pres": "0.98--1.27",
         "Phi": "1.00",
-        "Method": "onset OH*",
+        "Method": "max grad pres",
         "url": "../../TestPages/ign_C2H4_80",
         "key": "ign_C2H4_80"
     },
@@ -10215,7 +10215,7 @@
         "Temp": "1223--1733",
         "Pres": "0.94--1.18",
         "Phi": "1.00",
-        "Method": "onset OH*",
+        "Method": "max grad pres",
         "url": "../../TestPages/ign_C2H4_81",
         "key": "ign_C2H4_81"
     },
