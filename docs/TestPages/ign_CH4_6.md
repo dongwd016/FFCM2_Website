@@ -10,5 +10,5 @@ shortname: CDD1994
 datatype: Shock tube ignition delay measurement
 definition: max CH3
 test_plot: ../../../assets/data/test/ign_CH4_6.png
-reference: CDD1994 - A. Chang, D. Davidson, M. DiRosa, R. Hanson, C. Bowman, Shock tube experiments for development and validation of kinetic models of hydrocarbon oxidation, in: 25th Symposium (International) on Combustion, Poster, 1994, pp. 3--23.
+reference: 'CDD1994 - A. Chang, D. Davidson, M. DiRosa, R. Hanson, C. Bowman, Shock tube experiments for development and validation of kinetic models of hydrocarbon oxidation, in 25th Symposium (International) on Combustion, Poster, 1994, pp. 3--23.'
 ---

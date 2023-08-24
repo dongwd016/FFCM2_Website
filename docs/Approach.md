@@ -16,7 +16,7 @@ The workflow of FFCM-2 development is outlined in the diagram below, followed by
 {:toc}
 
 <p align="center">
-<img src="{{ site.baseurl }}/assets/images/FFCMApproach.png" alt="NN-MUM-PCE approach" width="1000" height="1000">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/FFCMApproach.png" alt="NN-MUM-PCE approach" width="1000" height="1000">
 <br>
 <i>The overall workflow of FFCM-2 development</i>
 </p>

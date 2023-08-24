@@ -10,7 +10,7 @@ nav_order: 3
 The table below lists the thermochemical properties for all 96 species in FFCM-2.
 {: .fs-6 .fw-300 }
 
-Reliable self-consistent thermodynamics for computing (and evaluating) reverse rate constants are taken from the available Third Millennium Active Thermochemical Tables (ATcT) [^RPV2005]$^{,}$[^GBR2010]. Enthalpy of C<sub>2</sub>H<sub>5</sub>O<sub>2</sub>, C<sub>2</sub>H<sub>5</sub>OOH, IC<sub>3</sub>H<sub>7</sub>O<sub>2</sub> and IC<sub>3</sub>H<sub>7</sub>OOH are taken from a recent review by JPL [^BSA2015]. The thermochemical data are expressed in the format of 7-coefficient NASA polynomial, and can be downloaded [here]({{ site.baseurl }}/assets/data/models/FFCM2_thermo.dat). 
+Reliable self-consistent thermodynamics for computing (and evaluating) reverse rate constants are taken from the available Third Millennium Active Thermochemical Tables (ATcT) [^RPV2005]$^{,}$[^GBR2010]. Enthalpy of C<sub>2</sub>H<sub>5</sub>O<sub>2</sub>, C<sub>2</sub>H<sub>5</sub>OOH, IC<sub>3</sub>H<sub>7</sub>O<sub>2</sub> and IC<sub>3</sub>H<sub>7</sub>OOH are taken from a recent review by JPL [^BSA2015]. The thermochemical data are expressed in the format of 7-coefficient NASA polynomial, and can be downloaded [here]({{ site.url }}{{ site.baseurl }}/assets/data/optmodel/FFCM2_thermo.dat). 
 
 In the table below, selected thermochemical properties are listed for all species, where
 - $\Delta_f^o H_{298}$: enthalpy of formation at temperature 298 K, with unit kcal/mol,

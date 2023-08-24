@@ -10,5 +10,5 @@ shortname: YKI2009
 datatype: Shock tube speciation measurement
 definition: Shock Tube
 test_plot: ../../../assets/data/test/pro_IC4H8_6.png
-reference: YKI2009 - K. Yasunaga, Y. Kuraguchi, R. Ikeuchi, H. Masaoka, O. Takahashi, T. Koike, Y. Hidaka, Shock tube and modeling study of isobutene pyrolysis and oxidation, Proc. Combust. Inst. 32 (2009) 453--460.
+reference: 'YKI2009 - K. Yasunaga, Y. Kuraguchi, R. Ikeuchi, H. Masaoka, O. Takahashi, T. Koike, Y. Hidaka, Shock tube and modeling study of isobutene pyrolysis and oxidation, Proc. Combust. Inst. 32 (2009) 453--460.'
 ---

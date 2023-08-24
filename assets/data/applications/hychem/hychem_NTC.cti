@@ -7,40 +7,43 @@ units(length='cm', time='s', quantity='mol', act_energy='cal/mol')
 
 ideal_gas(name='gas',
           elements="H O He Ar N C",
-          species="""H            H2           O            O2
-                     OH           H2O          HO2          H2O2
-                     HE           AR           N2           C
-                     CH           CH2          CH2(S)       CH3
-                     CH4          CO           CO2          HCO
-                     CH2O         CH2OH        CH3O         CH3OH
-                     C2H          C2H2         C2H3         C2H4
-                     C2H5         C2H6         HCCO         CH2CO
-                     CH2CHO       CH3CHO       CH3CO        H2CC
-                     CH3O2        CH3OOH       C2H5O2       C2H5OOH
-                     C2H2OH       C2H3OH       C2H4O        C2H5OH
-                     C2H4OH       CH3CHOH      C3H8         NC3H7
-                     IC3H7        C3H6         C3H5         CH3CCH2
-                     AC3H4        PC3H4        C3H3         C2H5CHO
-                     CH3COCH3     CH3COCH2     C2H3CHO      C3H5OH
-                     NC3H7O2      NC3H7OOH     IC3H7O2      IC3H7OOH
-                     C4H2         NC4H3        IC4H3        C4H4
-                     NC4H5        IC4H5        C4H5-2       C4H6
-                     C4H612       C4H6-2       C4H7         IC4H7
-                     IC4H7-1      C4H81        C4H82        IC4H8
-                     NC4H9        SC4H9        IC4H9        TC4H9
-                     C4H10        IC4H10       H2C4O        CH2CHCHCHO
-                     CH3CHCHCO    CH3CHCHCHO   C3H7CHO      IC3H7CHO
-                     C2H5COCH3    C2H3COCH3    OH*          CH*
-                     POSF10325    A2C11H21     A2C11H21O2
-                     A2C11H20OOH  A2C11H20     A2C11H21O4   A2C11H20O3
-                     C5H5         C5H6
-                     lC5H7        C5H4O        C5H4OH       C5H5O(1,3)
-                     C5H5O(2,4)   C5H5OH       C6H2         C6H3
-                     o-C6H4       l-C6H4       C6H5         C6H6
-                     C6H5OH       C6H4O2       C6H5O        C6H4CH3
-                     C6H5CH2      C6H5CH3      C6H5CO       C6H5CH2OH
-                     HOC6H4CH3    C6H5CHO      OC6H4CH3     C6H5C2H
-                     c-C4H5""",
+          species="""H              H2             O              O2
+                     OH             H2O            HO2            H2O2
+                     HE             AR             N2             C
+                     CH             CH2            CH2(S)         CH3
+                     CH4            CO             CO2            HCO
+                     CH2O           CH2OH          CH3O           CH3OH
+                     C2H            C2H2           C2H3           C2H4
+                     C2H5           C2H6           HCCO           CH2CO
+                     CH2CHO         CH3CHO         CH3CO          H2CC
+                     CH3O2          CH3OOH         C2H5O2         C2H5OOH
+                     C2H2OH         C2H3OH         C2H4O          C2H5OH
+                     C2H4OH         CH3CHOH        C3H8           NC3H7
+                     IC3H7          C3H6           C3H5           CH3CCH2
+                     AC3H4          PC3H4          C3H3           C2H5CHO
+                     CH3COCH3       CH3COCH2       C2H3CHO        C3H5OH
+                     NC3H7O2        NC3H7OOH       IC3H7O2        IC3H7OOH
+                     C4H2           NC4H3          IC4H3          C4H4
+                     NC4H5          IC4H5          C4H5-2         C4H6
+                     C4H612         C4H6-2         C4H7           IC4H7
+                     IC4H7-1        C4H81          C4H82          IC4H8
+                     NC4H9          SC4H9          IC4H9          TC4H9
+                     C4H10          IC4H10         H2C4O          CH2CHCHCHO
+                     CH3CHCHCO      CH3CHCHCHO     C3H7CHO        IC3H7CHO
+                     C2H5COCH3      C2H3COCH3      OH*            CH*
+					 POSF10325      A2C11H21       A2C11H21O2     A2C11H20OOH
+                     A2C11H20       A2C11H21O4     A2C11H20O3     
+                     POSF11498      C1C13H27       C1C13H27O2     C1C13H26OOH
+					 C1C13H26       C1C13H27O4     C1C13H26O3     
+					 POSF12394      C1C13H27-1     C1C13H27O2-1   C1C13H26OOH-1
+					 C1C13H26-1     C1C13H27O4-1   C1C13H26O3-1   
+					 C5H5           C5H6           lC5H7          C5H4O
+					 C5H4OH         C5H5O(1,3)     C5H5O(2,4)     C5H5OH
+					 C6H2           C6H3           o-C6H4         l-C6H4
+					 C6H5           C6H6           C6H5OH         C6H4O2
+					 C6H5O          C6H4CH3        C6H5CH2        C6H5CH3
+					 C6H5CO         C6H5CH2OH      HOC6H4CH3      C6H5CHO
+					 OC6H4CH3       C6H5C2H        c-C4H5""",
           reactions='all',
           transport='Mix',
           initial_state=state(temperature=300.0, pressure=OneAtm))
@@ -1505,21 +1508,6 @@ species(name='POSF10325',
                                 well_depth=177.645,
                                 rot_relax=1.0))
 
-species(name='POSF11498',
-        atoms='C:13 H:28',
-        thermo=(NASA([298.00, 1000.00],
-                     [ 4.21777530E+00,  9.30842010E-02,  8.07107430E-05,
-                      -1.74530840E-07,  7.99705090E-11, -4.70178360E+04,
-                       1.84367490E+01]),
-                NASA([1000.00, 6000.00],
-                     [ 3.27945274E+01,  7.04355587E-02, -2.30013814E-05,
-                       3.44885587E-09, -1.94587650E-13, -5.81614635E+04,
-                      -1.43745048E+02])),
-        transport=gas_transport(geom='nonlinear',
-                                diam=10.607,
-                                well_depth=179.321,
-                                rot_relax=1.0))
-
 species(name='A2C11H21',
         atoms='C:11 H:21',
         thermo=(NASA([298.00, 1000.00],
@@ -1610,6 +1598,21 @@ species(name='A2C11H20O3',
                                 well_depth=177.645,
                                 rot_relax=1.0))
 
+species(name='POSF11498',
+        atoms='C:13 H:28',
+        thermo=(NASA([298.00, 1000.00],
+                     [ 4.21777530E+00,  9.30842010E-02,  8.07107430E-05,
+                      -1.74530840E-07,  7.99705090E-11, -4.70178360E+04,
+                       1.84367490E+01]),
+                NASA([1000.00, 6000.00],
+                     [ 3.27945274E+01,  7.04355587E-02, -2.30013814E-05,
+                       3.44885587E-09, -1.94587650E-13, -5.81614635E+04,
+                      -1.43745048E+02])),
+        transport=gas_transport(geom='nonlinear',
+                                diam=10.607,
+                                well_depth=179.321,
+                                rot_relax=1.0))
+
 species(name='C1C13H27',
         atoms='C:13 H:27',
         thermo=(NASA([298.00, 1000.00],
@@ -1686,6 +1689,111 @@ species(name='C1C13H27O4',
                                 rot_relax=1.0))
 
 species(name='C1C13H26O3',
+        atoms='C:13 H:26 O:3',
+        thermo=(NASA([298.00, 1000.00],
+                     [ 5.90814833E+00,  1.06240260E-01,  6.34288574E-05,
+                      -1.65395301E-07,  7.81749951E-11, -7.22382274E+04,
+                       1.68988517E+01]),
+                NASA([1000.00, 6000.00],
+                     [ 3.92228381E+01,  6.89802211E-02, -2.31378479E-05,
+                       3.55564997E-09, -2.04591921E-13, -8.46291496E+04,
+                      -1.69409568E+02])),
+        transport=gas_transport(geom='nonlinear',
+                                diam=10.607,
+                                well_depth=179.321,
+                                rot_relax=1.0))
+
+species(name='POSF12394',
+        atoms='C:13 H:28',
+        thermo=(NASA([298.00, 1000.00],
+                     [ 4.21777530E+00,  9.30842010E-02,  8.07107430E-05,
+                      -1.74530840E-07,  7.99705090E-11, -4.70178360E+04,
+                       1.84367490E+01]),
+                NASA([1000.00, 6000.00],
+                     [ 3.27945274E+01,  7.04355587E-02, -2.30013814E-05,
+                       3.44885587E-09, -1.94587650E-13, -5.81614635E+04,
+                      -1.43745048E+02])),
+        transport=gas_transport(geom='nonlinear',
+                                diam=10.607,
+                                well_depth=179.321,
+                                rot_relax=1.0))
+
+species(name='C1C13H27-1',
+        atoms='C:13 H:27',
+        thermo=(NASA([298.00, 1000.00],
+                     [ 5.41310066E+00,  8.34903294E-02,  9.22332299E-05,
+                      -1.81327819E-07,  8.14631613E-11, -2.37102546E+04,
+                       1.72194287E+01]),
+                NASA([1000.00, 6000.00],
+                     [ 3.25031210E+01,  6.76581481E-02, -2.19474665E-05,
+                       3.27543113E-09, -1.84183390E-13, -3.46452958E+04,
+                      -1.38111854E+02])),
+        transport=gas_transport(geom='nonlinear',
+                                diam=10.607,
+                                well_depth=179.321,
+                                rot_relax=1.0))
+
+species(name='C1C13H27O2-1',
+        atoms='C:13 H:27 O:2',
+        thermo=(NASA([298.00, 1000.00],
+                     [ 6.50776576E+00,  9.89450380E-02,  7.01633478E-05,
+                      -1.67090486E-07,  7.81599337E-11, -4.24422655E+04,
+                       1.33501386E+01]),
+                NASA([1000.00, 6000.00],
+                     [ 3.52820617E+01,  7.19087918E-02, -2.39128292E-05,
+                       3.64382912E-09, -2.08250650E-13, -5.33496545E+04,
+                      -1.48660713E+02])),
+        transport=gas_transport(geom='nonlinear',
+                                diam=10.607,
+                                well_depth=179.321,
+                                rot_relax=1.0))
+
+species(name='C1C13H26OOH-1',
+        atoms='C:13 H:27 O:2',
+        thermo=(NASA([298.00, 1000.00],
+                     [ 9.58949989E+00,  8.67516694E-02,  8.77130467E-05,
+                      -1.77820000E-07,  8.04961554E-11, -3.78533726E+04,
+                       1.07390105E+00]),
+                NASA([1000.00, 6000.00],
+                     [ 3.56926880E+01,  7.15671205E-02, -2.39378955E-05,
+                       3.67177152E-09, -2.11011454E-13, -4.83788151E+04,
+                      -1.48550980E+02])),
+        transport=gas_transport(geom='nonlinear',
+                                diam=10.607,
+                                well_depth=179.321,
+                                rot_relax=1.0))
+
+species(name='C1C13H26-1',
+        atoms='C:13 H:26',
+        thermo=(NASA([298.00, 1000.00],
+                     [ 4.74599996E+00,  8.60063458E-02,  8.39638082E-05,
+                      -1.75021089E-07,  7.99393165E-11, -3.34623851E+04,
+                       1.73335725E+01]),
+                NASA([1000.00, 6000.00],
+                     [ 3.20406950E+01,  6.58606027E-02, -2.12284800E-05,
+                       3.14009934E-09, -1.75123187E-13, -4.41375217E+04,
+                      -1.37828067E+02])),
+        transport=gas_transport(geom='nonlinear',
+                                diam=10.607,
+                                well_depth=179.321,
+                                rot_relax=1.0))
+
+species(name='C1C13H27O4-1',
+        atoms='C:13 H:27 O:4',
+        thermo=(NASA([298.00, 1000.00],
+                     [ 8.54928434E+00,  1.10167449E-01,  5.91191986E-05,
+                      -1.63192318E-07,  7.78381553E-11, -5.54824472E+04,
+                       5.77638446E+00]),
+                NASA([1000.00, 6000.00],
+                     [ 4.12236368E+01,  7.16789173E-02, -2.39660596E-05,
+                       3.67677542E-09, -2.11239037E-13, -6.73248422E+04,
+                      -1.76009568E+02])),
+        transport=gas_transport(geom='nonlinear',
+                                diam=10.607,
+                                well_depth=179.321,
+                                rot_relax=1.0))
+
+species(name='C1C13H26O3-1',
         atoms='C:13 H:26 O:3',
         thermo=(NASA([298.00, 1000.00],
                      [ 5.90814833E+00,  1.06240260E-01,  6.34288574E-05,
@@ -5997,572 +6105,620 @@ reaction('AR + OH* <=> AR + OH', [1.250000e+10, 0.5, 0.0])
 reaction('HE + OH* <=> HE + OH', [1.950000e+09, 0.5, 0.0])
 
 # Reaction 1055
-reaction('POSF10325 => 1.38289 C2H4 + 1.18729 C3H6 + 0.431266 C4H81 + 0.169069 C6H5CH3 + 0.164265 C6H6 + 0.0200011 CH3 + 1.98 H + 0.189554 IC4H8', [2.297000e+27, -2.58, 87697.0])
-
-# Reaction 1056
-reaction('H + POSF10325 => A2C11H21 + H2', [7.660000e-03, 4.76, 1294.9])
-
-# Reaction 1057
-reaction('CH3 + POSF10325 => A2C11H21 + CH4', [8.498000e-07, 5.95, 5748.4])
-
-# Reaction 1058
-reaction('OH + POSF10325 => A2C11H21 + H2O', [6.676000e+08, 1.02, 213.2])
-
-# Reaction 1059
-reaction('O2 + POSF10325 => A2C11H21 + HO2', [1.920000e+15, 0.06, 44533.0])
-
-# Reaction 1060
-reaction('HO2 + POSF10325 => A2C11H21 + H2O2', [6.980000e+05, 2.94, 12810.0])
-
-# Reaction 1061
-reaction('O + POSF10325 => A2C11H21 + OH', [1.532000e+02, 3.86, 765.1])
-
-# Reaction 1062
-reaction('A2C11H21 => 1.01495 C2H4 + 0.871399 C3H6 + 0.316523 C4H81 + 0.242384 C6H5CH3 + 0.235498 C6H6 + 0.99 CH3 + 0.433646 CH4 + 0.01 H + 0.139121 IC4H8', [6.470000e+12, 0.0, 27070.0])
-
-# Reaction 1063
-reaction('A2C11H21 + O2 <=> A2C11H21O2', [2.000000e+09, 0.0, 0.0])
-
-# Reaction 1064
-reaction('A2C11H21O2 => A2C11H20OOH', [2.000000e+12, 0.0, 17017.0])
-
-# Reaction 1065
-reaction('A2C11H20OOH => A2C11H21O2', [1.000000e+11, 0.0, 12500.0])
-
-# Reaction 1066
-reaction('A2C11H20OOH <=> A2C11H20 + HO2', [8.500000e+12, 0.0, 25574.0])
-
-# Reaction 1067
-reaction('A2C11H20 => 1.04245 C2H4 + 0.895005 C3H6 + 0.325098 C4H81 + 0.338137 C6H5CH3 + 0.32853 C6H6 + 0.0200011 CH3 + 1.98 H + 0.14289 IC4H8', [3.500000e+16, 0.0, 70985.0])
-
-# Reaction 1068
-reaction('A2C11H20OOH + O2 <=> A2C11H21O4', [4.000000e+11, 0.0, 0.0])
-
-# Reaction 1069
-reaction('A2C11H21O4 <=> A2C11H20O3 + OH', [1.500000e+12, 0.0, 0.0])
-
-# Reaction 1070
-reaction('A2C11H20O3 => 0.898765 C2H4 + 0.771644 C3H6 + 0.280289 C4H81 + 0.253603 C6H5CH3 + 0.246397 C6H6 + CH2O + 0.0200011 CH3 + CO + 1.98 H + 0.123195 IC4H8 + OH', [5.000000e+14, 0.0, 42065.0])
-
-# Reaction 1071
-reaction('POSF11498 => 0.209818 C2H4 + 0.652825 C3H6 + 0.134669 CH3 + 1.86533 H + 2.62181 IC4H8', [3.013000e+26, -2.58, 80197.0])
-
-# Reaction 1072
-reaction('H + POSF11498 => C1C13H27 + H2', [3.044000e+05, 2.4, 2580.0])
-
-# Reaction 1073
-reaction('CH3 + POSF11498 => C1C13H27 + CH4', [2.598000e+00, 3.46, 4600.0])
-
-# Reaction 1074
-reaction('OH + POSF11498 => C1C13H27 + H2O', [9.571000e+10, 0.51, 64.0])
-
-# Reaction 1075
-reaction('O2 + POSF11498 => C1C13H27 + HO2', [1.490000e+14, 0.0, 43000.0])
-
-# Reaction 1076
-reaction('HO2 + POSF11498 => C1C13H27 + H2O2', [2.208000e+04, 2.77, 10500.0])
-
-# Reaction 1077
-reaction('O + POSF11498 => C1C13H27 + OH', [7.850000e+03, 2.5, 1110.0])
-
-# Reaction 1078
-reaction('C1C13H27 => 0.200475 C2H4 + 0.623756 C3H6 + 0.707539 CH3 + 0.292461 H + 2.50506 IC4H8', [5.700000e+12, 0.0, 27056.0])
-
-# Reaction 1079
-reaction('C1C13H27 + O2 <=> C1C13H27O2', [6.000000e+09, 0.0, 0.0])
-
-# Reaction 1080
-reaction('C1C13H27O2 => C1C13H26OOH', [2.000000e+12, 0.0, 17017.0])
-
-# Reaction 1081
-reaction('C1C13H26OOH => C1C13H27O2', [1.000000e+11, 0.0, 12500.0])
-
-# Reaction 1082
-reaction('C1C13H26OOH <=> C1C13H26 + HO2', [8.500000e+12, 0.0, 25574.0])
-
-# Reaction 1083
-reaction('C1C13H26 => 0.175226 C2H4 + 0.545195 C3H6 + 0.121071 C6H5CH3 + 0.212262 C6H6 + 0.134669 CH3 + 1.86533 H + 2.18956 IC4H8', [3.500000e+16, 0.0, 70985.0])
-
-# Reaction 1084
-reaction('C1C13H26OOH + O2 <=> C1C13H27O4', [4.000000e+11, 0.0, 0.0])
-
-# Reaction 1085
-reaction('C1C13H27O4 <=> C1C13H26O3 + OH', [1.500000e+12, 0.0, 0.0])
-
-# Reaction 1086
-reaction('C1C13H26O3 => 0.159905 C2H4 + 0.497524 C3H6 + 0.0605356 C6H5CH3 + 0.106131 C6H6 + CH2O + 0.134669 CH3 + CO + 1.86533 H + 1.9981 IC4H8 + OH', [3.500000e+14, 0.0, 42065.0])
-
-# Reaction 1087
 reaction('C2H2 + C3H3 <=> C5H5', [6.870000e+55, -12.5, 42025.0])
 
-# Reaction 1088
+# Reaction 1056
 reaction('2 C3H3 => C6H5 + H', [5.000000e+12, 0.0, 0.0])
 
-# Reaction 1089
+# Reaction 1057
 reaction('2 C3H3 => C6H6', [2.000000e+12, 0.0, 0.0])
 
-# Reaction 1090
+# Reaction 1058
 reaction('C3H3 + C4H4 <=> C6H5CH2', [6.530000e+05, 1.28, -4611.0])
 
-# Reaction 1091
+# Reaction 1059
 reaction('C3H3 + C4H6 <=> C6H5CH3 + H', [6.530000e+05, 1.28, -4611.0])
 
-# Reaction 1092
+# Reaction 1060
 reaction('C2H2 + C3H5 <=> lC5H7', [8.380000e+30, -6.242, 12824.0])
 
-# Reaction 1093
+# Reaction 1061
 reaction('C2H + C4H2 <=> C6H2 + H', [9.600000e+13, 0.0, 0.0])
 
-# Reaction 1094
+# Reaction 1062
 reaction('C2H + C4H2 <=> C6H3', [4.500000e+37, -7.68, 7100.0])
 
-# Reaction 1095
+# Reaction 1063
 reaction('C2H2 + NC4H3 <=> H + l-C6H4', [2.500000e+14, -0.56, 10600.0])
 
-# Reaction 1096
+# Reaction 1064
 reaction('C2H2 + NC4H3 <=> C6H5', [9.600000e+70, -17.77, 31300.0])
 
-# Reaction 1097
+# Reaction 1065
 reaction('C2H2 + NC4H3 <=> H + o-C6H4', [6.900000e+46, -10.01, 30100.0])
 
-# Reaction 1098
+# Reaction 1066
 reaction('C2H + C4H4 <=> H + l-C6H4', [1.200000e+13, 0.0, 0.0])
 
-# Reaction 1099
+# Reaction 1067
 reaction('C2H2 + NC4H5 <=> C6H6 + H', [1.600000e+16, -1.33, 5400.0])
 
-# Reaction 1100
+# Reaction 1068
 reaction('C2H3 + NC4H5 <=> C6H6 + H2', [1.840000e-13, 7.07, -3611.0])
 
-# Reaction 1101
+# Reaction 1069
 reaction('C2H2 + C4H5-2 <=> C6H6 + H', [5.000000e+14, 0.0, 25000.0])
 
-# Reaction 1102
+# Reaction 1070
 reaction('C2H4 + C4H5-2 <=> C5H6 + CH3', [5.000000e+14, 0.0, 25000.0])
 
-# Reaction 1103
+# Reaction 1071
 reaction('C2H3 + C4H6 <=> C6H6 + H + H2', [5.620000e+11, 0.0, 3240.0])
 
-# Reaction 1104
+# Reaction 1072
 reaction('C6H2 + H <=> C6H3', [1.100000e+30, -4.92, 10800.0])
 
-# Reaction 1105
+# Reaction 1073
 reaction('C6H3 + H <=> C2H2 + C4H2', [2.800000e+23, -2.55, 10780.0])
 
-# Reaction 1106
+# Reaction 1074
 reaction('C6H3 + H <=> l-C6H4', [3.400000e+43, -9.01, 12120.0])
 
-# Reaction 1107
+# Reaction 1075
 reaction('C6H3 + H <=> C6H2 + H2', [3.000000e+13, 0.0, 0.0])
 
-# Reaction 1108
+# Reaction 1076
 reaction('C6H3 + OH <=> C6H2 + H2O', [4.000000e+12, 0.0, 0.0])
 
-# Reaction 1109
+# Reaction 1077
 reaction('H + l-C6H4 <=> C6H5', [1.700000e+78, -19.72, 31400.0])
 
-# Reaction 1110
+# Reaction 1078
 reaction('H + l-C6H4 <=> H + o-C6H4', [1.400000e+54, -11.7, 34500.0])
 
-# Reaction 1111
+# Reaction 1079
 reaction('H + l-C6H4 <=> C6H3 + H2', [1.330000e+06, 2.53, 9240.0])
 
-# Reaction 1112
+# Reaction 1080
 reaction('OH + l-C6H4 <=> C6H3 + H2O', [3.100000e+06, 2.0, 430.0])
 
-# Reaction 1113
+# Reaction 1081
 reaction('C2H2 + C4H2 <=> o-C6H4', [5.000000e+78, -19.31, 67920.0])
 
-# Reaction 1114
+# Reaction 1082
 reaction('OH + o-C6H4 <=> C5H5 + CO', [1.000000e+13, 0.0, 0.0])
 
-# Reaction 1115
+# Reaction 1083
 reaction('C6H5 + CH3 <=> C6H5CH3', [1.380000e+13, 0.0, 46.0])
 
-# Reaction 1116
+# Reaction 1084
 reaction('C6H5CH3 + O2 <=> C6H5CH2 + HO2', [3.000000e+14, 0.0, 42992.0])
 
-# Reaction 1117
+# Reaction 1085
 reaction('C6H5CH3 + OH <=> C6H5CH2 + H2O', [1.620000e+13, 0.0, 2770.0])
 
-# Reaction 1118
+# Reaction 1086
 reaction('C6H5CH3 + OH <=> C6H4CH3 + H2O', [1.333000e+08, 1.42, 1450.0])
 
-# Reaction 1119
+# Reaction 1087
 reaction('C6H5CH3 + H <=> C6H5CH2 + H2', [1.259000e+14, 0.0, 8359.0])
 
-# Reaction 1120
+# Reaction 1088
 reaction('C6H5CH3 + H <=> C6H6 + CH3', [1.930000e+06, 2.17, 4163.0])
 
-# Reaction 1121
+# Reaction 1089
 reaction('C6H5CH3 + O <=> H + OC6H4CH3', [2.600000e+13, 0.0, 3795.0])
 
-# Reaction 1122
+# Reaction 1090
 reaction('C6H5CH3 + CH3 <=> C6H5CH2 + CH4', [3.160000e+11, 0.0, 9500.0])
 
-# Reaction 1123
+# Reaction 1091
 reaction('C6H5 + C6H5CH3 <=> C6H5CH2 + C6H6', [2.103000e+12, 0.0, 4400.0])
 
-# Reaction 1124
+# Reaction 1092
 reaction('C6H5CH3 + HO2 <=> C6H5CH2 + H2O2', [3.975000e+11, 0.0, 14069.0])
 
-# Reaction 1125
+# Reaction 1093
 reaction('C6H5CH3 + HO2 <=> C6H4CH3 + H2O2', [5.420000e+12, 0.0, 28810.0])
 
-# Reaction 1126
+# Reaction 1094
 falloff_reaction('C6H5CH2 + H (+ M) <=> C6H5CH3 (+ M)',
                  kf=[1.000000e+14, 0.0, 0.0],
                  kf0=[1.100000e+103, -24.63, 14590.0],
                  efficiencies='C2H6:3.0 CH4:2.0 CO:1.5 CO2:2.0 H2:2.0 H2O:6.0',
                  falloff=Troe(A=0.431, T3=383.0, T1=152.0, T2=4730.0))
 
-# Reaction 1127
+# Reaction 1095
 reaction('C6H5CH2 + H <=> C6H5 + CH3', [1.500000e+66, -13.94, 64580.0])
 
-# Reaction 1128
+# Reaction 1096
 reaction('C6H5CH2 + O <=> C6H5CHO + H', [4.000000e+14, 0.0, 0.0])
 
-# Reaction 1129
+# Reaction 1097
 reaction('C6H5CH2 + OH <=> C6H5CH2OH', [2.000000e+13, 0.0, 0.0])
 
-# Reaction 1130
+# Reaction 1098
 reaction('C6H5CH2 + HO2 <=> C6H5CHO + H + OH', [5.000000e+12, 0.0, 0.0])
 
-# Reaction 1131
+# Reaction 1099
 reaction('C6H5CH2 + C6H5OH <=> C6H5CH3 + C6H5O', [1.050000e+11, 0.0, 9500.0])
 
-# Reaction 1132
+# Reaction 1100
 reaction('C6H5CH2 + HOC6H4CH3 <=> C6H5CH3 + OC6H4CH3', [1.050000e+11, 0.0, 9500.0])
 
-# Reaction 1133
+# Reaction 1101
 reaction('C6H5CH2OH + OH <=> C6H5CHO + H + H2O', [5.000000e+12, 0.0, 0.0])
 
-# Reaction 1134
+# Reaction 1102
 reaction('C6H5CH2OH + H <=> C6H5CHO + H2 + H', [8.000000e+13, 0.0, 8235.0])
 
-# Reaction 1135
+# Reaction 1103
 reaction('C6H5CH2OH + H <=> C6H6 + CH2OH', [1.200000e+13, 0.0, 5148.0])
 
-# Reaction 1136
+# Reaction 1104
 reaction('C6H5 + C6H5CH2OH <=> C6H5CHO + C6H6 + H', [1.400000e+12, 0.0, 4400.0])
 
-# Reaction 1137
+# Reaction 1105
 reaction('C6H5 + HCO <=> C6H5CHO', [1.000000e+13, 0.0, 0.0])
 
-# Reaction 1138
+# Reaction 1106
 reaction('C6H5CHO <=> C6H5CO + H', [3.980000e+15, 0.0, 86900.0])
 
-# Reaction 1139
+# Reaction 1107
 reaction('C6H5CHO + O2 <=> C6H5CO + HO2', [1.020000e+13, 0.0, 38950.0])
 
-# Reaction 1140
+# Reaction 1108
 reaction('C6H5CHO + OH <=> C6H5CO + H2O', [2.350000e+10, 0.73, -1110.0])
 
-# Reaction 1141
+# Reaction 1109
 reaction('C6H5CHO + H <=> C6H5CO + H2', [4.100000e+09, 1.16, 2400.0])
 
-# Reaction 1142
+# Reaction 1110
 reaction('C6H5CHO + H <=> C6H6 + HCO', [1.930000e+06, 2.17, 4163.0])
 
-# Reaction 1143
+# Reaction 1111
 reaction('C6H5CHO + O <=> C6H5CO + OH', [5.800000e+12, 0.0, 1800.0])
 
-# Reaction 1144
+# Reaction 1112
 reaction('C6H5CH2 + C6H5CHO <=> C6H5CH3 + C6H5CO', [2.000000e-06, 5.6, 2460.0])
 
-# Reaction 1145
+# Reaction 1113
 reaction('C6H5CHO + CH3 <=> C6H5CO + CH4', [2.000000e-06, 5.6, 2460.0])
 
-# Reaction 1146
+# Reaction 1114
 reaction('C6H5 + C6H5CHO <=> C6H5CO + C6H6', [2.103000e+12, 0.0, 4400.0])
 
-# Reaction 1147
+# Reaction 1115
 reaction('C6H5CO + H2O2 <=> C6H5CHO + HO2', [1.800000e+11, 0.0, 8226.0])
 
-# Reaction 1148
+# Reaction 1116
 falloff_reaction('H + OC6H4CH3 (+ M) <=> HOC6H4CH3 (+ M)',
                  kf=[1.000000e+14, 0.0, 0.0],
                  kf0=[4.000000e+93, -21.84, 13880.0],
                  efficiencies='CH4:2.0 CO:1.5 CO2:2.0 H2:2.0 H2O:6.0',
                  falloff=Troe(A=0.043, T3=304.2, T1=60000.0, T2=5896.4))
 
-# Reaction 1149
+# Reaction 1117
 reaction('H + OC6H4CH3 <=> C6H5O + CH3', [1.930000e+06, 2.17, 4163.0])
 
-# Reaction 1150
+# Reaction 1118
 reaction('O + OC6H4CH3 <=> C6H4O2 + CH3', [8.000000e+13, 0.0, 0.0])
 
-# Reaction 1151
+# Reaction 1119
 reaction('HOC6H4CH3 + OH <=> H2O + OC6H4CH3', [6.000000e+12, 0.0, 0.0])
 
-# Reaction 1152
+# Reaction 1120
 reaction('H + HOC6H4CH3 <=> H2 + OC6H4CH3', [1.150000e+14, 0.0, 12400.0])
 
-# Reaction 1153
+# Reaction 1121
 reaction('H + HOC6H4CH3 <=> C6H5CH3 + OH', [2.210000e+13, 0.0, 7910.0])
 
-# Reaction 1154
+# Reaction 1122
 reaction('H + HOC6H4CH3 <=> C6H5OH + CH3', [1.200000e+13, 0.0, 5148.0])
 
-# Reaction 1155
+# Reaction 1123
 reaction('C6H5CO <=> C6H5 + CO', [5.270000e+14, 0.0, 29013.0])
 
-# Reaction 1156
+# Reaction 1124
 falloff_reaction('C6H5 + H (+ M) <=> C6H6 (+ M)',
                  kf=[1.000000e+14, 0.0, 0.0],
                  kf0=[6.600000e+75, -16.3, 7000.0],
                  efficiencies='CH4:2.0 CO:1.5 CO2:2.0 H2:2.0 H2O:6.0',
                  falloff=Troe(A=1.0, T3=0.1, T1=584.9, T2=6113.0))
 
-# Reaction 1157
+# Reaction 1125
 reaction('C6H6 + OH <=> C6H5 + H2O', [3.985000e+05, 2.286, 1058.0])
 
-# Reaction 1158
+# Reaction 1126
 reaction('C6H6 + OH <=> C6H5OH + H', [1.300000e+13, 0.0, 10600.0])
 
-# Reaction 1159
+# Reaction 1127
 reaction('C6H6 + O <=> C6H5O + H', [1.390000e+13, 0.0, 4910.0])
 
-# Reaction 1160
+# Reaction 1128
 reaction('C6H6 + O <=> C5H5 + HCO', [1.390000e+13, 0.0, 4530.0])
 
-# Reaction 1161
+# Reaction 1129
 reaction('C6H5 + H2 <=> C6H6 + H', [5.707000e+04, 2.43, 6273.0])
 
-# Reaction 1162
+# Reaction 1130
 falloff_reaction('C6H5 (+ M) <=> H + o-C6H4 (+ M)',
                  kf=[4.300000e+12, 0.616, 77310.0],
                  kf0=[1.000000e+84, -18.866, 90060.0],
                  efficiencies='CH4:2.0 CO:1.5 CO2:2.0 H2:2.0 H2O:6.0',
                  falloff=Troe(A=0.902, T3=696.0, T1=358.0, T2=3856.0))
 
-# Reaction 1163
+# Reaction 1131
 reaction('C6H5 + H <=> H2 + o-C6H4', [2.000000e+11, 1.1, 24500.0])
 
-# Reaction 1164
+# Reaction 1132
 reaction('C6H5 + O2 <=> C6H5O + O', [2.600000e+13, 0.0, 6120.0])
 
-# Reaction 1165
+# Reaction 1133
 reaction('C6H5 + O2 <=> C6H4O2 + H', [3.000000e+13, 0.0, 8980.0])
 
-# Reaction 1166
+# Reaction 1134
 reaction('C6H5 + O <=> C5H5 + CO', [1.000000e+14, 0.0, 0.0])
 
-# Reaction 1167
+# Reaction 1135
 reaction('C6H5 + OH <=> C6H5O + H', [3.000000e+13, 0.0, 0.0])
 
-# Reaction 1168
+# Reaction 1136
 reaction('C6H5 + HO2 <=> C6H5O + OH', [3.000000e+13, 0.0, 0.0])
 
-# Reaction 1169
+# Reaction 1137
 reaction('C6H5 + HO2 <=> C6H6 + O2', [1.000000e+12, 0.0, 0.0])
 
-# Reaction 1170
+# Reaction 1138
 reaction('C6H5 + CH4 <=> C6H6 + CH3', [3.890000e-03, 4.57, 5256.0])
 
-# Reaction 1171
+# Reaction 1139
 reaction('C2H6 + C6H5 <=> C2H5 + C6H6', [2.100000e+11, 0.0, 4443.0])
 
-# Reaction 1172
+# Reaction 1140
 reaction('C6H5 + CH2O <=> C6H6 + HCO', [8.550000e+04, 2.19, 38.0])
 
-# Reaction 1173
+# Reaction 1141
 reaction('C6H4O2 <=> C5H4O + CO', [7.400000e+11, 0.0, 59000.0])
 
-# Reaction 1174
+# Reaction 1142
 reaction('C6H4O2 + H <=> C5H5O(1,3) + CO', [4.300000e+09, 1.45, 3900.0])
 
-# Reaction 1175
+# Reaction 1143
 reaction('C6H4O2 + O <=> C2H2 + CH2CO + 2 CO', [3.000000e+13, 0.0, 5000.0])
 
-# Reaction 1176
+# Reaction 1144
 reaction('C6H5O + H <=> C5H5 + HCO', [1.000000e+13, 0.0, 12000.0])
 
-# Reaction 1177
+# Reaction 1145
 reaction('C6H5O + H <=> C5H6 + CO', [5.000000e+13, 0.0, 0.0])
 
-# Reaction 1178
+# Reaction 1146
 reaction('C6H5O <=> C5H5 + CO', [3.760000e+54, -12.06, 72800.0])
 
-# Reaction 1179
+# Reaction 1147
 reaction('C6H5O + O <=> C6H4O2 + H', [2.600000e+10, 0.47, 795.0])
 
-# Reaction 1180
+# Reaction 1148
 reaction('C6H5OH <=> C5H6 + CO', [1.000000e+12, 0.0, 60808.0])
 
-# Reaction 1181
+# Reaction 1149
 reaction('C6H5OH + OH <=> C6H5O + H2O', [2.950000e+06, 2.0, -1312.0])
 
-# Reaction 1182
+# Reaction 1150
 reaction('C6H5OH + H <=> C6H5O + H2', [1.150000e+14, 0.0, 12398.0])
 
-# Reaction 1183
+# Reaction 1151
 reaction('C6H5OH + O <=> C6H5O + OH', [2.810000e+13, 0.0, 7352.0])
 
-# Reaction 1184
+# Reaction 1152
 reaction('C2H3 + C6H5OH <=> C2H4 + C6H5O', [6.000000e+12, 0.0, 0.0])
 
-# Reaction 1185
+# Reaction 1153
 reaction('C6H5OH + NC4H5 <=> C4H6 + C6H5O', [6.000000e+12, 0.0, 0.0])
 
-# Reaction 1186
+# Reaction 1154
 reaction('C6H5 + C6H5OH <=> C6H5O + C6H6', [4.910000e+12, 0.0, 4400.0])
 
-# Reaction 1187
+# Reaction 1155
 reaction('C5H6 + H <=> C2H2 + C3H5', [7.740000e+36, -6.18, 32890.0])
 
-# Reaction 1188
+# Reaction 1156
 reaction('C5H6 + H <=> lC5H7', [8.270000e+126, -32.3, 82348.0])
 
-# Reaction 1189
+# Reaction 1157
 reaction('C5H6 + H <=> C5H5 + H2', [3.030000e+08, 1.71, 5590.0])
 
-# Reaction 1190
+# Reaction 1158
 reaction('C5H6 + O <=> C5H5 + OH', [4.770000e+04, 2.71, 1106.0])
 
-# Reaction 1191
+# Reaction 1159
 reaction('C5H6 + O <=> C5H5O(1,3) + H', [8.910000e+12, -0.15, 590.0],
          options='duplicate')
 
-# Reaction 1192
+# Reaction 1160
 reaction('C5H6 + O <=> C5H5O(1,3) + H', [5.600000e+12, -0.06, 200.0],
          options='duplicate')
 
-# Reaction 1193
+# Reaction 1161
 reaction('C5H6 + O <=> CO + H + NC4H5', [8.700000e+51, -11.09, 33240.0])
 
-# Reaction 1194
+# Reaction 1162
 reaction('C5H6 + OH <=> C5H5 + H2O', [3.080000e+06, 2.0, 0.0])
 
-# Reaction 1195
+# Reaction 1163
 reaction('C5H6 + HO2 <=> C5H5 + H2O2', [1.100000e+04, 2.6, 12900.0])
 
-# Reaction 1196
+# Reaction 1164
 reaction('C5H6 + O2 <=> C5H5 + HO2', [4.000000e+13, 0.0, 37150.0])
 
-# Reaction 1197
+# Reaction 1165
 reaction('C5H6 + HCO <=> C5H5 + CH2O', [1.080000e+08, 1.9, 16000.0])
 
-# Reaction 1198
+# Reaction 1166
 reaction('C5H6 + CH3 <=> C5H5 + CH4', [1.800000e-01, 4.0, 0.0])
 
-# Reaction 1199
+# Reaction 1167
 falloff_reaction('C5H5 + H (+ M) <=> C5H6 (+ M)',
                  kf=[1.000000e+14, 0.0, 0.0],
                  kf0=[4.400000e+80, -18.28, 12990.0],
                  efficiencies='CH4:2.0 CO:1.5 CO2:2.0 H2:2.0 H2O:6.0',
                  falloff=Troe(A=0.068, T3=400.7, T1=4135.8, T2=5501.9))
 
-# Reaction 1200
+# Reaction 1168
 reaction('C5H5 + O2 <=> C5H5O(2,4) + O', [7.780000e+15, -0.73, 48740.0])
 
-# Reaction 1201
+# Reaction 1169
 reaction('C5H5 + O <=> C5H5O(2,4)', [1.120000e-12, 5.87, -17310.0])
 
-# Reaction 1202
+# Reaction 1170
 reaction('C5H5 + O <=> C5H4O + H', [5.810000e+13, -0.02, 20.0])
 
-# Reaction 1203
+# Reaction 1171
 reaction('C5H5 + O <=> CO + NC4H5', [3.200000e+13, -0.17, 440.0])
 
-# Reaction 1204
+# Reaction 1172
 reaction('C5H5 + OH <=> C5H4OH + H', [3.510000e+57, -12.18, 48350.0])
 
-# Reaction 1205
+# Reaction 1173
 reaction('C5H5 + OH <=> C5H5O(2,4) + H', [1.360000e+51, -10.46, 57100.0])
 
-# Reaction 1206
+# Reaction 1174
 reaction('C5H5 + HO2 <=> C5H5O(2,4) + OH', [6.270000e+29, -4.69, 11650.0])
 
-# Reaction 1207
+# Reaction 1175
 reaction('C5H5 + OH <=> C5H5OH', [6.490000e+14, -0.85, -2730.0],
          options='duplicate')
 
-# Reaction 1208
+# Reaction 1176
 reaction('C5H5 + OH <=> C5H5OH', [1.150000e+43, -8.76, 18730.0],
          options='duplicate')
 
-# Reaction 1209
+# Reaction 1177
 reaction('C5H5 + OH <=> C5H5OH', [1.060000e+59, -13.08, 33450.0],
          options='duplicate')
 
-# Reaction 1210
+# Reaction 1178
 reaction('C5H5 + O2 <=> C5H4O + OH', [1.800000e+12, 0.08, 18000.0])
 
-# Reaction 1211
+# Reaction 1179
 reaction('C5H5OH + H <=> C5H5O(2,4) + H2', [1.150000e+14, 0.0, 15400.0])
 
-# Reaction 1212
+# Reaction 1180
 reaction('C5H5OH + H <=> C5H4OH + H2', [1.200000e+05, 2.5, 1492.0])
 
-# Reaction 1213
+# Reaction 1181
 reaction('C5H5OH + OH <=> C5H5O(2,4) + H2O', [6.000000e+12, 0.0, 0.0])
 
-# Reaction 1214
+# Reaction 1182
 reaction('C5H5OH + OH <=> C5H4OH + H2O', [3.080000e+06, 2.0, 0.0])
 
-# Reaction 1215
+# Reaction 1183
 reaction('C5H5O(2,4) + H <=> C5H5OH', [1.000000e+14, 0.0, 0.0])
 
-# Reaction 1216
+# Reaction 1184
 reaction('C5H5O(2,4) <=> C5H4O + H', [2.000000e+13, 0.0, 30000.0])
 
-# Reaction 1217
+# Reaction 1185
 reaction('C5H5O(2,4) + O2 <=> C5H4O + HO2', [1.000000e+11, 0.0, 0.0])
 
-# Reaction 1218
+# Reaction 1186
 reaction('C5H4O + H <=> C5H5O(1,3)', [2.000000e+13, 0.0, 2000.0])
 
-# Reaction 1219
+# Reaction 1187
 reaction('C5H5O(1,3) <=> CO + c-C4H5', [1.000000e+12, 0.0, 36000.0])
 
-# Reaction 1220
+# Reaction 1188
 reaction('C5H5O(1,3) + O2 <=> C5H4O + HO2', [1.000000e+11, 0.0, 0.0])
 
-# Reaction 1221
+# Reaction 1189
 reaction('C5H4OH <=> C5H4O + H', [2.100000e+13, 0.0, 48000.0])
 
-# Reaction 1222
+# Reaction 1190
 reaction('C5H4O <=> 2 C2H2 + CO', [6.200000e+41, -7.87, 98700.0])
 
-# Reaction 1223
+# Reaction 1191
 reaction('C5H4O + H <=> CO + c-C4H5', [4.300000e+09, 1.45, 3900.0])
 
-# Reaction 1224
+# Reaction 1192
 reaction('C5H4O + O <=> C3H3 + CO + HCO', [6.200000e+08, 1.45, -858.0])
 
-# Reaction 1225
+# Reaction 1193
 reaction('H + c-C4H5 <=> C4H6', [1.000000e+13, 0.0, 0.0])
 
-# Reaction 1226
+# Reaction 1194
 reaction('H + c-C4H5 <=> C2H2 + C2H4', [1.000000e+13, 0.0, 0.0])
 
-# Reaction 1227
+# Reaction 1195
 reaction('O + c-C4H5 <=> C2H2 + CH2CHO', [1.000000e+14, 0.0, 0.0])
 
-# Reaction 1228
+# Reaction 1196
 reaction('O2 + c-C4H5 <=> CH2CHO + CH2CO', [4.800000e+11, 0.0, 19000.0])
 
-# Reaction 1229
+# Reaction 1197
 reaction('c-C4H5 <=> C4H4 + H', [3.000000e+12, 0.0, 52000.0])
 
-# Reaction 1230
+# Reaction 1198
 reaction('c-C4H5 <=> C2H2 + C2H3', [2.000000e+12, 0.0, 58000.0])
 
-# Reaction 1231
+# Reaction 1199
 reaction('C2H3 + C3H5 <=> H + lC5H7', [1.000000e+13, 0.0, 0.0])
 
-# Reaction 1232
+# Reaction 1200
 reaction('O + lC5H7 <=> C2H3 + C2H3CHO', [5.000000e+13, 0.0, 0.0])
 
-# Reaction 1233
+# Reaction 1201
 reaction('OH + lC5H7 <=> C2H3CHO + C2H4', [2.000000e+13, 0.0, 0.0])
 
-# Reaction 1234
+# Reaction 1202
 reaction('IC4H7 + IC4H8 => C6H6 + CH3 + CH4 + H2', [5.000000e+10, 0.0, 0.0])
 
-# Reaction 1235
+# Reaction 1203
 reaction('IC4H7 + IC4H8 => C6H5CH3 + CH3 + 2 H2', [7.500000e+11, 0.0, 6500.0])
 
-# Reaction 1236
+# Reaction 1204
 reaction('IC4H7 + IC4H8 => C2H6 + C5H6 + CH3', [6.000000e+11, 0.0, 6500.0])
+
+# Reaction 1205
+reaction('POSF10325 => 1.38289 C2H4 + 1.18729 C3H6 + 0.431266 C4H81 + 0.169069 C6H5CH3 + 0.164265 C6H6 + 0.0200011 CH3 + 1.98 H + 0.189554 IC4H8', [2.297000e+27, -2.58, 87697.0])
+
+# Reaction 1206
+reaction('H + POSF10325 => A2C11H21 + H2', [7.660000e-03, 4.76, 1294.9])
+
+# Reaction 1207
+reaction('CH3 + POSF10325 => A2C11H21 + CH4', [8.498000e-07, 5.95, 5748.4])
+
+# Reaction 1208
+reaction('OH + POSF10325 => A2C11H21 + H2O', [6.676000e+08, 1.02, 213.2])
+
+# Reaction 1209
+reaction('O2 + POSF10325 => A2C11H21 + HO2', [1.920000e+15, 0.06, 44533.0])
+
+# Reaction 1210
+reaction('HO2 + POSF10325 => A2C11H21 + H2O2', [6.980000e+05, 2.94, 12810.0])
+
+# Reaction 1211
+reaction('O + POSF10325 => A2C11H21 + OH', [1.532000e+02, 3.86, 765.1])
+
+# Reaction 1212
+reaction('A2C11H21 => 1.01495 C2H4 + 0.871399 C3H6 + 0.316523 C4H81 + 0.242384 C6H5CH3 + 0.235498 C6H6 + 0.99 CH3 + 0.433646 CH4 + 0.01 H + 0.139121 IC4H8', [6.470000e+12, 0.0, 27070.0])
+
+# Reaction 1213
+reaction('A2C11H21 + O2 <=> A2C11H21O2', [2.000000e+09, 0.0, 0.0])
+
+# Reaction 1214
+reaction('A2C11H21O2 => A2C11H20OOH', [2.000000e+12, 0.0, 17017.0])
+
+# Reaction 1215
+reaction('A2C11H20OOH => A2C11H21O2', [1.000000e+11, 0.0, 12500.0])
+
+# Reaction 1216
+reaction('A2C11H20OOH <=> A2C11H20 + HO2', [8.500000e+12, 0.0, 25574.0])
+
+# Reaction 1217
+reaction('A2C11H20 => 1.04245 C2H4 + 0.895005 C3H6 + 0.325098 C4H81 + 0.338137 C6H5CH3 + 0.32853 C6H6 + 0.0200011 CH3 + 1.98 H + 0.14289 IC4H8', [3.500000e+16, 0.0, 70985.0])
+
+# Reaction 1218
+reaction('A2C11H20OOH + O2 <=> A2C11H21O4', [4.000000e+11, 0.0, 0.0])
+
+# Reaction 1219
+reaction('A2C11H21O4 <=> A2C11H20O3 + OH', [1.500000e+12, 0.0, 0.0])
+
+# Reaction 1220
+reaction('A2C11H20O3 => 0.898765 C2H4 + 0.771644 C3H6 + 0.280289 C4H81 + 0.253603 C6H5CH3 + 0.246397 C6H6 + CH2O + 0.0200011 CH3 + CO + 1.98 H + 0.123195 IC4H8 + OH', [5.000000e+14, 0.0, 42065.0])
+
+# Reaction 1221
+reaction('POSF11498 => 0.209818 C2H4 + 0.652825 C3H6 + 0.134669 CH3 + 1.86533 H + 2.62181 IC4H8', [3.013000e+26, -2.58, 80197.0])
+
+# Reaction 1222
+reaction('H + POSF11498 => C1C13H27 + H2', [3.044000e+05, 2.4, 2580.0])
+
+# Reaction 1223
+reaction('CH3 + POSF11498 => C1C13H27 + CH4', [2.598000e+00, 3.46, 4600.0])
+
+# Reaction 1224
+reaction('OH + POSF11498 => C1C13H27 + H2O', [9.571000e+10, 0.51, 64.0])
+
+# Reaction 1225
+reaction('O2 + POSF11498 => C1C13H27 + HO2', [1.490000e+14, 0.0, 43000.0])
+
+# Reaction 1226
+reaction('HO2 + POSF11498 => C1C13H27 + H2O2', [2.208000e+04, 2.77, 10500.0])
+
+# Reaction 1227
+reaction('O + POSF11498 => C1C13H27 + OH', [7.850000e+03, 2.5, 1110.0])
+
+# Reaction 1228
+reaction('C1C13H27 => 0.200475 C2H4 + 0.623756 C3H6 + 0.707539 CH3 + 0.292461 H + 2.50506 IC4H8', [5.700000e+12, 0.0, 27056.0])
+
+# Reaction 1229
+reaction('C1C13H27 + O2 <=> C1C13H27O2', [6.000000e+09, 0.0, 0.0])
+
+# Reaction 1230
+reaction('C1C13H27O2 => C1C13H26OOH', [2.000000e+12, 0.0, 17017.0])
+
+# Reaction 1231
+reaction('C1C13H26OOH => C1C13H27O2', [1.000000e+11, 0.0, 12500.0])
+
+# Reaction 1232
+reaction('C1C13H26OOH <=> C1C13H26 + HO2', [8.500000e+12, 0.0, 25574.0])
+
+# Reaction 1233
+reaction('C1C13H26 => 0.175226 C2H4 + 0.545195 C3H6 + 0.121071 C6H5CH3 + 0.212262 C6H6 + 0.134669 CH3 + 1.86533 H + 2.18956 IC4H8', [3.500000e+16, 0.0, 70985.0])
+
+# Reaction 1234
+reaction('C1C13H26OOH + O2 <=> C1C13H27O4', [4.000000e+11, 0.0, 0.0])
+
+# Reaction 1235
+reaction('C1C13H27O4 <=> C1C13H26O3 + OH', [1.500000e+12, 0.0, 0.0])
+
+# Reaction 1236
+reaction('C1C13H26O3 => 0.159905 C2H4 + 0.497524 C3H6 + 0.0605356 C6H5CH3 + 0.106131 C6H6 + CH2O + 0.134669 CH3 + CO + 1.86533 H + 1.9981 IC4H8 + OH', [3.500000e+14, 0.0, 42065.0])
+
+# Reaction 1237
+reaction('POSF12394 => 0.209818 C2H4 + 0.652825 C3H6 + 0.134669 CH3 + 1.86533 H + 2.62181 IC4H8', [3.013000e+26, -2.58, 80197.0])
+
+# Reaction 1238
+reaction('H + POSF12394 => C1C13H27-1 + H2', [3.044000e+05, 2.4, 2580.0])
+
+# Reaction 1239
+reaction('CH3 + POSF12394 => C1C13H27-1 + CH4', [2.598000e+00, 3.46, 4600.0])
+
+# Reaction 1240
+reaction('OH + POSF12394 => C1C13H27-1 + H2O', [9.571000e+10, 0.51, 64.0])
+
+# Reaction 1241
+reaction('O2 + POSF12394 => C1C13H27-1 + HO2', [1.490000e+14, 0.0, 43000.0])
+
+# Reaction 1242
+reaction('HO2 + POSF12394 => C1C13H27-1 + H2O2', [2.208000e+04, 2.77, 10500.0])
+
+# Reaction 1243
+reaction('O + POSF12394 => C1C13H27-1 + OH', [7.850000e+03, 2.5, 1110.0])
+
+# Reaction 1244
+reaction('C1C13H27-1 => 0.200475 C2H4 + 0.623756 C3H6 + 0.707539 CH3 + 0.292461 H + 2.50506 IC4H8', [5.700000e+12, 0.0, 27056.0])
+
+# Reaction 1245
+reaction('C1C13H27-1 + O2 <=> C1C13H27O2-1', [1.500000e+09, 0.0, 0.0])
+
+# Reaction 1246
+reaction('C1C13H27O2-1 => C1C13H26OOH-1', [2.000000e+12, 0.0, 17017.0])
+
+# Reaction 1247
+reaction('C1C13H26OOH-1 => C1C13H27O2-1', [1.000000e+11, 0.0, 12500.0])
+
+# Reaction 1248
+reaction('C1C13H26OOH-1 <=> C1C13H26-1 + HO2', [8.500000e+12, 0.0, 25574.0])
+
+# Reaction 1249
+reaction('C1C13H26-1 => 0.175226 C2H4 + 0.545195 C3H6 + 0.121071 C6H5CH3 + 0.212262 C6H6 + 0.134669 CH3 + 1.86533 H + 2.18956 IC4H8', [3.500000e+16, 0.0, 70985.0])
+
+# Reaction 1250
+reaction('C1C13H26OOH-1 + O2 <=> C1C13H27O4-1', [4.000000e+11, 0.0, 0.0])
+
+# Reaction 1251
+reaction('C1C13H27O4-1 <=> C1C13H26O3-1 + OH', [1.500000e+12, 0.0, 0.0])
+
+# Reaction 1252
+reaction('C1C13H26O3-1 => 0.159905 C2H4 + 0.497524 C3H6 + 0.0605356 C6H5CH3 + 0.106131 C6H6 + CH2O + 0.134669 CH3 + CO + 1.86533 H + 1.9981 IC4H8 + OH', [3.500000e+14, 0.0, 42065.0])

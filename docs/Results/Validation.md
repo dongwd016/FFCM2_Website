@@ -54,7 +54,7 @@ The table lists the targets considered in FFCM-2 optimization. It is searchable 
         data-escape="false"
         data-search-on-enter-key="false"
         data-show-filter-control-switch="true"
-        data-url="../../../assets/data/validation_table.json">
+        data-url="{{ site.url }}{{ site.baseurl }}/assets/data/validation_table.json">
         <thead>
             <tr>
             <th data-field="Type" data-halign="center" data-align="center" data-filter-control="select">Type</th>

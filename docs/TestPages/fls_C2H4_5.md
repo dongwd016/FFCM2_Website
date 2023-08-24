@@ -10,5 +10,5 @@ shortname: FJA2004
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_C2H4_5.png
-reference: FJA2004 - J. T. Farrell, R. J. Johnston, I. P. Androulakis, Molecular structure effects on laminar burning velocities at elevated temperature and pressure, SAE Technical Papers (2004).
+reference: 'FJA2004 - J. T. Farrell, R. J. Johnston, I. P. Androulakis, Molecular structure effects on laminar burning velocities at elevated temperature and pressure, SAE Technical Papers (2004).'
 ---

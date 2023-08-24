@@ -10,5 +10,5 @@ shortname: SYJ2007
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_Syngas_142.png
-reference: SYJ2007 - H. Sun, S. I. Yang, G. Jomaas, C. K. Law, High-pressure laminar flame speeds and kinetic modeling of carbon monoxide/hydrogen combustion, Proc. Combust. Inst. 31 (2007) 439--446.
+reference: 'SYJ2007 - H. Sun, S. I. Yang, G. Jomaas, C. K. Law, High-pressure laminar flame speeds and kinetic modeling of carbon monoxide/hydrogen combustion, Proc. Combust. Inst. 31 (2007) 439--446.'
 ---

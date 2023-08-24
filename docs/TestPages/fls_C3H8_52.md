@@ -10,5 +10,5 @@ shortname: ZG1996
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_C3H8_52.png
-reference: ZG1996 - M. Zhou, C. P. Garner, Direct measurements of burning velocity of propane-air using particle image velocimetry, Combust. Flame 106 (1996) 363--367.
+reference: 'ZG1996 - M. Zhou, C. P. Garner, Direct measurements of burning velocity of propane-air using particle image velocimetry, Combust. Flame 106 (1996) 363--367.'
 ---

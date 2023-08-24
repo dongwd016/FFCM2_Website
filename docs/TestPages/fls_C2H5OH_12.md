@@ -10,5 +10,5 @@ shortname: DGB2014
 datatype: Laminar flame speed
 definition: HF
 test_plot: ../../../assets/data/test/fls_C2H5OH_12.png
-reference: DGB2014 - P. Dirrenberger, P. A. Glaude, R. Bounaceur, H. Le Gall, A. P. Da Cruz, A. A. Konnov, F. Battin-Leclerc, Laminar burning velocity of gasolines with addition of ethanol, Fuel 115 (2014) 162--169.
+reference: 'DGB2014 - P. Dirrenberger, P. A. Glaude, R. Bounaceur, H. Le Gall, A. P. Da Cruz, A. A. Konnov, F. Battin-Leclerc, Laminar burning velocity of gasolines with addition of ethanol, Fuel 115 (2014) 162--169.'
 ---

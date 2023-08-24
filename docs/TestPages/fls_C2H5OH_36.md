@@ -10,5 +10,5 @@ shortname: TK2006
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_C2H5OH_36.png
-reference: TK2006 - H. Takashi, T. Kimitoshi, Laminar flame speeds of ethanol, n-heptane, iso-octane air mixtures, JSAE paper 20068518 (2006).
+reference: 'TK2006 - H. Takashi, T. Kimitoshi, Laminar flame speeds of ethanol, n-heptane, iso-octane air mixtures, JSAE paper 20068518 (2006).'
 ---

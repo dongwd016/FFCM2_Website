@@ -10,5 +10,5 @@ shortname: L2010
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_C3H8_33.png
-reference: L2010 - W. Lowry, Effect of blending on high-pressure laminar flame speed measurements, markstein lengths, and flame stability of hydrocarbons, Ph.D. thesis (2010).
+reference: 'L2010 - W. Lowry, Effect of blending on high-pressure laminar flame speed measurements, markstein lengths, and flame stability of hydrocarbons, Ph.D. thesis (2010).'
 ---

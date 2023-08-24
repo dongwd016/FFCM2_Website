@@ -46,7 +46,7 @@ FLW: flow reactor speciation.
         data-escape="false"
         data-search-on-enter-key="false"
         data-show-filter-control-switch="true"
-        data-url="../../../assets/data/test_table.json">
+        data-url="{{ site.url }}{{ site.baseurl }}/assets/data/test_table.json">
         <thead>
             <tr>
             <th data-field="Type" data-halign="center" data-align="center" data-filter-control="select">Type</th>
@@ -78,3 +78,4 @@ FLW: flow reactor speciation.
 <script src="https://unpkg.com/bootstrap-table@1.21.2/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
 <script src="https://unpkg.com/bootstrap-table@1.21.2/dist/extensions/toolbar/bootstrap-table-toolbar.min.js"></script>
 <script src="https://unpkg.com/bootstrap-table@1.21.2/dist/extensions/cookie/bootstrap-table-cookie.min.js"></script>
+The search bar can be used to search all cells in the table.

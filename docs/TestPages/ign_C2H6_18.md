@@ -10,5 +10,5 @@ shortname: C1995
 datatype: Shock tube ignition delay measurement
 definition: 0.5 max OH
 test_plot: ../../../assets/data/test/ign_C2H6_18.png
-reference: C1995 - E. J. Chang, Shock tube experiments for the development and validation of models of hydrocarbon combustion, Ph.D. thesis, Stanford University (1995).
+reference: 'C1995 - E. J. Chang, Shock tube experiments for the development and validation of models of hydrocarbon combustion, Ph.D. thesis, Stanford University (1995).'
 ---

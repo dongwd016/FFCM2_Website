@@ -10,5 +10,5 @@ shortname: LBR2019
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_C2H2_10.png
-reference: LBR2019 - N. Lokachari, U. Burke, A. Ramalingam, M. Turner, R. Hesse, K. P. Somers, J. Beeckmann, K. A. Heufer, E. L. Petersen, H. J. Curran, New experimental insights into acetylene oxidation through novel ignition delay times, laminar burning velocities and chemical kinetic modelling, Proc. Combust. Inst. 37 (2019) 583--591.
+reference: 'LBR2019 - N. Lokachari, U. Burke, A. Ramalingam, M. Turner, R. Hesse, K. P. Somers, J. Beeckmann, K. A. Heufer, E. L. Petersen, H. J. Curran, New experimental insights into acetylene oxidation through novel ignition delay times, laminar burning velocities and chemical kinetic modelling, Proc. Combust. Inst. 37 (2019) 583--591.'
 ---

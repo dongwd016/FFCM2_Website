@@ -10,5 +10,5 @@ shortname: KSL2011
 datatype: Laminar flame speed
 definition: BF
 test_plot: ../../../assets/data/test/fls_C2H6_30.png
-reference: KSL2011 - Y. Kochar, J. Seitzman, T. Lieuwen, W. Metcalfe, S. Burke, H. Curran, M. Krejci, W. Lowry, E. Petersen, G. Bourque, R.-R. Canada, C. Montreal, Laminar flame speed measurements and modeling of alkane blends at elevated pressures with dilluents, Proceedings of ASME Turbo Expo 2011 (Jun. 2011).
+reference: 'KSL2011 - Y. Kochar, J. Seitzman, T. Lieuwen, W. Metcalfe, S. Burke, H. Curran, M. Krejci, W. Lowry, E. Petersen, G. Bourque, R.-R. Canada, C. Montreal, Laminar flame speed measurements and modeling of alkane blends at elevated pressures with dilluents, Proceedings of ASME Turbo Expo 2011 (Jun. 2011).'
 ---

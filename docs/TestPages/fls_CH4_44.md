@@ -10,5 +10,5 @@ shortname: VE1998
 datatype: Laminar flame speed
 definition: CFF
 test_plot: ../../../assets/data/test/fls_CH4_44.png
-reference: VE1998 - C. M. Vagelopoulos, F. N. Egolfopoulos, Direct experimental determination of laminar flame speeds, Symposium (International) on Combustion 27 (1998) 513--519.
+reference: 'VE1998 - C. M. Vagelopoulos, F. N. Egolfopoulos, Direct experimental determination of laminar flame speeds, Symposium (International) on Combustion 27 (1998) 513--519.'
 ---

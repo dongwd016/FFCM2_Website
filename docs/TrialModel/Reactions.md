@@ -14,7 +14,7 @@ Overview of reaction pathways and rate coefficients in FFCM-2, and their uncerta
 {:toc}
 
 ## Trial model as a searchable table
-Click [here]({{ site.baseurl }}/assets/data/trialmodel/table.html) for a searchable table that documents the trial model rate coefficients and sources and comments for each individual reaction is available. In the table, one can select reaction for a particular species using the filter option in the Species column.
+Click [here]({{ site.url }}{{ site.baseurl }}/assets/data/trialmodel/table.html) for a searchable table that documents the trial model rate coefficients and sources and comments for each individual reaction is available. In the table, one can select reaction for a particular species using the filter option in the Species column.
 - No.: index of the reaction in FFCM-2, ranging from 1 to 1054.
 - Reaction type: the type of a reaction, one of elementary reaction, three-body reaction, falloff reaction and PLOG reaction.
 - Parameter type: the type of rate parameters, e.g., Arrhenius rate coefficient (A-factor), three-body Chaperon efficiency, falloff parameters (high pressure limit, low pressure limit and Troe centering parameter), and PLOG rate coefficient for one given pressure.

@@ -10,5 +10,5 @@ shortname: RHP2005
 datatype: Shock tube ignition delay measurement
 definition: max CH*
 test_plot: ../../../assets/data/test/ign_C2H2_33.png
-reference: RHP2005 - M. J. Rickard, J. M. Hall, E. L. Petersen, Effect of silane addition on acetylene ignition behind reflected shock waves, Proc. Combust. Inst. 30 (2005) 1915--1923.
+reference: 'RHP2005 - M. J. Rickard, J. M. Hall, E. L. Petersen, Effect of silane addition on acetylene ignition behind reflected shock waves, Proc. Combust. Inst. 30 (2005) 1915--1923.'
 ---

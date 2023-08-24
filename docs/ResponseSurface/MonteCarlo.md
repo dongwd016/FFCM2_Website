@@ -20,7 +20,7 @@ Monte Carlo sampling and computer experiments
 The dimensionality for FFCM-2 optimization is high (1052 parameters and 1192 targets). In such high-dimensional parameter space, the plain random sampling approach causes clusters and holes, as shown in Fig. 1, which reduces the statistical sample efficiencies. In the FFCM-2 effort, the Sobol sequence sampling is used to address this issue. The Sobol sequence is an example of quasi-random low-discrepancy sequences, which successively add new sample points to positions as far away as possible from existing ones to avoid clustering. The Sobol sequence thus yields a good coverage of the input parameter space, and has been demonstrated to have the best convergence properties. We used the Python library [`scipy.stats.qmc.Sobol`][Sobol] to generate the Sobol sequences.
 
 <p align="center">
-<img src="{{ site.baseurl }}/assets/images/NNRS/Samples_uniform_vs_sobol.png" alt="Samples_uniform_vs_sobol" width="800" height="800">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NNRS/Samples_uniform_vs_sobol.png" alt="Samples_uniform_vs_sobol" width="800" height="800">
 <br>
 <i>Figure 1 Projection of 32768 samples that are generated from a 1052-dimensional space within range $[-1,1]$ on two random dimensions. Left panel: random sampling that leads to clusters and holes; Right panel: Sobol sequence sampling that covers the space with low-discrepancy.</i>
 </p>
@@ -31,7 +31,7 @@ The Sobol sequences are inherently uniform with respect to the sampled space and
 Additionally, we designed a sampling approach that highlights the need of accuracy around $\mathbf{x} = \mathbf{0}$ and yet considers the far edge of the parametric space as well. When transforming the uniform sequences to Gaussian, we consider three sub-spaces of the Gaussian samples parameterized by the standard deviation. Set 1 has a standard deviation of 0.1 in $\textbf{x}$; Sets 2 and 3 have standard deviations of 0.3 and 0.5, respectively. Set 3 has twice more sample points assigned to it than Sets 1 and 3. Together, the three sets form the complete sample set, as shown in Fig. 2. 
 
 <p align="center">
-<img src="{{ site.baseurl }}/assets/images/NNRS/Samples_3Subspaces.png" alt="Samples_3Subspaces" width="800" height="800">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NNRS/Samples_3Subspaces.png" alt="Samples_3Subspaces" width="800" height="800">
 <br>
 <i>Figure 2 Two-dimensional projections of Sobol sampling following a truncated inverse cumulative Gaussian distribution. The final set of samples comprises of three Gaussian-weighted subsets with standard deviations of 0.1, 0.3, and 0.5 in the $\mathbf{x}$ value for Sets 1, 2 and 3, respectively.  Lower right panel: histograms of the sample counts of each sub set, as a function of root-mean squares of $\mathbf{x}$ (representing the distance of the sample to the origin). Note that Set 3 has twice more sample points than Sets 1 and 2.</i>
 </p>

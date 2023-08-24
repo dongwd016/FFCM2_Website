@@ -10,5 +10,5 @@ shortname: CH2011
 datatype: Laminar flame speed
 definition: Stag
 test_plot: ../../../assets/data/test/fls_CH3COCH3_1.png
-reference: CH2011 - C. T. Chong, S. Hochgreb, Measurements of laminar flame speeds of acetone/methane/air mixtures, Combust. Flame 158 (2011) 490--500.
+reference: 'CH2011 - C. T. Chong, S. Hochgreb, Measurements of laminar flame speeds of acetone/methane/air mixtures, Combust. Flame 158 (2011) 490--500.'
 ---

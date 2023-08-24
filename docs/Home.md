@@ -8,13 +8,13 @@ usemathjax: true
 
 # Foundational Fuel Chemistry Model Version 2.0 (FFCM-2)
 {: .fs-8.5 }
-Foundational Fuel Chemistry Model Version 2.0 (FFCM-2) is an uncertainty-minimized reaction model for the combustion of hydrogen, carbon monoxide, formaldehyde and small, foundational hydrocarbon fuels (up to C<sub>4</sub>). The model was optimized and validated against legacy combustion targets that cover a wide range of thermodynamic conditions.
+Foundational Fuel Chemistry Model Version 2.0 (FFCM-2) is a reaction model for the combustion of H<sub>2</sub>, CO, CH<sub>2</sub>O, and C<sub>1-4</sub> hydrocarbons. While FFCM-2 is based on elementary reaction kinetics, it assimilates over 1000 sets of legacy combustion data dating back to the 1930s’. The model is extensively tested against fundamental combustion data over a wide range of thermodynamic condition.
 {: .fs-6 .fw-300 }
 
-[Download]({{ site.baseurl }}/docs/Download){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Download]({{ site.url }}{{ site.baseurl }}/docs/Download){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Citation](#how-to-cite){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Performance]({{ site.baseurl }}/docs/Results){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Application]({{ site.baseurl }}/docs/Application){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Performance]({{ site.url }}{{ site.baseurl }}/docs/Results){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Application]({{ site.url }}{{ site.baseurl }}/docs/Application){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---
 
@@ -104,12 +104,14 @@ Foundational Fuel Chemistry Model Version 2.0 (FFCM-2), https://web.stanford.edu
 ```
 ### Bibtex format
 ```bibtex
-@Article{ZDV2023,
+@Misc{ZDV2023,
   author  = {Zhang, Yue and Dong, Wendi and Vandewalle, Laurien and Xu, Rui and Smith, Gregory and Wang, Hai},
   title   = {Foundational {Fuel} {Chemistry} {Model} {Version} 2.0 ({FFCM}-2)},
   journal = {FFCM-2 website},
   url     = "https://web.stanford.edu/group/haiwanglab/FFCM2",
   year    = {2023},
+  }
+  
 ```
 
 ## A brief history and acknowledgements

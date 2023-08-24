@@ -43,7 +43,7 @@ We demonstrate the analysis with the laminar flame speed of $i$-C<sub>4</sub>H<s
 Figure 1 plots all data discussed above. The red solid line represents the nominal fit of the data using the rational function. The two blue dash dot lines are the 95% confidence intervals, which gives a quantitative assessment of the statistical scatter of the data. The data in blue symbols (Davis and Law[^DL1998]) lie outside of the confidence interval for the fuel rich conditions. This is attributed to the linear extrapolation. This set of data is removed and the fitting is conducted iteratively until no outliers are observed or outliers cannot be explained by data interpretation. This analyses also helps to direct future experiments. For the flame speed of $i$-C<sub>4</sub>H<sub>8</sub>/air mixture, the fuel rich conditions exhibit smaller data scatter than the fuel lean conditions. The large scatter under the fuel lean condition are due to two sets of data, one from Princeton, and the other from TAMU: they differ for about $5-7$ cm/s and the reason for the discrepancy remains unclear according to the original paper[^ZLO2016]. Clearly, data under the fuel lean condition will be needed to further reduce the data ncertainty, 
 
 <p align="center">
-<img src="{{ site.baseurl }}/assets/images/dataUQ/IC4H8_fls_analysis.png" alt="Employee data" width="500" height="500">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/dataUQ/IC4H8_fls_analysis.png" alt="Employee data" width="500" height="500">
 <br>
 <i>Figure 1 The statistical consistency analysis for laminar flame speed of iso-butene / air mixture at 298 K and 1 atm</i>
 </p>
@@ -62,7 +62,7 @@ $$
 Figure 2 collects ignition delay measurements for ethylene/oxygen mixtures diluted in argon from 1967 to 2021. Similarly, the red solid line represents the nominal fit using Lifshitz function, while the two dash dot lines are the 95% confidence intervals. Outlier data are again evaluated based on the experimental techniques used.
 
 <p align="center">
-<img src="{{ site.baseurl }}/assets/images/dataUQ/C2H4+AR_ign_analysis.png" alt="Employee data" width="600" height="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/dataUQ/C2H4+AR_ign_analysis.png" alt="Employee data" width="600" height="600">
 <br>
 <i>Figure 2 The statistical consistency analysis for ignition delay time of ethylene/oxygen/argon mixture at various temperature, pressure and compositions.</i>
 </p>

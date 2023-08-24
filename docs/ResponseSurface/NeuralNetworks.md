@@ -22,7 +22,7 @@ FFCM-2 is a substantially high-dimensional optimization problem. The conventiona
 Figure 1 shows the architecture of a simple, single-condition neural network response surface. Given the thermodynamic conditions of a certain combustion fundamental property, the normalized rate parameters are mapped to the computed data.
 
 <p align="center">
-<img src="{{ site.baseurl }}/assets/images/NNRS/SimpleNNRS.png" alt="SimpleNNRS_architecture" width="500" height="500">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NNRS/SimpleNNRS.png" alt="SimpleNNRS_architecture" width="500" height="500">
 <br>
 <i>Figure 1 The archictecture of the simple, single-condition neural network response surface. The left most (blue) layer is the input layer of $K$ input variables (normalized rate parameters); the right most (green) layer is the single-node output layer; the layers in between (red) are the hidden layers numbered as $1,2,...,H$, with $m_1,m_2,...,m_H$ hidden nodes, respectively, for each layer.</i>
 </p>
@@ -41,7 +41,7 @@ $$
 In large-scale optimziation, many targets have thermodynamic conditions that are heavily correlated. To this end, we proposed a generalized NN-RS that takes as input the thermodynamic conditions of an array of targets. It is deeper, with more training parameters and needs more training samples. The benefits is obvious: the total amounts of training samples are significantly reduced for all targets.
 
 <p align="center">
-<img src="{{ site.baseurl }}/assets/images/NNRS/GeneralizedNNRS.png" alt="GeneralizedNNRS_architecture" width="700" height="700">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NNRS/GeneralizedNNRS.png" alt="GeneralizedNNRS_architecture" width="700" height="700">
 <br>
 <i>Figure 2 A generalized NN-RS architecture that incorporates the thermodynamic conditions as input. For the bottom layer, the normalized reaction rate parameters $\mathbf{x}$ (in blue) and thermodynamic conditions (eg., temperature $T$, pressure $p$ and mixture composition $\mathbf{X}$) (in green) are processed as two separate sets of coefficients. In the second layer, the two processed vectors (red) are concatenated (orange) and passed through the third layer (purple) to predict the combustion responses.</i>
 </p>
@@ -80,13 +80,13 @@ One key advantage that neural network brings is the adaptiveness of the trained 
 ### Case I: Adapt to related thermodynamic conditions
 Targets with related thermodynamic conditions have similar reaction kinetics, and thus a neural network trained can be adapted to related conditions with significantly reduced training samples. Consider a trained NN-RS for the ignition delay of a stoichiometric CH<sub>4</sub>-O<sub>2</sub>-77.5% CO<sub>2</sub> mixture at the nominal $p_5 = 32.8$ atm and $T_5=1421$ K condition (center star). To adapt to related conditions that vary $T_5$ and $p_5$ as illustrated in Fig. 3, we initialize the new NN-RS with the trained NN-RS (center star). Figure 4 shows that adaptively trained NN-RS can reduce the additional training samples to as much as 1% of the original sample size (case $A$).
 <p align="center">
-<img src="{{ site.baseurl }}/assets/images/NNRS/AdaptiveNNRS_CaseI_cond.png" alt="GeneralizedNNRS_fls" width="500" height="500">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NNRS/AdaptiveNNRS_CaseI_cond.png" alt="GeneralizedNNRS_fls" width="500" height="500">
 <br>
 <i>Figure 3 Selected thermodynamic conditions for adaptive training using the NN already trained for the ignition delay of a stoichiometric CH<sub>4</sub>-O<sub>2</sub>-77.5% CO<sub>2</sub> mixture at the nominal p<sub>5</sub> and T<sub>5</sub> condition marked by the center star. Three sets of new conditions are tested with each set containing the variations of both p<sub>5</sub> and T<sub>5</sub> . The set closest to the nominal condition is denoted as set A; the intermediate set is B; the furthest set is C, which extends p<sub>5</sub> from 12.3 atm to 87.4 atm, and of T<sub>5</sub> from 1,218 K to 1,705 K.</i>
 </p>
 
 <p align="center">
-<img src="{{ site.baseurl }}/assets/images/NNRS/AdaptiveNNRS_CaseI.png" alt="GeneralizedNNRS_fls" width="800" height="800">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NNRS/AdaptiveNNRS_CaseI.png" alt="GeneralizedNNRS_fls" width="800" height="800">
 <br>
 <i>Figure 4 Comparison of mean (open symbols) and 95-percentile (filled symbols) errors as a function of the number of samples used for NN training, comparing adaptive training (solid lines) and without adaptive training (dashed lines) for the three sets of conditions $(A_i$: top panels, $B_i$: middle panels, and $C_i$: bottom panels, for $i=1,...,4)$ shown in Fig. 3. The horizontal dashed-dotted-dashed lines indicate the mean and 90-percentile error tolerance levels. Tests use Set 2 of the data sample with 2,000 sample points. Lines are drawn to guide the eyes.</i>
 </p>
@@ -124,7 +124,7 @@ $$
 We provide an example of the generalized NN-RS trained for laminar flame speeds of CH<sub>3</sub>OH/air mixtures. Figure 5 shows that response surfaces over a wide range of initial temperature, pressure and equivalence ratios are covered by one generalized neural network using 60,000 training samples. It also shows the projection of the generalized NN-RS on a low-dimensional space.
 
 <p align="center">
-<img src="{{ site.baseurl }}/assets/images/NNRS/3DNNRS_fls_rs3x3.png" alt="GeneralizedNNRS_fls" width="1000" height="1000">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NNRS/3DNNRS_fls_rs3x3.png" alt="GeneralizedNNRS_fls" width="1000" height="1000">
 <br>
 <i>Figure 5 Generalized NN-RS for laminar flame speeds of CH<sub>3</sub>OH/air mixtures at temperature 298 - 450 K, pressure 0.5 - 10 bar and equivalence ratio 0.6 - 1.8, with active parameters K = 1052, expressed as $y_{S_u^o} (\mathbf{x}, T_0, p, \phi)$. The figure above shows the projection of the generalized NN-RS.</i>
 </p>

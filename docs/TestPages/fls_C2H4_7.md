@@ -10,5 +10,5 @@ shortname: GZA2015
 datatype: Laminar flame speed
 definition: BF
 test_plot: ../../../assets/data/test/fls_C2H4_7.png
-reference: GZA2015 - X. Gao, Y. Zhang, S. Adusumilli, J. Seitzman, W. Sun, T. Ombrello, C. Carter, The effect of ozone addition on laminar flame speed, Combust. Flame 162 (2015) 3914--3924.
+reference: 'GZA2015 - X. Gao, Y. Zhang, S. Adusumilli, J. Seitzman, W. Sun, T. Ombrello, C. Carter, The effect of ozone addition on laminar flame speed, Combust. Flame 162 (2015) 3914--3924.'
 ---

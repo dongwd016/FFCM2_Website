@@ -10,5 +10,5 @@ shortname: RZL2002
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_CH4_37.png
-reference: RZL2002 - G. Rozenchan, D. L. Zhu, C. K. Law, S. D. Tse, Outward propagation, burning velocities, and chemical effects of methane flames up to 60 {ATM}, Proc. Combust. Inst. 29 (2002) 1461--1470.
+reference: 'RZL2002 - G. Rozenchan, D. L. Zhu, C. K. Law, S. D. Tse, Outward propagation, burning velocities, and chemical effects of methane flames up to 60 {ATM}, Proc. Combust. Inst. 29 (2002) 1461--1470.'
 ---

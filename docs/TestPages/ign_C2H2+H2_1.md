@@ -10,5 +10,5 @@ shortname: HK1967
 datatype: Shock tube ignition delay measurement
 definition: 0.1 max CO2 plus CO
 test_plot: ../../../assets/data/test/ign_C2H2+H2_1.png
-reference: HK1967 - J. B. Homer, G. B. Kistiakowsky, Oxidation and {Pyrolysis} of {Ethylene} in {Shock} {Waves}, J. Chem. Phys. 47 (1967) 5290.
+reference: 'HK1967 - J. B. Homer, G. B. Kistiakowsky, Oxidation and {Pyrolysis} of {Ethylene} in {Shock} {Waves}, J. Chem. Phys. 47 (1967) 5290.'
 ---

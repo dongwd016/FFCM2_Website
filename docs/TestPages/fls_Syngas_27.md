@@ -10,5 +10,5 @@ shortname: BQJ2007
 datatype: Laminar flame speed
 definition: OPF
 test_plot: ../../../assets/data/test/fls_Syngas_27.png
-reference: BQJ2007 - M. P. Burke, X. Qin, Y. Ju, F. L. Dryer, Measurements of {Hydrogen} {Syngas} {Flame} {Speeds} at {Elevated} {Pressures}, 5th US Combustion Meeting (Mar. 2007).
+reference: 'BQJ2007 - M. P. Burke, X. Qin, Y. Ju, F. L. Dryer, Measurements of {Hydrogen} {Syngas} {Flame} {Speeds} at {Elevated} {Pressures}, 5th US Combustion Meeting (Mar. 2007).'
 ---

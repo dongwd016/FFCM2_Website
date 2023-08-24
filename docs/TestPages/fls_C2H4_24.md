@@ -10,5 +10,5 @@ shortname: KMS2008
 datatype: Laminar flame speed
 definition: CFF
 test_plot: ../../../assets/data/test/fls_C2H4_24.png
-reference: KMS2008 - K. Kumar, G. Mittal, C. J. Sung, C. K. Law, An experimental investigation of ethylene/{O2}/diluent mixtures: {Laminar} flame speeds with preheat and ignition delays at high pressures, Combust. Flame 153 (2008) 343--354.
+reference: 'KMS2008 - K. Kumar, G. Mittal, C. J. Sung, C. K. Law, An experimental investigation of ethylene/{O2}/diluent mixtures {Laminar} flame speeds with preheat and ignition delays at high pressures, Combust. Flame 153 (2008) 343--354.'
 ---
