@@ -11,7 +11,7 @@ The table below lists all 96 species considered in FFCM-2, and their chemical st
 {: .fs-6 .fw-300 }
 
 FFCM-2 consists of 96 species and 1054 reactions for foundational fuels up to C<sub>4</sub> chemistry. The reaction kinetics of aromatics (benzene and toluene) is not currently considered. The table below lists the species symbol, chemical name, the CAS number, and the IUPAC International Chemical Identifier (InChI) for each species in the model.
-- **Species**: pecies symbol used in the reaction model,
+- **Species**: species symbol used in the reaction model,
 - **Chemical Name**: the chemical name of the correpsonding species,
 - **CAS Number**: a unique identification number assigned by the Chemical Abstracts Service (CAS),
 - **IUPAC Standard InChI**: a structure-based International Chemical Identifier, originally developed by IUPAC.
@@ -115,3 +115,8 @@ FFCM-2 consists of 96 species and 1054 reactions for foundational fuels up to C<
 | C2H3COCH3  | Methyl vinyl ketone         | 78-94-4    | InChI=1S/C4H6O/c1-3-4(2)5/h3H,1H2,2H3    |
 | OH*        | Hydroxyl radical excited    | 3352-57-6  | EXCITED_InChI=1S/HO/h1H                  |
 | CH*        | Methylidyne excited         | 3315-37-5  | EXCITED_InChI=1S/CH/h1H                  |
+
+Note: 
+
+- 2-Butene is a thermal cis/trans average.
+- OH* and CH* excited states of OH and CH.

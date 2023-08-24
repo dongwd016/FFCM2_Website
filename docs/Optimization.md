@@ -101,9 +101,8 @@ $$
 
 where $\mathbf{J_m}$ and $\mathbf{H_m}$ are the Jacobian and Hessian matrix at the optimal point, and $\mathbf{L}$ is the Cholesky decomposition of the covariance matrix. For the trial model, the covariance matrix is a diagonal matrix given by $\lambda^{-2}\textbf{I}$. For the optimized model, the posterior covariance matrix $\Sigma^*$ is given by equation above.
 
-
 ## Parameter Freezing
-Unique to NN-MUM-PCE framework is to freeze unncessary parameters after optimization. The current NN-RS allows to all rate parameters to be optimized. Despite we used massive sets of targets, not all rate parameters can be optimized and constrained, due to the effect sparsity of the combustion chemistry models. Thus, we found it useful to freeze unnecessary parameters after optimization. It helps to suppress noises and interpret the optimization results (especially the perturbed rate constants). 
+The NN-MUM-PCE framework allows us to freeze unnecessary parameters after optimization. The current NN-RS permits all rate parameters to be optimized. Although we used massive sets of targets, not all rate parameters can be profitably optimized and constrained, due to the effect sparsity of the combustion chemistry models. Many reactions have negligible effect. Thus, we found it useful to freeze unnecessary parameters after optimization. This helps to suppress noise and allows easier interpretation of the optimization results (especially the perturbed rate constants).
 
 ### Unnecessary parameters
 The $i^{th}$ rate parameter $x_i$ is regarded as unnecessary and should be frozen (not optimized) when,
@@ -118,7 +117,6 @@ model prediction uncertainties. From this analysis, we divide the parameters $\m
 
 ### Conditional normal distribution
 The conditional normal distribution is applied to freeze the unoptimized set $\mathbf{x_f}$ back to the trial values $\mathbf{x_f} = \mathbf{0}$. The distribution for the optimized set $\mathbf{x_a}$ are derived analytically, 
-
 
 $$
 \begin{align}

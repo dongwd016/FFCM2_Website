@@ -29,7 +29,7 @@ In the FFCM-2 effort, shock tube ignition delay measurements for temperature $T$
 - To facilitate the human interaction with the database, we developed tools that converts the pandas database to and from the SpreadSheet, which is more human readeable to allow experimentalists to share their data more easily. 
 
 ### Target selection
-A total of 1192 targets are selected from SFCPD for FFCM-2 optimizatio, including
+A total of 1192 targets are selected from SFCPD for FFCM-2 optimization, including
 
 - Laminar flame speed: 380
 - Ignition delay time: 792
