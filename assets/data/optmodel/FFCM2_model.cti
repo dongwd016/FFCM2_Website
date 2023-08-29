@@ -4,7 +4,7 @@
  Foundational Fuel Chemistry Model Version 2 (FFCM-2)
 
  - Description:
-     FFCM-2: An optimized reaction model for combustion chemistry of species up to C4 (Cantera CTI format)
+   FFCM-2: An optimized reaction model for combustion chemistry of species up to C4 (Cantera YAML format)
 
  - Authors:
      Yue Zhang, Wendi Dong, Laurien A. Vandewalle, Rui Xu, Gregory P. Smith, Hai Wang
@@ -13,7 +13,6 @@
      July 2023
 
  - Contact:
-     Gregory P. Smith: gregory.smith@sri.com
      Hai Wang: haiwang@stanford.edu
 
  - https://web.stanford.edu/group/haiwanglab/FFCM2/

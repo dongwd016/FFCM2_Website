@@ -113,10 +113,9 @@ FFCM-2 consists of 96 species and 1054 reactions for foundational fuels up to C<
 | IC3H7CHO   | 2-Methylpropanal            | 78-84-2    | InChI=1S/C4H8O/c1-4(2)3-5/h3-4H,1-2H3    |
 | C2H5COCH3  | Ethyl methyl ketone         | 78-93-3    | InChI=1S/C4H8O/c1-3-4(2)5/h3H2,1-2H3     |
 | C2H3COCH3  | Methyl vinyl ketone         | 78-94-4    | InChI=1S/C4H6O/c1-3-4(2)5/h3H,1H2,2H3    |
-| OH*        | Hydroxyl radical excited    | 3352-57-6  | EXCITED_InChI=1S/HO/h1H                  |
-| CH*        | Methylidyne excited         | 3315-37-5  | EXCITED_InChI=1S/CH/h1H                  |
+| OH*        | Hydroxyl radical excited (${\rm A}^2\Sigma^+$)    | 3352-57-6  | EXCITED_InChI=1S/HO/h1H                  |
+| CH*        | Methylidyne excited (${\rm A}^2\Delta$)         | 3315-37-5  | EXCITED_InChI=1S/CH/h1H                  |
 
-Note: 
+Note:
 
 - 2-Butene is a thermal cis/trans average.
-- OH* and CH* excited states of OH and CH.

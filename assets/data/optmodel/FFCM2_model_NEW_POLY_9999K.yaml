@@ -1,23 +1,38 @@
-# ***************************************************************************************
+#**************************************************************************************
+#
+# Foundational Fuel Chemistry Model Version 2 (FFCM-2)
+#
+# - Description:
+#   FFCM-2: An optimized reaction model for combustion chemistry of species up to C4 (Cantera YAML format)
+#
+# - Authors:
+#     Yue Zhang, Wendi Dong, Laurien A. Vandewalle, Rui Xu, Gregory P. Smith, Hai Wang
+#
+# - Date: 
+#     July 2023
+#
+# - Note:
+#     Thermochemistry refitted to 9999 K even though the listed temperature is 6000 K.
+#
+# - Contact:
+#     Hai Wang: haiwang@stanford.edu
+#
+# - https://web.stanford.edu/group/haiwanglab/FFCM2/
+#
+# - How to cite:
 # 
-#  Foundational Fuel Chemistry Model Version 2 (FFCM-2)
-# 
-#  - Description:
-#      A reaction model for combustion chemistry of species up to C4 (Cantera format)
-# 
-#  - Authors:
-#      Yue Zhang, Wendi Dong, Laurien A. Vandewalle, Rui Xu, Gregory P. Smith, Hai Wang
-# 
-#  - Date:
-#      Jan. 2023
-# 
-#  - Contact:
-#      Yue Zhang: yzhang16@stanford.edu
-#      Wendi Dong: dongwd@stanford.edu
-#      Gregory P. Smith: gregory.smith@sri.com
-#      Hai Wang: haiwang@stanford.edu
-# 
-# ****************************************************************************************
+#   Y. Zhang, W. Dong, L. Vandewalle, R. Xu, G.P. Smith and H. Wang, Foundational Fuel Chemistry Model Version 2.0 (FFCM-2), https://web.stanford.edu/group/haiwanglab/FFCM2, 2023.
+#
+#  Bibtex
+#  @Misc{ZDV2023,
+#  author           = {Zhang, Yue and Dong, Wendi and Vandewalle, Laurien and Xu, Rui and Smith, Gregory and Wang, Hai},
+#  title            = {Foundational {Fuel} {Chemistry} {Model} {Version} 2.0 ({FFCM}-2)},
+#  year             = {2023},
+#  modificationdate = {2023-06-28T19:14:11},
+#  url              = {https://web.stanford.edu/group/haiwanglab/FFCM2/},
+#  }
+#
+#***************************************************************************************
 
 units: {length: cm, quantity: mol, activation-energy: cal/mol}
 

@@ -10,13 +10,13 @@ composition: 11.30% CH4-27.70% O2-61.00% N2
 shortname: MKY1999
 datatype: Low pressure burner speciation measurement
 definition: max HCO
-exp_nominal: 28000000000000.0
+exp_nominal: 28000
 exp_uq: 1.5
-trial_nominal: 15286833063978.29
+trial_nominal: 15287
 trial_uq: 1.13
-opt_nominal: 15602750036925.12
+opt_nominal: 15603
 opt_uq: 1.11
-unit: mol
+unit: molecule/mm$^3$
 uq_operation: $ \times / \div$
 validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/lpb_CH4_3.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_lpb_CH4_3_1.png

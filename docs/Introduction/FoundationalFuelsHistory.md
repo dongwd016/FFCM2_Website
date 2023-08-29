@@ -81,9 +81,9 @@ The primary objective for the current work is to extend the FFCM-1 effort to all
 
 [^MBA2013]: Metcalfe, W. K., Burke, S. M., Ahmed, S. S., & Curran, H. J. (2013). A hierarchical and comparative kinetic modeling study of C1−C2 hydrocarbon and oxygenated fuels. International Journal of Chemical Kinetics, 45(10), 638-675.
 
-[^ZLO2016]: Zhou, C. W., Li, Y., O'connor, E., Somers, K. P., Thion, S., Keesee, C., ... & Curran, H. J. (2016). A comprehensive experimental and modeling study of isobutene oxidation. Combustion and Flame, 167, 353-379.
+[^ZLO2016]: Zhou, C. W., Li, Y., O'Connor, E., Somers, K. P., Thion, S., Keesee, C., Mathieu, O., Petersen, E. L., DeVerter, T. A., Oehlschlaeger, M. A., Kukkadapu, G., Sung, C. J., Alrefae, M., Khaled, F., Farooq, A., Dirrenberger, P., Glaude, P. A., Battin-Leclerc, F., Santner, J., Ju, Y., Held, T., Haas, F. M., Dryer, F. L. & Curran, H. J. (2016). A comprehensive experimental and modeling study of isobutene oxidation. Combustion and Flame, 167, 353-379.
 
-[^ZLB2018]: Zhou, C. W., Li, Y., Burke, U., Banyon, C., Somers, K. P., Ding, S., ... & Curran, H. J. (2018). An experimental and chemical kinetic modeling study of 1, 3-butadiene combustion: Ignition delay time and laminar flame speed measurements. Combustion and Flame, 197, 423-438.
+[^ZLB2018]: Zhou, C. W., Li, Y., Burke, U., Banyon, C., Somers, K. P, Ding, S., Khan, S., Hargis, J. W, Sikes, T., Mathieu, O., Petersen, E. L, AlAbbad, M., Farooq, A., Pan, Y., Zhang, Y., Huang, Z., Lopez, J., Loparo, Z., Vasu, S. S & Curran, H. J (2018). An experimental and chemical kinetic modeling study of 1, 3-butadiene combustion: Ignition delay time and laminar flame speed measurements. Combustion and Flame, 197, 423-438.
 
 [^STW2016]: G.P. Smith, Y. Tao, and H. Wang, Foundational Fuel Chemistry Model Version 1.0 (FFCM-1), http://nanoenergy.stanford.edu/ffcm1, 2016.
 

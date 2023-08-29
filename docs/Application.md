@@ -30,15 +30,15 @@ An issue identified in the earlier HyChem work is that the uncertainties of HyCh
 | Fuel    | POSF number | Type & Applications          | Status |
 |:--------:|:-------------:|:----------------------------:|:----:|
 |  JP-8 | A1, POSF 10264         |Distillate jet fuel        | Working in progress |
-|  Jet A      | A2, POSF 10325         |Distillate jet fuel   | Available |
+|  Jet A      | A2, POSF 10325         |Distillate jet fuel   | Available[^ZDX2023] |
 |  JP-5      | A3, POSF 10289         |Distillate jet fuel    |Working in progress |
 |  JP-10   | N/A           | Synthetic jet fuel    |Working in progress |
 |  RP2-1   | POSF 7688          | Distillate rocket fuel       |Working in progress |
 |  RP2-2   | POSF 5433          | Distillate rocket fuel       |Working in progress |
 |  Shell A | N/A           | Gasoline fuel                |Working in progress |
 |  Shell D | N/A           | Gasoline fuel                |Working in progress |
-|  Gevo ATJ      | C1, POSF 11498         | Synthetic jet fuel |Available |
-|  Gevo ATJ      | POSF 12394         | Synthetic jet fuel |Available |
+|  Gevo ATJ      | C1, POSF 11498         | Synthetic jet fuel |Available[^ZDX2023] |
+|  Gevo ATJ      | POSF 12394         | Synthetic jet fuel |Available[^ZDX2023] |
 |  C5      | POSF 12345         | Synthetic jet fuel           |Working in progress|
 
 ### High-T model
@@ -54,16 +54,18 @@ An issue identified in the earlier HyChem work is that the uncertainties of HyCh
 [Chemkin]({{ site.url }}{{ site.baseurl }}/assets/data/applications/hychem/hychem_NTC.zip){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ## References
-[^WXW2018]: Wang, H., Xu, R., Wang, K., Bowman, C. T., Hanson, R. K., Davidson, D. F., ... & Egolfopoulos, F. N. (2018). A physics-based approach to modeling real-fuel combustion chemistry-I. Evidence from experiments, and thermodynamic, chemical kinetic and statistical considerations. Combustion and Flame, 193, 502-519.
+[^WXW2018]: Wang, H., Xu, R., Wang, K., Bowman, C. T., Hanson, R. K., Davidson, D. F., Brezinsky, K. & Egolfopoulos, F. N. (2018). A physics-based approach to modeling real-fuel combustion chemistry-I. Evidence from experiments, and thermodynamic, chemical kinetic and statistical considerations. Combustion and Flame, 193, 502-519.
 
-[^XWB2018]: Xu, R., Wang, K., Banerjee, S., Shao, J., Parise, T., Zhu, Y., ... & Wang, H. (2018). A physics-based approach to modeling real-fuel combustion chemistry–II. Reaction kinetic models of jet and rocket fuels. Combustion and Flame, 193, 520-537.
+[^XWB2018]: Xu, R., Wang, K., Banerjee, S., Shao, J., Parise, T., Zhu, Y., Wang, S., Movaghar, A., Lee, D., Zhao, R., Han, X., Gao, Y., Lu, T., Brezinsky, K., Egolfopoulos, F., Davidson, D., Hanson, R., Bowman, C. T. & Wang, H. (2018). A physics-based approach to modeling real-fuel combustion chemistry–II. Reaction kinetic models of jet and rocket fuels. Combustion and Flame, 193, 520-537.
 
-[^TXW2018]: Tao, Y., Xu, R., Wang, K., Shao, J., Johnson, S. E., Movaghar, A., ... & Wang, H. (2018). A Physics-based approach to modeling real-fuel combustion chemistry–III. Reaction kinetic model of JP10. Combustion and Flame, 198, 466-476.
+[^TXW2018]: Tao, Y., Xu, R., Wang, K., Shao, J., Johnson, S., Movaghar, A., Han, X., Park, J. W., Lu, T., Brezinsky, K., Egolfopoulos, F., Davidson, D., Hanson, R., Bowman, C. T. & Wang, H. (2018). A Physics-based approach to modeling real-fuel combustion chemistry–III. Reaction kinetic model of JP10. Combustion and Flame, 198, 466-476.
 
-[^WXP2018]: Wang, K., Xu, R., Parise, T., Shao, J., Movaghar, A., Lee, D. J., ... & Wang, H. (2018). A physics-based approach to modeling real-fuel combustion chemistry–IV. HyChem modeling of combustion kinetics of a bio-derived jet fuel and its blends with a conventional Jet A. Combustion and Flame, 198, 477-489.
+[^WXP2018]: Wang, K., Xu, R., Parise, T., Shao, J., Movaghar, A., Lee, D., Park, J. W., Gao, Y., Lu, T., Egolfopoulos, F., Davidson, D., Hanson, R., Bowman, C. T. & Wang, H. (2018). A physics-based approach to modeling real-fuel combustion chemistry–IV. HyChem modeling of combustion kinetics of a bio-derived jet fuel and its blends with a conventional Jet A. Combustion and Flame, 198, 477-489.
 
-[^SWX2020]: Saggese, C., Wan, K., Xu, R., Tao, Y., Bowman, C. T., Park, J. W., ... & Wang, H. (2020). A physics-based approach to modeling real-fuel combustion chemistry–V. NOx formation from a typical Jet A. Combustion and Flame, 212, 270-278.
+[^SWX2020]: Saggese, C., Wan, K., Xu, R., Tao, Y., Bowman, C. T., Park, J. W., Lu, T. & Wang, H. (2020). A physics-based approach to modeling real-fuel combustion chemistry–V. NOx formation from a typical Jet A. Combustion and Flame, 212, 270-278.
 
-[^XSL2020]: Xu, R., Saggese, C., Lawson, R., Movaghar, A., Parise, T., Shao, J., ... & Wang, H. (2020). A physics-based approach to modeling real-fuel combustion chemistry–VI. Predictive kinetic models of gasoline fuels. Combustion and Flame, 220, 475-487.
+[^XSL2020]: Xu, R., Saggese, C., Lawson, R., Movaghar, A., Parise, T., Shao, J., Choudhary, R., Park, J. W., Lu, T., Hanson, R. K., Davidson, D. F., Egolfopoulos, F. N., Aradi, A., Prakash, A., Mohan, V. R. R., Cracknell, R. & Wang, H. (2020). A physics-based approach to modeling real-fuel combustion chemistry–VI. Predictive kinetic models of gasoline fuels. Combustion and Flame, 220, 475-487.
 
 [^XW2021]: Xu, R., & Wang, H. (2021). A physics-based approach to modeling real-fuel combustion chemistry–VII. Relationship between speciation measurement and reaction model accuracy. Combustion and Flame, 224, 126-135.
+
+[^ZDX2023]: Zhang, Y., Dong, W., Vandewalle, L. A., Xu, R., Smith, G. P. & Wang, H. (2023). Foundational Fuel Chemistry Model 2 - iso-Butene chemistry and application in modeling alcohol-to-jet fuel combustion. Combustion and Flame, submitted.

@@ -101,7 +101,7 @@ In the current work, the butene isomerization reactions were included in trial m
 
 [^NKP2020]: Nagaraja, S. S., Kukkadapu, G., Panigrahy, S., Liang, J., Lu, H., Pitz, W. J., & Curran, H. J. (2020). A pyrolysis study of allylic hydrocarbon fuels. International Journal of Chemical Kinetics, 52(12), 964-978.
 
-[^BBC2005]: Baulch, D. L., Bowman, C. T., Cobos, C. J., Cox, R. A., Just, T., Kerr, J. A., ... & Warnatz, J. (2005). Evaluated kinetic data for combustion modeling: supplement II. Journal of physical and chemical reference data, 34(3), 757-1397.
+[^BBC2005]: Baulch, D. L., Bowman, C. T., Cobos, C. J., Cox, R. A., Just, T., Kerr, J. A., Pilling, M. J., Stocker, D., Troe, J., Tsang, W., Walker, R. W. & Warnatz, J. (2005). Evaluated kinetic data for combustion modeling: supplement II. Journal of physical and chemical reference data, 34(3), 757-1397.
 
 [^LJZ2017]: Li, X., Jasper, A. W., Zádor, J., Miller, J. A., & Klippenstein, S. J. (2017). Theoretical kinetics of O+ C2H4. Proceedings of the Combustion Institute, 36(1), 219-227.
 
@@ -111,7 +111,7 @@ In the current work, the butene isomerization reactions were included in trial m
 
 [^IWW1994]: Ingham, T., Walker, R. W., & Woolford, R. E. (1994, January). Kinetic parameters for the initiation reaction RH+ O2→ R+ HO2. In Symposium (International) on Combustion (Vol. 25, No. 1, pp. 767-774). Elsevier.
 
-[^ZLO2016]: Zhou, C. W., Li, Y., O'connor, E., Somers, K. P., Thion, S., Keesee, C., ... & Curran, H. J. (2016). A comprehensive experimental and modeling study of isobutene oxidation. Combustion and Flame, 167, 353-379.
+[^ZLO2016]: Zhou, C. W., Li, Y., O'Connor, E., Somers, K. P., Thion, S., Keesee, C., Mathieu, O., Petersen, E. L., DeVerter, T. A., Oehlschlaeger, M. A., Kukkadapu, G., Sung, C. J., Alrefae, M., Khaled, F., Farooq, A., Dirrenberger, P., Glaude, P. A., Battin-Leclerc, F., Santner, J., Ju, Y., Held, T., Haas, F. M., Dryer, F. L. & Curran, H. J. (2016). A comprehensive experimental and modeling study of isobutene oxidation. Combustion and Flame, 167, 353-379.
 
 [^YKI2009]: Yasunaga, K., Kuraguchi, Y., Ikeuchi, R., Masaoka, H., Takahashi, O., Koike, T., & Hidaka, Y. (2009). Shock tube and modeling study of isobutene pyrolysis and oxidation. Proceedings of the Combustion Institute, 32(1), 453-460.
 
@@ -123,7 +123,7 @@ In the current work, the butene isomerization reactions were included in trial m
 
 [^SW1991]: Stothard, N. D., & Walker, R. W. (1991). Determination of the arrhenius parameters for the initiation reaction C3H6+O2=CH2CHCH2+HO2. Journal of the Chemical Society, Faraday Transactions, 87(2), 241-247.
 
-[^BMH2014]: Burke, S. M., Metcalfe, W., Herbinet, O., Battin-Leclerc, F., Haas, F. M., Santner, J., ... & Curran, H. J. (2014). An experimental and modeling study of propene oxidation. Part 1: Speciation measurements in jet-stirred and flow reactors. Combustion and Flame, 161(11), 2765-2784.
+[^BMH2014]: Burke, S. M., Metcalfe, W., Herbinet, O., Battin-Leclerc, F., Haas, F. M., Santner, J., Dryer, F. L. & Curran, H. J. (2014). An experimental and modeling study of propene oxidation. Part 1: Speciation measurements in jet-stirred and flow reactors. Combustion and Flame, 161(11), 2765-2784.
 
 [^KCL1999]: Kalra, B. L., Cho, J. Y., & Lewis, D. K. (1999). Kinetics of the thermal isomerization of methylcyclopropane. The Journal of Physical Chemistry A, 103(3), 362-364.
 

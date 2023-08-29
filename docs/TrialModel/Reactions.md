@@ -59,7 +59,7 @@ A key element of the rate evaluation is an assessment of the uncertainty factor 
 
 [^WYJ2007]: Wang, H., You, X., Joshi, A. V., Davis, S. G., Laskin, A., Egolfopoulos, F., & Law, C. K. (2007). USC Mech Version II. High-temperature combustion reaction model of H2/CO/C1-C4 compounds. URL: http://ignis.usc.edu/USC_Mech_II.htm.
 
-[^ZLO2016]: Zhou, C. W., Li, Y., O'connor, E., Somers, K. P., Thion, S., Keesee, C., ... & Curran, H. J. (2016). A comprehensive experimental and modeling study of isobutene oxidation. Combustion and Flame, 167, 353-379.
+[^ZLO2016]: Zhou, C. W., Li, Y., O'Connor, E., Somers, K. P., Thion, S., Keesee, C., Mathieu, O., Petersen, E. L., DeVerter, T. A., Oehlschlaeger, M. A., Kukkadapu, G., Sung, C. J., Alrefae, M., Khaled, F., Farooq, A., Dirrenberger, P., Glaude, P. A., Battin-Leclerc, F., Santner, J., Ju, Y., Held, T., Haas, F. M., Dryer, F. L. & Curran, H. J. (2016). A comprehensive experimental and modeling study of isobutene oxidation. Combustion and Flame, 167, 353-379.
 
 [^MWC1998]: Marinov, N. M., W. J. Pitz, C. K. Westbrook, A. M. Vincitore, M. J. Castaldi, S. M. Senkan (1998). Aromatic and polycyclic aromatic hydrocarbon formation in a laminar premixed n-Butane flame, Combustion and Flame, 114, 192-213.
 

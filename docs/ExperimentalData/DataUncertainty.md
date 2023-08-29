@@ -89,7 +89,7 @@ The overall uncertainty factor of a target considers all the factors discussed a
 
 [^PVS2016]: Park, O., Veloo, P. S., Sheen, D. A., Tao, Y., Egolfopoulos, F. N., & Wang, H. (2016). Chemical kinetic model uncertainty minimization through laminar flame speed measurements. Combustion and flame, 172, 136-152.
 
-[^ZLO2016]: Zhou, C. W., Li, Y., O'connor, E., Somers, K. P., Thion, S., Keesee, C., ... & Curran, H. J. (2016). A comprehensive experimental and modeling study of isobutene oxidation. Combustion and Flame, 167, 353-379.
+[^ZLO2016]: Zhou, C. W., Li, Y., O'Connor, E., Somers, K. P., Thion, S., Keesee, C., Mathieu, O., Petersen, E. L., DeVerter, T. A., Oehlschlaeger, M. A., Kukkadapu, G., Sung, C. J., Alrefae, M., Khaled, F., Farooq, A., Dirrenberger, P., Glaude, P. A., Battin-Leclerc, F., Santner, J., Ju, Y., Held, T., Haas, F. M., Dryer, F. L. & Curran, H. J. (2016). A comprehensive experimental and modeling study of isobutene oxidation. Combustion and Flame, 167, 353-379.
 
 [^KMK2018]: Konnov, A. A., Mohammad, A., Kishore, V. R., Kim, N. I., Prathap, C., & Kumar, S. (2018). A comprehensive review of measurements and data analysis of laminar burning velocities for various fuel+ air mixtures. Progress in Energy and Combustion Science, 68, 197-267.
 

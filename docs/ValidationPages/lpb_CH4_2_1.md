@@ -10,13 +10,13 @@ composition: 10.00% CH4-24.70% O2-65.30% N2
 shortname: MKY1999
 datatype: Low pressure burner speciation measurement
 definition: max CH
-exp_nominal: 0.0
+exp_nominal: 4.1
 exp_uq: 1.3
-trial_nominal: 0.0
+trial_nominal: 10.3
 trial_uq: 1.17
-opt_nominal: 0.0
+opt_nominal: 7.16
 opt_uq: 1.14
-unit: mol
+unit: ppm
 uq_operation: $ \times / \div$
 validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/lpb_CH4_2.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_lpb_CH4_2_1.png

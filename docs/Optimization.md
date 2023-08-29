@@ -256,4 +256,4 @@ A reaction with large torque values indicate that its A-factor and activation en
 
 [^SRT2013]: Sheen, D. A., Rosado-Reyes, C. M., & Tsang, W. (2013). Kinetics of H atom attack on unsaturated hydrocarbons using spectral uncertainty propagation and minimization techniques. Proceedings of the Combustion Institute, 34(1), 527-536.
 
-[^VNO2015]: Varga, T., Nagy, T., Olm, C., Zsély, I. G., Pálvölgyi, R., Valkó, É., ... & Turányi, T. (2015). Optimization of a hydrogen combustion mechanism using both direct and indirect measurements. Proceedings of the Combustion Institute, 35(1), 589-596.
+[^VNO2015]: Varga, T., Nagy, T., Olm, C., Zsély, I. G., Pálvölgyi, R., Valkó, É., Vincze, G., Cserháti, M., Curran, H. J. & Turányi, T. (2015). Optimization of a hydrogen combustion mechanism using both direct and indirect measurements. Proceedings of the Combustion Institute, 35(1), 589-596.

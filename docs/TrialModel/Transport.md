@@ -270,4 +270,3 @@ where $a_k$, $b_k$, and $c_k$ (k=0, 3) are the polynomial coefficients whose val
 [^7]:  Stallcop JR, Levin E, Partridge H. Transport properties of hydrogen. J Thermophys Heat Transfer. 1998;12:514-9.
 
 [^8]:  Paul P, Warnatz J. A re-evaluation of the means used to calculate transport properties of reacting flows. Symp (Int) Combust. 1998;27:495-504.
-
