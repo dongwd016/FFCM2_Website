@@ -7,13 +7,18 @@ nav_order: 3
 
 # Additional Model Tests (Under Construction)
 
-The table lists additional tests done on trial and optimized FFCM-2. The table is searchable by data type (column 1), the fuel (column 2).
+The table lists additional tests done on trial and optimized FFCM-2. It is searchable by data type (column 1), the fuel (column 2).The **Details** tab provides the comparisons of the trial and optimized FFCM-2 with the expeirmental data.
 
-The data types are
-IGN: ignition delay,
-FLS: laminar flame speed,
-PRO: shock-tube speciation,
-FLW: flow reactor speciation.
+- Type: the types of additional tests, they are
+  - ign: shock tube ignition delay,
+  - fls: laminar flame speed,
+  - pro: shock tube speciation.
+- Fuel: the fuel of an additional test.
+- Thermodynamic conditions for the additional tests are given by
+  - Temperature, unit in Kelvins,
+  - Pressure, unit in atm,
+  - Equivalence ratio.
+- Experimental method: the experimental techniques used for the additional tests, e.g., spherical bomb measurements, or definition of ignition delay in shock tube experiments.
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">

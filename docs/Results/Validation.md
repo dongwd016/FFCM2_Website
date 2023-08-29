@@ -10,16 +10,16 @@ nav_order: 2
 The table lists the targets considered in FFCM-2 optimization. It is searchable by data type (column 1), the fuel (column 2). The **Details** tab provides the target specification and detailed validation comparisons of the trial and optimized FFCM-2 with the expeirmental data.
 
 - Type: the types of optimization target data, they are
-    - ign: shock tube ignition delay,
-    - fls: laminar flame speed,
-    - pro: shock tube speciation,
-    - flw: flow reactor speciation,
-    - lpb: low-pressure burner speciation
+  - ign: shock tube ignition delay,
+  - fls: laminar flame speed,
+  - pro: shock tube speciation,
+  - flw: flow reactor speciation,
+  - lpb: low-pressure burner speciation.
 - Fuel: the fuel of a target data. In the current work, we only consider data for neat fuels as targets.
-- Thermodynamic conditions for the target data is given by
-  - Temperature, unit in Kelvins.
-  - Pressure, unit in atm.
-  - Equivalence ratio (pyrolysis targets do not have $\phi$ as equivalence ratio is undefined)
+- Thermodynamic conditions for the target data are given by
+  - Temperature, unit in Kelvins,
+  - Pressure, unit in atm,
+  - Equivalence ratio (pyrolysis targets do not have $\phi$ as equivalence ratio is undefined),
   - Mixture Composition: the composition of mixture, expressed by molar fraction.
 - Experimental method: the experimental techniques used for the target data, e.g., spherical bomb measurements, or definition of ignition delay in shock tube experiments.
 
