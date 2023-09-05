@@ -7,7 +7,7 @@ temp: 363.5
 pres: 0.03
 phi: 0.82
 composition: 11.30% CH4-27.70% O2-61.00% N2
-shortname: MKY1999
+shortname: DSJ1998
 datatype: Low pressure burner speciation measurement
 definition: max HCO
 exp_nominal: 28000
@@ -20,5 +20,5 @@ unit: molecule/mm$^3$
 uq_operation: $ \times / \div$
 validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/lpb_CH4_3.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_lpb_CH4_3_1.png
-reference: MKY1999 - Mueller, M. A., Kim, T. J., Yetter, R. A., & Dryer, F. L. (1999). Flow reactor studies and kinetic modeling of the H2/O2 reaction. International Journal of Chemical Kinetics, 31, 113–125.
+reference: 'DSJ1998 - Diau, E. W. G., Smith, G. P., Jeffries, J. B. & Crosley, D. R. (1998). HCO concentration in flames via quantitative laser-induced fluorescence. Symposium (International) on Combustion, 27, 453–460.'
 ---

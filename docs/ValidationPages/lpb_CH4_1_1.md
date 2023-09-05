@@ -7,7 +7,7 @@ temp: 373.0
 pres: 0.04
 phi: 1.28
 composition: 16.33% CH4-25.49% O2-58.18% N2
-shortname: MKY1999
+shortname: BHN2000
 datatype: Low pressure burner speciation measurement
 definition: max CH
 exp_nominal: 21.5
@@ -20,5 +20,5 @@ unit: ppm
 uq_operation: $ \times / \div$
 validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/lpb_CH4_1.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_lpb_CH4_1_1.png
-reference: MKY1999 - Mueller, M. A., Kim, T. J., Yetter, R. A., & Dryer, F. L. (1999). Flow reactor studies and kinetic modeling of the H2/O2 reaction. International Journal of Chemical Kinetics, 31, 113–125.
+reference: 'BHN2000 - Berg, P. A., Hill, D. A., Noble, A. R., Smith, G. P., Jeffries, J. B. & Crosley, D. R. (2000). Absolute CH concentration measurements in low-pressuremethane flames: comparisons with model results. Combustion and Flame, 121, 223–235.'
 ---
