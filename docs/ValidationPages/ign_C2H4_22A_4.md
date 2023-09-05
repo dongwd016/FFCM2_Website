@@ -18,7 +18,7 @@ opt_nominal: 162.56
 opt_uq: 1.04
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_C2H4_22A.png
+validation_plot: ../../../assets/data/validation/ign_C2H4_22A.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_C2H4_22A_4.png
 reference: KHP2005 - Kalitan, D. M., Hall, J. M., & Petersen, E. L. (2005). Ignition and Oxidation of Ethylene-Oxygen-Diluent Mixtures with and Without Silane. Journal of Propulsion and Power, 21, 1045–1056.
 ---

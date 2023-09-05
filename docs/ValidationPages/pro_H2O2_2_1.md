@@ -18,7 +18,7 @@ opt_nominal: 478.28
 opt_uq: 1.06
 unit: ppm
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/pro_H2O2_2.png
+validation_plot: ../../../assets/data/validation/pro_H2O2_2.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_pro_H2O2_2_1.png
 reference: HCD2010 - Hong, Zekai, Cook, R. D., Davidson, D. F., & Hanson, R. K. (2010a). A shock tube study of OH+ H2O2 → H2O+ HO2 and H2O2+ M → 2OH+ M using laser absorption of H2O and OH. The Journal of Physical Chemistry A, 114, 5718–5727.
 ---

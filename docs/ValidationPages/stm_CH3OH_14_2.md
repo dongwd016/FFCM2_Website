@@ -18,7 +18,7 @@ opt_nominal: 19.3
 opt_uq: 1.05
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/stm_CH3OH_14.png
+validation_plot: ../../../assets/data/validation/stm_CH3OH_14.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_stm_CH3OH_14_2.png
 reference: B1975 - Bowman, C. T. (1975). A shock-tube investigation of the high-temperature oxidation of methanol. Combustion and Flame, 25, 343–354.
 ---

@@ -18,7 +18,7 @@ opt_nominal: 15603
 opt_uq: 1.11
 unit: molecule/mm$^3$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/lpb_CH4_3.png
+validation_plot: ../../../assets/data/validation/lpb_CH4_3.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_lpb_CH4_3_1.png
 reference: 'DSJ1998 - Diau, E. W. G., Smith, G. P., Jeffries, J. B. & Crosley, D. R. (1998). HCO concentration in flames via quantitative laser-induced fluorescence. Symposium (International) on Combustion, 27, 453–460.'
 ---

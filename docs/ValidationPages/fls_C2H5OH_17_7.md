@@ -18,7 +18,7 @@ opt_nominal: 47.66
 opt_uq: 0.67
 unit: cm/s
 uq_operation: $\pm$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_C2H5OH_17.png
+validation_plot: ../../../assets/data/validation/fls_C2H5OH_17.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C2H5OH_17_7.png
 reference: G1982 - Gülder, Ö. L. (1982). Laminar burning velocities of methanol, ethanol and isooctane-air mixtures. Symposium (International) on Combustion, 19, 275–281.
 uq_unit: cm/s

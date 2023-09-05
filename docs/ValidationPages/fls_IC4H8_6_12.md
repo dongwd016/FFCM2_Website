@@ -18,7 +18,7 @@ opt_nominal: 58.95
 opt_uq: 0.81
 unit: cm/s
 uq_operation: $\pm$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_IC4H8_6.png
+validation_plot: ../../../assets/data/validation/fls_IC4H8_6.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_IC4H8_6_12.png
 reference: ZLO2016 - Zhou, C.-W., Li, Y., O’Connor, E., Somers, K. P., Thion, S., Keesee, C., … Curran, H. J. (2016). A comprehensive experimental and modeling study of isobutene oxidation. Combustion and Flame, 167, 353–379.
 uq_unit: cm/s

@@ -18,7 +18,7 @@ opt_nominal: 127.45
 opt_uq: 1.8
 unit: cm/s
 uq_operation: $\pm$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_C2H2_4.png
+validation_plot: ../../../assets/data/validation/fls_C2H2_4.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C2H2_4_6.png
 reference: RSM2015 - Ravi, S., Sikes, T. G., Morones, A., Keesee, C. L., & Petersen, E. L. (2015). Comparative study on the laminar flame speed enhancement of methane with ethane and ethylene addition. Proceedings of the Combustion Institute, 35, 679–686.<br>JZZ2005 - Jomaas, G., Zheng, X. L., Zhu, D. L., & Law, C. K. (2005). Experimental determination of counterflow ignition temperatures and laminar flame speeds of C2--C3 hydrocarbons at atmospheric and elevated pressures. Proceedings of the Combustion Institute, 30, 193–200.
 uq_unit: cm/s

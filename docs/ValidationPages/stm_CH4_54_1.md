@@ -18,7 +18,7 @@ opt_nominal: 272.05
 opt_uq: 1.04
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/stm_CH4_54.png
+validation_plot: ../../../assets/data/validation/stm_CH4_54.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_stm_CH4_54_1.png
 reference: PRD1996 - Petersen, Eric L., Röhrig, M., Davidson, D. F., Hanson, R. K., & Bowman, C. T. (1996). High-pressure methane oxidation behind reflected shock waves. Symposium (International) on Combustion, 26, 799–806.
 ---

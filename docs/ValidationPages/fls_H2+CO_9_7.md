@@ -18,7 +18,7 @@ opt_nominal: 14.12
 opt_uq: 0.91
 unit: cm/s
 uq_operation: $\pm$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_H2+CO_9.png
+validation_plot: ../../../assets/data/validation/fls_H2+CO_9.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_H2+CO_9_7.png
 reference: SYJ2007 - Sun, H., Yang, S. I., Jomaas, G., & Law, C. K. (2007). High-pressure laminar flame speeds and kinetic modeling of carbon monoxide/hydrogen combustion. Proceedings of the Combustion Institute, 31, 439–446.
 uq_unit: cm/s

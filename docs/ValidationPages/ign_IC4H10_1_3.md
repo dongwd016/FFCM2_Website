@@ -18,7 +18,7 @@ opt_nominal: 294.43
 opt_uq: 1.08
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_IC4H10_1.png
+validation_plot: ../../../assets/data/validation/ign_IC4H10_1.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_IC4H10_1_3.png
 reference: ONM2007 - Ogura, T., Nagumo, Y., Miyoshi, A., & Koshi, M. (2007). Chemical kinetic mechanism for high temperature oxidation of butane isomers. Energy & Fuels, 21, 130–135.
 ---

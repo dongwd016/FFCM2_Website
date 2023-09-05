@@ -18,7 +18,7 @@ opt_nominal: 120.88
 opt_uq: 1.04
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_C2H6_5.png
+validation_plot: ../../../assets/data/validation/ign_C2H6_5.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_C2H6_5_3.png
 reference: HCZ2015 - Hu, E., Chen, Y., Zhang, Z., Li, X., Cheng, Y., & Huang, Z. (2015). Experimental Study on Ethane Ignition Delay Times and Evaluation of Chemical Kinetic Models. Energy & Fuels, 29, 4557–4566.
 ---

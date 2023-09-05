@@ -18,7 +18,7 @@ opt_nominal: 250.63
 opt_uq: 1.03
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_C2H4_27A.png
+validation_plot: ../../../assets/data/validation/ign_C2H4_27A.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_C2H4_27A_4.png
 reference: H2001 - Horning, D. C. (2001). A study of the high temperature autoignition and thermal decomposition of hydrocarbons.
 ---

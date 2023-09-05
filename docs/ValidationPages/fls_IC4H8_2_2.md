@@ -18,7 +18,7 @@ opt_nominal: 22.16
 opt_uq: 0.4
 unit: cm/s
 uq_operation: $\pm$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_IC4H8_2.png
+validation_plot: ../../../assets/data/validation/fls_IC4H8_2.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_IC4H8_2_2.png
 reference: ZYS2015 - Zhao, P., Yuan, W., Sun, H., Li, Y., Kelley, A. P., Zheng, X., & Law, C. K. (2015). Laminar flame speeds, counterflow ignition, and kinetic modeling of the butene isomers. Proceedings of the Combustion Institute, 35, 309–316.<br>K2011 - Kelley, Andrew Patrick. (2011). Dynamics of expanding flames. Princeton University.
 uq_unit: cm/s

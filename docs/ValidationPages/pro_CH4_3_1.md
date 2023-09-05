@@ -18,7 +18,7 @@ opt_nominal: 165.21
 opt_uq: 1.03
 unit: ppm
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/pro_CH4_3.png
+validation_plot: ../../../assets/data/validation/pro_CH4_3.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_pro_CH4_3_1.png
 reference: CDD1994 - Chang, A. Y., Davidson, D. F., DiRosa, M., Hanson, R. K., & Bowman, C. T. (1994). Shock tube experiments for development and validation of kinetic models of hydrocarbon oxidation. 25\\textsuperscriptth Symposium (International) on Combustion, Poster, 3–23.
 ---

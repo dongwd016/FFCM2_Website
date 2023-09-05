@@ -18,7 +18,7 @@ opt_nominal: 118.03
 opt_uq: 1.04
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_CH4_7.png
+validation_plot: ../../../assets/data/validation/ign_CH4_7.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_CH4_7_4.png
 reference: SDH2018 - Shao, J., Davidson, D. F., & Hanson, R. K. (2018). A shock tube study of ignition delay times in diluted methane, ethylene, propene and their blends at elevated pressures. Fuel, 225, 370–380.
 ---

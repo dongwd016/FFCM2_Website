@@ -18,7 +18,7 @@ opt_nominal: 382.41
 opt_uq: 1.1
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/stm_CH3OH_28.png
+validation_plot: ../../../assets/data/validation/stm_CH3OH_28.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_stm_CH3OH_28_1.png
 reference: HansonDB - Davidson, David F., & Hanson, R. K. (2005). Fundamental kinetics database utilizing shock tube measurements. Mechanical Engineering Department, Stanford University, Stanford CA.
 ---

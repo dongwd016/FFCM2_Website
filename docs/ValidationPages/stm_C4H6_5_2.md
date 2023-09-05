@@ -18,7 +18,7 @@ opt_nominal: 223.86
 opt_uq: 1.07
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/stm_C4H6_5.png
+validation_plot: ../../../assets/data/validation/stm_C4H6_5.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_stm_C4H6_5_2.png
 reference: LDH2004 - Libby, C. S., Davidson, D. F., & Hanson, R. K. (2004). A shock tube study of the oxidation of 1,3-butadiene. AIAA Paper, 10632–10640.
 ---

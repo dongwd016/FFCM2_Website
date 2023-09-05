@@ -18,7 +18,7 @@ opt_nominal: 156.23
 opt_uq: 1.06
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_C2H5OH_16.png
+validation_plot: ../../../assets/data/validation/ign_C2H5OH_16.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_C2H5OH_16_9.png
 reference: NB1982 - Natarajan, K., & Bhaskaran, K. A. (1981b). Experimental and analytical investigation of high temperature ignition of ethanol.
 ---

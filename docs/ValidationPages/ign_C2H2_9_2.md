@@ -18,7 +18,7 @@ opt_nominal: 57.87
 opt_uq: 1.03
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_C2H2_9.png
+validation_plot: ../../../assets/data/validation/ign_C2H2_9.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_C2H2_9_2.png
 reference: RHP2005 - Rickard, M. J. A., Hall, J. M., & Petersen, E. L. (2005). Effect of silane addition on acetylene ignition behind reflected shock waves. Proceedings of the Combustion Institute, 30, 1915–1923.
 ---

@@ -18,7 +18,7 @@ opt_nominal: 42.11
 opt_uq: 0.53
 unit: cm/s
 uq_operation: $\pm$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_CH3CHO_1.png
+validation_plot: ../../../assets/data/validation/fls_CH3CHO_1.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_CH3CHO_1_6.png
 reference: C2013 - Christensen, M. (2013). Laminar burning velocity of ethanol, acetaldehyde and ethanol-acetaldehyde flames.
 uq_unit: cm/s

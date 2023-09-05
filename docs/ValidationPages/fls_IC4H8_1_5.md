@@ -18,7 +18,7 @@ opt_nominal: 37.58
 opt_uq: 0.58
 unit: cm/s
 uq_operation: $\pm$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_IC4H8_1.png
+validation_plot: ../../../assets/data/validation/fls_IC4H8_1.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_IC4H8_1_5.png
 reference: ZLO2016 - Zhou, C.-W., Li, Y., O’Connor, E., Somers, K. P., Thion, S., Keesee, C., … Curran, H. J. (2016). A comprehensive experimental and modeling study of isobutene oxidation. Combustion and Flame, 167, 353–379.<br>PVS2016 - Park, O., Veloo, P. S., Sheen, D. A., Tao, Y., Egolfopoulos, F. N., & Wang, H. (2016). Chemical kinetic model uncertainty minimization through laminar flame speed measurements. Combustion and Flame, 172, 136–152.<br>ZYS2015 - Zhao, P., Yuan, W., Sun, H., Li, Y., Kelley, A. P., Zheng, X., & Law, C. K. (2015). Laminar flame speeds, counterflow ignition, and kinetic modeling of the butene isomers. Proceedings of the Combustion Institute, 35, 309–316.<br>K2011 - Kelley, Andrew Patrick. (2011). Dynamics of expanding flames. Princeton University.
 uq_unit: cm/s

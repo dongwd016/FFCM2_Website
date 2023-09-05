@@ -18,7 +18,7 @@ opt_nominal: 151.25
 opt_uq: 1.05
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_AC3H4_1.png
+validation_plot: ../../../assets/data/validation/ign_AC3H4_1.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_AC3H4_1_4.png
 reference: CSD1996 - Curran, H., Simmie, J. M., Dagaut, P., Voisin, D., & Cathonnet, M. (1996). The ignition and oxidation of allene and propyne Experiments and kinetic modeling. Symposium (International) on Combustion, 26, 613–620.
 ---

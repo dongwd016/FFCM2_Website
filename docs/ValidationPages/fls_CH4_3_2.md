@@ -18,7 +18,7 @@ opt_nominal: 7.91
 opt_uq: 0.27
 unit: cm/s
 uq_operation: $\pm$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_CH4_3.png
+validation_plot: ../../../assets/data/validation/fls_CH4_3.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_CH4_3_2.png
 reference: RZL2002 - Rozenchan, G., Zhu, D. L., Law, C. K., & Tse, S. D. (2002). Outward propagation, burning velocities, and chemical effects of methane flames up to 60 ATM. Proceedings of the Combustion Institute, 29, 1461–1470.
 uq_unit: cm/s

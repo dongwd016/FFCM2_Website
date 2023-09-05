@@ -18,7 +18,7 @@ opt_nominal: 86.36
 opt_uq: 1.05
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_C2H5OH_7.png
+validation_plot: ../../../assets/data/validation/ign_C2H5OH_7.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_C2H5OH_7_10.png
 reference: G2014 - Gillespie, F. R. (2014). An experimental and modelling study of the combustion of oxygenated hydrocarbons.
 ---

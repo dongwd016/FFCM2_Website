@@ -18,7 +18,7 @@ opt_nominal: 104.59
 opt_uq: 1.39
 unit: cm/s
 uq_operation: $\pm$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_C2H4_8.png
+validation_plot: ../../../assets/data/validation/fls_C2H4_8.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C2H4_8_9.png
 reference: KMS2008 - Kumar, Kamal, Mittal, G., Sung, C. J., & Law, C. K. (2008). An experimental investigation of ethylene/O2/diluent mixtures Laminar flame speeds with preheat and ignition delays at high pressures. Combustion and Flame, 153, 343–354.
 uq_unit: cm/s

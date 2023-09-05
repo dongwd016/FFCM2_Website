@@ -18,7 +18,7 @@ opt_nominal: 173.13
 opt_uq: 1.06
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_CH4_29.png
+validation_plot: ../../../assets/data/validation/ign_CH4_29.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_CH4_29_9.png
 reference: HSH1999 - Hidaka, Y., Sato, K., Henmi, Y., Tanaka, H., & Inami, K. (1999). Shock-tube and modeling study of methane pyrolysis and oxidation. Combustion and Flame, 118, 340–358.
 ---

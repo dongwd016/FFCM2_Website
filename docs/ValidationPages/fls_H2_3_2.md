@@ -18,7 +18,7 @@ opt_nominal: 62.58
 opt_uq: 1.15
 unit: cm/s
 uq_operation: $\pm$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_H2_3.png
+validation_plot: ../../../assets/data/validation/fls_H2_3.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_H2_3_2.png
 reference: TZL2000 - Tse, S. D., Zhu, D. L., & Law, C. K. (2000). Morphology and burning rates of expanding spherical flames in H2/O2/inert mixtures up to 60 atmospheres. Proceedings of the Combustion Institute, 28, 1793–1800.
 uq_unit: cm/s

@@ -18,7 +18,7 @@ opt_nominal: 1302.77
 opt_uq: 1.06
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_CH3OH_10.png
+validation_plot: ../../../assets/data/validation/ign_CH3OH_10.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_CH3OH_10_9.png
 reference: NAB2010 - Noorani, K. E., Akih-Kumgeh, B., & Bergthorson, J. M. (2010). Comparative High Temperature Shock Tube Ignition of C1-C4 Primary Alcohols. Energy & Fuels, 24, 5834–5843.
 ---

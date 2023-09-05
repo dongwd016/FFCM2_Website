@@ -18,7 +18,7 @@ opt_nominal: 218.94
 opt_uq: 1.05
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/stm_IC4H8_21.png
+validation_plot: ../../../assets/data/validation/stm_IC4H8_21.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_stm_IC4H8_21_2.png
 reference: YKI2009 - Yasunaga, K., Kuraguchi, Y., Ikeuchi, R., Masaoka, H., Takahashi, O., Koike, T., & Hidaka, Y. (2009). Shock tube and modeling study of isobutene pyrolysis and oxidation. Proceedings of the Combustion Institute, 32, 453–460.
 ---

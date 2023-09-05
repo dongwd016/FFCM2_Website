@@ -18,7 +18,7 @@ opt_nominal: 458.15
 opt_uq: 1.12
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_CH3CHO_1.png
+validation_plot: ../../../assets/data/validation/ign_CH3CHO_1.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_CH3CHO_1_7.png
 reference: YKH2008 - Yasunaga, K., Kubo, S., Hoshlkawa, H., Kamesawa, T., & Hidaka, Y. (2008). Shock-tube and modeling study of acetaldehyde pyrolysis and oxidation. International Journal of Chemical Kinetics, 40, 73–102.
 ---

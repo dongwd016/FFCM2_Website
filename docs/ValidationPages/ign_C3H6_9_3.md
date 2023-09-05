@@ -18,7 +18,7 @@ opt_nominal: 478.65
 opt_uq: 1.06
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_C3H6_9.png
+validation_plot: ../../../assets/data/validation/ign_C3H6_9.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_C3H6_9_3.png
 reference: BBM2015 - Burke, S. M., Burke, U., Mc Donagh, R., Mathieu, O., Osorio, I., Keesee, C., … Curran, H. J. (2015). An experimental and modeling study of propene oxidation. Part 2 Ignition delay time and flame speed measurements. Combustion and Flame, 162, 296–314.
 ---

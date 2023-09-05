@@ -18,7 +18,7 @@ opt_nominal: 695.1
 opt_uq: 1.08
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_CH3COCH3_7.png
+validation_plot: ../../../assets/data/validation/ign_CH3COCH3_7.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_CH3COCH3_7_5.png
 reference: SH2000 - Sato, K., & Hidaka, Y. (2000). Shock-tube and modeling study of acetone pyrolysis and oxidation. Combustion and Flame, 122, 291–311.
 ---

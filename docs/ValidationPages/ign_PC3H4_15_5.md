@@ -18,7 +18,7 @@ opt_nominal: 14.24
 opt_uq: 1.06
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_PC3H4_15.png
+validation_plot: ../../../assets/data/validation/ign_PC3H4_15.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_PC3H4_15_5.png
 reference: RB1987 - Radhakrishnan, K., & Burcat, A. (1987). Kinetics of the Ignition of Fuels in Artificial Air Mixtures. II Oxidation of Propyne. Combustion Science and Technology, 54, 85–101.
 ---

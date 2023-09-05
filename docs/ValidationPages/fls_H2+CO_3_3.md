@@ -18,7 +18,7 @@ opt_nominal: 28.3
 opt_uq: 0.74
 unit: cm/s
 uq_operation: $\pm$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_H2+CO_3.png
+validation_plot: ../../../assets/data/validation/fls_H2+CO_3.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_H2+CO_3_3.png
 reference: SDJ2012 - Santner, J., Dryer, F. L., & Ju, Y. (2013). The effects of water dilution on hydrogen, syngas, and ethylene flames at elevated pressure. Proceedings of the Combustion Institute, 34, 719–726.
 uq_unit: cm/s

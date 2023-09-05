@@ -18,7 +18,7 @@ opt_nominal: 31.65
 opt_uq: 0.45
 unit: cm/s
 uq_operation: $\pm$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_C2H5OH_19.png
+validation_plot: ../../../assets/data/validation/fls_C2H5OH_19.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C2H5OH_19_2.png
 reference: BLM2009 - Bradley, D., Lawes, M., & Mansour, M. S. (2009). Explosion bomb measurements of ethanol--air laminar gaseous flame characteristics at pressures up to 1.4 MPa. Combustion and Flame, 156, 1462–1470.
 uq_unit: cm/s

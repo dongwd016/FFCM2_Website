@@ -18,7 +18,7 @@ opt_nominal: 35.19
 opt_uq: 0.44
 unit: cm/s
 uq_operation: $\pm$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_IC4H10_2.png
+validation_plot: ../../../assets/data/validation/fls_IC4H10_2.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_IC4H10_2_4.png
 reference: YSN2016 - Yousif, A. A., Sulaiman, S. A., & Nasif, M. S. (2016). An Experimental Measurement on Laminar Burning Velocities and Markstein Length of Iso-Butane-Air Mixtures at Ambient Conditions. MATEC Web of Conferences, 38, 01010.
 uq_unit: cm/s

@@ -18,7 +18,7 @@ opt_nominal: 42.85
 opt_uq: 1.12
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_C2H2_5.png
+validation_plot: ../../../assets/data/validation/ign_C2H2_5.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_C2H2_5_2.png
 reference: TSS2009 - Tereza, A. M., Slutskii, V. G., & Severin, E. S. (2009). Ignition of acetylene-oxygen mixtures behind shock waves. Russian Journal of Physical Chemistry B 2009 31, 3, 99–108.
 ---

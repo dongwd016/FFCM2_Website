@@ -18,7 +18,7 @@ opt_nominal: 513.1
 opt_uq: 1.06
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_C2H4_5.png
+validation_plot: ../../../assets/data/validation/ign_C2H4_5.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_C2H4_5_3.png
 reference: RDH2012 - Ren, W., Davidson, D. F., & Hanson, R. K. (2012). IR laser absorption diagnostic for C2H4 in shock tube kinetics studies. International Journal of Chemical Kinetics, 44, 423–432.
 ---

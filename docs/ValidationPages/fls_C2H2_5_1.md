@@ -18,7 +18,7 @@ opt_nominal: 90.62
 opt_uq: 1.3
 unit: cm/s
 uq_operation: $\pm$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_C2H2_5.png
+validation_plot: ../../../assets/data/validation/fls_C2H2_5.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C2H2_5_1.png
 reference: XYJ2016 - Xiouris, C., Ye, T., Jayachandran, J., & Egolfopoulos, F. N. (2016). Laminar flame speeds under engine-relevant conditions Uncertainty quantification and minimization in spherically expanding flame experiments. Combustion and Flame, 163, 270–283.
 uq_unit: cm/s

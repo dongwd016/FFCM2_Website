@@ -18,7 +18,7 @@ opt_nominal: 25.61
 opt_uq: 0.68
 unit: cm/s
 uq_operation: $\pm$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_C4H6_8.png
+validation_plot: ../../../assets/data/validation/fls_C4H6_8.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C4H6_8_1.png
 reference: ZZR2019 - Zhao, H., Zhang, Z., Rezgui, Y., Zhao, N., & Ju, Y. (2019). Studies of high pressure 1,3-butadiene flame speeds and high temperature kinetics using hydrogen and oxygen sensitization. Combustion and Flame, 200, 135–141.
 uq_unit: cm/s

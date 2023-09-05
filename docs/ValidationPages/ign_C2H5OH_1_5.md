@@ -18,7 +18,7 @@ opt_nominal: 1116.81
 opt_uq: 1.1
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_C2H5OH_1.png
+validation_plot: ../../../assets/data/validation/ign_C2H5OH_1.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_C2H5OH_1_5.png
 reference: MJJ2015 - Voss, S., Rau, F., Alekseev, V. A., Konnov, A. A., Haas-Wittmüß, R., Hermanns, R. T. E., … Goey, L. P. H. D. (2015). A comparative study of laminar burning velocities of methane, methanol and ethanol using the Heat Flux method. Proceedings of the European Combustion Meeting 2015.
 ---

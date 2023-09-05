@@ -18,7 +18,7 @@ opt_nominal: 66.84
 opt_uq: 1.08
 unit: cm/s
 uq_operation: $\pm$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_C2H4_6.png
+validation_plot: ../../../assets/data/validation/fls_C2H4_6.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C2H4_6_6.png
 reference: HAK1998 - Hassan, M. I., Aung, K. T., Kwon, O. C., & Faeth, G. M. (1998). Properties of laminar premixed hydrocarbon/air flames at various pressures. Journal of Propulsion and Power, 14, 479–488.
 uq_unit: cm/s

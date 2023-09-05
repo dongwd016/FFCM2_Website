@@ -18,7 +18,7 @@ opt_nominal: 242.81
 opt_uq: 1.08
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_CH4_13.png
+validation_plot: ../../../assets/data/validation/ign_CH4_13.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_CH4_13_2.png
 reference: PDH1999 - Petersen, Eric L., Davidson, D. F., & Hanson, R. K. (1999). Ignition Delay Times of Ram Accelerator CH/O/Diluent Mixtures. Journal of Propulsion and Power, 15, 82–91.
 ---

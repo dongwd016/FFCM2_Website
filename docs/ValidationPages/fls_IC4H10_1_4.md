@@ -18,7 +18,7 @@ opt_nominal: 25.27
 opt_uq: 0.37
 unit: cm/s
 uq_operation: $\pm$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/fls_IC4H10_1.png
+validation_plot: ../../../assets/data/validation/fls_IC4H10_1.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_IC4H10_1_4.png
 reference: PVS2016 - Park, O., Veloo, P. S., Sheen, D. A., Tao, Y., Egolfopoulos, F. N., & Wang, H. (2016). Chemical kinetic model uncertainty minimization through laminar flame speed measurements. Combustion and Flame, 172, 136–152.<br>BD2004 - Bosschaart, K. J., & De Goey, L. P. H. (2004). The laminar burning velocity of flames propagating in mixtures of hydrocarbons and air measured with the heat flux method. Combustion and Flame, 136, 261–269.<br>DL1998 - Davis, S. G., & Law, C. K. (1998). Determination of and Fuel Structure Effects on Laminar Flame Speeds of C1 to C8 Hydrocarbons. Combustion Science and Technology, 140, 427–449.
 uq_unit: cm/s

@@ -18,7 +18,7 @@ opt_nominal: 319.13
 opt_uq: 1.08
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_CH3COCH3_10.png
+validation_plot: ../../../assets/data/validation/ign_CH3COCH3_10.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_CH3COCH3_10_4.png
 reference: DRL2010 - Davidson, D. F., Ranganath, S. C., Lam, K.-Y. Y., Liaw, M., Hong, Z., & Hanson, R. K. (2010). Ignition Delay Time Measurements of Normal Alkanes and Simple Oxygenates. Journal of Propulsion and Power, 26, 280–287.
 ---

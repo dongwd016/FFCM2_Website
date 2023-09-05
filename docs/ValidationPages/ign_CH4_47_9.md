@@ -18,7 +18,7 @@ opt_nominal: 230.64
 opt_uq: 1.03
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_CH4_47.png
+validation_plot: ../../../assets/data/validation/ign_CH4_47.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_CH4_47_9.png
 reference: LSB1971 - Lifshitz, A., Scheller, K., Burcat, A., & Skinner, G. B. (1971). Shock-tube investigation of ignition in methane-oxygen-argon mixtures. Combustion and Flame, 16, 311–321.
 ---

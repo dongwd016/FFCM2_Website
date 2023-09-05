@@ -18,7 +18,7 @@ opt_nominal: 120.35
 opt_uq: 1.05
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/ign_C2H5OH_4.png
+validation_plot: ../../../assets/data/validation/ign_C2H5OH_4.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_C2H5OH_4_3.png
 reference: KKA2015 - Kosarev, I. N., Kindysheva, S. V., Aleksandrov, N. L., & Starikovskiy, A. Y. (2015). Ignition of ethanol-containing mixtures excited by nanosecond discharge above self-ignition threshold. Combustion and Flame, 162, 50–59.
 ---

@@ -18,7 +18,7 @@ opt_nominal: 23.72
 opt_uq: 1.03
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/validation/stm_H2_5a.png
+validation_plot: ../../../assets/data/validation/stm_H2_5a.png
 sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_stm_H2_5a_1.png
 reference: MHB1990 - Masten, D. A., Hanson, R. K., & Bowman, C. T. (1990a). Shock tube study of the reaction hydrogen atom+ oxygen. fwdarw. hydroxyl+ oxygen atom using hydroxyl laser absorption. Journal of Physical Chemistry, 94, 7119–7128.
 ---
