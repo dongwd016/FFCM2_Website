@@ -19,7 +19,7 @@ opt_uq: 0.66
 unit: cm/s
 uq_operation: $\pm$
 validation_plot: ../../../assets/data/validation/fls_C3H8_7.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C3H8_7_6.png
+sens_plot: ../../../assets/data/sensitivity/sens_fls_C3H8_7_6.png
 reference: VE2011 - Veloo, P. S., & Egolfopoulos, F. N. (2011). Studies of n-propanol, iso-propanol, and propane flames. Combustion and Flame, 158, 501–510.
 uq_unit: cm/s
 ---

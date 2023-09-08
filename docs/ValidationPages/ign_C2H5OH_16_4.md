@@ -19,6 +19,6 @@ opt_uq: 1.05
 unit: $\mu s$
 uq_operation: $ \times / \div$
 validation_plot: ../../../assets/data/validation/ign_C2H5OH_16.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_C2H5OH_16_4.png
+sens_plot: ../../../assets/data/sensitivity/sens_ign_C2H5OH_16_4.png
 reference: NB1982 - Natarajan, K., & Bhaskaran, K. A. (1981b). Experimental and analytical investigation of high temperature ignition of ethanol.
 ---

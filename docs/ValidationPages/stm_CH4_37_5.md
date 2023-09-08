@@ -18,7 +18,7 @@ opt_nominal: 593.03
 opt_uq: 1.04
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: ../../../assets/data/validation/stm_CH4_37.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_stm_CH4_37_5.png
+validation_plot: ../../../assets/data/validation/stm_CH4_37_5.png
+sens_plot: ../../../assets/data/sensitivity/sens_stm_CH4_37_5.png
 reference: YWF1995 - Yu, C.-L., Wang, C., & Frenklach, M. (1995). Chemical Kinetics of Methyl Oxidation by Molecular Oxygen. The Journal of Physical Chemistry, 99, 14377–14387.
 ---

@@ -19,6 +19,6 @@ opt_uq: 1.14
 unit: $\mu s$
 uq_operation: $ \times / \div$
 validation_plot: ../../../assets/data/validation/ign_C3H8_5.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_C3H8_5_7.png
+sens_plot: ../../../assets/data/sensitivity/sens_ign_C3H8_5_7.png
 reference: LHD2011 - Lam, K. Y., Hong, Z., Davidson, D. F., & Hanson, R. K. (2011). Shock tube ignition delay time measurements in propane/O2/argon mixtures at near-constant-volume conditions. Proceedings of the Combustion Institute, 33, 251–258.
 ---

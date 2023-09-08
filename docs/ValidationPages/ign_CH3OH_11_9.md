@@ -19,6 +19,6 @@ opt_uq: 1.06
 unit: $\mu s$
 uq_operation: $ \times / \div$
 validation_plot: ../../../assets/data/validation/ign_CH3OH_11.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_CH3OH_11_9.png
+sens_plot: ../../../assets/data/sensitivity/sens_ign_CH3OH_11_9.png
 reference: CDW1971 - Cooke, D. F., Dodson, M. G., & Williams, A. (1971). A shock-tube study of the ignition of methanol and ethanol with oxygen. Combustion and Flame, 16, 233–236.
 ---

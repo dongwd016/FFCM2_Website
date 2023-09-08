@@ -19,7 +19,7 @@ opt_uq: 0.42
 unit: cm/s
 uq_operation: $\pm$
 validation_plot: ../../../assets/data/validation/fls_H2+CO_8.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_H2+CO_8_7.png
+sens_plot: ../../../assets/data/sensitivity/sens_fls_H2+CO_8_7.png
 reference: VE1994 - Vagelopoulos, C. M., & Egolfopoulos, F. N. (1994). Laminar flame speeds and extinction strain rates of mixtures of carbon monoxide with hydrogen, methane, and air. Symposium (International) on Combustion, 25, 1317–1323.
 uq_unit: cm/s
 ---

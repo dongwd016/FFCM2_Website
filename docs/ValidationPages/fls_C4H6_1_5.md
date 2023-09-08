@@ -19,7 +19,7 @@ opt_uq: 0.72
 unit: cm/s
 uq_operation: $\pm$
 validation_plot: ../../../assets/data/validation/fls_C4H6_1.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C4H6_1_5.png
+sens_plot: ../../../assets/data/sensitivity/sens_fls_C4H6_1_5.png
 reference: PVS2016 - Park, O., Veloo, P. S., Sheen, D. A., Tao, Y., Egolfopoulos, F. N., & Wang, H. (2016). Chemical kinetic model uncertainty minimization through laminar flame speed measurements. Combustion and Flame, 172, 136–152.
 uq_unit: cm/s
 ---

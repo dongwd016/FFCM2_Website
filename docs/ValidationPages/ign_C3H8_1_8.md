@@ -19,6 +19,6 @@ opt_uq: 1.06
 unit: $\mu s$
 uq_operation: $ \times / \div$
 validation_plot: ../../../assets/data/validation/ign_C3H8_1.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_C3H8_1_8.png
+sens_plot: ../../../assets/data/sensitivity/sens_ign_C3H8_1_8.png
 reference: ZHZ2013 - Zhang, J., Hu, E., Zhang, Z., Pan, L., & Huang, Z. (2013). Comparative Study on Ignition Delay Times of C1--C4 Alkanes. Energy & Fuels, 27, 3480–3487.
 ---

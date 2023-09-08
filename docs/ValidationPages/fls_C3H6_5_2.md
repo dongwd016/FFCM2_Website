@@ -19,7 +19,7 @@ opt_uq: 0.48
 unit: cm/s
 uq_operation: $\pm$
 validation_plot: ../../../assets/data/validation/fls_C3H6_5.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C3H6_5_2.png
+sens_plot: ../../../assets/data/sensitivity/sens_fls_C3H6_5_2.png
 reference: JZZ2005 - Jomaas, G., Zheng, X. L., Zhu, D. L., & Law, C. K. (2005). Experimental determination of counterflow ignition temperatures and laminar flame speeds of C2--C3 hydrocarbons at atmospheric and elevated pressures. Proceedings of the Combustion Institute, 30, 193–200.
 uq_unit: cm/s
 ---

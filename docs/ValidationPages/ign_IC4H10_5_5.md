@@ -19,6 +19,6 @@ opt_uq: 1.08
 unit: $\mu s$
 uq_operation: $ \times / \div$
 validation_plot: ../../../assets/data/validation/ign_IC4H10_5.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_IC4H10_5_5.png
+sens_plot: ../../../assets/data/sensitivity/sens_ign_IC4H10_5_5.png
 reference: JHZ2021 - Jiang, X., Huang, W., & Zhao, H. (2021). Ignition delay times of iso-butane activated by DME under various equivalence ratios in the shock tube. Fuel, 287, 119486.
 ---

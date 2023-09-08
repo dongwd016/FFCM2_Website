@@ -19,7 +19,7 @@ opt_uq: 0.37
 unit: cm/s
 uq_operation: $\pm$
 validation_plot: ../../../assets/data/validation/fls_C3H8_6.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C3H8_6_7.png
+sens_plot: ../../../assets/data/sensitivity/sens_fls_C3H8_6_7.png
 reference: LDK2011 - Lowry, W., De Vries, J., Krejci, M., Petersen, E., Serinyel, Z., Metcalfe, W., … Bourque, G. (2011). Laminar flame speed measurements and modeling of pure alkanes and alkane blends at elevated pressures. Journal of Engineering for Gas Turbines and Power, 133.<br>JZZ2005 - Jomaas, G., Zheng, X. L., Zhu, D. L., & Law, C. K. (2005). Experimental determination of counterflow ignition temperatures and laminar flame speeds of C2--C3 hydrocarbons at atmospheric and elevated pressures. Proceedings of the Combustion Institute, 30, 193–200.
 uq_unit: cm/s
 ---

@@ -19,6 +19,6 @@ opt_uq: 1.1
 unit: $\mu s$
 uq_operation: $ \times / \div$
 validation_plot: ../../../assets/data/validation/ign_H2_3.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_H2_3_9.png
+sens_plot: ../../../assets/data/sensitivity/sens_ign_H2_3_9.png
 reference: DSW1978 - Dean, A. M., Steiner, D. C., & Wang, E. E. (1978). A shock tube study of the H2/O2/CO/Ar and H2/N2O/CO/Ar Systems Measurement of the rate constant for H + N2O = N2 + OH. Combustion and Flame, 32, 73–83.
 ---

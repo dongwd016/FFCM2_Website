@@ -18,7 +18,7 @@ opt_nominal: 13742.21
 opt_uq: 1.12
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: ../../../assets/data/validation/flw_H2_4.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_flw_H2_4_1.png
+validation_plot: ../../../assets/data/validation/flw_H2_4_1.png
+sens_plot: ../../../assets/data/sensitivity/sens_flw_H2_4_1.png
 reference: MKY1999 - Mueller, M. A., Kim, T. J., Yetter, R. A., & Dryer, F. L. (1999). Flow reactor studies and kinetic modeling of the H2/O2 reaction. International Journal of Chemical Kinetics, 31, 113–125.
 ---

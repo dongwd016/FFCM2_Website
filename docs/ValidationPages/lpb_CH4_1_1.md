@@ -19,6 +19,6 @@ opt_uq: 1.1
 unit: ppm
 uq_operation: $ \times / \div$
 validation_plot: ../../../assets/data/validation/lpb_CH4_1.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_lpb_CH4_1_1.png
+sens_plot: ../../../assets/data/sensitivity/sens_lpb_CH4_1_1.png
 reference: 'BHN2000 - Berg, P. A., Hill, D. A., Noble, A. R., Smith, G. P., Jeffries, J. B. & Crosley, D. R. (2000). Absolute CH concentration measurements in low-pressuremethane flames: comparisons with model results. Combustion and Flame, 121, 223–235.'
 ---

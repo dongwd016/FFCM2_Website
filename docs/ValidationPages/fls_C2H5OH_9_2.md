@@ -19,7 +19,7 @@ opt_uq: 0.5
 unit: cm/s
 uq_operation: $\pm$
 validation_plot: ../../../assets/data/validation/fls_C2H5OH_9.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C2H5OH_9_2.png
+sens_plot: ../../../assets/data/sensitivity/sens_fls_C2H5OH_9_2.png
 reference: HT2006 - Hara, T., & Tanoue, K. (2006). Laminar flame speed of ethanol, n-heptane, iso-octane air mixtures. JSAE Paper, 20068518.
 uq_unit: cm/s
 ---

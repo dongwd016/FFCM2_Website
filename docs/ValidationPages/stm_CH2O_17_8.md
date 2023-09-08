@@ -19,6 +19,6 @@ opt_uq: 1.07
 unit: $\mu s$
 uq_operation: $ \times / \div$
 validation_plot: ../../../assets/data/validation/stm_CH2O_17.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_stm_CH2O_17_8.png
+sens_plot: ../../../assets/data/sensitivity/sens_stm_CH2O_17_8.png
 reference: EYG1998 - Eiteneer, B., Yu, C.-L., Goldenberg, M., & Frenklach, M. (1998). Determination of rate coefficients for reactions of formaldehyde pyrolysis and oxidation in the gas phase. The Journal of Physical Chemistry A, 102, 5196–5205.
 ---

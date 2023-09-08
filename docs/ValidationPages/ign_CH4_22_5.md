@@ -19,6 +19,6 @@ opt_uq: 1.04
 unit: $\mu s$
 uq_operation: $ \times / \div$
 validation_plot: ../../../assets/data/validation/ign_CH4_22.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_CH4_22_5.png
+sens_plot: ../../../assets/data/sensitivity/sens_ign_CH4_22_5.png
 reference: SB1970 - Seery, D. J., & Bowman, C. T. (1970). An experimental and analytical study of methane oxidation behind shock waves. Combustion and Flame, 14, 37–47.
 ---

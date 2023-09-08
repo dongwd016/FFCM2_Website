@@ -19,6 +19,6 @@ opt_uq: 1.06
 unit: $\mu s$
 uq_operation: $ \times / \div$
 validation_plot: ../../../assets/data/validation/ign_CH3OH_21.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_CH3OH_21_7.png
+sens_plot: ../../../assets/data/sensitivity/sens_ign_CH3OH_21_7.png
 reference: NB1981 - Natarajan, K., & Bhaskaran, K. A. (1981a). An experimental and analytical study of methanol ignition behind shock waves. Combustion and Flame, 43, 35–49.
 ---

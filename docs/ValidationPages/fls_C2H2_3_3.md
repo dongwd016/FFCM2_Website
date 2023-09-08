@@ -19,7 +19,7 @@ opt_uq: 0.74
 unit: cm/s
 uq_operation: $\pm$
 validation_plot: ../../../assets/data/validation/fls_C2H2_3.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C2H2_3_3.png
+sens_plot: ../../../assets/data/sensitivity/sens_fls_C2H2_3_3.png
 reference: EZL1990 - Egolfopoulos, F. N., Zhu, D. L., & Law, C. K. (1990). Experimental and numerical determination of laminar flame speeds Mixtures of C2-hydrocarbons with oxygen and nitrogen. Symposium (International) on Combustion, 23, 471–478.
 uq_unit: cm/s
 ---

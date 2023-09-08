@@ -19,7 +19,7 @@ opt_uq: 0.37
 unit: cm/s
 uq_operation: $\pm$
 validation_plot: ../../../assets/data/validation/fls_C2H5OH_12.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C2H5OH_12_2.png
+sens_plot: ../../../assets/data/sensitivity/sens_fls_C2H5OH_12_2.png
 reference: B2013 - Aul, C. J., Metcalfe, W. K., Burke, S. M., Curran, H. J., & Petersen, E. L. (2013). Ignition and kinetic modeling of methane and ethane fuel blends with oxygen A design of experiments approach. Combustion and Flame, 160, 1153–1167.
 uq_unit: cm/s
 ---

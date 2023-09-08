@@ -18,7 +18,7 @@ opt_nominal: 30.07
 opt_uq: 1.07
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: ../../../assets/data/validation/stm_CH2O_22b.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_stm_CH2O_22b_1.png
+validation_plot: ../../../assets/data/validation/stm_CH2O_22b_1.png
+sens_plot: ../../../assets/data/sensitivity/sens_stm_CH2O_22b_1.png
 reference: HTT1993 - Hidaka, Yoshiaki, Taniguchi, T., Tanaka, H., Kamesawa, T., Inami, K., & Kawano, H. (1993). Shock-tube study of CH2O pyrolysis and oxidation. Combustion and Flame, 92, 365–376.
 ---

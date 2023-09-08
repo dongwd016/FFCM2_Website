@@ -19,6 +19,6 @@ opt_uq: 1.06
 unit: $\mu s$
 uq_operation: $ \times / \div$
 validation_plot: ../../../assets/data/validation/stm_C2H6_26a.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_stm_C2H6_26a_1.png
+sens_plot: ../../../assets/data/sensitivity/sens_stm_C2H6_26a_1.png
 reference: CHG1995 - Chang, E. J. (1995). Shock tube experiments for the development and validation of models of hydrocarbon combustion. Stanford University.
 ---

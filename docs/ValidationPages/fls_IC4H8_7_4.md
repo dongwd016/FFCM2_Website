@@ -19,7 +19,7 @@ opt_uq: 0.86
 unit: cm/s
 uq_operation: $\pm$
 validation_plot: ../../../assets/data/validation/fls_IC4H8_7.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_IC4H8_7_4.png
+sens_plot: ../../../assets/data/sensitivity/sens_fls_IC4H8_7_4.png
 reference: LPK2020 - Lokachari, N., Panigrahy, S., Kukkadapu, G., Kim, G., Vasu, S. S., Pitz, W. J., & Curran, H. J. (2020). The influence of iso-butene kinetics on the reactivity of di-isobutylene and iso-octane. Combustion and Flame, 222, 186–195.
 uq_unit: cm/s
 ---

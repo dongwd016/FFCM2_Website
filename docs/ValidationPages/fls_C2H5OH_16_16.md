@@ -19,7 +19,7 @@ opt_uq: 0.8
 unit: cm/s
 uq_operation: $\pm$
 validation_plot: ../../../assets/data/validation/fls_C2H5OH_16.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C2H5OH_16_16.png
+sens_plot: ../../../assets/data/sensitivity/sens_fls_C2H5OH_16_16.png
 reference: DGB2014 - Dirrenberger, P., Glaude, P. A., Bounaceur, R., Le Gall, H., Da Cruz, A. P., Konnov, A. A., & Battin-Leclerc, F. (2014). Laminar burning velocity of gasolines with addition of ethanol. Fuel, 115, 162–169.
 uq_unit: cm/s
 ---

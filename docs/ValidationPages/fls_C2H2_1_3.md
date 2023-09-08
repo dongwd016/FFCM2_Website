@@ -19,7 +19,7 @@ opt_uq: 1.55
 unit: cm/s
 uq_operation: $\pm$
 validation_plot: ../../../assets/data/validation/fls_C2H2_1.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C2H2_1_3.png
+sens_plot: ../../../assets/data/sensitivity/sens_fls_C2H2_1_3.png
 reference: SYS2015 - Shen, X., Yang, X., Santner, J., Sun, J., & Ju, Y. (2015). Experimental and kinetic studies of acetylene flames at elevated pressures. Proceedings of the Combustion Institute, 35, 721–728.<br>RSM2015 - Ravi, S., Sikes, T. G., Morones, A., Keesee, C. L., & Petersen, E. L. (2015). Comparative study on the laminar flame speed enhancement of methane with ethane and ethylene addition. Proceedings of the Combustion Institute, 35, 679–686.<br>JZZ2005 - Jomaas, G., Zheng, X. L., Zhu, D. L., & Law, C. K. (2005). Experimental determination of counterflow ignition temperatures and laminar flame speeds of C2--C3 hydrocarbons at atmospheric and elevated pressures. Proceedings of the Combustion Institute, 30, 193–200.<br>LBR2019 - Lokachari, N., Burke, U., Ramalingam, A., Turner, M., Hesse, R., Somers, K. P., … Curran, H. J. (2019). New experimental insights into acetylene oxidation through novel ignition delay times, laminar burning velocities and chemical kinetic modelling. Proceedings of the Combustion Institute, 37, 583–591.
 uq_unit: cm/s
 ---

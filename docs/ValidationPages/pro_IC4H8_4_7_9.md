@@ -18,7 +18,7 @@ opt_nominal: 393.46
 opt_uq: 1.16
 unit: ppm
 uq_operation: $ \times / \div$
-validation_plot: ../../../assets/data/validation/pro_IC4H8_4.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_pro_IC4H8_4_7_9.png
+validation_plot: ../../../assets/data/validation/pro_IC4H8_4_7_9.png
+sens_plot: ../../../assets/data/sensitivity/sens_pro_IC4H8_4_7_9.png
 reference: NKP2020 - Nagaraja, S. S., Kukkadapu, G., Panigrahy, S., Liang, J., Lu, H., Pitz, W. J., & Curran, H. J. (2020). A pyrolysis study of allylic hydrocarbon fuels. International Journal of Chemical Kinetics, 52, 964–978.
 ---

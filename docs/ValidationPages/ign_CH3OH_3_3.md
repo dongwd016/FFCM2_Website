@@ -19,6 +19,6 @@ opt_uq: 1.06
 unit: $\mu s$
 uq_operation: $ \times / \div$
 validation_plot: ../../../assets/data/validation/ign_CH3OH_3.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_ign_CH3OH_3_3.png
+sens_plot: ../../../assets/data/sensitivity/sens_ign_CH3OH_3_3.png
 reference: BMB2016 - Burke, U., Metcalfe, W. K., Burke, S. M., Heufer, K. A., Dagaut, P., & Curran, H. J. (2016). A detailed chemical kinetic modeling, ignition delay time and jet-stirred reactor study of methanol oxidation. Combustion and Flame, 165, 125–136.
 ---

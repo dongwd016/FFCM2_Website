@@ -19,7 +19,7 @@ opt_uq: 0.46
 unit: cm/s
 uq_operation: $\pm$
 validation_plot: ../../../assets/data/validation/fls_C2H5OH_7.png
-sens_plot: https://web.stanford.edu/group/haiwanglab/FFCM2/assets/data/sensitivity/sens_fls_C2H5OH_7_2.png
+sens_plot: ../../../assets/data/sensitivity/sens_fls_C2H5OH_7_2.png
 reference: KMD2011 - Konnov, A. A., Meuwissen, R. J., & De Goey, L. P. H. (2011). The temperature dependence of the laminar burning velocity of ethanol flames. Proceedings of the Combustion Institute, 33, 1011–1019.
 uq_unit: cm/s
 ---
