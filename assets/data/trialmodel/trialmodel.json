@@ -643,7 +643,7 @@
         "Reaction": "H2O+M=H+OH+M, M=AR",
         "Keywords": "Chaperon efficiency",
         "Rates": "<em>&#946;</em> = 1.0",
-        "Uncertainty": 1.428571428571429,
+        "Uncertainty": 1.429,
         "ReactionClass": "H2",
         "Source": "<details><summary>SM2006</summary>Srinivasan, N. K., & Michael, J. V. (2006). The thermal decomposition of water. International Journal of Chemical Kinetics, 38, 211\u2013219.'</details><details><summary>S1999</summary>Smith, G. (1999). GRIMech - An Optimized Detailed Chemical Reaction Mechanism for Methane Combustion. URL: Http://Www. Me. Berkeley. Edu/Gri_mech. Gas Research Institute.'</details>",
         "Comments": "Rate constant expression from SM2006, which measured decomposition for Ar and H2O bath gas, and considered reverse recombination data; while BBC2005 recommendation is slower. Relative efficiencies are taken from SM2006 recommendation, with generic GRIMech values for missing colliders."
@@ -753,7 +753,7 @@
         "Reaction": "H2O+M=H+OH+M, M=CO2",
         "Keywords": "Chaperon efficiency",
         "Rates": "<em>&#946;</em> = 3.8",
-        "Uncertainty": 1.357142857142857,
+        "Uncertainty": 1.357,
         "ReactionClass": "H2",
         "Source": "<details><summary>SM2006</summary>Srinivasan, N. K., & Michael, J. V. (2006). The thermal decomposition of water. International Journal of Chemical Kinetics, 38, 211\u2013219.'</details><details><summary>S1999</summary>Smith, G. (1999). GRIMech - An Optimized Detailed Chemical Reaction Mechanism for Methane Combustion. URL: Http://Www. Me. Berkeley. Edu/Gri_mech. Gas Research Institute.'</details>",
         "Comments": "Rate constant expression from SM2006, which measured decomposition for Ar and H2O bath gas, and considered reverse recombination data; while BBC2005 recommendation is slower. Relative efficiencies are taken from SM2006 recommendation, with generic GRIMech values for missing colliders."
@@ -863,7 +863,7 @@
         "Reaction": "H+O2(+M)=HO2(+M), M=AR",
         "Keywords": "Chaperon efficiency",
         "Rates": "<em>&#946;</em> = 0.67",
-        "Uncertainty": 1.425531914893617,
+        "Uncertainty": 1.426,
         "ReactionClass": "HO2",
         "Source": "<details><summary>T2000</summary>Troe, J\u00fcrgen. (2000). Detailed modeling of the temperature and pressure dependence of the reaction H+ O2 (+ M)\u2192 HO2 (+ M). Proceedings of the Combustion Institute, 28, 1463\u20131469.'</details><details><summary>BCJ2012</summary>Burke, Michael P., Chaos, M., Ju, Y., Dryer, F. L., & Klippenstein, S. J. (2012). Comprehensive H2/O2 kinetic model for high-pressure combustion. International Journal of Chemical Kinetics, 44, 444\u2013474.'</details><details><summary>MSS2002</summary>Michael, J. V., Su, M.-C., Sutherland, J. W., Carroll, J. J., & Wagner, A. F. (2002a). Rate constants for H+ O2+ M\u2192 HO2+ M in seven bath gases. The Journal of Physical Chemistry A, 106, 5297\u20135313.'</details>",
         "Comments": "Falloff parameter and theoretical high pressure limit rate expression is from T2000; low pressure limit expression and relative efficiencies of N2 are from the mechanism and review of BCJ2012, which was taken from the measurements and analysis of MSS2002. For relative efficiencies of hydrocarbons, the generic GRIMech values were used. The CO2 efficiency is a recent revision from BCJ2012."
@@ -973,7 +973,7 @@
         "Reaction": "H+O2(+M)=HO2(+M), M=CO2",
         "Keywords": "Chaperon efficiency",
         "Rates": "<em>&#946;</em> = 2.88",
-        "Uncertainty": 1.945945945945946,
+        "Uncertainty": 1.946,
         "ReactionClass": "HO2",
         "Source": "<details><summary>T2000</summary>Troe, J\u00fcrgen. (2000). Detailed modeling of the temperature and pressure dependence of the reaction H+ O2 (+ M)\u2192 HO2 (+ M). Proceedings of the Combustion Institute, 28, 1463\u20131469.'</details><details><summary>BCJ2012</summary>Burke, Michael P., Chaos, M., Ju, Y., Dryer, F. L., & Klippenstein, S. J. (2012). Comprehensive H2/O2 kinetic model for high-pressure combustion. International Journal of Chemical Kinetics, 44, 444\u2013474.'</details><details><summary>MSS2002</summary>Michael, J. V., Su, M.-C., Sutherland, J. W., Carroll, J. J., & Wagner, A. F. (2002a). Rate constants for H+ O2+ M\u2192 HO2+ M in seven bath gases. The Journal of Physical Chemistry A, 106, 5297\u20135313.'</details>",
         "Comments": "Falloff parameter and theoretical high pressure limit rate expression is from T2000; low pressure limit expression and relative efficiencies of N2 are from the mechanism and review of BCJ2012, which was taken from the measurements and analysis of MSS2002. For relative efficiencies of hydrocarbons, the generic GRIMech values were used. The CO2 efficiency is a recent revision from BCJ2012."
@@ -1160,7 +1160,7 @@
         "Reaction": "H2O2(+M)=2OH(+M), M=AR",
         "Keywords": "Chaperon efficiency",
         "Rates": "<em>&#946;</em> = 1.0",
-        "Uncertainty": 1.428571428571429,
+        "Uncertainty": 1.429,
         "ReactionClass": "H2O2",
         "Source": "<details><summary>T2011</summary>Troe, J. (2011). The thermal dissociation/recombination reaction of hydrogen peroxide H2O2 (+ M)\u21d4 2OH (+ M) III.: Analysis and representation of the temperature and pressure dependence over wide ranges. Combustion and Flame, 158, 594\u2013601.'</details>",
         "Comments": "Rate constant expressions and falloff parameters from T2011, for Ar as the bath gas. Relative efficiencies are taken from T2011, with some extra values from GRIMech. The Troe Broadening parameter is that for Ar."
@@ -1622,7 +1622,7 @@
         "Reaction": "HCO+M=CO+H+M, M=AR",
         "Keywords": "Chaperon efficiency",
         "Rates": "<em>&#946;</em> = 1.0",
-        "Uncertainty": 1.428571428571429,
+        "Uncertainty": 1.429,
         "ReactionClass": "HCO",
         "Source": "<details><summary>FHD2002</summary>Friedrichs, G., Herbon, J. T., Davidson, D. F., & Hanson, R. K. (2002). Quantitative detection of HCO behind shock waves: The thermal decomposition of HCO. Physical Chemistry Chemical Physics, 4, 5778\u20135788.'</details>",
         "Comments": "Rate constant expression is from RRKM calculations of FHD2002, which fits their shock tube decomposition data in Ar near 1000K. Relative efficiencies are from GRIMech."
@@ -1754,7 +1754,7 @@
         "Reaction": "HCO+M=CO+H+M, M=H2O",
         "Keywords": "Chaperon efficiency",
         "Rates": "<em>&#946;</em> = 12.0",
-        "Uncertainty": 1.333333333333333,
+        "Uncertainty": 1.333,
         "ReactionClass": "HCO",
         "Source": "<details><summary>FHD2002</summary>Friedrichs, G., Herbon, J. T., Davidson, D. F., & Hanson, R. K. (2002). Quantitative detection of HCO behind shock waves: The thermal decomposition of HCO. Physical Chemistry Chemical Physics, 4, 5778\u20135788.'</details>",
         "Comments": "Rate constant expression is from RRKM calculations of FHD2002, which fits their shock tube decomposition data in Ar near 1000K. Relative efficiencies are from GRIMech."
@@ -1765,7 +1765,7 @@
         "Reaction": "HCO+M=CO+H+M, M=HE",
         "Keywords": "Chaperon efficiency",
         "Rates": "<em>&#946;</em> = 1.0",
-        "Uncertainty": 1.428571428571429,
+        "Uncertainty": 1.429,
         "ReactionClass": "HCO",
         "Source": "<details><summary>FHD2002</summary>Friedrichs, G., Herbon, J. T., Davidson, D. F., & Hanson, R. K. (2002). Quantitative detection of HCO behind shock waves: The thermal decomposition of HCO. Physical Chemistry Chemical Physics, 4, 5778\u20135788.'</details>",
         "Comments": "Rate constant expression is from RRKM calculations of FHD2002, which fits their shock tube decomposition data in Ar near 1000K. Relative efficiencies are from GRIMech."
