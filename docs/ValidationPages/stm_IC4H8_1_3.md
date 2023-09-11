@@ -18,7 +18,7 @@ opt_nominal: 162.39
 opt_uq: 1.12
 unit: $\mu s$
 uq_operation: $ \times / \div$
-validation_plot: ../../../assets/data/validation/stm_IC4H8_1.png
+validation_plot: ../../../assets/data/validation/stm_IC4H8_1_3.png
 sens_plot: ../../../assets/data/sensitivity/sens_stm_IC4H8_1_3.png
 reference: SLD2015 - Spearrin, R. M., Li, S., Davidson, D. F., Jeffries, J. B., & Hanson, R. K. (2015). High-temperature iso-butene absorption diagnostic for shock tube kinetics using a pulsed quantum cascade laser near 11.3 um. Proceedings of the Combustion Institute, 35, 3645–3651.
 ---
