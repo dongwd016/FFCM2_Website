@@ -5768,7 +5768,7 @@
         "Fuel": "C2H6",
         "Temp": 1684.0,
         "Pres": 1.35,
-        "Phi": 721000000036.05,
+        "Phi": null,
         "Composition": "0.02% C2H6-99.98% AR",
         "Method": "max CH3",
         "url": "../../ValidationPages/stm_C2H6_25a_1",

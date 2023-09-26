@@ -14,7 +14,8 @@ The table lists the targets considered in FFCM-2 optimization. It is searchable 
   - fls: laminar flame speed,
   - pro: shock tube speciation,
   - flw: flow reactor speciation,
-  - lpb: low-pressure burner speciation.
+  - lpb: low-pressure burner speciation,
+  - stm: shock tube ignition delay based on speciation profile.
 - Fuel: the fuel of a target data. In the current work, we only consider data for neat fuels as targets.
 - Thermodynamic conditions for the target data are given by
   - Temperature, unit in Kelvins,
@@ -22,6 +23,7 @@ The table lists the targets considered in FFCM-2 optimization. It is searchable 
   - Equivalence ratio (pyrolysis targets do not have $\phi$ as equivalence ratio is undefined),
   - Mixture Composition: the composition of mixture, expressed by molar fraction.
 - Experimental method: the experimental techniques used for the target data, e.g., spherical bomb measurements, or definition of ignition delay in shock tube experiments.
+- All error bars in the validation plots are two standard deviations.
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">

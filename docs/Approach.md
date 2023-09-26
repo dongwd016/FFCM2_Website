@@ -38,7 +38,7 @@ $$
 \end{equation}    
 $$
 
-is reduced to the $\pm 20\%$ level. Prof. Han's group at Stanford subsequently made the measurement to reduce the $2\sigma$ rate uncertainty to $\pm 17\%$ [^LDH2013]. The measurement suggests that the higher end values within the uncertainty band of the measured H<sub>2</sub>/air laminar flame speed are probably more accurate than the lower values. Preliminary tests also include forward uncertainty quantification (**UQ**). The quality of the current kinetic rate knowledge is accessed in its predictive precision against the selected target. 
+is reduced to the $\pm 20\%$ level. Prof. Hanson's group at Stanford subsequently made the measurement to reduce the $2\sigma$ rate uncertainty to $\pm 17\%$ [^LDH2013]. The measurement suggests that the higher end values within the uncertainty band of the measured H<sub>2</sub>/air laminar flame speed are probably more accurate than the lower values. Preliminary tests also include forward uncertainty quantification (**UQ**). The quality of the current kinetic rate knowledge is accessed in its predictive precision against the selected target. 
 
 ### Optimization and Uncertainty Minimization
 The Method of Uncertainty Minimization using Polynomial Chaos Expansion [^SW2011]$^{,}$[^WS2015] (**MUM-PCE**) was developed earlier for the optimization and uncertainty minimization of combustion chemistry reaction models. In the FFCM-2 effort, we extended the MUM-PCE framework to **NN-MUM-PCE** [^ZDV2023a], using neural networks as response surfaces to overcome difficulties of high parameter dimensionality.  
