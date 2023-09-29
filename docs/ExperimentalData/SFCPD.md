@@ -31,11 +31,11 @@ In the FFCM-2 effort, shock tube ignition delay measurements for temperature $T$
 ### Target selection
 A total of 1192 targets are selected from SFCPD for FFCM-2 optimization, including
 
-- Laminar flame speed: 380
-- Ignition delay time: 792
+- Laminar flame speed: 408
+- Ignition delay time: 749
 - Flow reactor species time-history: 4
-- Shock tube species time-history: 12
-- Burner stabilized flames: 4
+- Shock tube species time-history: 28
+- Burner stabilized flames: 3
 
 They span a wide range of thermodynamic conditions for relevant C<sub>0</sub>-C<sub>4</sub> target fuels.  The conditions can be found at the validation page. 
 
