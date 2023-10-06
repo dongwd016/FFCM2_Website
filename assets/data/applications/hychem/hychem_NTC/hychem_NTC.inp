@@ -25,7 +25,9 @@ C6H5O  C6H4CH3  C6H5CH2  C6H5CH3  C6H5CO  C6H5CH2OH
 HOC6H4CH3  C6H5CHO  OC6H4CH3  C6H5C2H  c-C4H5
 END
 
-REACTIONS
+!REACTIONS
+!For ChemKin Pro users, please uncomment the following line and comment out the above "REACTIONS" line
+REACTIONS  MAXSP=12
 H+O2<=>O+OH                                         1.0399e+14  0.000  15310.00
 H2+O<=>H+OH                                         3.6490e+12  0.000  7950.00
 DUPLICATE
