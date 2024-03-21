@@ -17,7 +17,7 @@ SFCPD consolidates legacy data that date back to 1937. A total of 342 research a
 
 and selected
 
-- Low-pressure burner stablized flames
+- Low-pressure burner stabilized flames
 - Flow reactor species time-history measurements
 
 
