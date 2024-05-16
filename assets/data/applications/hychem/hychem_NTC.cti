@@ -2510,7 +2510,7 @@ falloff_reaction('CH2(S) + H2O (+ M) <=> CH3OH (+ M)',
                  kf=[3.034500e+12, 0.05, -1897.0],
                  kf0=[1.734000e+41, -7.19, 5777.0],
                  efficiencies='C2H2:3.0 C2H4:3.0 C2H5OH:4.0 C2H6:3.0 C3H6:4.0 C3H8:4.0 CH2O:2.5 CH3OH:3.0 CH4:2.0 CO:1.5 CO2:2.0 H2:2.0 H2O:6.0',
-                 falloff=Troe(A=0.992, T3=942.9999999999999, T1=47310.0, T2=47110.0))
+                 falloff=Troe(A=0.992, T3=943.0, T1=47310.0, T2=47110.0))
 
 # Reaction 80
 reaction('CH2(S) + H2O <=> CH2 + H2O', [1.510000e+13, 0.0, -431.0])
@@ -2548,7 +2548,7 @@ falloff_reaction('CH2O (+ M) <=> CO + H2 (+ M)',
                  kf=[3.700000e+13, 0.0, 71980.0],
                  kf0=[4.400000e+38, -6.1, 94000.0],
                  efficiencies='AR:0.7 C2H2:3.0 C2H4:3.0 C2H5OH:4.0 C2H6:3.0 C3H6:4.0 C3H8:4.0 CH2O:2.5 CH3OH:3.0 CH4:2.0 CO:1.5 CO2:2.0 H2:2.0 H2O:6.0 HE:0.7',
-                 falloff=Troe(A=0.932, T3=197.00000000000003, T1=1540.0, T2=10300.0))
+                 falloff=Troe(A=0.932, T3=197.0, T1=1540.0, T2=10300.0))
 
 # Reaction 88
 reaction('CH2O + H <=> H2 + HCO', [5.396300e+12, 0.36, 4609.0])
@@ -2863,7 +2863,7 @@ falloff_reaction('CH3OOH (+ M) <=> CH3O + OH (+ M)',
                  kf=[4.050000e+19, -1.15, 44260.0],
                  kf0=[3.890000e+42, -7.5, 46760.0],
                  efficiencies='AR:0.7 C2H2:3.0 C2H4:3.0 C2H5OH:4.0 C2H6:3.0 C3H6:4.0 C3H8:4.0 CH2O:2.5 CH3OH:3.0 CH4:2.0 CO:1.5 CO2:2.0 H2:2.0 H2O:6.0 HE:0.7',
-                 falloff=Troe(A=0.838, T3=36560.0, T1=499.00000000000006, T2=9990.0))
+                 falloff=Troe(A=0.838, T3=36560.0, T1=499.0, T2=9990.0))
 
 # Reaction 175
 reaction('CH3O2 + H <=> CH3O + OH', [9.640000e+13, 0.0, 0.0])
@@ -3168,7 +3168,7 @@ falloff_reaction('CH2CHO (+ M) <=> CH2CO + H (+ M)',
                  kf=[9.320800e+14, -0.15, 45610.0],
                  kf0=[1.590400e+29, -3.79, 43580.0],
                  efficiencies='C2H2:3.0 C2H4:3.0 C2H5OH:4.0 C2H6:3.0 C3H6:4.0 C3H8:4.0 CH2O:2.5 CH3OH:3.0 CH4:2.0 CO:1.5 CO2:2.0 H2:2.0 H2O:6.0',
-                 falloff=Troe(A=0.796, T3=100.0, T1=49999.99999999999, T2=34200.0))
+                 falloff=Troe(A=0.796, T3=100.0, T1=50000.0, T2=34200.0))
 
 # Reaction 253
 falloff_reaction('CH2CHO (+ M) <=> CH3 + CO (+ M)',
@@ -3212,7 +3212,7 @@ falloff_reaction('CH3CO (+ M) <=> CH3 + CO (+ M)',
                  kf=[1.070000e+12, 0.63, 16900.0],
                  kf0=[5.650000e+18, -0.97, 14580.0],
                  efficiencies='C2H2:3.0 C2H4:3.0 C2H5OH:4.0 C2H6:3.0 C3H6:4.0 C3H8:4.0 CH2O:2.5 CH3OH:3.0 CH4:2.0 CO:1.5 CO2:2.0 H2:2.0 H2O:6.0',
-                 falloff=Troe(A=0.36, T3=122.0, T1=49999.99999999999, T2=16940.0))
+                 falloff=Troe(A=0.36, T3=122.0, T1=50000.0, T2=16940.0))
 
 # Reaction 265
 three_body_reaction('CH3CO + H + M <=> CH3CHO + M', [3.490000e+14, -9.17, 0.0])
@@ -3289,7 +3289,7 @@ falloff_reaction('C2H3 + H (+ M) <=> C2H4 (+ M)',
                  kf=[3.880000e+13, 0.2, 0.0],
                  kf0=[1.400000e+30, -3.86, 3320.0],
                  efficiencies='AR:0.7 C2H2:3.0 C2H4:3.0 C2H5OH:4.0 C2H6:3.0 C3H6:4.0 C3H8:4.0 CH2O:2.5 CH3OH:3.0 CH4:2.0 CO:1.5 CO2:2.0 H2:2.0 H2O:6.0 HE:0.7',
-                 falloff=Troe(A=0.782, T3=207.49999999999997, T1=2663.0, T2=6095.0))
+                 falloff=Troe(A=0.782, T3=207.5, T1=2663.0, T2=6095.0))
 
 # Reaction 288
 falloff_reaction('C2H4 (+ M) <=> H2 + H2CC (+ M)',
@@ -3615,7 +3615,7 @@ falloff_reaction('C2H5OH (+ M) <=> C2H4 + H2O (+ M)',
                  kf=[4.251900e+20, -2.06, 69470.0],
                  kf0=[3.100300e+64, -13.22, 83680.0],
                  efficiencies='AR:0.7 C2H2:3.0 C2H4:3.0 C2H5OH:4.0 C2H6:3.0 C3H6:4.0 C3H8:4.0 CH2O:2.5 CH3OH:3.0 CH4:2.0 CO:1.5 CO2:2.0 H2:2.0 H2O:6.0 HE:0.7',
-                 falloff=Troe(A=-2.148, T3=5844.999999999999, T1=30300.000000000004, T2=6583.0))
+                 falloff=Troe(A=-2.148, T3=5845.0, T1=30300.0, T2=6583.0))
 
 # Reaction 379
 falloff_reaction('C2H5 + OH (+ M) <=> C2H5OH (+ M)',
@@ -5637,7 +5637,7 @@ falloff_reaction('C2H4 + C2H5 (+ M) <=> NC4H9 (+ M)',
                  kf=[1.320000e+04, 2.48, 6130.0],
                  kf0=[1.240000e+46, -9.5, 9910.0],
                  efficiencies='AR:0.7 C2H2:3.0 C2H4:3.0 C2H5OH:4.0 C2H6:3.0 C3H6:4.0 C3H8:4.0 CH2O:2.5 CH3OH:3.0 CH4:2.0 CO:1.5 CO2:2.0 H2:2.0 H2O:6.0 HE:0.7',
-                 falloff=Troe(A=0.731, T3=6945.000000000001, T1=165.0, T2=9855.0))
+                 falloff=Troe(A=0.731, T3=6945.0, T1=165.0, T2=9855.0))
 
 # Reaction 916
 falloff_reaction('H + NC4H9 (+ M) <=> C4H10 (+ M)',
