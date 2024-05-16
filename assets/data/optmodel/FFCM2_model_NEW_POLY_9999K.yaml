@@ -1816,7 +1816,7 @@ reactions:
   type: falloff
   low-P-rate-constant: {A: 1.734e+41, b: -7.19, Ea: 5777.0}
   high-P-rate-constant: {A: 3.0345e+12, b: 0.05, Ea: -1897.0}
-  Troe: {A: 0.992, T3: 942.9999999999999, T1: 4.731e+04, T2: 4.711e+04}
+  Troe: {A: 0.992, T3: 943.0, T1: 4.731e+04, T2: 4.711e+04}
   efficiencies: {C2H2: 3.0, C2H4: 3.0, C2H5OH: 4.0, C2H6: 3.0, C3H6: 4.0,
     C3H8: 4.0, CH2O: 2.5, CH3OH: 3.0, CH4: 2.0, CO: 1.5, CO2: 2.0, H2: 2.0,
     H2O: 6.0}
@@ -1851,7 +1851,7 @@ reactions:
   type: falloff
   low-P-rate-constant: {A: 4.4e+38, b: -6.1, Ea: 9.4e+04}
   high-P-rate-constant: {A: 3.7e+13, b: 0.0, Ea: 7.198e+04}
-  Troe: {A: 0.932, T3: 197.00000000000003, T1: 1540.0, T2: 1.03e+04}
+  Troe: {A: 0.932, T3: 197.0, T1: 1540.0, T2: 1.03e+04}
   efficiencies: {AR: 0.7, C2H2: 3.0, C2H4: 3.0, C2H5OH: 4.0, C2H6: 3.0,
     C3H6: 4.0, C3H8: 4.0, CH2O: 2.5, CH3OH: 3.0, CH4: 2.0, CO: 1.5, CO2: 2.0,
     H2: 2.0, H2O: 6.0, HE: 0.7}
@@ -2100,7 +2100,7 @@ reactions:
   type: falloff
   low-P-rate-constant: {A: 3.89e+42, b: -7.5, Ea: 4.676e+04}
   high-P-rate-constant: {A: 4.05e+19, b: -1.15, Ea: 4.426e+04}
-  Troe: {A: 0.838, T3: 3.656e+04, T1: 499.00000000000006, T2: 9990.0}
+  Troe: {A: 0.838, T3: 3.656e+04, T1: 499.0, T2: 9990.0}
   efficiencies: {AR: 0.7, C2H2: 3.0, C2H4: 3.0, C2H5OH: 4.0, C2H6: 3.0,
     C3H6: 4.0, C3H8: 4.0, CH2O: 2.5, CH3OH: 3.0, CH4: 2.0, CO: 1.5, CO2: 2.0,
     H2: 2.0, H2O: 6.0, HE: 0.7}
@@ -2346,7 +2346,7 @@ reactions:
   type: falloff
   low-P-rate-constant: {A: 1.5904e+29, b: -3.79, Ea: 4.358e+04}
   high-P-rate-constant: {A: 9.3208e+14, b: -0.15, Ea: 4.561e+04}
-  Troe: {A: 0.796, T3: 100.0, T1: 4.999999999999999e+04, T2: 3.42e+04}
+  Troe: {A: 0.796, T3: 100.0, T1: 5.0e+04, T2: 3.42e+04}
   efficiencies: {C2H2: 3.0, C2H4: 3.0, C2H5OH: 4.0, C2H6: 3.0, C3H6: 4.0,
     C3H8: 4.0, CH2O: 2.5, CH3OH: 3.0, CH4: 2.0, CO: 1.5, CO2: 2.0, H2: 2.0,
     H2O: 6.0}
@@ -2383,7 +2383,7 @@ reactions:
   type: falloff
   low-P-rate-constant: {A: 5.65e+18, b: -0.97, Ea: 1.458e+04}
   high-P-rate-constant: {A: 1.07e+12, b: 0.63, Ea: 1.69e+04}
-  Troe: {A: 0.36, T3: 122.0, T1: 4.999999999999999e+04, T2: 1.694e+04}
+  Troe: {A: 0.36, T3: 122.0, T1: 5.0e+04, T2: 1.694e+04}
   efficiencies: {C2H2: 3.0, C2H4: 3.0, C2H5OH: 4.0, C2H6: 3.0, C3H6: 4.0,
     C3H8: 4.0, CH2O: 2.5, CH3OH: 3.0, CH4: 2.0, CO: 1.5, CO2: 2.0, H2: 2.0,
     H2O: 6.0}
@@ -2442,7 +2442,7 @@ reactions:
   type: falloff
   low-P-rate-constant: {A: 1.4e+30, b: -3.86, Ea: 3320.0}
   high-P-rate-constant: {A: 3.88e+13, b: 0.2, Ea: 0.0}
-  Troe: {A: 0.782, T3: 207.49999999999997, T1: 2663.0, T2: 6095.0}
+  Troe: {A: 0.782, T3: 207.5, T1: 2663.0, T2: 6095.0}
   efficiencies: {AR: 0.7, C2H2: 3.0, C2H4: 3.0, C2H5OH: 4.0, C2H6: 3.0,
     C3H6: 4.0, C3H8: 4.0, CH2O: 2.5, CH3OH: 3.0, CH4: 2.0, CO: 1.5, CO2: 2.0,
     H2: 2.0, H2O: 6.0, HE: 0.7}
@@ -2700,7 +2700,7 @@ reactions:
   type: falloff
   low-P-rate-constant: {A: 3.1003e+64, b: -13.22, Ea: 8.368e+04}
   high-P-rate-constant: {A: 4.2519e+20, b: -2.06, Ea: 6.947e+04}
-  Troe: {A: -2.148, T3: 5844.999999999999, T1: 3.0300000000000004e+04, T2: 6583.0}
+  Troe: {A: -2.148, T3: 5845.0, T1: 3.03e+04, T2: 6583.0}
   efficiencies: {AR: 0.7, C2H2: 3.0, C2H4: 3.0, C2H5OH: 4.0, C2H6: 3.0,
     C3H6: 4.0, C3H8: 4.0, CH2O: 2.5, CH3OH: 3.0, CH4: 2.0, CO: 1.5, CO2: 2.0,
     H2: 2.0, H2O: 6.0, HE: 0.7}
@@ -4294,7 +4294,7 @@ reactions:
   type: falloff
   low-P-rate-constant: {A: 1.24e+46, b: -9.5, Ea: 9910.0}
   high-P-rate-constant: {A: 1.32e+04, b: 2.48, Ea: 6130.0}
-  Troe: {A: 0.731, T3: 6945.000000000001, T1: 165.0, T2: 9855.0}
+  Troe: {A: 0.731, T3: 6945.0, T1: 165.0, T2: 9855.0}
   efficiencies: {AR: 0.7, C2H2: 3.0, C2H4: 3.0, C2H5OH: 4.0, C2H6: 3.0,
     C3H6: 4.0, C3H8: 4.0, CH2O: 2.5, CH3OH: 3.0, CH4: 2.0, CO: 1.5, CO2: 2.0,
     H2: 2.0, H2O: 6.0, HE: 0.7}
