@@ -26,7 +26,7 @@ In the FFCM-2 effort, shock tube ignition delay measurements for temperature $T$
 ### Flexible formats for both human and machines
 - The current database is hosted using the Python Data Analysis Library ([pandas][pandas]), which provides flexible and useful tools for data analysis and manipulation. The library is written in Python and can be readily interfaced with other Python-based softwares to automate the pipeline for kinetic model development, including Cantera for kinetic modeling, PyTorch for neural network training and Numpy/Scipy for optimization and uncertainty minimization. 
 
-- To facilitate the human interaction with the database, we developed tools that converts the pandas database to and from the SpreadSheet, which is more human readeable to allow experimentalists to share their data more easily. 
+- To facilitate the human interaction with the database, we developed tools that converts the pandas database to and from the SpreadSheet, which is more human readable to allow experimentalists to share their data more easily. 
 
 ### Target selection
 A total of 1192 targets are selected from SFCPD for FFCM-2 optimization, including
