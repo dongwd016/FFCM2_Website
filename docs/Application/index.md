@@ -40,7 +40,7 @@ An issue identified in the earlier HyChem work is that the uncertainties of HyCh
 |  Gevo ATJ      | C1, POSF 11498         | Synthetic jet fuel |Available[^ZDX2023] |
 |  Gevo ATJ      | POSF 12394         | Synthetic jet fuel |Available[^ZDX2023] |
 |  C5      | POSF 12345         | Synthetic jet fuel           |Working in progress|
-|  n-Dodecane      | N/A         | Pure species           | Available |
+|  n-Dodecane      | N/A         | Pure species           | [Available]({{ site.url }}{{ site.baseurl }}/docs/Application/n-Dodecane) |
 
 ### High-T model
 [CTI]({{ site.url }}{{ site.baseurl }}/assets/data/applications/hychem/hychem_highT.cti){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
