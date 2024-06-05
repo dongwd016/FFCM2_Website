@@ -31,10 +31,10 @@ An issue identified in the earlier HyChem work is that the uncertainties of HyCh
 |:--------:|:-------------:|:----------------------------:|:----:|
 |  JP-8 | A1, POSF 10264         |Distillate jet fuel        | Working in progress |
 |  Jet A      | A2, POSF 10325         |Distillate jet fuel   | Available[^ZDX2023] |
-|  JP-5      | A3, POSF 10289         |Distillate jet fuel    |Working in progress |
-|  JP-10   | N/A           | Synthetic jet fuel    |Working in progress |
-|  RP2-1   | POSF 7688          | Distillate rocket fuel       |Working in progress |
-|  RP2-2   | POSF 5433          | Distillate rocket fuel       |Working in progress |
+|  JP-5      | A3, POSF 10289         |Distillate jet fuel    | [Available]({{ site.url }}{{ site.baseurl }}/docs/Application/JP-5) |
+|  JP-10   | N/A           | Synthetic jet fuel    | [Available]({{ site.url }}{{ site.baseurl }}/docs/Application/JP-10) |
+|  RP2-1   | POSF 7688          | Distillate rocket fuel       | [Available]({{ site.url }}{{ site.baseurl }}/docs/Application/RP2-1) |
+|  RP2-2   | POSF 5433          | Distillate rocket fuel       | [Available]({{ site.url }}{{ site.baseurl }}/docs/Application/RP2-2) |
 |  Shell A | N/A           | Gasoline fuel                |Working in progress |
 |  Shell D | N/A           | Gasoline fuel                |Working in progress |
 |  Gevo ATJ      | C1, POSF 11498         | Synthetic jet fuel |Available[^ZDX2023] |

@@ -48,66 +48,66 @@ nav-order: 1
 ### High temperature
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/idt_highT.png" alt="Employee data" width="600" height="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/idt_highT.png" alt="N/A" width="600" height="600">
 </p>
 <i>Figure 1: n-Dodecane ignition delay time at high temperature. Model predictions contain high-T detailed model, high-T skeletal model, and NTC-enabled model. Experimental measurements are from MRW2020: Mao et al. [^MRW2020], and DHP2011: Davidson et al. [^DHP2011].</i>
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/pro_N12H26_0...10.png" alt="Employee data" width="1000" height="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/pro_N12H26_0...10.png" alt="N/A" width="1000" height="600">
 </p>
 <i>Figure 2: Time history of multiple species from oxidation of n-dodecane. Model predictions contain high-T detailed model, high-T skeletal model, and NTC-enabled model. Shock tube oxidation measurement is from DHP2011: Davidson et al. [^DHP2011]. Initial condition: tempearture and pressure are listed on each subplots, $\phi$=1, $n$-C<sub>12</sub>H<sub>26</sub>/0.75%O<sub>2</sub>/Ar.</i>
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/pro_N12H26_11,12.png" alt="Employee data" width="400" height="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/pro_N12H26_11,12.png" alt="N/A" width="400" height="600">
 </p>
 <i>Figure 3: Species time history of n-dodecane and ethylene from thermal decomposition of n-dodecane. Model predictions contain high-T detailed model, high-T skeletal model, and NTC-enabled model. Shock tube pyrolysis measurement is from MRZ2013: MacDonald et al. [^MRZ2013]. Initial condition: 1306 K, 17.2 atm, and 0.17%$n$-C<sub>12</sub>H<sub>26</sub>/99.83%Ar.</i>
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/pro_NC12H26_13.png" alt="Employee data" width="1000" height="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/pro_NC12H26_13.png" alt="N/A" width="1000" height="600">
 </p>
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/pro_NC12H26_14.png" alt="Employee data" width="1000" height="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/pro_NC12H26_14.png" alt="N/A" width="1000" height="600">
 </p>
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/pro_NC12H26_15.png" alt="Employee data" width="1000" height="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/pro_NC12H26_15.png" alt="N/A" width="1000" height="600">
 </p>
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/pro_NC12H26_16.png" alt="Employee data" width="1000" height="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/pro_NC12H26_16.png" alt="N/A" width="1000" height="600">
 </p>
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/pro_NC12H26_17.png" alt="Employee data" width="1000" height="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/pro_NC12H26_17.png" alt="N/A" width="1000" height="600">
 </p>
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/pro_NC12H26_18.png" alt="Employee data" width="1000" height="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/pro_NC12H26_18.png" alt="N/A" width="1000" height="600">
 </p>
 <i>Figure 4: Yield of multiple species from n-dodecane oxidation and pyrolysis. Model predictions contain high-T detailed model, high-T skeletal model, and NTC-enabled model. Shock tube measurement is from MB2013: Malewicki and Brezinsky [^MB2013].</i>
 
 ### NTC
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/idt_NTC.png" alt="Employee data" width="1200" height="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/idt_NTC.png" alt="N/A" width="1200" height="600">
 </p>
 <i>Figure 5: n-Dodecane ignition delay time extended to NTC-related temperature. Model predictions are from NTC-enabled model. Experimental measurements are from MRW2020: Vasu [^V2010], Shao et al. [^SCP2019], and Mao et al. [^MRW2020].</i>
 
 ### Model reduction
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/ign_43.png" alt="Employee data" width="1000" height="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/ign_43.png" alt="N/A" width="1000" height="600">
 </p>
 <i>Figure 6: Comparison of detailed and skeletal model predictions of n-dodecane ignition delay time at high temperature. Initial conditions (used as DRG targets): $T_5$ from 1200 to 2000 K, $P_5$ = 0.5, 1, 5, 30 atm, and $\phi$ = 0.5, 1.0, 1.5.</i>
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/psr_43.png" alt="Employee data" width="1000" height="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/psr_43.png" alt="N/A" width="1000" height="600">
 </p>
 <i>Figure 7: Comparison of detailed and skeletal model predictions of n-dodecane PSR S-curve. Initial conditions (used as DRG targets): $T_{in}$ = 300 K, $P$ = 0.5, 1, 5, 30 atm, and $\phi$ = 0.5, 1.0, 1.5.</i>
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/znd_43.png" alt="Employee data" width="400" height="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hychem/n-dodecane/znd_43.png" alt="N/A" width="400" height="600">
 </p>
 <i>Figure 8: Comparison of detailed and skeletal model predictions of n-dodecane ZND temperature profile. Post shock conditions (not used as DRG targets, only for testing): $T_0$ = 300 K, $P_0$ = 1, 5, 30 atm, and $\phi$ = 1.0.</i>
 
