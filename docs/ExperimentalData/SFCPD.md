@@ -2,7 +2,7 @@
 layout: default
 title: Stanford Fundamental Combustion Property Database
 parent: Experimental Data
-nav-order: 3
+nav_order: 3
 ---
 
 # Stanford Fundamental Combustion Property Database (SFCPD)

@@ -3,7 +3,6 @@ layout: default
 title: Experimental Data
 nav_order: 4
 has_children: true
-permanlink: /
 ---
 
 # Experimental Data

@@ -2,7 +2,7 @@
 layout: default
 title: A Brief History
 parent: Experimental Data
-nav-order: 1
+nav_order: 1
 ---
 
 # History of Combustion Property Database Development

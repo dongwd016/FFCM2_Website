@@ -30,29 +30,17 @@ An issue identified in the earlier HyChem work is that the uncertainties of HyCh
 | Fuel    | POSF number | Type & Applications          | Status |
 |:--------:|:-------------:|:----------------------------:|:----:|
 |  JP-8 | A1, POSF 10264         |Distillate jet fuel        | Working in progress |
-|  Jet A      | A2, POSF 10325         |Distillate jet fuel   | Available[^ZDX2023] |
+|  Jet A      | A2, POSF 10325         |Distillate jet fuel   | [Available]({{ site.url }}{{ site.baseurl }}/docs/Application/Jet A)[^ZDX2023] |
 |  JP-5      | A3, POSF 10289         |Distillate jet fuel    | [Available]({{ site.url }}{{ site.baseurl }}/docs/Application/JP-5) |
 |  JP-10   | N/A           | Synthetic jet fuel    | [Available]({{ site.url }}{{ site.baseurl }}/docs/Application/JP-10) |
 |  RP2-1   | POSF 7688          | Distillate rocket fuel       | [Available]({{ site.url }}{{ site.baseurl }}/docs/Application/RP2-1) |
 |  RP2-2   | POSF 5433          | Distillate rocket fuel       | [Available]({{ site.url }}{{ site.baseurl }}/docs/Application/RP2-2) |
 |  Shell A | N/A           | Gasoline fuel                |Working in progress |
 |  Shell D | N/A           | Gasoline fuel                |Working in progress |
-|  Gevo ATJ      | C1, POSF 11498         | Synthetic jet fuel |Available[^ZDX2023] |
-|  Gevo ATJ      | POSF 12394         | Synthetic jet fuel |Available[^ZDX2023] |
+|  Gevo ATJ      | C1, POSF 11498         | Synthetic jet fuel | [Available]({{ site.url }}{{ site.baseurl }}/docs/Application/Gevo ATJ)[^ZDX2023] |
+|  Gevo ATJ      | POSF 12394         | Synthetic jet fuel | [Available]({{ site.url }}{{ site.baseurl }}/docs/Application/Gevo ATJ)[^ZDX2023] |
 |  C5      | POSF 12345         | Synthetic jet fuel           |Working in progress|
 |  n-Dodecane      | N/A         | Pure species           | [Available]({{ site.url }}{{ site.baseurl }}/docs/Application/n-Dodecane) |
-
-### High-T model
-[CTI]({{ site.url }}{{ site.baseurl }}/assets/data/applications/hychem/hychem_highT.cti){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Chemkin]({{ site.url }}{{ site.baseurl }}/assets/data/applications/hychem/hychem_highT.zip){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-
-### High-T model (refit to 9999 K)
-[CTI]({{ site.url }}{{ site.baseurl }}/assets/data/applications/hychem/hychem_highT_9999K.cti){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Chemkin]({{ site.url }}{{ site.baseurl }}/assets/data/applications/hychem/hychem_highT_9999K.zip){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-
-### NTC-enabled model
-[CTI]({{ site.url }}{{ site.baseurl }}/assets/data/applications/hychem/hychem_NTC.cti){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Chemkin]({{ site.url }}{{ site.baseurl }}/assets/data/applications/hychem/hychem_NTC.zip){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ## References
 [^WXW2018]: Wang, H., Xu, R., Wang, K., Bowman, C. T., Hanson, R. K., Davidson, D. F., Brezinsky, K. & Egolfopoulos, F. N. (2018). A physics-based approach to modeling real-fuel combustion chemistry-I. Evidence from experiments, and thermodynamic, chemical kinetic and statistical considerations. Combustion and Flame, 193, 502-519.
