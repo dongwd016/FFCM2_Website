@@ -19,6 +19,7 @@ The table lists additional tests done on trial and optimized FFCM-2. It is searc
   - Pressure, unit in atm,
   - Equivalence ratio.
 - Experimental method: the experimental techniques used for the additional tests, e.g., spherical bomb measurements, or definition of ignition delay in shock tube experiments.
+- Note: Ignition delay time simulation of hydrogen at low temperature uses increasing pressure assumption (2%/ms) according to "<i>G. A. Pang, D. F. Davidson, R. K. Hanson, Experimental study and modeling of shock tube ignition delay times for hydrogen--oxygen--argon mixtures at low temperatures, Proc. Combust. Inst. 32 (2009) 181--188.</i>".
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
