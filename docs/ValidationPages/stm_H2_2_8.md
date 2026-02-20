@@ -6,7 +6,7 @@ title: stm_H2_2_8
 temp: 1300.0
 pres: 33.0
 phi: 1.0
-composition: 2.00% H2-1.00% O2-97.00% AR
+composition: 2.00% H2-1.00% O2-97.00% AR-0.08ppm H
 shortname: PDR1996
 datatype: Shock tube measurement
 definition: max grad OH
@@ -20,5 +20,5 @@ unit: $\mu s$
 uq_operation: $ \times / \div$
 validation_plot: ../../../assets/data/validation/stm_H2_2_8.png
 sens_plot: ../../../assets/data/sensitivity/sens_stm_H2_2_8.png
-reference: PDR1996 - Petersen, E. L., Davidson, D. F., Röhrig, M., & Hanson, R. (1996). High-pressure shock-tube measurements of ignition times in stoichiometric H2/O2/Ar mixtures. Proceedings of the 20\\textsuperscriptth International Symposium on Shock Waves, 941–946.
+reference: PDR1996 - Petersen, E. L., Davidson, D. F., Röhrig, M., & Hanson, R. (1996). High-pressure shock-tube measurements of ignition times in stoichiometric H2/O2/Ar mixtures. Proceedings of the 20th International Symposium on Shock Waves, 941–946.
 ---

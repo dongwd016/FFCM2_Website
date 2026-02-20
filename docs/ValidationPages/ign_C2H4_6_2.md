@@ -20,5 +20,5 @@ unit: $\mu s$
 uq_operation: $ \times / \div$
 validation_plot: ../../../assets/data/validation/ign_C2H4_6.png
 sens_plot: ../../../assets/data/sensitivity/sens_ign_C2H4_6_2.png
-reference: DRH2012 - Davidson, David F., Ren, W., & Hanson, R. K. (2012). Experimental database for development of a HiFiRE JP-7 surrogate fuel mechanism. 50\\textsuperscriptth AIAA Aerospace Sciences Meeting Including the New Horizons Forum and Aerospace Exposition.
+reference: DRH2012 - Davidson, David F., Ren, W., & Hanson, R. K. (2012). Experimental database for development of a HiFiRE JP-7 surrogate fuel mechanism. 50th AIAA Aerospace Sciences Meeting Including the New Horizons Forum and Aerospace Exposition.
 ---
