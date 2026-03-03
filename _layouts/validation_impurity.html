@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+<h1>Validation of {{ page.title }}</h1>
+<!-- <h2>Table of contents</h2> -->
+<h3>Thermodynamic conditions</h3>
+<ul>
+    <li>
+        Temperature, $T$: {{ page.temp }} K
+    </li>
+    <li>
+        Pressure, $p$ : {{ page.pres }} atm
+    </li>
+    <li>
+        Equivalence Ratio, $\phi$: {{ page.phi }}
+    </li>
+    <li>
+        Mixture Composition, $X$: {{ page.composition }}
+    </li>
+</ul>
+
+<h3>Experimental measurement</h3>
+<ul>
+    <li>
+        Source: experimental data from {{ page.shortname }}
+    </li>
+    <li>
+        Data type: {{ page.datatype }}
+    </li>
+    <li>
+        Experimental method: {{ page.definition }}
+    </li>
+    <li>
+        Experimental value: {{ page.exp_nominal }} {{ page.unit }}
+    </li>
+    <li>
+        Experimental uncertainty: {{ page.uq_operation }} {{ page.exp_uq }} {{ page.uq_unit }}
+    </li>
+    <li>
+        Include 80 ppb H to represent the impurity effect [UKD2014]
+    </li>
+</ul>
+
+<h3>Model predictions</h3>
+<li>
+    Trial model prediction: {{ page.trial_nominal }} {{ page.unit }}
+</li>
+<li>
+    Trial model uncertainty: {{ page.uq_operation }} {{ page.trial_uq }} {{ page.uq_unit }}
+</li>
+<li>
+    Optimized model prediction: {{ page.opt_nominal }} {{ page.unit }}
+</li>
+<li>
+    Optimized model uncertainty: {{ page.uq_operation }} {{ page.opt_uq }} {{ page.uq_unit }}
+</li>
+
+<h3>FFCM-2 performance</h3>
+<p align="center">
+<img src="{{ page.validation_plot }}" width="500" height="500">
+</p>
+
+<h3>Sensitivity and impact factor</h3>
+<p align="center">
+<img src="{{ page.sens_plot }}"  width="1200" height="1000">
+</p>
+
+<h3>Reference</h3>
+{{ page.reference }}
