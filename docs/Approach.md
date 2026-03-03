@@ -27,7 +27,7 @@ A trial reaction model is compiled along with its associated thermochemical and 
 ### Experimental data collection and evaluation
 Extensive literature review was carried out to compile the **Stanford Fundamental Combustion Property Database (SFCPD)**. Currently **SFCPD** contains 1192 sets of legacy combustion data dating back to 1937. Relevant properties include the global combustion responses (laminar flame speeds and shock tube ignition delay measurements) and detailed time-history profiles of species in shock tubes. Selected flow reactor and low pressure burner flame measurements are also considered. 
 
-Targets for model optimization and validation were selected from **SFCPD**. Uncertainty analysis is performed for each of these targets, taking into consideration the statistical consistency and the generic uncertainties (e.g., uncertainty in the temperature behind reflected shock $T_5$ and due to impurity). Specific target conditions and target values are chosen to best represent the thermodynamic condition range of each data set for a given target fuel/species.
+Targets for model optimization and validation were selected from **SFCPD**. Uncertainty analysis is performed for each of these targets, taking into consideration the statistical consistency and the generic uncertainties. The latter include uncertainty in the temperature behind reflected shock $T_5$ and due to impurity. The impurity effect was assessed based on the work reported by Urzay et al [^UKD2014]. Specific target conditions and target values are chosen to best represent the thermodynamic condition range of each data set for a given target fuel/species.
 
 ### Preliminary Test
 The trial model is subject to extensive, pre-optimization tests against selected targets. Sensitivity analyses were performed to identify certain problems in the trial model. For example, after an initial screening test, it was determined that the model uncertainty for the laminar flame speed of H<sub>2</sub>/air mixtures can be significantly reduced if the uncertainty in the rate coefficient of the reaction
@@ -64,3 +64,5 @@ Further analyses of the model and the target data are made to reveal key uncerta
 [^LDH2013]: Lam, K. Y., Davidson, D. F., & Hanson, R. K. (2013). A shock tube study of H2+ OH -> H2O+ H using OH laser absorption. International Journal of Chemical Kinetics, 45(6), 363-373.
 
 [^WS2015]: Wang, H., & Sheen, D. A. (2015). Combustion kinetic model uncertainty quantification, propagation and minimization. Progress in Energy and Combustion Science, 47, 1-31.
+
+[^UKD2014]: Urzay, Javier,  Kseib, Nicolas,  Davidson, David F., Iaccarino, Gianluca, & Hanson, Ronald K. (2014). Uncertainty-quantification analysis of the effects of residual impurities on hydrogen--oxygen ignition in shock tubes. Combustion and Flame, 161, 1-15.

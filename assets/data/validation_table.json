@@ -5,7 +5,7 @@
         "Temp": 1754.0,
         "Pres": 33.0,
         "Phi": 1.0,
-        "Composition": "0.50% H2-0.25% O2-99.25% AR",
+        "Composition": "0.50% H2-0.25% O2-99.25% AR-80ppb H (impurity)",
         "Method": "max grad OH",
         "url": "../../ValidationPages/stm_H2_1_9",
         "key": "stm_H2_1_9"
@@ -16,7 +16,7 @@
         "Temp": 1189.0,
         "Pres": 33.0,
         "Phi": 1.0,
-        "Composition": "2.00% H2-1.00% O2-97.00% AR",
+        "Composition": "2.00% H2-1.00% O2-97.00% AR-80ppb H (impurity)",
         "Method": "max grad OH",
         "url": "../../ValidationPages/stm_H2_2_1",
         "key": "stm_H2_2_1"
@@ -27,7 +27,7 @@
         "Temp": 1300.0,
         "Pres": 33.0,
         "Phi": 1.0,
-        "Composition": "2.00% H2-1.00% O2-97.00% AR",
+        "Composition": "2.00% H2-1.00% O2-97.00% AR-80ppb H (impurity)",
         "Method": "max grad OH",
         "url": "../../ValidationPages/stm_H2_2_8",
         "key": "stm_H2_2_8"
@@ -38,7 +38,7 @@
         "Temp": 1524.0,
         "Pres": 64.0,
         "Phi": 1.0,
-        "Composition": "0.10% H2-0.05% O2-99.85% AR",
+        "Composition": "0.10% H2-0.05% O2-99.85% AR-80ppb H (impurity)",
         "Method": "max grad OH",
         "url": "../../ValidationPages/stm_H2_3_5",
         "key": "stm_H2_3_5"
