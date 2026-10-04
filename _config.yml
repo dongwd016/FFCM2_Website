@@ -94,6 +94,11 @@ mermaid:
 heading_anchors: true
 
 # Aux links for the upper right navigation
+# GitHub Pages build: full URL, because the theme does not prepend baseurl to aux links.
+# The copy published on web.stanford.edu uses "/" instead (see the local website folder).
+aux_links:
+  "Foundational Fuel Chemistry Model Version 2 (FFCM-2)":
+    - "https://dongwd016.github.io/FFCM2_Website/"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false

@@ -43,6 +43,24 @@ nav_order: 12
 [YAML]({{ site.url }}{{ site.baseurl }}/assets/data/applications/n-dodecane/NC12H26_NTC.yaml){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Chemkin]({{ site.url }}{{ site.baseurl }}/assets/data/applications/n-dodecane/NC12H26_NTC.zip){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
+## How to cite
+### APA format
+```
+W. Dong and H. Wang, 
+n-Dodecane model based on Foundational Fuel Chemistry Model Version 2.0 (FFCM-2), https://web.stanford.edu/group/haiwanglab/FFCM2/docs/Application/n-Dodecane, 2024.
+```
+### Bibtex format
+```bibtex
+@Misc{DW2024,
+  author  = {Dong, Wendi and Wang, Hai},
+  title   = {n-Dodecane model based on {Foundational} {Fuel} {Chemistry} {Model} {Version} 2.0 ({FFCM}-2)},
+  journal = {FFCM-2 website},
+  url     = "https://web.stanford.edu/group/haiwanglab/FFCM2/docs/Application/n-Dodecane",
+  year    = {2024},
+  }
+  
+```
+
 ## Model performance
 
 ### High temperature
